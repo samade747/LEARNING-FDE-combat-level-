@@ -19,19 +19,22 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 
 ## Runnable Projects — Poore 12, Har Ek Ki Real Jagah
 
-| Project | Concept | Folder | Status |
-| --- | --- | --- | --- |
-| 1 — Watch Loop | 4 (in-session) | [`projects/iss-loop/`](projects/iss-loop/README.md) | ✅ Official kit, live tested — real ISS position |
-| 2 — Build Your Portfolio | 5 (run-until-done) | [`projects/portfolio-starter/`](projects/portfolio-starter/README.md) | ✅ Official kit, `check.py` tested (aapka CV chahiye poora chalane ke liye) |
-| 3 — Sky Watch | 6 (schedule) | [`projects/sky-watch/`](projects/sky-watch/README.md) | ✅ Official kit, live tested — real NASA data |
-| 4 — Fix Loop With a Real Checker | 8, 9, 11 | [`projects/fix-loop-demo/`](projects/fix-loop-demo/README.md) | ✅ DIY scaffold banaya, khud test kiya — planted bug 2/3 tests fail karta hai |
-| 5 — Codify the Body | Dynamic workflows | [`projects/CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) | 📋 Instructions (Project 4 par build hota hai, naya code nahi chahiye) |
-| 6 — The Doorbell | 7 (event-driven) | [`projects/doorbell/`](projects/doorbell/README.md) | ✅ Official kit, copied (aapka GitHub repo + App install chahiye) |
-| 7 — Break It On Purpose | Observability, 13, 14 | [`projects/CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) | 📋 Instructions (Project 3 par build hota hai) |
-| 8 — Your Own Daily Loop (Capstone) | Sab 6 parts | [`projects/daily-triage-demo/`](projects/daily-triage-demo/README.md) | ✅ DIY scaffold banaya, khud test kiya — bug + risky-issue dono confirm |
-| Bonus — Paper Watch | 12 (spine) | [`projects/paper-watch/`](projects/paper-watch/README.md) | ✅ Official kit, live tested — spine confirmed |
-| 9-11 — Routine Drills | Appendix A1-A6 | [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account/Routines UI chahiye |
-| 12 — Dreaming Capstone | Concept 12 | [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account chahiye |
+| Project | Concept | Summary | README (run steps) | Status |
+| --- | --- | --- | --- | --- |
+| 1 — Watch Loop | 4 (in-session) | [`iss-loop/SUMMARY.md`](projects/iss-loop/SUMMARY.md) | [`iss-loop/README.md`](projects/iss-loop/README.md) | ✅ Official kit, live tested — real ISS position |
+| 2 — Build Your Portfolio | 5 (run-until-done) | [`portfolio-starter/SUMMARY.md`](projects/portfolio-starter/SUMMARY.md) | [`portfolio-starter/README.md`](projects/portfolio-starter/README.md) | ✅ Official kit, `check.py` tested (aapka CV chahiye poora chalane ke liye) |
+| 3 — Sky Watch | 6 (schedule) | [`sky-watch/SUMMARY.md`](projects/sky-watch/SUMMARY.md) | [`sky-watch/README.md`](projects/sky-watch/README.md) | ✅ Official kit, live tested — real NASA data |
+| 4 — Fix Loop With a Real Checker | 8, 9, 11 | [`fix-loop-demo/SUMMARY.md`](projects/fix-loop-demo/SUMMARY.md) | [`fix-loop-demo/README.md`](projects/fix-loop-demo/README.md) | ✅ DIY scaffold banaya, khud test kiya — planted bug 2/3 tests fail karta hai |
+| 5 — Codify the Body | Dynamic workflows | [`CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) | (isi file mein) | 📋 Instructions (Project 4 par build hota hai, naya code nahi chahiye) |
+| 6 — The Doorbell | 7 (event-driven) | [`doorbell/SUMMARY.md`](projects/doorbell/SUMMARY.md) | [`doorbell/README.md`](projects/doorbell/README.md) | ✅ Official kit, copied (aapka GitHub repo + App install chahiye) |
+| 7 — Break It On Purpose | Observability, 13, 14 | [`CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) | (isi file mein) | 📋 Instructions (Project 3 par build hota hai) |
+| 8 — Your Own Daily Loop (Capstone) | Sab 6 parts | [`daily-triage-demo/SUMMARY.md`](projects/daily-triage-demo/SUMMARY.md) | [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md) | ✅ DIY scaffold banaya, khud test kiya — bug + risky-issue dono confirm |
+| Bonus — Paper Watch | 12 (spine) | [`paper-watch/SUMMARY.md`](projects/paper-watch/SUMMARY.md) | [`paper-watch/README.md`](projects/paper-watch/README.md) | ✅ Official kit, live tested — spine confirmed |
+| 9-11 — Routine Drills | Appendix A1-A6 | [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account/Routines UI chahiye |
+| 12 — Dreaming Capstone | Concept 12 | [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account chahiye |
+
+**Har project folder mein 2 files:** `SUMMARY.md` (kya sikhata hai, kyun zaroori hai, kaise kaam karta
+hai — chota, conceptual) aur `README.md` (isay actually chalane ke exact steps — mechanical).
 
 **Legend:** ✅ = maine khud banaya/copy kiya aur test kiya (real output verify hua). 📋 = instructions
 ready, kisi existing project par build hoti hai. 🖐️ = cloud/account-gated feature, sirf aap khud kar
