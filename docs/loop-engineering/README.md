@@ -13,7 +13,9 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 4. [03 — Spine: Runs ke darmiyan memory](03-spine.md)
 5. [04 — Ek Complete Loop (Morning Triage Example)](04-complete-loop-example.md)
 6. [05 — Human Control: Insaan loop mein kahan khara hai](05-human-control.md)
-7. [06 — Practice Projects (8 hands-on projects)](06-practice-projects.md)
+7. [06 — Practice Projects (Projects 1-8)](06-practice-projects.md)
+8. [07 — Routines Appendix: Field Guide (A1-A6)](07-routines-appendix.md)
+9. [08 — Routine Drills (9-11) + Dreaming Capstone (12)](08-routine-drills-and-dreaming.md)
 
 ## Ek line mein poori cheez
 

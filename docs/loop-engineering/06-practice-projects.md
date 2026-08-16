@@ -1,4 +1,6 @@
-# 06 — Practice Projects (8 Hands-On)
+# 06 — Practice Projects (Projects 1-8 of 12)
+
+*3 aur Routine Drills (9-11) aur ek dreaming capstone (12) [08-routine-drills-and-dreaming.md](08-routine-drills-and-dreaming.md) mein hain — unse pehle [07-routines-appendix.md](07-routines-appendix.md) padh lena, kyunki drills usi ke concepts use karte hain.*
 
 Padhna aur banana ek jaisa nahi. Ye 8 projects easy se hard tak hain. Kisi bhi tool (Claude Code ya
 OpenCode) mein karo — shape same hai.
@@ -120,4 +122,4 @@ hai**, na ke kyunke parhna chhor diya. Ye Concept 15 se poocho: kya aapki samajh
 saath chalti rahi? Agar nahi, to loop slow kar do.
 
 ---
-[⬅ Human Control](05-human-control.md) · [⬆ Index](README.md)
+[⬅ Human Control](05-human-control.md) · [⬆ Index](README.md) · [Agla: Routines Appendix ➡](07-routines-appendix.md)
