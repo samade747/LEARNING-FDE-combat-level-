@@ -17,6 +17,12 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 8. [07 — Routines Appendix: Field Guide (A1-A6)](07-routines-appendix.md)
 9. [08 — Routine Drills (9-11) + Dreaming Capstone (12)](08-routine-drills-and-dreaming.md)
 
+## Runnable Projects
+
+- [`projects/iss-loop/`](projects/iss-loop/README.md) — **Project 1 (Watch Loop)** ka real, ready-to-run
+  code. Official Panaversity `agentfactory-labs` repo se yahan copy kiya gaya hai. Isi folder mein
+  `claude` chalao aur `/loop show me the location of the ISS every minute` type karo.
+
 ## Ek line mein poori cheez
 
 > Pehle aap agent ko **prompt** karte thay, turn by turn. Ab aap ek **loop** design karte hain —

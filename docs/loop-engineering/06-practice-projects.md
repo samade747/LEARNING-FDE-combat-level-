@@ -23,6 +23,9 @@ kabhi terminal ghoor kar nahi baitha.
 **Real project:** ISS Loop — real space station ki location har minute. `/loop show me the location of
 the ISS every minute` — terminal band karo, watching mar jati hai (yehi concept hai).
 
+**Yeh repo mein ready hai:** [`projects/iss-loop/`](projects/iss-loop/README.md) — `claude` us folder
+mein chalao, trust karo, upar wali line type karo.
+
 ---
 
 ### 2. ✅ Make the Tests Pass, Then Stop
