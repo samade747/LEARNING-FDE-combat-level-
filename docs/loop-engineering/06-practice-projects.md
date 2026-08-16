@@ -80,9 +80,9 @@ bug lo, implementer apni checkout mein fix draft kare, reviewer grade kare. Sirf
 fix plant karo wo **FAIL + reasons** paye. Agar reviewer buri fix bhi pass kar de, checker bohat naram
 hai — usay tight karo.
 
-> **Koi official starter kit nahi hai.** Yeh ek "apna banao" project hai — poora working code pattern
-> (`SKILL.md` + `reviewer.md`, dono tools ke liye) [`Loop-Engineering-Final-Prep.md`](../../../Loop-Engineering-Final-Prep.md)
-> ke Section 6 mein already likha hua hai, wahi maker-checker shape use karo apni choti repo par.
+**Yeh repo mein ready hai:** [`projects/fix-loop-demo/`](projects/fix-loop-demo/README.md) — maine
+khud banaya aur test kiya: ek real planted bug (`discount.py` mein `/1000` ki jagah `/100` hona
+chahiye), 2/3 tests fail hote hain confirmed, reviewer dono tools ke liye ready hai.
 
 ---
 
@@ -95,6 +95,10 @@ to draft fixes for these three issues in parallel worktrees, and have a reviewer
 **Done jab:** Ek command/script poori draft-and-review body chalaye, **aur** aap ne prove kiya ho ke
 fresh session mein workflow ko pichli run ka kuch yaad nahi (isay loop banane ke liye kya chahiye —
 heartbeat + progress file — bata sako).
+
+**Kaise karein:** [`projects/CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) mein poore
+step-by-step (Claude Code `ultracode` + OpenCode shell script dono) — Project 4 ki repo par hi build
+hota hai.
 
 ---
 
@@ -128,6 +132,9 @@ karo — prompt ko wo file dikhao jo exist hi nahi karti, ya aisi condition do j
 **Done jab:** Sirf spine/log se pata chal jaye kya fail hua aur kab, loop ne clear "needs a human" note
 chora ho (khamoshi se fail nahi hua), aur aap apni loop ki monthly cost jaante ho.
 
+**Kaise karein:** [`projects/CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) mein poore
+step-by-step — Project 3 (`sky-watch`, jo maine already test ki hai) ki repo par sabotage karo.
+
 ---
 
 ### 8. 🔁 Your Own Daily Loop (Capstone)
@@ -140,6 +147,11 @@ connector, spine. Budget guards lagao. Chalne do.
 **Done jab:** Ek hafta unattended chali ho aur aap jo ship hua usay **trust karte ho kyunke aap ne parha
 hai**, na ke kyunke parhna chhor diya. Ye Concept 15 se poocho: kya aapki samajh loop ke changes ke
 saath chalti rahi? Agar nahi, to loop slow kar do.
+
+**Yeh repo mein ready hai (chota rehearsal):** [`projects/daily-triage-demo/`](projects/daily-triage-demo/README.md)
+— maine khud banaya aur test kiya: ek real bug (safe-fix candidate) + ek jaan-boojh kar risky issue
+jo reviewer **hamesha** reject karta hai (public behaviour change). Poore 6 parts is chote demo mein
+maujood hain — real world mein wire karne ke steps README mein hain.
 
 ---
 [⬅ Human Control](05-human-control.md) · [⬆ Index](README.md) · [Agla: Routines Appendix ➡](07-routines-appendix.md)
