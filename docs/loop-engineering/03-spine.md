@@ -67,6 +67,10 @@ show me what's new on arXiv about "LLM agents"
 ```
 Har paper phir se "naya" nazar aayega. **No spine, no loop** — ek command mein prove ho gaya.
 
+**Yeh repo mein ready hai:** [`projects/paper-watch/`](projects/paper-watch/README.md) — maine khud
+test kiya: pehli run ne ek real paper dikhaya, doosri run ne turant "nothing new since last run ✓"
+bola. Spine confirmed working.
+
 ## Industry Bhi Isi Design Pe Aayi
 
 Anthropic ka apna memory research bhi isi tareeqe pe aakar ruka: rules file → in-session memory tools

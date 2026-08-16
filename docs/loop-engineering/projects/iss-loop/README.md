@@ -7,11 +7,13 @@ Space Station and tells you where it is, once a minute, without you asking again
 
 Nothing to install. Claude fetches the position itself.
 
+> **Note (this copy):** yeh original `panaversity/agentfactory-labs` repo se copy ki gayi hai, taake
+> `LEARNING-FDE-combat-level-` repo ke andar hi ready-to-run rahe. Original: https://github.com/panaversity/agentfactory-labs (`crash-course/loop-eng/iss-loop`).
+
 ## Run it
 
 ```bash
-git clone https://github.com/panaversity/agentfactory-labs.git
-cd agentfactory-labs/crash-course/loop-eng/iss-loop
+cd docs/loop-engineering/projects/iss-loop
 claude
 ```
 
@@ -40,6 +42,12 @@ Press **Esc** when you have seen enough.
 > ⚠️ **Getting a permission prompt every minute?** You skipped the trust dialog. An untrusted folder
 > ignores `.claude/settings.json` completely, even though the file is sitting right there. Quit, run
 > `claude` here again, and say yes.
+
+> ⚠️ **Windows: `UnicodeEncodeError` on the 🛰 emoji?** Windows' default console codepage (`cp1252`)
+> cannot print the satellite emoji the card uses. Running the script directly (outside `/loop`) needs
+> `PYTHONIOENCODING=utf-8` set first — confirmed working (`PYTHONIOENCODING=utf-8 python
+> .claude/skills/iss-position/scripts/iss.py`). Claude Code's own `/loop` runner has not shown this
+> problem in testing; this only bit a direct manual script run in a plain Git Bash terminal.
 
 ## More to try
 

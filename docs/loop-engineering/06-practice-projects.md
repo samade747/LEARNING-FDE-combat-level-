@@ -37,6 +37,20 @@ Repo mein 2-3 chhoti failing tests dalo. Loop banao jo chalta rahe jab tak tests
 **Done jab:** Loop ruke kyunke tests **asal mein** pass ho gayin, cap hit hone se nahi. Agar baar baar
 cap hit ho raha hai, aapka stop condition ya prompt theek nahi — yehi lesson hai.
 
+**Real project:** Build Your Portfolio — apna CV/LinkedIn PDF se poori website banwao, `/goal` ko
+finish line do:
+```text
+/goal Build my portfolio in site/ from my-cv.pdf... Done when check.py prints 20/20
+and the reviewer agent replies PASS on all six judgment promises...
+Stop after 15 check attempts or 3 review rounds.
+```
+**Golden rule:** Kabhi `check.py` ko edit mat karo taake wo pass ho jaye — yehi sab se pehli cheez hai
+jo ek "green" ke liye optimize karti loop try karegi.
+
+**Yeh repo mein ready hai:** [`projects/portfolio-starter/`](projects/portfolio-starter/README.md) —
+apna CV/LinkedIn PDF `portfolio-starter/` folder mein daalo, `claude` chalao, upar wala `/goal` prompt
+do. (Maine `check.py` test kiya — bina `profile.md` ke saaf error deta hai, jo sahi behavior hai.)
+
 ---
 
 ### 3. 🧠 The Morning Brief With a Memory
@@ -51,6 +65,9 @@ usay dobara na kare. Ye prove karta hai spine kaam kar rahi hai.
 **Real project:** Sky Watch — har subah asteroid feed check karta hai. `/schedule every day at
 midnight, run the sky-watch skill for today` — laptop band karo, subah forecast wahan hoga.
 
+**Yeh repo mein ready hai:** [`projects/sky-watch/`](projects/sky-watch/README.md) — maine test kiya,
+real NASA data live aa rahi hai (`python .claude/skills/sky-watch/scripts/skywatch.py`).
+
 ---
 
 ### 4. 🔍 A Fix Loop With a Real Checker
@@ -63,14 +80,9 @@ bug lo, implementer apni checkout mein fix draft kare, reviewer grade kare. Sirf
 fix plant karo wo **FAIL + reasons** paye. Agar reviewer buri fix bhi pass kar de, checker bohat naram
 hai — usay tight karo.
 
-**Real project:** Portfolio Project — CV/LinkedIn PDF se poori website banwao, `/goal` ko finish line do:
-```text
-/goal Build my portfolio in site/ from my-cv.pdf... Done when check.py prints 20/20
-and the reviewer agent replies PASS on all six judgment promises...
-Stop after 15 check attempts or 3 review rounds.
-```
-**Golden rule:** Kabhi `check.py` ko edit mat karo taake wo pass ho jaye — yehi sab se pehli cheez hai
-jo ek "green" ke liye optimize karti loop try karegi.
+> **Koi official starter kit nahi hai.** Yeh ek "apna banao" project hai — poora working code pattern
+> (`SKILL.md` + `reviewer.md`, dono tools ke liye) [`Loop-Engineering-Final-Prep.md`](../../../Loop-Engineering-Final-Prep.md)
+> ke Section 6 mein already likha hua hai, wahi maker-checker shape use karo apni choti repo par.
 
 ---
 
@@ -98,6 +110,11 @@ Projects 1-3 ke saath, ab char'on heartbeats complete: in-session, conditional, 
 
 **Real project:** The Doorbell — laptop band karo, koi aur PR khole, review phir bhi aata hai (kyunke ye
 kabhi aapki machine pe chal hi nahi raha tha).
+
+**Yeh repo mein ready hai:** [`projects/doorbell/`](projects/doorbell/README.md) — code copy ho chuka
+hai aur `.github/workflows/doorbell.yml` valid hai, lekin isay poori tarah chalane ke liye **aapka
+apna GitHub repo + Claude GitHub App install** chahiye (yeh main khud nahi kar sakta, aapke GitHub
+account ki zaroorat hai). Repo mein push karo, secret `CLAUDE_CODE_OAUTH_TOKEN` add karo, PR kholo.
 
 ---
 

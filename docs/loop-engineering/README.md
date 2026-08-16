@@ -19,9 +19,18 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 
 ## Runnable Projects
 
-- [`projects/iss-loop/`](projects/iss-loop/README.md) — **Project 1 (Watch Loop)** ka real, ready-to-run
-  code. Official Panaversity `agentfactory-labs` repo se yahan copy kiya gaya hai. Isi folder mein
-  `claude` chalao aur `/loop show me the location of the ISS every minute` type karo.
+Official Panaversity `agentfactory-labs` repo se **4 real, tested starter kits** yahan copy kiye gaye
+hain (baqi projects — 4, 5, 7, 8, 9, 10, 11, 12 — ke liye koi official starter kit nahi hai; woh
+"apna banao" exercises hain, jinke poore code patterns [`Loop-Engineering-Final-Prep.md`](../../../Loop-Engineering-Final-Prep.md)
+(root) mein already likhe hain):
+
+| Project | Concept | Folder | Status |
+| --- | --- | --- | --- |
+| 1 — Watch Loop | 4 (in-session) | [`projects/iss-loop/`](projects/iss-loop/README.md) | ✅ Live tested — real ISS position fetch hui |
+| 2 — Build Your Portfolio | 5 (run-until-done) | [`projects/portfolio-starter/`](projects/portfolio-starter/README.md) | ✅ Copied, `check.py` tested (aapka CV chahiye poori tarah chalane ke liye) |
+| 3 — Sky Watch | 6 (schedule) | [`projects/sky-watch/`](projects/sky-watch/README.md) | ✅ Live tested — real NASA asteroid data fetch hui |
+| 6 — The Doorbell | 7 (event-driven) | [`projects/doorbell/`](projects/doorbell/README.md) | ✅ Copied (aapka GitHub repo + Claude GitHub App install chahiye poori tarah chalane ke liye) |
+| Bonus — Paper Watch | 12 (spine) | [`projects/paper-watch/`](projects/paper-watch/README.md) | ✅ Live tested — spine confirmed ("nothing new since last run") |
 
 ## Ek line mein poori cheez
 
