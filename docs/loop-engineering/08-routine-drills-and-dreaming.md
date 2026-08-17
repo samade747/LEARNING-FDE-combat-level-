@@ -120,4 +120,4 @@ prompt tighten karo — evidence-less improvement loop no-improvement-loop se bu
 guesses har future run ko steer karte hain.
 
 ---
-[⬅ Routines Appendix](07-routines-appendix.md) · [⬆ Index](README.md)
+[⬅ Routines Appendix](07-routines-appendix.md) · [⬆ Index](README.md) · [Agla: Commands Cheat Sheet ➡](09-commands-cheat-sheet.md)

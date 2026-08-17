@@ -17,6 +17,8 @@
 
 - (kuch nahi abhi — README.md aur dono root Loop Engineering files complete hain)
 
+- 2026-08-17: `docs/loop-engineering/09-commands-cheat-sheet.md` add ki — sab is chapter ke commands (Claude Code `/loop`, `/goal`, `/schedule`, worktree/subagent syntax; OpenCode shell equivalents; Routine API `curl`; decision table; minimum-safe-loop checklist) ek single-page quick-reference mein. `README.md` index aur `08-routine-drills-and-dreaming.md` ka footer link update kiye.
+
 ## Open / needs a human
 
 - **Loop Engineering ke 12/12 projects ab sab mapped hain:** 5 official kits (1,2,3,6,bonus) live tested, 2 DIY scaffolds (4,8) khud banaye aur test kiye, 2 instructions-only (5,7 — existing projects par build), 4 (9-12) sirf user apne `claude.ai` account se kar sakta hai

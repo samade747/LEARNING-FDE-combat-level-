@@ -16,6 +16,7 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 7. [06 — Practice Projects (Projects 1-8)](06-practice-projects.md)
 8. [07 — Routines Appendix: Field Guide (A1-A6)](07-routines-appendix.md)
 9. [08 — Routine Drills (9-11) + Dreaming Capstone (12)](08-routine-drills-and-dreaming.md)
+10. [09 — Commands Cheat Sheet (sab commands ek jagah)](09-commands-cheat-sheet.md)
 
 ## Runnable Projects — Poore 12, Har Ek Ki Real Jagah
 
