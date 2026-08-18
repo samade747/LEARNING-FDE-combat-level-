@@ -14,7 +14,7 @@ ho — sirf steps parh lena kaafi nahi.
 | # | Project | Status | Practice Notes |
 | --- | --- | --- | --- |
 | 1 | 👀 Watch Loop (ISS) | ✅ Done | User ne confirm kiya — real ISS position aa rahi thi har minute |
-| 2 | ✅ Tests Pass Then Stop (Portfolio) | 🔶 In progress | apna CV/LinkedIn PDF chahiye — abhi shuru |
+| 2 | ✅ Tests Pass Then Stop (Portfolio) | ✅ Done | check.py 20/20, reviewer agent PASS (6/6 promises) |
 | 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ⬜ Not started | — |
 | 4 | 🔍 Fix Loop w/ Real Checker | ⬜ Not started | — |
 | 5 | 🧩 Codify the Body | ⬜ Not started | Project 4 par build hota hai |
@@ -87,20 +87,48 @@ direct script run mein, `/loop` ke andar yeh bug nahi dekha gaya).
 
 ### Done jab (self-check)
 
-- [ ] Loop **asal** mein tests pass hone se ruki, cap hit hone se nahi
-- [ ] `check.py` kabhi edit nahi kiya taake wo pass ho jaye (golden rule)
+- [x] Loop **asal** mein tests pass hone se ruki, cap hit hone se nahi
+- [x] `check.py` kabhi edit nahi kiya taake wo pass ho jaye (golden rule)
+
+**✅ Complete** — `check.py` 20/20, reviewer agent ne 6/6 judgment promises pe PASS diya.
 
 **Full detail:** [`projects/portfolio-starter/README.md`](projects/portfolio-starter/README.md)
 
 ---
 
-## Baaki Projects (3-12)
+## Project 3 — The Morning Brief With a Memory *(agla)*
 
-In par abhi mat jao — Project 1 aur 2 pehle. Jab wahan pahonch jao, is file mein wahi structure
-(Steps → Done jab → checkbox tick) add karte jayenge, aur `06-practice-projects.md` se full detail
-link karte rahenge:
+**Concept:** scheduled loop + spine — `progress.md` parhta hai, kuch ikattha karta hai, update karta
+hai. **Time:** 45-60 min · **Difficulty:** Medium
 
-- Project 3 — [`sky-watch/README.md`](projects/sky-watch/README.md)
+### Steps
+
+1. `docs/loop-engineering/projects/sky-watch/` folder mein `claude` chalao, trust karo.
+2. Yeh schedule prompt do:
+   ```
+   /schedule every day at midnight, run the sky-watch skill for today
+   ```
+3. Pehli baar khud bhi manually test kar sakte ho (real NASA asteroid data laata hai):
+   ```bash
+   python .claude/skills/sky-watch/scripts/skywatch.py
+   ```
+4. Do dafa chalao (aaj + kal, ya do manual runs thodi der ke fasle se) — doosri run pehli pe
+   **build** karni chahiye, dobara wahi cheez record nahi honi chahiye.
+
+### Done jab (self-check)
+
+- [ ] Do dafa chalaya aur doosri run ne pehli ka record dekha (spine kaam kar rahi hai)
+- [ ] `progress.md`/state file mein purana kaam dobara list nahi hua
+
+**Full detail:** [`projects/sky-watch/README.md`](projects/sky-watch/README.md)
+
+---
+
+## Baaki Projects (4-12)
+
+Project 3 ke baad in par jao — is file mein wahi structure (Steps → Done jab → checkbox tick) add
+karte jayenge:
+
 - Project 4 — [`fix-loop-demo/README.md`](projects/fix-loop-demo/README.md)
 - Project 5, 7 — [`CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md)
 - Project 6 — [`doorbell/README.md`](projects/doorbell/README.md)
