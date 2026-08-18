@@ -18,6 +18,13 @@
 #     that viewport, then capturing the entire scroll. This is what a browser automation
 #     protocol calls captureBeyondViewport; we are doing it by hand, with no npm.
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+for c in "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+         "/c/Program Files/Google/Chrome/Application/chrome.exe" \
+         "/c/Program Files (x86)/Google/Chrome/Application/chrome.exe" \
+         "$LOCALAPPDATA/Google/Chrome/Application/chrome.exe" \
+         "/usr/bin/google-chrome" "/usr/bin/chromium-browser" "/usr/bin/chromium"; do
+  if [ -f "$c" ]; then CHROME="$c"; break; fi
+done
 D="${1:-site}"
 ABS="$(cd "$D" && pwd)"
 FOLD=900          # the viewport height vh/svh units must resolve against
