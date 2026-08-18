@@ -35,6 +35,11 @@ Status legend: ⬜ Not started · 🔶 In progress · ✅ Done (self-check pass 
 **Concept:** in-session loop — timer pe chalti hai jab tak session khula hai.
 **Time:** 15-30 min · **Difficulty:** Easy
 
+> 🧩 **Sabse aasan zaban mein:** jaise aap ek dost ke saath baithe ho aur bolo "har minute batao gaadi
+> kahan pahonchi" — jab tak aap saath baithe ho woh batata rahega. Jaise hi aap uth kar chale jao, woh
+> bolna band kar deta hai. Yeh loop bhi bilkul waisi hai: sirf tab tak zinda hai jab tak session khula
+> hai, terminal band = loop khatam.
+
 ### Steps
 
 1. Naya, alag terminal kholo (throwaway rule — apni kaam wali session mat use karo):
@@ -73,6 +78,11 @@ direct script run mein, `/loop` ke andar yeh bug nahi dekha gaya).
 **Concept:** run-until-done loop, command decide karta hai stop kab hoga, agent nahi.
 **Time:** 30-45 min · **Difficulty:** Easy-Medium
 
+> 🧩 **Sabse aasan zaban mein:** jaise aap darzi ko kapre de kar bolo "jab tak naap poora sahi na ho,
+> silai karte raho, mujhe baar baar mat poochho." Darzi khud naapta hai, thik karta hai, dobara naapta
+> hai — jab tak size match na ho jaye. Yahan bhi ek command ("naap sahi hone tak site banate raho")
+> poora kaam khud chalati hai, aap ko har step par kuch bolna nahi padta.
+
 ### Steps (jab Project 1 done ho)
 
 1. Apna CV ya LinkedIn PDF `docs/loop-engineering/projects/portfolio-starter/` folder mein daalo.
@@ -100,6 +110,11 @@ direct script run mein, `/loop` ke andar yeh bug nahi dekha gaya).
 
 **Concept:** scheduled loop + spine — `progress.md` parhta hai, kuch ikattha karta hai, update karta
 hai. **Time:** 45-60 min · **Difficulty:** Medium
+
+> 🧩 **Sabse aasan zaban mein:** jaise ghar ka chowkidar roz raat gasht karta hai aur ek register mein
+> likhta hai "aaj yeh dekha." Agli raat gasht karne se pehle woh **pehle register padhta hai** — taake
+> kal wali baat dobara na likhe, sirf naya update kare. Yeh "register" hi spine hai (`progress.md`) —
+> loop ki yaddasht, jo ek run se doosre run tak zinda rehti hai.
 
 ### Steps
 
@@ -130,6 +145,12 @@ hai. **Time:** 45-60 min · **Difficulty:** Medium
 
 **Concept:** worktree (8), skill (9), maker-checker (11) · **Time:** 1-2 hrs · **Difficulty:**
 Medium-Hard
+
+> 🧩 **Sabse aasan zaban mein:** jaise ek shagird (implementer) galti thik karne ki practice apni
+> **alag copybook** mein karta hai (asli kitab kharab nahi hoti — yeh "worktree" hai). Fir ustaad
+> (reviewer) check karta hai sahi thik hui ya nahi. Agar shagird shortcut le kar sirf answer ratta
+> maar le (hard-code kar de asal formula thik kiye bina), ustaad usay pakar leta hai — asli fix aur
+> nakli fix mein farq karna hi is project ka asal maqsad hai.
 
 ### Steps
 
@@ -168,6 +189,12 @@ kabhi merge nahi hui.**
 
 **Concept:** Dynamic workflows, 8 (worktree), 11 (maker-checker) · **Time:** 1-1.5 hrs
 
+> 🧩 **Sabse aasan zaban mein:** jab aap koi kaam baar baar hath se karte ho (Project 4 wala fix-and-
+> check), to ek waqt aata hai jab aap usay **ek "recipe card"** bana dete ho — jise ek hi line bol kar
+> chalaya ja sake. Lekin yeh recipe card khud kuch yaad nahi rakhta — yeh sirf steps batata hai, koi
+> diary nahi likhta. Workflow = ek reusable button, loop nahi (loop ki apni memory hoti hai, workflow
+> ki nahi).
+
 **Kya karna hai:** Project 4 ki `fix-loop-demo-practice/` folder mein hi (usi throwaway copy mein)
 `claude` chalao, phir plain lafzon mein maango:
 ```
@@ -195,6 +222,14 @@ koi memory nahi dikhayi — sirf git/disk state se reconstruct kar saka, session
 ## Project 7 — Break It On Purpose *(agla — Project 6 se pehle, kyunki GitHub setup nahi chahiye)*
 
 **Concept:** Observability, 13 (cost), 14 · **Time:** 45-60 min
+
+> 🧩 **Sabse aasan zaban mein:** socho aapke paas ek naukar hai jo roz subah akhbar padh kar sunata hai
+> — **har subah ka round = ek "beat".** Woh har 5 minute bulao to mahenga pare ga, sirf subah bulao to
+> sasta (**cost = kitni dafa loop chalti hai**, kaam khud sasta hai). Ab agar usay akhbar hi na mile,
+> to **bura naukar** jhoot bol dega "sab theek hai", **acha naukar** saaf bolega "aaj nahi mila, nahi
+> bata sakta" (**observability = fail hone par sach bolna, chup ya jhoot nahi**). Is project mein hum
+> jaan-boojh kar loop ko "akhbar na milna" wali situation mein daalte hain, dekhne ke liye woh kaunsa
+> naukar hai.
 
 *Confusing lagi to easier stand-in try karo:* [`joke-loop/README.md`](projects/joke-loop/README.md) —
 same 2 lessons (cost/frequency, clean-fail-vs-silent-fail), sirf ~60-line script, koi API key nahi.
@@ -259,6 +294,12 @@ rule: "a false one is the only answer a watch must never give").
 **Concept:** Sab 6 parts ek sath — heartbeat, worktree, skill, maker-checker, connector, spine.
 **Time:** 1-2 hrs
 
+> 🧩 **Sabse aasan zaban mein:** ek office manager har subah apni diary (`progress.md`) padhta hai,
+> **chhote/safe kaam khud nibta deta hai**, **bara/risky faisla boss (insaan) tak bhej deta hai**, aur
+> diary update kar ke rakhta hai taake kal khud ko yaad rahe kya ho chuka hai — purana kaam dobara na
+> kare. Yeh capstone hai kyunki isi ek project mein pichli sabhi cheezein (timer, alag copybook, register,
+> ustaad-shagird check, aur "insaan ko kab bulana hai") ek sath kaam karti hain.
+
 ### Steps
 
 1. `daily-triage-demo/` ko is repo se bahar copy kiya (throwaway rule), `git init`
@@ -287,8 +328,18 @@ nahi dohraya.
 
 ## Baaki Projects (6, 9-12)
 
-- Project 6 — [`doorbell/README.md`](projects/doorbell/README.md) (GitHub repo + App install chahiye)
-- Projects 9-12 — [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md)
+- **Project 6 — Doorbell Loop** (event-driven): jaise ghar ki doorbell — jab tak koi na bajaye kuch
+  nahi hota, jaise hi bajaye turant jawab milta hai. Fixed time par nahi, **trigger** hone par chalti
+  hai. [`doorbell/README.md`](projects/doorbell/README.md) (GitHub repo + App install chahiye)
+- **Project 9 — Rehearse for Free**: jaise pilot asal flight se pehle simulator mein practice karta
+  hai — bina real risk ke dekhna ke agar loop chale to kya hoga.
+- **Project 10 — Secrets Drill**: jaise ghar ki chaabi kisi ko dete waqt sirf woh darwaza kholti ho jo
+  zaroori hai, poora ghar nahi — loop ko sirf utni hi permission do jitni uska kaam maangta hai.
+- **Project 11 — Two-Routine Gate**: jaise bank mein bara transaction 2 logon ke sign chahiye hote
+  hain, sirf ek ke nahi — do alag routines ek doosre ko double-check karti hain risky kaam se pehle.
+- **Project 12 — Dreaming Capstone**: jaise raat ko so kar dimag din bhar ki baatein "process" karta
+  hai aur kal ka behtar plan banata hai — loop khud apne purane runs dekh kar khud ko behtar banati hai.
+- Projects 9-12 detail: [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md)
 
 ---
 [⬅ Commands Cheat Sheet](09-commands-cheat-sheet.md) · [⬆ Index](README.md)
