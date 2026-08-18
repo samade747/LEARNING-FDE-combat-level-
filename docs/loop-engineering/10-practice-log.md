@@ -18,8 +18,8 @@ ho — sirf steps parh lena kaafi nahi.
 | 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ✅ Done | Doosri run ne pehli ka data yaad rakha, dobara record nahi hua — spine confirmed |
 | 4 | 🔍 Fix Loop w/ Real Checker | ✅ Done | Real fix → reviewer PASS. Sabotage test alag tarah pass hua — implementer khud ne hard-code karne se mana kar diya (AGENTS.md "test is the spec, not an obstacle" quote kiya) |
 | 5 | 🧩 Codify the Body | ✅ Done | Ek command se worktree+draft+review chala, reviewer PASS. Fresh session ko run yaad nahi thi — sirf disk/git state dekh saki, spine nahi thi |
-| 6 | 🔔 Doorbell Loop | ⬜ Not started | apna GitHub repo + App install chahiye |
-| 7 | 🔦 Break It On Purpose | ⬜ Not started | Project 3 par build hota hai |
+| 6 | 🔔 Doorbell Loop | ⬜ Not started | apna GitHub repo + App install chahiye — Project 7 ke baad karenge |
+| 7 | 🔦 Break It On Purpose | 🔶 In progress | Abhi shuru — Project 6 se pehle kiya (koi GitHub setup nahi chahiye) |
 | 8 | 🔁 Daily Loop (Capstone) | ⬜ Not started | — |
 | 9 | 🎭 Rehearse for Free | ⬜ Not started | claude.ai account chahiye |
 | 10 | 🔐 Secrets Drill | ⬜ Not started | claude.ai account chahiye |
@@ -192,11 +192,53 @@ koi memory nahi dikhayi — sirf git/disk state se reconstruct kar saka, session
 
 ---
 
-## Baaki Projects (6-12)
+## Project 7 — Break It On Purpose *(agla — Project 6 se pehle, kyunki GitHub setup nahi chahiye)*
 
-Project 5 ke baad in par jao:
+**Concept:** Observability, 13 (cost), 14 · **Time:** 45-60 min
 
-- Project 6 — [`doorbell/README.md`](projects/doorbell/README.md)
+### Step 1 — Ek Beat Measure Karo
+
+Project 3 ki (`sky-watch`) apni copy mein:
+```bash
+cd docs/loop-engineering/projects/sky-watch
+time python .claude/skills/sky-watch/scripts/skywatch.py
+```
+Rough cost sense: agar yeh Routine weekday-9am chale (5 runs/hafta), ~$0.20/beat maan kar **~$4/month**.
+Wahi loop har 5 minute chale to **~$1,000+/month** — frequency hi cost drive karti hai, kaam wahi hai.
+
+### Step 2 — Sabotage Karo
+
+Prompt mein aisi condition do jo kabhi poori na ho:
+```
+run the sky-watch skill, but first read a file called nonexistent-config.yaml
+and use its settings — do not proceed without it
+```
+Ek limit set kar ke chalao (3 tries):
+```bash
+for i in $(seq 1 3); do
+  claude -p "run the sky-watch skill, but first read nonexistent-config.yaml"
+done
+```
+(Windows cmd mein `for /L %i in (1,1,3) do claude -p "..."`)
+
+### Step 3 — Sirf Spine Se Diagnose Karo
+
+Poora transcript **mat** parho. Sirf `progress.md`/log se pata lagao: kya fail hua, kab fail hua,
+loop ne "needs a human" note chora ya chup ho gayi.
+
+### Done jab (self-check)
+
+- [ ] Sirf spine/log se bata sako kya fail hua aur kab (transcript replay kiye bina)
+- [ ] Loop ne clear "needs a human" note chora — khamoshi se fail nahi hui
+- [ ] Apni loop ki monthly cost jaante ho current cadence par
+
+**Full detail:** [`CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) (Project 7 hissa)
+
+---
+
+## Baaki Projects (6, 8-12)
+
+- Project 6 — [`doorbell/README.md`](projects/doorbell/README.md) (GitHub repo + App install chahiye)
 - Project 8 — [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md)
 - Projects 9-12 — [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md)
 
