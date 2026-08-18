@@ -196,6 +196,9 @@ koi memory nahi dikhayi — sirf git/disk state se reconstruct kar saka, session
 
 **Concept:** Observability, 13 (cost), 14 · **Time:** 45-60 min
 
+*Confusing lagi to easier stand-in try karo:* [`joke-loop/README.md`](projects/joke-loop/README.md) —
+same 2 lessons (cost/frequency, clean-fail-vs-silent-fail), sirf ~60-line script, koi API key nahi.
+
 ### Step 1 — Ek Beat Measure Karo
 
 Project 3 ki (`sky-watch`) apni copy mein:
