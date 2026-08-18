@@ -19,7 +19,7 @@ ho — sirf steps parh lena kaafi nahi.
 | 4 | 🔍 Fix Loop w/ Real Checker | ✅ Done | Real fix → reviewer PASS. Sabotage test alag tarah pass hua — implementer khud ne hard-code karne se mana kar diya (AGENTS.md "test is the spec, not an obstacle" quote kiya) |
 | 5 | 🧩 Codify the Body | ✅ Done | Ek command se worktree+draft+review chala, reviewer PASS. Fresh session ko run yaad nahi thi — sirf disk/git state dekh saki, spine nahi thi |
 | 6 | 🔔 Doorbell Loop | ⬜ Not started | apna GitHub repo + App install chahiye — Project 7 ke baad karenge |
-| 7 | 🔦 Break It On Purpose | 🔶 In progress | Abhi shuru — Project 6 se pehle kiya (koi GitHub setup nahi chahiye) |
+| 7 | 🔦 Break It On Purpose | ✅ Done | ~3.9s/beat, ~$4-1000/month cadence-dependent. 2 sabotage runs — dono clean "needs a human" stop, koi silent fail nahi |
 | 8 | 🔁 Daily Loop (Capstone) | ⬜ Not started | — |
 | 9 | 🎭 Rehearse for Free | ⬜ Not started | claude.ai account chahiye |
 | 10 | 🔐 Secrets Drill | ⬜ Not started | claude.ai account chahiye |
@@ -228,9 +228,18 @@ loop ne "needs a human" note chora ya chup ho gayi.
 
 ### Done jab (self-check)
 
-- [ ] Sirf spine/log se bata sako kya fail hua aur kab (transcript replay kiye bina)
-- [ ] Loop ne clear "needs a human" note chora — khamoshi se fail nahi hui
-- [ ] Apni loop ki monthly cost jaante ho current cadence par
+- [x] Sirf spine/log se bata sako kya fail hua aur kab (transcript replay kiye bina)
+- [x] Loop ne clear "needs a human" note chora — khamoshi se fail nahi hui
+- [x] Apni loop ki monthly cost jaante ho current cadence par
+
+**✅ Complete** — Step 1: ek beat ~3.9s (raw script). ~$0.20/beat maan kar weekday-9am cadence par
+~$4/month, 5-min cadence par ~$1,000+/month. Step 2/3: Windows cmd.exe ne bash `for` loop reject kiya
+(`$()`/`$?` cmd syntax nahi), isliye 3 ki jagah 2 real sabotage runs `.sabotage-log/run.log` mein
+mile — dono clean. **Run 1:** nested `claude -p` apne hi permission gate par ruk gaya, python chalane
+se pehle insaan se manzoori maangi. **Run 2:** `nonexistent-config.yaml` na milne par agent ne khud
+confirm kiya file exist nahi karti, fabricate karne se saaf mana kiya, clarification maanga. Dono baar
+clear "needs a human" note — koi silent failure, koi hallucinated "all clear" nahi (AGENTS.md ka core
+rule: "a false one is the only answer a watch must never give").
 
 **Full detail:** [`CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) (Project 7 hissa)
 
