@@ -17,6 +17,18 @@
 
 - (kuch nahi abhi — README.md aur dono root Loop Engineering files complete hain)
 
+- 2026-08-18: User ne khud Loop Engineering ke practice projects hands-on karne shuru kiye
+  (`docs/loop-engineering/10-practice-log.md` mein track). **Project 7 (Break It On Purpose):** sky-watch
+  version pehle complete hui, phir user confused raha (2 dafa dobara samjhaya, real-life analogy
+  — "naukar/akhbar" — se click hua). Isi ke sath ek **naya easier stand-in project banaya:
+  `docs/loop-engineering/projects/joke-loop/`** (~60-line script, koi API key nahi, free joke API) taake
+  same cost/observability lesson kam moving parts ke sath sikhaya ja sake — user ne isi version par khud
+  sabotage test chalaya (clean "needs a human" result, fabrication se saaf mana kiya). **Project 8 (Daily
+  Loop Capstone):** user ne `daily-triage-demo/` khud copy kar ke (Windows `xcopy`, `cp` nahi chalta)
+  do dafa run kiya — Run 1: issue #1 fix+PASS+ready-to-merge, issue #2 escalate hua untouched; Run 2:
+  spine ne dobara kaam nahi dohraya, dono items already-done recognize kiye. Ab 7/12 projects done
+  (1-5, 7, 8) — sirf 6 (Doorbell) aur 9-12 (claude.ai account chahiye) baaki hain.
+
 - 2026-08-17: `docs/loop-engineering/09-commands-cheat-sheet.md` add ki — sab is chapter ke commands (Claude Code `/loop`, `/goal`, `/schedule`, worktree/subagent syntax; OpenCode shell equivalents; Routine API `curl`; decision table; minimum-safe-loop checklist) ek single-page quick-reference mein. `README.md` index aur `08-routine-drills-and-dreaming.md` ka footer link update kiye.
 
 ## Open / needs a human

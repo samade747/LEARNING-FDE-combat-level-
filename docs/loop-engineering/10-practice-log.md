@@ -20,7 +20,7 @@ ho — sirf steps parh lena kaafi nahi.
 | 5 | 🧩 Codify the Body | ✅ Done | Ek command se worktree+draft+review chala, reviewer PASS. Fresh session ko run yaad nahi thi — sirf disk/git state dekh saki, spine nahi thi |
 | 6 | 🔔 Doorbell Loop | ⬜ Not started | apna GitHub repo + App install chahiye — Project 7 ke baad karenge |
 | 7 | 🔦 Break It On Purpose | ✅ Done | ~3.9s/beat, ~$4-1000/month cadence-dependent. Sky-watch version: 2 sabotage runs, dono clean stop. Easy joke-loop version: user ne khud terminal mein sabotage run kiya — clean "needs a human" stop, fabrication se saaf mana |
-| 8 | 🔁 Daily Loop (Capstone) | ⬜ Not started | — |
+| 8 | 🔁 Daily Loop (Capstone) | ✅ Done | User ne khud run kiya — issue #1 fixed+PASS+ready-to-merge, issue #2 escalated untouched, progress.md sahi update hua. Doosri run ne dobara kuch nahi kiya — spine confirmed |
 | 9 | 🎭 Rehearse for Free | ⬜ Not started | claude.ai account chahiye |
 | 10 | 🔐 Secrets Drill | ⬜ Not started | claude.ai account chahiye |
 | 11 | 🚦 Two-Routine Gate | ⬜ Not started | claude.ai account chahiye |
@@ -254,10 +254,40 @@ rule: "a false one is the only answer a watch must never give").
 
 ---
 
-## Baaki Projects (6, 8-12)
+## Project 8 — Your Own Daily Loop (Capstone)
+
+**Concept:** Sab 6 parts ek sath — heartbeat, worktree, skill, maker-checker, connector, spine.
+**Time:** 1-2 hrs
+
+### Steps
+
+1. `daily-triage-demo/` ko is repo se bahar copy kiya (throwaway rule), `git init`
+2. `claude` chalaya, trust kiya
+3. `run the daily-triage skill` type kiya
+
+### Done jab (self-check)
+
+- [x] Issue #1 PASS + ready-to-merge branch mein hai
+- [x] Issue #2 `progress.md` mein "needs a human" mein hai, khud fix nahi hua
+- [x] `progress.md` mein aaj ki date ke sath entry hai
+- [x] Doosri baar chalao — spine confirm karo woh issue #1 dobara "solve" nahi karta
+
+**✅ Complete** — **Run 1:** issue #1 (`greet_all` last-name off-by-one) fix hua branch
+`claude/fix-greet-all-last-name` (commit `68693fa`), reviewer PASS, 3/3 tests green, ready-to-merge.
+Issue #2 (breaking public-facing format change) escalate hua, chhua nahi gaya, `progress.md` mein
+clear reason ke sath ("needs a human decision on rollout/versioning"). `progress.md` commit `bf64d4d`.
+**Run 2:** agent ne khud dekha `ISSUES.md` nahi badla aur `progress.md` mein dono items already record
+hain — koi naya branch, fix, ya reviewer call nahi kiya, `progress.md` waisa hi chora. **Human Gate
+poori tarah demonstrate hua:** safe kaam khud hua, risky kaam insaan tak gaya, spine ne dobara kaam
+nahi dohraya.
+
+**Full detail:** [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md)
+
+---
+
+## Baaki Projects (6, 9-12)
 
 - Project 6 — [`doorbell/README.md`](projects/doorbell/README.md) (GitHub repo + App install chahiye)
-- Project 8 — [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md)
 - Projects 9-12 — [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md)
 
 ---

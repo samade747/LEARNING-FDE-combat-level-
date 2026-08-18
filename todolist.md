@@ -18,6 +18,11 @@
 - [x] Root `AGENTS.md` + `CLAUDE.md` (rules file) banaye — "chapter complete = poora content, appendices sameet" lesson permanent kiya, fetch/push/spine discipline codify ki
 - [x] `docs/loop-engineering/` mein baqi 4 projects (9-12) add kiye: `07-routines-appendix.md` (A1-A6) + `08-routine-drills-and-dreaming.md` (step-by-step "kaise karein" ke sath) — ab poore 12 projects documented hain
 
+- [x] User ne khud Project 7 (Break It On Purpose) aur Project 8 (Daily Loop Capstone) hands-on kiye —
+  `docs/loop-engineering/10-practice-log.md` mein track. Naya `joke-loop/` easy-stand-in project bhi
+  Project 7 ke liye banaya. Ab 7/12 practice projects done.
+
 ## Backlog / Open Questions
 
 - [ ] `Four-Layers-Summary_1.pdf` (duplicate PDF, repo root) — delete karna hai? (Pehle offer kiya tha, abhi tak koi jawab nahi)
+- [ ] Baaki practice projects: 6 (Doorbell — GitHub repo/App install chahiye), 9-12 (claude.ai account chahiye)
