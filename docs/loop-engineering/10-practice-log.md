@@ -17,7 +17,7 @@ ho — sirf steps parh lena kaafi nahi.
 | 2 | ✅ Tests Pass Then Stop (Portfolio) | ✅ Done | check.py 20/20, reviewer agent PASS (6/6 promises) |
 | 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ✅ Done | Doosri run ne pehli ka data yaad rakha, dobara record nahi hua — spine confirmed |
 | 4 | 🔍 Fix Loop w/ Real Checker | ✅ Done | Real fix → reviewer PASS. Sabotage test alag tarah pass hua — implementer khud ne hard-code karne se mana kar diya (AGENTS.md "test is the spec, not an obstacle" quote kiya) |
-| 5 | 🧩 Codify the Body | 🔶 In progress | Abhi shuru — Project 4 ki repo par workflow banani hai |
+| 5 | 🧩 Codify the Body | ✅ Done | Ek command se worktree+draft+review chala, reviewer PASS. Fresh session ko run yaad nahi thi — sirf disk/git state dekh saki, spine nahi thi |
 | 6 | 🔔 Doorbell Loop | ⬜ Not started | apna GitHub repo + App install chahiye |
 | 7 | 🔦 Break It On Purpose | ⬜ Not started | Project 3 par build hota hai |
 | 8 | 🔁 Daily Loop (Capstone) | ⬜ Not started | — |
@@ -179,10 +179,14 @@ usay `/command` ki tarah save karne ke liye.
 
 ### Done jab (self-check)
 
-- [ ] Ek command/script poori draft-and-review body chalaye — bina step-by-step prompt kiye
-- [ ] **Prove karo workflow loop NAHI hai:** fresh session/shell kholo isi folder mein, poocho *"what
+- [x] Ek command/script poori draft-and-review body chalaye — bina step-by-step prompt kiye
+- [x] **Prove karo workflow loop NAHI hai:** fresh session/shell kholo isi folder mein, poocho *"what
       did the last workflow run do?"* — confirm karo usay kuch yaad nahi (workflow = engine, koi
       heartbeat/spine khud nahi rakhta)
+
+**✅ Complete** — ek command ne isolated worktree (`fix-loop-worktree`, branch `claude/fix-discount-bug`)
+mein fix draft kiya, reviewer ne PASS diya, master untouched raha. Fresh session ne workflow run ki
+koi memory nahi dikhayi — sirf git/disk state se reconstruct kar saka, session log nahi tha.
 
 **Full detail:** [`CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md) (Project 5 hissa)
 
