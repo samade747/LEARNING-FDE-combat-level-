@@ -1,6 +1,6 @@
-# 06 — Practice Projects (Projects 1-8 of 12)
+# 07 — Practice Projects (Projects 1-8 of 12)
 
-*3 aur Routine Drills (9-11) aur ek dreaming capstone (12) [08-routine-drills-and-dreaming.md](08-routine-drills-and-dreaming.md) mein hain — unse pehle [07-routines-appendix.md](07-routines-appendix.md) padh lena, kyunki drills usi ke concepts use karte hain.*
+*3 aur Routine Drills (9-11) aur ek dreaming capstone (12) [09-routine-drills-and-dreaming.md](09-routine-drills-and-dreaming.md) mein hain — unse pehle [08-routines-appendix.md](08-routines-appendix.md) padh lena, kyunki drills usi ke concepts use karte hain.*
 
 Padhna aur banana ek jaisa nahi. Ye 8 projects easy se hard tak hain. Kisi bhi tool (Claude Code ya
 OpenCode) mein karo — shape same hai.
@@ -154,4 +154,4 @@ jo reviewer **hamesha** reject karta hai (public behaviour change). Poore 6 part
 maujood hain — real world mein wire karne ke steps README mein hain.
 
 ---
-[⬅ Human Control](05-human-control.md) · [⬆ Index](README.md) · [Agla: Routines Appendix ➡](07-routines-appendix.md)
+[⬅ Dogfooding](06-dogfooding.md) · [⬆ Index](README.md) · [Agla: Routines Appendix ➡](08-routines-appendix.md)

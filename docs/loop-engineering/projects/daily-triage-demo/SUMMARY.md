@@ -33,7 +33,7 @@ template ready hai (Done/In progress/Open sections).
 ## Real Duniya Mein Wire Karna
 
 [`README.md`](README.md) mein agle steps hain: `ISSUES.md` ki jagah real GitHub issues use karo, aur
-isay Routine/cron heartbeat do ([`../07-routines-appendix.md`](../07-routines-appendix.md)).
+isay Routine/cron heartbeat do ([`../08-routines-appendix.md`](../08-routines-appendix.md)).
 
 ---
 [⬆ Poori Project List](../../README.md#runnable-projects-poore-12-har-ek-ki-real-jagah)

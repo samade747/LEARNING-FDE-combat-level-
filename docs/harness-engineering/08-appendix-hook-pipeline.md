@@ -40,4 +40,4 @@ first"* — wo **ek** waqt mein guardrail bhi hai aur AX-grade error message bhi
   chalein jab zaroorat ho — yehi wajah hai harness kaafi fast rehti hai use karne layak.
 
 ---
-[⬅ Practice Projects](07-practice-projects.md) · [⬆ Index](README.md)
+[⬅ Practice Projects](07-practice-projects.md) · [Agla: Sources & Further Reading ➡](09-sources-further-reading.md) · [⬆ Index](README.md)

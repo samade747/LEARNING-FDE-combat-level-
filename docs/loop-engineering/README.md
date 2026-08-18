@@ -13,11 +13,16 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 4. [03 — Spine: Runs ke darmiyan memory](03-spine.md)
 5. [04 — Ek Complete Loop (Morning Triage Example)](04-complete-loop-example.md)
 6. [05 — Human Control: Insaan loop mein kahan khara hai](05-human-control.md)
-7. [06 — Practice Projects (Projects 1-8)](06-practice-projects.md)
-8. [07 — Routines Appendix: Field Guide (A1-A6)](07-routines-appendix.md)
-9. [08 — Routine Drills (9-11) + Dreaming Capstone (12)](08-routine-drills-and-dreaming.md)
-10. [09 — Commands Cheat Sheet (sab commands ek jagah)](09-commands-cheat-sheet.md)
-11. [10 — Practice Log (meri apni hands-on progress, project-by-project)](10-practice-log.md)
+7. [06 — Dogfooding: Yeh Kitaab Khud Apne Loops Kaise Use Karti Hai](06-dogfooding.md)
+8. [07 — Practice Projects (Projects 1-8)](07-practice-projects.md)
+9. [08 — Routines Appendix: Field Guide (A1-A6)](08-routines-appendix.md)
+10. [09 — Routine Drills (9-11) + Dreaming Capstone (12)](09-routine-drills-and-dreaming.md)
+11. [10 — Commands Cheat Sheet (sab commands ek jagah)](10-commands-cheat-sheet.md)
+12. [11 — Practice Log (meri apni hands-on progress, project-by-project)](11-practice-log.md)
+13. [12 — Key Words Glossary (plain-English terms)](12-key-words-glossary.md)
+14. [13 — Where to Go Next (book ke apne pointers)](13-where-to-go-next.md)
+15. [14 — Sources & Further Reading](14-sources-further-reading.md)
+16. [15 — Test Your Understanding (61-question exam assessment)](15-test-your-understanding.md)
 
 ## Runnable Projects — Poore 12, Har Ek Ki Real Jagah
 
@@ -33,8 +38,11 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 | 7 (easy version) — Joke Loop | Observability, 13, 14 | [`joke-loop/README.md`](projects/joke-loop/README.md) | [`joke-loop/README.md`](projects/joke-loop/README.md) | ✅ DIY, simpler stand-in — koi API key nahi, ~60-line script |
 | 8 — Your Own Daily Loop (Capstone) | Sab 6 parts | [`daily-triage-demo/SUMMARY.md`](projects/daily-triage-demo/SUMMARY.md) | [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md) | ✅ DIY scaffold banaya, khud test kiya — bug + risky-issue dono confirm |
 | Bonus — Paper Watch | 12 (spine) | [`paper-watch/SUMMARY.md`](projects/paper-watch/SUMMARY.md) | [`paper-watch/README.md`](projects/paper-watch/README.md) | ✅ Official kit, live tested — spine confirmed |
-| 9-11 — Routine Drills | Appendix A1-A6 | [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account/Routines UI chahiye |
-| 12 — Dreaming Capstone | Concept 12 | [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account chahiye |
+| 9-11 — Routine Drills | Appendix A1-A6 | [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account/Routines UI chahiye |
+| 12 — Dreaming Capstone | Concept 12 | [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account chahiye |
+
+**Dogfooding note:** yeh kitaab khud 2 production loops se chalti hai (feedback loop + What's New loop)
+— dekho [`06-dogfooding.md`](06-dogfooding.md). Book ka apna live proof ke loop parts kaam karte hain.
 
 **Har project folder mein 2 files:** `SUMMARY.md` (kya sikhata hai, kyun zaroori hai, kaise kaam karta
 hai — chota, conceptual) aur `README.md` (isay actually chalane ke exact steps — mechanical).

@@ -1,6 +1,6 @@
-# 10 — Practice Log (Meri Apni Hands-On Progress)
+# 11 — Practice Log (Meri Apni Hands-On Progress)
 
-*Yeh file [06-practice-projects.md](06-practice-projects.md) se alag hai. Woh file bata ti hai
+*Yeh file [07-practice-projects.md](07-practice-projects.md) se alag hai. Woh file bata ti hai
 **"kaise karna hai"** (mechanical steps, maine khud scaffolds test kiye). Yeh file record karti hai
 **"maine khud kya kiya"** — user ka apna practice run, ek project ke baad ek, checkbox ke sath.*
 
@@ -339,7 +339,7 @@ nahi dohraya.
   hain, sirf ek ke nahi — do alag routines ek doosre ko double-check karti hain risky kaam se pehle.
 - **Project 12 — Dreaming Capstone**: jaise raat ko so kar dimag din bhar ki baatein "process" karta
   hai aur kal ka behtar plan banata hai — loop khud apne purane runs dekh kar khud ko behtar banati hai.
-- Projects 9-12 detail: [`08-routine-drills-and-dreaming.md`](08-routine-drills-and-dreaming.md)
+- Projects 9-12 detail: [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md)
 
 ---
-[⬅ Commands Cheat Sheet](09-commands-cheat-sheet.md) · [⬆ Index](README.md)
+[⬅ Commands Cheat Sheet](10-commands-cheat-sheet.md) · [⬆ Index](README.md) · [Agla: Key Words Glossary ➡](12-key-words-glossary.md)

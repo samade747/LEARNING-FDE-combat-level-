@@ -123,4 +123,4 @@ Ye force ka naam hai: **AI gravity** (Eric So, MIT Sloan) — AI ko zyada se zya
   karo, phir gated fixes, phir unattended action
 
 ---
-[⬅ Complete Loop Example](04-complete-loop-example.md) · [Agla: Practice Projects ➡](06-practice-projects.md)
+[⬅ Complete Loop Example](04-complete-loop-example.md) · [Agla: Dogfooding ➡](06-dogfooding.md)

@@ -1,8 +1,8 @@
-# 09 — Commands Cheat Sheet (Sab Ek Jagah)
+# 10 — Commands Cheat Sheet (Sab Ek Jagah)
 
 Yeh ek **single-page quick-reference** hai — har command jo is chapter mein kahin bhi use hua, ek jagah.
 Poori explanation ke liye peeche wale concept files dekho ([01](01-heartbeats.md),
-[02](02-body.md), [07](07-routines-appendix.md)); yahan sirf **command + ek line context**.
+[02](02-body.md), [08](08-routines-appendix.md)); yahan sirf **command + ek line context**.
 
 ## Claude Code — Sab Commands
 
@@ -71,7 +71,7 @@ curl -X POST https://api.anthropic.com/v1/claude_code/routines/<routine-id>/fire
   -d '{"text": "Sentry alert SEN-4521 fired in prod. Stack trace attached."}'
 ```
 Token ek dafa dikhta hai — turant store karo. Koi built-in dedup nahi (webhooks retry karte hain) —
-sender par deduplicate karo, prompt **safe-to-repeat** likho. Full field guide: [07-routines-appendix.md](07-routines-appendix.md).
+sender par deduplicate karo, prompt **safe-to-repeat** likho. Full field guide: [08-routines-appendix.md](08-routines-appendix.md).
 
 ## Decision Table: Konsa Command Chuno
 
@@ -88,7 +88,7 @@ sender par deduplicate karo, prompt **safe-to-repeat** likho. Full field guide: 
 ## Save Karne Se Pehle — Minimum Checklist
 
 Poori detail [04-complete-loop-example.md](04-complete-loop-example.md#loop-chalane-se-pehle-minimum-safe-loop-checklist)
-aur [07-routines-appendix.md#a6](07-routines-appendix.md#a6--routine-checklist-save-karne-se-pehle) mein.
+aur [08-routines-appendix.md#a6](08-routines-appendix.md#a6--routine-checklist-save-karne-se-pehle) mein.
 
 ```
 [ ] Success condition — kaam khatam hone ka pata kaise chalega
@@ -101,4 +101,4 @@ aur [07-routines-appendix.md#a6](07-routines-appendix.md#a6--routine-checklist-s
 ```
 
 ---
-[⬅ Routine Drills + Dreaming](08-routine-drills-and-dreaming.md) · [⬆ Index](README.md)
+[⬅ Routine Drills + Dreaming](09-routine-drills-and-dreaming.md) · [⬆ Index](README.md) · [Agla: Practice Log ➡](11-practice-log.md)

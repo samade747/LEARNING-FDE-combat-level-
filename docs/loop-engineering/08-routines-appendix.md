@@ -1,4 +1,4 @@
-# 07 — Routines Appendix: Field Guide (A1-A6)
+# 08 — Routines Appendix: Field Guide (A1-A6)
 
 Yeh appendix book ka sabse "mechanical" hissa hai — Claude Code cloud **Routines** ke har field, teeno
 triggers, secrets kahan jate hain, aur woh common galtiyan jo real hours barbaad karti hain. Isay tab
@@ -98,4 +98,4 @@ hain, status column mein nahi. **Har baar transcript parho.**
 ```
 
 ---
-[⬅ Practice Projects](06-practice-projects.md) · [⬆ Index](README.md) · [Agla: Routine Drills + Dreaming Capstone ➡](08-routine-drills-and-dreaming.md)
+[⬅ Practice Projects](07-practice-projects.md) · [⬆ Index](README.md) · [Agla: Routine Drills + Dreaming Capstone ➡](09-routine-drills-and-dreaming.md)

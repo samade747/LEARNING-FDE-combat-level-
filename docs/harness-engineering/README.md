@@ -17,6 +17,8 @@ Source: https://agentfactory.panaversity.org/docs/harness-engineering-crash-cour
 7. [06 — Dogfooding: Yeh Kitaab Khud Apni Harness Kaise Use Karti Hai](06-dogfooding.md)
 8. [07 — Practice Projects (8 harness builds)](07-practice-projects.md)
 9. [08 — Appendix: Hook Pipeline End-to-End (field guide, 3 drills)](08-appendix-hook-pipeline.md)
+10. [09 — Sources & Further Reading](09-sources-further-reading.md)
+11. [10 — Test Your Understanding (18-question exam assessment)](10-test-your-understanding.md)
 
 ## Ek Line Mein Poori Cheez
 

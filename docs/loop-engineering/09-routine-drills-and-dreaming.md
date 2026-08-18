@@ -1,4 +1,4 @@
-# 08 — Routine Drills (9-11) + Dreaming Capstone (12)
+# 09 — Routine Drills (9-11) + Dreaming Capstone (12)
 
 Yeh 3 drills jaan-boojh kar appendix ki sabse important failure cases ko ek throwaway repo mein
 reproduce karte hain — taake aap unhe cheap, controlled tareeqe se experience karo. Drill 9 sirf
@@ -120,4 +120,4 @@ prompt tighten karo — evidence-less improvement loop no-improvement-loop se bu
 guesses har future run ko steer karte hain.
 
 ---
-[⬅ Routines Appendix](07-routines-appendix.md) · [⬆ Index](README.md) · [Agla: Commands Cheat Sheet ➡](09-commands-cheat-sheet.md)
+[⬅ Routines Appendix](08-routines-appendix.md) · [⬆ Index](README.md) · [Agla: Commands Cheat Sheet ➡](10-commands-cheat-sheet.md)

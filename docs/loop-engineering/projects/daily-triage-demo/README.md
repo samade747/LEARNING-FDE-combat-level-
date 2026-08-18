@@ -48,8 +48,8 @@ Yeh demo `ISSUES.md` se manually kaam parhta hai. Real production loop banane ke
 
 1. `ISSUES.md` ki jagah real GitHub issues/CI failures use karo (Concept 10 — connector)
 2. Isay ek weekly/daily heartbeat do — Claude Code Routine ya `cron`/GitHub Actions
-   (poori field guide: [`../07-routines-appendix.md`](../07-routines-appendix.md))
-3. Har run ke pehle A6 checklist chalao ([`../07-routines-appendix.md#a6`](../07-routines-appendix.md))
+   (poori field guide: [`../08-routines-appendix.md`](../08-routines-appendix.md))
+3. Har run ke pehle A6 checklist chalao ([`../08-routines-appendix.md#a6`](../08-routines-appendix.md))
 
 ## OpenCode Variant
 
