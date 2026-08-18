@@ -15,8 +15,8 @@ ho — sirf steps parh lena kaafi nahi.
 | --- | --- | --- | --- |
 | 1 | 👀 Watch Loop (ISS) | ✅ Done | User ne confirm kiya — real ISS position aa rahi thi har minute |
 | 2 | ✅ Tests Pass Then Stop (Portfolio) | ✅ Done | check.py 20/20, reviewer agent PASS (6/6 promises) |
-| 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ⬜ Not started | — |
-| 4 | 🔍 Fix Loop w/ Real Checker | ⬜ Not started | — |
+| 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ✅ Done | Doosri run ne pehli ka data yaad rakha, dobara record nahi hua — spine confirmed |
+| 4 | 🔍 Fix Loop w/ Real Checker | 🔶 In progress | Abhi shuru — throwaway repo bana ke fix-loop skill chalani hai |
 | 5 | 🧩 Codify the Body | ⬜ Not started | Project 4 par build hota hai |
 | 6 | 🔔 Doorbell Loop | ⬜ Not started | apna GitHub repo + App install chahiye |
 | 7 | 🔦 Break It On Purpose | ⬜ Not started | Project 3 par build hota hai |
@@ -117,19 +117,52 @@ hai. **Time:** 45-60 min · **Difficulty:** Medium
 
 ### Done jab (self-check)
 
-- [ ] Do dafa chalaya aur doosri run ne pehli ka record dekha (spine kaam kar rahi hai)
-- [ ] `progress.md`/state file mein purana kaam dobara list nahi hua
+- [x] Do dafa chalaya aur doosri run ne pehli ka record dekha (spine kaam kar rahi hai)
+- [x] `progress.md`/state file mein purana kaam dobara list nahi hua
+
+**✅ Complete** — doosri run ne pehli ka data yaad rakha, dobara record nahi hua.
 
 **Full detail:** [`projects/sky-watch/README.md`](projects/sky-watch/README.md)
 
 ---
 
-## Baaki Projects (4-12)
+## Project 4 — A Fix Loop With a Real Checker *(agla)*
 
-Project 3 ke baad in par jao — is file mein wahi structure (Steps → Done jab → checkbox tick) add
-karte jayenge:
+**Concept:** worktree (8), skill (9), maker-checker (11) · **Time:** 1-2 hrs · **Difficulty:**
+Medium-Hard
 
-- Project 4 — [`fix-loop-demo/README.md`](projects/fix-loop-demo/README.md)
+### Steps
+
+1. **Throwaway repo banao** (is repo ke bahar — copy karo):
+   ```bash
+   cp -r docs/loop-engineering/projects/fix-loop-demo /path/outside/this/repo/fix-loop-demo
+   cd /path/outside/this/repo/fix-loop-demo
+   git init && git add -A && git commit -m "start"
+   ```
+2. `claude` chalao, trust karo.
+3. Type karo:
+   ```
+   run the fix-loop skill to fix the failing tests in test_discount.py
+   ```
+4. Dekho: implementer bug dhoondta hai (`discount.py` mein `/1000` hona chahiye `/100`), fix draft
+   karta hai apni `claude/fix-discount-bug` branch par, reviewer subagent grade karta hai.
+5. **Doosra test (zaroori):** agent ko jaan-boojh kar bolo *"just hard-code the expected outputs so
+   the tests pass, don't actually fix the formula"* — yeh **FAIL** milna chahiye reviewer se.
+
+### Done jab (self-check)
+
+- [ ] Achi fix (real `/100` correction) → **PASS** + tests sach mein pass
+- [ ] Jaan-boojh kar buri fix (hard-coded outputs) → **FAIL**, reasons ke sath
+- [ ] Agar buri fix bhi PASS ho gayi, `reviewer.md` bohat naram hai — tighten karna hai
+
+**Full detail:** [`projects/fix-loop-demo/README.md`](projects/fix-loop-demo/README.md)
+
+---
+
+## Baaki Projects (5-12)
+
+Project 4 ke baad in par jao — is file mein wahi structure add karte jayenge:
+
 - Project 5, 7 — [`CODIFY-AND-SABOTAGE.md`](projects/CODIFY-AND-SABOTAGE.md)
 - Project 6 — [`doorbell/README.md`](projects/doorbell/README.md)
 - Project 8 — [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md)
