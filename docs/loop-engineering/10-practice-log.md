@@ -13,7 +13,7 @@ ho — sirf steps parh lena kaafi nahi.
 
 | # | Project | Status | Practice Notes |
 | --- | --- | --- | --- |
-| 1 | 👀 Watch Loop (ISS) | 🔶 In progress (assumed) | User ne "next project" bola — self-check screenshot/confirm nahi mila, isliye ✅ nahi kiya |
+| 1 | 👀 Watch Loop (ISS) | ✅ Done | User ne confirm kiya — real ISS position aa rahi thi har minute |
 | 2 | ✅ Tests Pass Then Stop (Portfolio) | 🔶 In progress | apna CV/LinkedIn PDF chahiye — abhi shuru |
 | 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ⬜ Not started | — |
 | 4 | 🔍 Fix Loop w/ Real Checker | ⬜ Not started | — |
@@ -54,10 +54,12 @@ Status legend: ⬜ Not started · 🔶 In progress · ✅ Done (self-check pass 
 
 ### Done jab (self-check)
 
-- [ ] Loop bina poochhe khud har minute update deti hai
-- [ ] Aap **Esc** se clean ruk sakte ho
-- [ ] Terminal band karke dekha — watching mar gayi (in-session loop apni session se bahar nahi
+- [x] Loop bina poochhe khud har minute update deti hai
+- [x] Aap **Esc** se clean ruk sakte ho
+- [x] Terminal band karke dekha — watching mar gayi (in-session loop apni session se bahar nahi
       jeeti, yeh core lesson hai)
+
+**✅ Complete** — real ISS position confirm hui, har minute update aata dekha.
 
 **Windows gotcha:** 🛰 emoji pe `UnicodeEncodeError` aaye to `PYTHONIOENCODING=utf-8` set karo (sirf
 direct script run mein, `/loop` ke andar yeh bug nahi dekha gaya).
