@@ -13,8 +13,8 @@ ho — sirf steps parh lena kaafi nahi.
 
 | # | Project | Status | Practice Notes |
 | --- | --- | --- | --- |
-| 1 | 👀 Watch Loop (ISS) | ⬜ Not started | — |
-| 2 | ✅ Tests Pass Then Stop (Portfolio) | ⬜ Not started | apna CV/LinkedIn PDF chahiye |
+| 1 | 👀 Watch Loop (ISS) | 🔶 In progress (assumed) | User ne "next project" bola — self-check screenshot/confirm nahi mila, isliye ✅ nahi kiya |
+| 2 | ✅ Tests Pass Then Stop (Portfolio) | 🔶 In progress | apna CV/LinkedIn PDF chahiye — abhi shuru |
 | 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ⬜ Not started | — |
 | 4 | 🔍 Fix Loop w/ Real Checker | ⬜ Not started | — |
 | 5 | 🧩 Codify the Body | ⬜ Not started | Project 4 par build hota hai |
