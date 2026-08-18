@@ -14,7 +14,9 @@ Source: https://agentfactory.panaversity.org/docs/harness-engineering-crash-cour
 4. [03 — Verify & Correct: Check Karna Aur Theek Karna](03-verify-correct.md)
 5. [04 — Ek Complete Harness (Hardened Morning Triage)](04-complete-harness-example.md)
 6. [05 — Staying the Engineer: Insaan Ka Kaam Khatam Nahi Hota](05-staying-the-engineer.md)
-7. [06 — Practice Projects (8 harness builds)](06-practice-projects.md)
+7. [06 — Dogfooding: Yeh Kitaab Khud Apni Harness Kaise Use Karti Hai](06-dogfooding.md)
+8. [07 — Practice Projects (8 harness builds)](07-practice-projects.md)
+9. [08 — Appendix: Hook Pipeline End-to-End (field guide, 3 drills)](08-appendix-hook-pipeline.md)
 
 ## Ek Line Mein Poori Cheez
 

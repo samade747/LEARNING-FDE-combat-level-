@@ -1,4 +1,4 @@
-# 06 — Practice Projects (8 Harness Builds)
+# 07 — Practice Projects (8 Harness Builds)
 
 Harness ke baare mein parhna aur usay **tight** karna alag cheezein hain. Ye 8 builds easy se hard tak
 hain — kisi bhi tool mein karo.
@@ -105,4 +105,4 @@ mein move kar ke fix kar diya ho, aur loop **dono** models pe clean chale. Yehi 
 **aapki** hai, kisi ek model ki nahi.
 
 ---
-[⬅ Staying the Engineer](05-staying-the-engineer.md) · [⬆ Index](README.md)
+[⬅ Dogfooding](06-dogfooding.md) · [Agla: Appendix (Hook Pipeline) ➡](08-appendix-hook-pipeline.md) · [⬆ Index](README.md)

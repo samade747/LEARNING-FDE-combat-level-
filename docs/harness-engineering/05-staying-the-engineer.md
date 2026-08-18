@@ -76,4 +76,4 @@ ho: apna tool interface, apna verification stack, apna deployment shape.
 > **steering hai, likhi hui**.
 
 ---
-[⬅ Complete Harness Example](04-complete-harness-example.md) · [Agla: Practice Projects ➡](06-practice-projects.md)
+[⬅ Complete Harness Example](04-complete-harness-example.md) · [Agla: Dogfooding ➡](06-dogfooding.md)
