@@ -18,7 +18,7 @@ ho — sirf steps parh lena kaafi nahi.
 | 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ✅ Done | Doosri run ne pehli ka data yaad rakha, dobara record nahi hua — spine confirmed |
 | 4 | 🔍 Fix Loop w/ Real Checker | ✅ Done | Real fix → reviewer PASS. Sabotage test alag tarah pass hua — implementer khud ne hard-code karne se mana kar diya (AGENTS.md "test is the spec, not an obstacle" quote kiya) |
 | 5 | 🧩 Codify the Body | ✅ Done | Ek command se worktree+draft+review chala, reviewer PASS. Fresh session ko run yaad nahi thi — sirf disk/git state dekh saki, spine nahi thi |
-| 6 | 🔔 Doorbell Loop | ⬜ Not started | apna GitHub repo + App install chahiye — Project 7 ke baad karenge |
+| 6 | 🔔 Doorbell Loop | 🔶 In progress | `gh` CLI install + login kiya, repo `samade747/my-doorbell` bana + workflow file verify hui, `claude setup-token` se token liya — secret set karna baaki (Step 4) |
 | 7 | 🔦 Break It On Purpose | ✅ Done | ~3.9s/beat, ~$4-1000/month cadence-dependent. Sky-watch version: 2 sabotage runs, dono clean stop. Easy joke-loop version: user ne khud terminal mein sabotage run kiya — clean "needs a human" stop, fabrication se saaf mana |
 | 8 | 🔁 Daily Loop (Capstone) | ✅ Done | User ne khud run kiya — issue #1 fixed+PASS+ready-to-merge, issue #2 escalated untouched, progress.md sahi update hua. Doosri run ne dobara kuch nahi kiya — spine confirmed |
 | 9 | 🎭 Rehearse for Free | ⬜ Not started | claude.ai account chahiye |
@@ -323,6 +323,19 @@ poori tarah demonstrate hua:** safe kaam khud hua, risky kaam insaan tak gaya, s
 nahi dohraya.
 
 **Full detail:** [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md)
+
+---
+
+## Bonus — Proposal Loop (Not One of the 12)
+
+Inspired by a shared "AI Multi-Agent Marriage Proposal Loop" example. Rebuilt with fictional
+personas + one real mailbox (privacy reasons — original used real people's names/emails), run
+live in this session over the already-connected Gmail MCP connector, no separate script/API key.
+Two OODA-style state-machine paths, both bheje gaye real Gmail se, dono terminal state tak
+pahonche: Hard Rejection (5/5, `REJECTED_HARD`) aur Joyful Acceptance (5/5, `ACCEPTED`). Real
+threading confirm ki (`create_draft` + `replyToMessageId` → `send_message(draftId=...)`).
+
+**Full detail:** [`projects/proposal-loop/README.md`](projects/proposal-loop/README.md)
 
 ---
 
