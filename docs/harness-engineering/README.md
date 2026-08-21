@@ -19,6 +19,7 @@ Source: https://agentfactory.panaversity.org/docs/harness-engineering-crash-cour
 9. [08 — Appendix: Hook Pipeline End-to-End (field guide, 3 drills)](08-appendix-hook-pipeline.md)
 10. [09 — Sources & Further Reading](09-sources-further-reading.md)
 11. [10 — Test Your Understanding (18-question exam assessment)](10-test-your-understanding.md)
+12. [11 — Practice Log (meri apni hands-on progress)](11-practice-log.md)
 
 ## Ek Line Mein Poori Cheez
 
