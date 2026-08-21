@@ -1,0 +1,8 @@
+{
+  "required_fields": {
+    "verdict": ["PASS", "FAIL", "NEEDS_HUMAN"],
+    "reasons": "array of strings, at least 1 item",
+    "files_reviewed": "array of strings"
+  },
+  "note": "verdict must be EXACTLY one of the 3 allowed values — 'MAYBE', 'PASS?', empty string, etc. are all protocol breaks and must route to NEEDS_HUMAN, not be guessed into PASS or FAIL."
+}

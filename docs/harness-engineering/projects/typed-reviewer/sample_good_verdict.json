@@ -1,0 +1,5 @@
+{
+  "verdict": "PASS",
+  "reasons": ["all 3 tests pass", "no hard-coded expected values found"],
+  "files_reviewed": ["discount.py", "test_discount.py"]
+}

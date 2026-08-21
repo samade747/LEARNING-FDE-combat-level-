@@ -49,7 +49,7 @@ phir har rule khud trip karo — agent se secret parhwao, force push karwao.
 - [ ] Har deny rule ek deliberate attempt ko block kar chuki
 - [ ] Pata hai kis layer ne enforce kiya (tool layer, sandbox nahi)
 
-**Full detail:** [`07-practice-projects.md#1`](07-practice-projects.md)
+**Runnable scaffold:** [`projects/first-wall/README.md`](projects/first-wall/README.md)
 
 ---
 
@@ -69,7 +69,7 @@ phir har rule khud trip karo — agent se secret parhwao, force push karwao.
 - [ ] Dono behaviors dekhe (feedback vs gate)
 - [ ] Ek line mein farq bata sako
 
-**Full detail:** [`07-practice-projects.md#2`](07-practice-projects.md)
+**Runnable scaffold:** [`projects/lint-hook/README.md`](projects/lint-hook/README.md)
 
 ---
 
@@ -89,7 +89,7 @@ kar trigger karo, har message rewrite karo taake agla step bataye.
 - [ ] Fail hui call agent ki agli koshish pe khud heal hui
 - [ ] Us beat ki taraf ishara kar sako jo pehle waste hoti thi
 
-**Full detail:** [`07-practice-projects.md#3`](07-practice-projects.md)
+**Runnable scaffold:** [`projects/error-audit/README.md`](projects/error-audit/README.md)
 
 ---
 
@@ -107,7 +107,7 @@ list pe beats chalao.
 - [ ] Wrong-tool incidents ka before/after compare kiya
 - [ ] After count chhota hua (ya confirm kiya list pehle se hi lean thi)
 
-**Full detail:** [`07-practice-projects.md#4`](07-practice-projects.md)
+**Runnable scaffold:** [`projects/tool-diet/README.md`](projects/tool-diet/README.md)
 
 ---
 
@@ -126,7 +126,7 @@ add karo, protocol breaks ko "needs a human" mein route karo.
 - [ ] Lambi/unclear review escalation path mein gayi, guess nahi hui
 - [ ] Hand-crafted `{"verdict": "MAYBE"}` reject hua
 
-**Full detail:** [`07-practice-projects.md#5`](07-practice-projects.md)
+**Runnable scaffold:** [`projects/typed-reviewer/README.md`](projects/typed-reviewer/README.md)
 
 ---
 
@@ -145,7 +145,7 @@ add karo, protocol breaks ko "needs a human" mein route karo.
 - [ ] Per-class count mil gaya, pata hai harness kahan patli thi
 - [ ] Same-shape 2 failures pehli ke baad namumkin ho gayin
 
-**Full detail:** [`07-practice-projects.md#6`](07-practice-projects.md)
+**Runnable scaffold:** [`projects/ratchet-week/README.md`](projects/ratchet-week/README.md)
 
 ---
 
@@ -164,7 +164,7 @@ gated branches). Attack karo: malicious-injection issue queue mein daal ke raat 
 - [ ] Subah ka log dikhaya har injected action block hui
 - [ ] Blocks loud thin, chup nahi
 
-**Full detail:** [`07-practice-projects.md#7`](07-practice-projects.md)
+**Runnable scaffold:** [`projects/fenced-night/README.md`](projects/fenced-night/README.md)
 
 ---
 
@@ -185,7 +185,7 @@ behavior-coupling se contract-coupling (exit codes, schemas, tests) mein move ka
 - [ ] Har failure contract-coupling mein move kar ke fix hua
 - [ ] Loop dono models pe clean chali — proof ke harness aapki hai, kisi ek model ki nahi
 
-**Full detail:** [`07-practice-projects.md#8`](07-practice-projects.md)
+**Runnable scaffold:** [`projects/model-swap/README.md`](projects/model-swap/README.md)
 
 ---
 
@@ -207,7 +207,7 @@ behavior-coupling se contract-coupling (exit codes, schemas, tests) mein move ka
 - [ ] Drill 2: `curl` command block hui, error ne alternative bataya
 - [ ] Drill 3: gate sirf source-change beats par chali, har beat par nahi
 
-**Full detail:** [`08-appendix-hook-pipeline.md`](08-appendix-hook-pipeline.md)
+**Runnable scaffold (tested, 3 hooks confirmed working):** [`projects/hook-pipeline-drills/README.md`](projects/hook-pipeline-drills/README.md)
 
 ---
 [⬅ Sources & Further Reading](09-sources-further-reading.md) · [⬆ Index](README.md)
