@@ -2,7 +2,9 @@
 
 ## Active
 
-- [ ] User se confirm: root + `docs/loop-engineering/` ki sab naye/updated files commit + push karni hain?
+- [ ] Doorbell (Loop Eng Project 6): repo `samade747/my-doorbell` bana, workflow verify hui, secret
+  set hai — lekin PR #1 run **fail** hui (`CLAUDE_CODE_OAUTH_TOKEN` khaali/invalid nikla). Fresh
+  `claude setup-token` + `gh secret set` dobara chahiye, phir re-run confirm karna hai.
 - [ ] User se confirm: baqi 30 chapters (Front Matter 12, The Ecosystem 9, Foundations-Everyone 6, References & Companions 3) note karni hain `docs/` mein?
 
 ## Done
@@ -25,8 +27,20 @@
 - [x] `docs/loop-engineering/` mein baqi 4 projects (9-12) add kiye: `07-routines-appendix.md` (A1-A6) + `08-routine-drills-and-dreaming.md` (step-by-step "kaise karein" ke sath) — ab poore 12 projects documented hain
 
 - [x] User ne khud Project 7 (Break It On Purpose) aur Project 8 (Daily Loop Capstone) hands-on kiye —
-  `docs/loop-engineering/10-practice-log.md` mein track. Naya `joke-loop/` easy-stand-in project bhi
+  `docs/loop-engineering/11-practice-log.md` mein track. Naya `joke-loop/` easy-stand-in project bhi
   Project 7 ke liye banaya. Ab 7/12 practice projects done.
+- [x] Bonus "Proposal Loop" project banaya aur live run kiya — fictional personas, ek real mailbox
+  (Gmail MCP se), do OODA-state-machine paths (Hard Rejection + Joyful Acceptance) real threaded
+  emails se, dono terminal state tak pahonche. `docs/loop-engineering/projects/proposal-loop/`.
+- [x] Harness Engineering ke liye bhi `11-practice-log.md` banaya (Loop Eng pattern) — 8 projects +
+  appendix ke 3 drills, sab checklist ke sath.
+- [x] Harness Engineering `projects/` folder banaya — 8 real runnable scaffolds (first-wall,
+  lint-hook, error-audit, tool-diet, typed-reviewer, ratchet-week, fenced-night, model-swap) +
+  hook-pipeline-drills. Scripts (`lint_check.py`, `validate.sh`, `trace_log.py`, `block_curl.py`)
+  khud chala kar verify kiye commit se pehle.
+- [x] Root `AGENTS.md` mein 2 naye standing rules add kiye: (5) practice projects ko real runnable
+  scaffold do `projects/` mein (test-before-commit sameet), (6) har chapter "Test Your
+  Understanding"/quiz section ke bina "complete" nahi.
 
 ## Backlog / Open Questions
 

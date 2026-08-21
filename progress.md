@@ -19,6 +19,29 @@
 - 2026-08-17: `docs/loop-engineering/` mein baqi 4 projects add kiye (poore 12 ab documented hain): naya `07-routines-appendix.md` (A1-A6 field guide — local vs cloud routine, form fields, 3 triggers, secrets/state/identity, run-reading, save-checklist) aur `08-routine-drills-and-dreaming.md` (Project 9 rehearse-for-free, 10 secrets drill, 11 two-routine gate — teeno ke liye step-by-step "kaise karein" instructions add ki — aur Project 12 dreaming capstone). `06-practice-projects.md` aur `README.md` index update kiye taake naye 2 files link hon.
 - 2026-08-16: Root `README.md` ko poori tarah rewrite kiya — repo ko "Forward Deployed Engineer (FDE) combat-level" training journey ki tarah frame kiya (book ki apni "Roles This Book Trains" aur "FDE Agent Factory Model" chapters se accurate definition liye — Palantir origin, ~729% posting growth, ~$190K median pay), aur **book ki poori authoritative structure** `outline_agent_factory` tool se confirm karke ek complete status table banayi: Front Matter (12), The Ecosystem (9), Foundations-Everyone (6), General Agents (12 ✅), Personal Agent Harnesses (2 ✅), Mode 1 (3 ✅), Mode 2 (18 ✅ — Phase 1/2/3), References & Companions (3). Total: 35/65 chapters covered, sab links `docs/` folders tak.
 
+- 2026-08-21: **Doorbell (Loop Eng Project 6)** setup kiya: `gh` CLI install + login (`samade747`),
+  repo `samade747/my-doorbell` bana (workflow file verify hui — `pull_request` trigger, `track_progress:
+  true`), `claude setup-token` se token liya, `gh secret set CLAUDE_CODE_OAUTH_TOKEN` chalaya. PR #1
+  se ring kiya (`average_altitude` off-by-one bug) — workflow trigger hui lekin **fail** hui:
+  `CLAUDE_CODE_OAUTH_TOKEN` khaali/invalid nikla (secret naam se maujood tha, value nahi). Root cause
+  isolate kiya GitHub Actions log se. Fix (fresh token + re-set secret) user ke terminal mein baaki hai.
+- 2026-08-21: **Bonus "Proposal Loop" project** banaya aur live run kiya — user ne ek shared
+  "AI Multi-Agent Marriage Proposal Loop" (real logon ke naam/emails wala) example poocha; usay
+  fictional personas (Rayan/Meher) aur ek hi real mailbox (already-connected Gmail MCP,
+  `samad.x747@gmail.com`) se rebuild kiya — privacy ke liye. Do OODA-state-machine paths (Hard
+  Rejection + Joyful Acceptance) real threaded Gmail emails se bheje (`create_draft` +
+  `replyToMessageId` → `send_message(draftId=...)`), dono terminal state (`REJECTED_HARD`,
+  `ACCEPTED`) tak pahonche. `docs/loop-engineering/projects/proposal-loop/` mein documented.
+- 2026-08-21: **Harness Engineering practice infrastructure** banaya (Loop Engineering pattern
+  follow karte hue): `11-practice-log.md` (8 projects + appendix drills checklist, simplest-language
+  boxes), aur poora `projects/` folder — 8 real runnable scaffolds (first-wall, lint-hook,
+  error-audit, tool-diet, typed-reviewer, ratchet-week, fenced-night, model-swap) + hook-pipeline-
+  drills. 4 scripts (`lint_check.py`, `validate.sh`, `trace_log.py`, `block_curl.py`) khud chala kar
+  commit se pehle verify kiye (jq install karna pada — `winget install jqlang.jq`).
+- 2026-08-21: Root `AGENTS.md` mein 2 naye standing rules add kiye (isi session ke kaam se seekh kar):
+  (5) practice projects ko `docs/[slug]/projects/[slug]/` mein real runnable scaffold do, scripts
+  test-before-commit; (6) har chapter "Test Your Understanding"/quiz section ke bina "complete" nahi.
+
 ## In progress
 
 - (kuch nahi abhi — README.md aur dono root Loop Engineering files complete hain)

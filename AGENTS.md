@@ -18,6 +18,18 @@ mein hai — kaunse chapters cover hue, kaunse baqi.
    `read_agent_factory_lesson` se full lesson parho, summarize mat karo apne se
 4. **Naye chapter par kaam shuru karne se pehle `outline_agent_factory` se book ki authoritative
    structure confirm karo** (jaisa root `README.md` mein hai)
+5. **Har chapter ke practice projects ko `docs/[slug]/projects/[project-slug]/` mein real, runnable
+   scaffold do** — sirf prose steps nahi. Jo bhi applicable ho: `.claude/settings.json` (deny rules
+   ya hooks), sample bad/good code, `README.md` (setup + steps + "Done jab" checklist), aur
+   `AGENTS.md`+`CLAUDE.md` guardrail pointer. Koi script/hook shamil ho to **commit se pehle khud
+   chala kar verify karo** (jaisa `lint_check.py`, `validate.sh` ke sath kiya) — untested script
+   commit karna is repo ke "test before claiming done" pattern ke khilaf hai. Chapter ki apni
+   `NN-practice-log.md` (agar hai) ko in scaffolds ki taraf link karo, sirf concept-doc section ki
+   taraf nahi.
+6. **Har chapter "complete" tab hi hai jab uska "Test Your Understanding" / quiz section bhi ho** —
+   yeh appendices/deferred sections jitna hi zaroori hai (dekho neeche Critical Rule). Agar
+   `read_agent_factory_lesson` ke outline mein aisi section dikhe, use bhi doc karo (jaisa
+   `10-test-your-understanding.md` + `quiz.md` Loop aur Harness Engineering mein hai).
 
 ## ⚠️ Critical Rule (Isi Se Yeh File Bani)
 
