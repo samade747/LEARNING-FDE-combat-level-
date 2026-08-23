@@ -61,6 +61,26 @@ ke `projects/[slug]/` pattern jaisa, exam-level pe.*
   roles ke liye) — har ek mein price, questions, domain-weight table, book-coverage mapping, official
   guide link, free sample-test link
 
+## Deep Research Pass (2026-08-24, Same Din Doosri Update)
+
+User ne 4 Anthropic folders (`ccar-f/`, `ccdv-f/`, `ccao-f/`, `ccar-p/`) par "deep research + full
+details" mangi. **Chaaron official exam guide PDFs seedha `Read` tool se poore parhe** (WebFetch ka
+built-in small model PDF text extract nahi kar pa raha tha — 2 dafa honestly refuse kiya, 2 dafa
+**hallucinate** kar diya plausible-lekin-galat domain names/weights/prerequisites ke sath jo book ke
+verified data se match nahi karte thay — is discrepancy ne fabrication pakri, `Read` tool se real PDF
+text nikal kar cross-verify kiya). Har folder ab carry karta hai: MQC (minimally-qualified-candidate)
+profile, poori task-statement/sub-skill breakdown har domain ke andar (CCAR-F: 7+6+6+5+6 task
+statements 5 domains mein; CCDV-F: skill-level % breakdown 8 domains ke andar; CCAO-F: 7-domain
+objectives; CCAR-P: 7-domain objectives + CCAR-F se farq), exam mechanics (CCAR-F ke 6 scenarios,
+4 randomly draw hote hain), sample questions + rationale, "How to Prepare" + exercises, exam policies,
+document-control version history. **CCAR-P ka question count (63) ab official-guide-confirmed hai** —
+pehle "independent-report-only" tha (book page khud yeh caveat deti thi), ab resolved.
+
+**Lesson:** WebFetch ka fast-model summarizer PDFs ke liye untrustworthy nikla jab text extract nahi ho
+pata — binary content ko "cannot read" bolne ke bajaye plausible-sounding fabricated content de deta
+hai. Jab bhi ek tool ka output pehle-se-verified facts se mismatch kare, use turant discard karo aur
+zyada reliable path dhoondo (yahan: Claude ka apna multimodal PDF-reading, Read tool ke zariye).
+
 ## 04 — Gaps + Six-Week Study Plan
 
 - 7-course Claude-specific sequence under development (Loop by Hand, Structured Extraction, Agent SDK,

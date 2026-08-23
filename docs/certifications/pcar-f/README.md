@@ -34,7 +34,9 @@ implementation-heavy questions ke liye chahiye.
 | Tool Design and MCP | 18% | [Connector-Native Apps](../../connector-native-apps/README.md), Skills & Connectors *(🔲)* |
 | Context Management | 15% | [Building the Context Layer](../../context-layer-crash-course/README.md), [The Four Layers](../../four-layers/README.md), [RAG on Postgres](../../postgres-ai-crash-course/README.md) |
 
-Poori detail (study priority, "kyun agentic architecture sab se pehle") [CCAR-F folder](../ccar-f/README.md) mein hai.
+**Poori task-statement-level detail** (har domain ke 5-7 task statements, knowledge/skills breakdown,
+6 exam scenarios, sample questions — official CCAR-F Exam Guide v1.0 se, 2026-08-24 ko poora padha)
+[CCAR-F folder](../ccar-f/README.md) mein hai — PCAR-F **usi blueprint** pe based hai.
 
 ## Prep Resources
 

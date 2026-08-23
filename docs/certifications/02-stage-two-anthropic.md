@@ -14,10 +14,11 @@ rahe.
 | Claude Certified Architect: Foundations | **CCAR-F** | $125 | 60 | Designing Claude and agent systems |
 | Claude Certified Developer: Foundations | **CCDV-F** | $125 | 53 | Building and shipping Claude applications |
 | Claude Certified Associate: Foundations | **CCAO-F** | $99 | 60 | Advising, selling, leading Claude projects |
-| Claude Certified Architect: Professional | **CCAR-P** | $175 | 63* | Owning solutions end to end |
+| Claude Certified Architect: Professional | **CCAR-P** | $175 | 63 | Owning solutions end to end |
 
-*CCAR-P ka question count sirf figure hai jo independent guides se report hui hai, official exam guide
-se confirm nahi — baaqi har price aur count Anthropic ke apne published exam guides se hai.*
+*Sab counts/prices ab official exam guide PDFs se directly confirm hain (2026-08-24 ko poore 4 guides
+padhe) — CCAR-P ka 63-question count pehle sirf independent-guide-reported tha, ab official guide se
+verified hai.*
 
 ## Exam Mechanics — Sab Exams Shared Hain
 

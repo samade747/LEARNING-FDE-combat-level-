@@ -35,7 +35,9 @@ mental model pehle chahiye — is liye PCDV-F doosre number par hai.
 | Claude Code | 3.1% | [Claude Code and OpenCode](../../agentic-coding/README.md) |
 | Eval, Testing, and Debugging | 2.6% | [Trusting the Checker](../../trusting-the-checker/README.md), [Eval-Driven Development](../../eval-driven-development-crash-course/README.md) |
 
-Poori detail (gaps, study priority) [CCDV-F folder](../ccdv-f/README.md) mein hai.
+**Poori sub-skill-weight-level detail** (har domain ke andar tak breakdown, gaps, study priority —
+official CCDV-F Exam Guide v1.0 se, 2026-08-24 ko poora padha) [CCDV-F folder](../ccdv-f/README.md)
+mein hai — PCDV-F **usi blueprint** pe based hai.
 
 ## Prep Resources
 

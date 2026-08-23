@@ -16,6 +16,10 @@
 
 ## Done
 
+- [x] 4 Anthropic cert folders (`ccar-f/`, `ccdv-f/`, `ccao-f/`, `ccar-p/`) deep-research kiye — official
+  exam-guide PDFs `Read` tool se seedha parhe (WebFetch hallucinate kar raha tha 2 exams ke liye).
+  Har folder mein ab MQC profile, task-statement/sub-skill breakdown, exam scenarios, sample
+  questions, prep exercises, policies, doc-control history hai.
 - [x] `docs/certifications/` ko per-certification folders mein restructure kiya — 8 subfolders
   (pcar-f, pcdv-f, pcao-f, pcar-p, ccar-f, ccdv-f, ccao-f, ccar-p), har ek apni quick facts + domain
   table + prep resources ke sath. Top-level files ab shared pathway/logistics + index hain.

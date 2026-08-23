@@ -82,6 +82,21 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
   ho. `README.md`, `SUMMARY.md`, `01-stage-one-panaversity.md`, `02-stage-two-anthropic.md`,
   `07-practice-log.md` sab naye folders ki taraf cross-link update kiye.
 
+- 2026-08-24 (3rd update, same din): User ne 4 Anthropic cert folders (`ccar-f/`, `ccdv-f/`, `ccao-f/`,
+  `ccar-p/`) par "deep research + full details" mangi. Official exam-guide PDFs `WebFetch` se fetch
+  kiye — **WebFetch ka built-in summarizer PDF text extract nahi kar saka**: CCAR-F aur CCAO-F ke liye
+  honestly "cannot read binary" bola, lekin **CCDV-F aur CCAR-P ke liye plausible-sounding lekin
+  completely fabricated content diya** (galat domain names, galat weights, galat prerequisites "70%
+  pass/2+ years experience" jo kahin se nahi aaye) — book ke already-verified data se mismatch ne
+  turant fabrication pakri. Fix: WebFetch ke saved local `.pdf` paths use kar ke `Read` tool (jo PDFs
+  multimodal parh sakta hai) se **chaaron guides seedha, poore, accurately parhe**. Har cert folder ko
+  is real data se rewrite kiya: MQC profile, task-statement/sub-skill-level breakdown har domain ke
+  andar, exam mechanics, sample questions + rationale, prep exercises, policies, document-control
+  history. CCAR-P ka question count (63) — jo pehle book page khud "independent-report-only, not
+  official-confirmed" keh rahi thi — ab official-guide-confirmed hai, dono files (02, 03) mein fix
+  kiya. **Lesson (naya, memory mein bhi save hoga):** kisi tool ka output jab already-verified facts se
+  mismatch kare, turant discard karo aur reliable path dhoondo — chup-chap accept mat karo.
+
 ## In progress
 
 - (kuch nahi abhi — README.md aur dono root Loop Engineering files complete hain)

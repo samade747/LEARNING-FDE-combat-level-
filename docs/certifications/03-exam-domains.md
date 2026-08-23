@@ -14,9 +14,12 @@ yeh file sirf quick-glance comparison + index hai.
 | [CCAR-F](ccar-f/README.md) | Claude Certified Architect: Foundations | Anthropic | Live | $125 | 60 | **Agentic Architecture 27%** heaviest |
 | [CCDV-F](ccdv-f/README.md) | Claude Certified Developer: Foundations | Anthropic | Live | $125 | 53 | **Applications & Integration 33.1%** heaviest |
 | [CCAO-F](ccao-f/README.md) | Claude Certified Associate: Foundations | Anthropic | Live | $99 | 60 | **Output Evaluation & Validation 21%** heaviest |
-| [CCAR-P](ccar-p/README.md) | Claude Certified Architect: Professional | Anthropic | Live | $175 | 63* | extends CCAR-F |
+| [CCAR-P](ccar-p/README.md) | Claude Certified Architect: Professional | Anthropic | Live | $175 | 63 | **Integration 19%** heaviest |
 
-*\*CCAR-P question count independent-guide-reported, not official-guide-confirmed.*
+*2026-08-24 update: poore 4 official exam guide PDFs directly padhe (WebFetch ka PDF-text-extraction
+kaam nahi kar raha tha aur hallucinate kar raha tha — Read tool se PDF seedha parha, verify kiya). Sab
+counts/prices/domain-weights ab official-guide-confirmed hain, koi bhi "independent-report-only" figure
+nahi bacha.*
 
 ## FDE Path Ka Focus
 
