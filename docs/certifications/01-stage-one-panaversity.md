@@ -86,6 +86,10 @@ karo, phir system banao.**
 > organisation ke zariye. Panaversity decide karta hai kaun uski FDE Internship Program aur partner
 > access ke liye qualify karta hai.
 
+**Poori quick-facts + domain-weight detail:** [`pcar-f/`](pcar-f/README.md) ·
+[`pcdv-f/`](pcdv-f/README.md) · [`pcao-f/`](pcao-f/README.md) (planned) ·
+[`pcar-p/`](pcar-p/README.md) (planned)
+
 ---
 [⬅ Index](README.md) · [Peechay: Overview](00-overview.md) ·
 [Agla: Stage Two — Anthropic Certification ➡](02-stage-two-anthropic.md)

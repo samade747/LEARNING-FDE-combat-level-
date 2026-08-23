@@ -72,6 +72,16 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
   row ko ✅ kiya, Front Matter progress bar 0/12→1/12, total 35/65→36/65, aur is staleness ko explicit
   warning callout ki tarah note kiya (poora audit is task ka scope nahi tha, alag se karna hoga).
 
+- 2026-08-24 (follow-up): User ne mangi ke **har certification ka apna alag folder** ho
+  `docs/certifications/` ke andar, is repo ke `projects/[slug]/` pattern jaisa. Poore 8 credentials ke
+  liye subfolders banaye: Panaversity 4 (`pcar-f/`, `pcdv-f/`, `pcao-f/`, `pcar-p/`) + Anthropic 4
+  (`ccar-f/`, `ccdv-f/`, `ccao-f/`, `ccar-p/`) — har ek mein quick-facts table, domain-weight table
+  (jahan applicable) + book-coverage mapping, prep resources (official guide, free sample test) uska
+  apna hai. Top-level `03-exam-domains.md` aur `06-sample-tests.md` ko bulky detail se **short index/
+  comparison pages** mein badla (poori detail folders mein move ho gayi) taake duplicate content na
+  ho. `README.md`, `SUMMARY.md`, `01-stage-one-panaversity.md`, `02-stage-two-anthropic.md`,
+  `07-practice-log.md` sab naye folders ki taraf cross-link update kiye.
+
 ## In progress
 
 - (kuch nahi abhi — README.md aur dono root Loop Engineering files complete hain)

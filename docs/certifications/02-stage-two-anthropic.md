@@ -86,6 +86,9 @@ Har exam ka Anthropic apna guide publish karta hai. **Guide ko authority maano k
 exam ki Partner Academy page se guide download karo. Poori list [06 — Sample Tests + Official Exam
 Guides](06-sample-tests.md) mein hai.
 
+**Poori quick-facts + domain-weight detail:** [`ccar-f/`](ccar-f/README.md) ·
+[`ccdv-f/`](ccdv-f/README.md) · [`ccao-f/`](ccao-f/README.md) · [`ccar-p/`](ccar-p/README.md)
+
 ---
 [⬅ Index](README.md) · [Peechay: Stage One](01-stage-one-panaversity.md) ·
 [Agla: Exam Domains ➡](03-exam-domains.md)

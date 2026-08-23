@@ -29,11 +29,11 @@ Status legend: ⬜ Not started · 🔶 In progress · ✅ Done
 
 ## Week 1-2 — Blueprint + Domain-Weighted Study
 
-**Kya karna hai:** [03-exam-domains.md](03-exam-domains.md) ki CCAR-F table se domain weights confirm
-karo (Agentic Architecture 27%, Claude Code Config 20%, Prompt Engineering 20%, Tool Design/MCP 18%,
-Context Management 15%). Is repo mein jo already cover hai wahan se revise karo — jo 🔲 hai (Skills &
-Connectors, Code You Never Write, How to Think in the AI Era) uske liye Zia Tutor se fresh fetch karo
-ya Anthropic Academy free courses use karo.
+**Kya karna hai:** [pcar-f/README.md](pcar-f/README.md) (ya [ccar-f/README.md](ccar-f/README.md) full
+detail ke liye) ki domain table se weights confirm karo (Agentic Architecture 27%, Claude Code Config
+20%, Prompt Engineering 20%, Tool Design/MCP 18%, Context Management 15%). Is repo mein jo already
+cover hai wahan se revise karo — jo 🔲 hai (Skills & Connectors, Code You Never Write, How to Think in
+the AI Era) uske liye Zia Tutor se fresh fetch karo ya Anthropic Academy free courses use karo.
 
 ### Done jab (self-check)
 - [ ] Sab 5 CCAR-F domains ka apna ek-line summary likh sakta hoon
@@ -59,9 +59,9 @@ extend karo.)
 
 ## Week 5 — Practice Test + Weak-Domain Drill
 
-**Kya karna hai:** [06-sample-tests.md](06-sample-tests.md) se CCAR-F sample test free lo, exam
-conditions mein (120 min, no notes). Explanations parho — samjho **kyun** sahi trade-off sahi hai, na
-sirf kya sahi hai.
+**Kya karna hai:** [pcar-f/README.md](pcar-f/README.md) ke "Prep Resources" se CCAR-F sample test free
+lo, exam conditions mein (120 min, no notes). Explanations parho — samjho **kyun** sahi trade-off sahi
+hai, na sirf kya sahi hai.
 
 ### Done jab (self-check)
 - [ ] Ek full practice attempt complete hua, score aur weak domains note kiye

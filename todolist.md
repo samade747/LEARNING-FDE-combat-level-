@@ -16,6 +16,9 @@
 
 ## Done
 
+- [x] `docs/certifications/` ko per-certification folders mein restructure kiya — 8 subfolders
+  (pcar-f, pcdv-f, pcao-f, pcar-p, ccar-f, ccdv-f, ccao-f, ccar-p), har ek apni quick facts + domain
+  table + prep resources ke sath. Top-level files ab shared pathway/logistics + index hain.
 - [x] `docs/certifications/` chapter banaya (README + 8 numbered files) — PCAR-F/CCAR-F pathway, exam
   domain-weight tables, free 6-week study plan, registration/costs/mistakes, sample tests, aur user
   ke apne 2026-10-05 PCAR-F-deadline goal ke liye practice log. Root `README.md` update kiya (row ✅,

@@ -37,17 +37,29 @@ unka content ab live page se match nahi karta.
 - Academy course badge ≠ certification (free vs $99-175, no ID check vs government ID, completion
   badge vs Credly credential)
 
-## 03 — Exam Domains
+## 03 — Exam Domains: At A Glance
 
-- **CCAR-F:** Agentic Architecture 27% (sab se bara + book mein sab se strong), Claude Code Config
-  20%, Prompt Engineering 20%, Tool Design/MCP 18%, Context Management 15%
-- **CCDV-F:** Applications and Integration 33.1% + Model Selection 16.8% = ~50% ka aadha exam; Claude
-  Code + Eval milkar 6% se kam
-- **CCAO-F:** 7 domains, top 3 (Output Evaluation 21%, Workflow Integration 16%, Governance 15%) half
-  se zyada — judgment-focused, prompt-writing nahi
-- **CCAR-P:** CCAR-F ka poora mapping + stakeholder communication, operating model/handover, lifecycle
-- Is repo ke docs/ folders ka domain-by-domain mapping diya, aur root README.md ki staleness discover
-  hui isi mapping banate waqt (kai folders already documented hain jo README mein 🔲 dikhte hain)
+- Ab sirf ek index/comparison table hai — **poori domain-weight tables + book-coverage mapping har
+  certification ke apne folder mein move ho chuki hain** (2026-08-24 restructure)
+- Quick summary: **CCAR-F** Agentic Architecture 27% heaviest; **CCDV-F** Applications & Integration
+  33.1% heaviest; **CCAO-F** Output Evaluation & Validation 21% heaviest; **CCAR-P** extends CCAR-F
+- Root README.md ki staleness discover hui isi mapping banate waqt (kai folders already documented
+  hain jo README mein 🔲 dikhte hain) — ab har cert folder mein ✅/🔲 markers actual disk state ke
+  against verify kiye gaye hain
+
+## Per-Certification Folders (2026-08-24 restructure)
+
+*User ki request par: "har certification ka alag folder, us mein us se related har cheez" — is repo
+ke `projects/[slug]/` pattern jaisa, exam-level pe.*
+
+- **Panaversity (Stage One):** [`pcar-f/`](pcar-f/README.md) (available, is repo ka current target),
+  [`pcdv-f/`](pcdv-f/README.md) (available), [`pcao-f/`](pcao-f/README.md) (planned),
+  [`pcar-p/`](pcar-p/README.md) (planned) — har ek quick facts + domain table (jahan applicable) +
+  prep resources ke sath
+- **Anthropic (Stage Two):** [`ccar-f/`](ccar-f/README.md), [`ccdv-f/`](ccdv-f/README.md) (dono FDE
+  path focus), [`ccao-f/`](ccao-f/README.md), [`ccar-p/`](ccar-p/README.md) (dono non-focus, apne
+  roles ke liye) — har ek mein price, questions, domain-weight table, book-coverage mapping, official
+  guide link, free sample-test link
 
 ## 04 — Gaps + Six-Week Study Plan
 
@@ -69,8 +81,9 @@ unka content ab live page se match nahi karta.
 - Honest value: early-mover signal, no mature salary data yet, cert demonstrates skill but doesn't
   replace it
 
-## 06 — Sample Tests + Official Exam Guides
+## 06 — Sample Tests + Official Exam Guides: Index
 
+- Ab sirf ek lookup table hai — full links per-cert folders ke "Prep Resources" section mein hain
 - 4 official exam guide PDFs (all v1.0) + Exam Registration Guide, links to each exam's Partner
   Academy page
 - Free independent sample tests (flashgenius.net) for all 4 exams, not Anthropic-affiliated
