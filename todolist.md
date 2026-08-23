@@ -2,12 +2,25 @@
 
 ## Active
 
+- [ ] **PCAR-F push (deadline 2026-10-05):** `docs/certifications/07-practice-log.md` ke 6-week plan
+  follow karo — Weeks 1-2 domain-weighted study, 3-4 ek chhoti app banao, 5 practice test, 6 PCAR-F
+  sit karo.
+- [ ] Root `README.md` status table stale hai — kai Front Matter/Foundations chapters already
+  documented hain (`roles-this-book-trains`, `ai-prompting-2026`, `what-you-carry-in`,
+  `what-ai-actually-is-crash-course`, `markdown-html-crash-course`) lekin table 🔲 dikhata hai. Full
+  audit + sync chahiye.
 - [ ] Doorbell (Loop Eng Project 6): repo `samade747/my-doorbell` bana, workflow verify hui, secret
   set hai — lekin PR #1 run **fail** hui (`CLAUDE_CODE_OAUTH_TOKEN` khaali/invalid nikla). Fresh
   `claude setup-token` + `gh secret set` dobara chahiye, phir re-run confirm karna hai.
 - [ ] User se confirm: baqi 30 chapters (Front Matter 12, The Ecosystem 9, Foundations-Everyone 6, References & Companions 3) note karni hain `docs/` mein?
 
 ## Done
+
+- [x] `docs/certifications/` chapter banaya (README + 8 numbered files) — PCAR-F/CCAR-F pathway, exam
+  domain-weight tables, free 6-week study plan, registration/costs/mistakes, sample tests, aur user
+  ke apne 2026-10-05 PCAR-F-deadline goal ke liye practice log. Root `README.md` update kiya (row ✅,
+  progress bar, total count). Rasta mein root README status-table staleness discover ki (upar Active
+  mein tracked).
 
 - [x] Har chapter folder (`docs/[slug]/`) mein `SUMMARY.md` add ki — poore 55 content-wale folders cover
   hue, Roman Urdu + English mein, sab key points sub-headings ke sath. `docs/thesis/` aur

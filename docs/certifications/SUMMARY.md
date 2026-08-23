@@ -1,39 +1,88 @@
-# Courses & Certifications — Summary
+# Certifications — Summary
 
-Front Matter, Chapter 11/12. Panaversity ke poore certification ecosystem ka naqsha — 2 parallel tracks.
+Front Matter, top-level doc (position #13). Panaversity ke certification pathway ka naqsha — kaise
+proctored proof paida karo ke aap Vertical FDE ka kaam kar sakte ho.
 
-## 00 — Do Tracks, Ek Ecosystem
+**Note:** Yeh chapter 2026-08-24 ko poori tarah dobara fetch hua Zia Tutor AI se. Book ne is page ko
+poori tarah rewrite kiya hai — purana version (single "Certified Agentic AI Architect" 5-course
+program, AI-101→AI-491, aur ek optional CCA-F exam) ab **replaced** ho chuka hai naye, zyada elaborate
+structure se (Panaversity qualification stage + Anthropic ke 4 alag proctored exams). Purani files
+(`00-two-tracks-one-ecosystem.md`, `01-professional-track-curriculum.md`) delete ki gayi hain, kyunke
+unka content ab live page se match nahi karta.
 
-- **Track 1 — Professional (Builders)**: AI-101→AI-201→AI-251→AI-321→AI-491, 5 courses. Tools: Claude
-  Code, OpenCode, OpenClaw, OpenAI Agents SDK, Paperclip. Focus: Use·Code·Build·Compose·Ship. Builds:
-  Digital FTEs, AI Workforce, AI-Native Companies. Prepares for Anthropic CCA-F (Level 5). Final:
-  **Certified Agentic AI Architect**.
-- **Track 2 — Business & Domain Expert**: BAI-100→BAI-200→BAI-300, 3 quarters. Tool: Claude Cowork.
-  Focus: thinking/domain knowledge/enterprise workflows. Builds: SKILL.md libraries, Cowork plugins,
-  Agentic Office. Final: **Certified Agentic AI Business Strategist**.
-- Yeh repo ka apna focus zyada tar Professional Track se match karta hai.
-- Dono tracks FDE ke liye zaroori: [What You Carry In] — real asset = profession ka governed knowledge,
-  jo builder + domain expert milkar banate hain. Vendor-neutral vertical FDE dono combine karta hai, ya
-  Professional-Track graduate Business-Track/domain-experienced expert se partner banata hai (How to
-  Get Paid ki Ayesha/aunt misal).
+## 00 — Overview: Do Stages, Ek Pathway
 
-## 01 — Professional Track Ki Poori Curriculum
+- **Poora path:** PCAR-F → PCDV-F → FDE Internship Program & partner access → CCAR-F → CCDV-F
+- **Kyun zaroori:** ek proctored certification sab se portable "carry-in" asset hai — stranger seconds
+  mein verify kar sakta hai
+- **Access gate:** Anthropic registration sirf Claude Partner Network organisation email se hoti hai
+  (personal email accept nahi). Panaversity partner network member hai — PCAR-F+PCDV-F pass karne se
+  FDE Internship Program milta hai, jo partner access provision karta hai
+- Version note: 22 Aug 2026 verify, sab 4 guides v1.0, domain weights change ho sakte hain
 
-- **Certified Agentic AI Architect** = 5-course program, 5 progressive certification levels.
-- **CCA-F (Claude Certified Architect — Foundations)** — Anthropic ka optional/external proctored
-  scenario-based exam. Panaversity Level 5 (AI-491) iske domains cover karta hai, parallel diya ja
-  sakta hai. Poora program complete karne se Certified Agentic AI Architect milta hai — CCA-F alag hai.
-- **5 Courses table**: Level 1 Use (AI-101, General Agent Problem Solving — Claude Code/OpenCode/
-  OpenClaw/Prompting), Level 2 Code (AI-201, Python/uv/Async/OpenAI Agents SDK), Level 3 Build (AI-251,
-  Agent Skills/SKILL.md/Memory/Inngest), Level 4 Compose (AI-321, Paperclip/OpenClaw/Identic AI/
-  DeepEval), Level 5 Ship (AI-491, Architecture/FastAPI/Cloud/Agent Commerce/CCA-F).
-- Har course ka is repo ke apne folders se mapping diya (AI-101→general-agents-web/agentic-coding;
-  AI-201→python-crash-course; AI-251→digital-fte-crash-course/ai-agent-nervous-system-crash-course;
-  AI-321→workforce-with-paperclip-crash-course/identic-ai-crash-course/eval-driven-development-crash-
-  course; AI-491→deploying-agents-crash-course/choosing-agentic-architectures-crash-course/payment-
-  enabled-agents-crash-course).
-- **Certification Ladder**: 15 total internal exams across 5 courses (AI-101: 2, AI-201: 2, AI-251: 3,
-  AI-321: 4, AI-491: 4) → Certified Agentic AI Architect.
-- Root README ke "Poori Book Ka Naqsha" se compare: jo groups already complete hain (General Agents,
-  Mode 1, Mode 2, Personal Agent Harnesses) unka scope Level 1-5 ke curriculum se kaafi overlap karta
-  hai.
+## 01 — Stage One: Panaversity Qualification & Partner Access
+
+- 4 Panaversity exams planned (PCAR-F, PCDV-F available now; PCAO-F, PCAR-P planned), 720/1000 pass
+- FDE path: **PCAR-F pehle, PCDV-F baad mein** — architecture-first sequence
+- Students ko 2 free attempts/exam; baaqi sab proctoring fee (TBA) dete hain
+- Gate 2 wajah se: Anthropic attempt mehenga/waqt-talab hai ($99-175, 14/30/90-din waits); credential
+  ka signal maintain karna hai (Claude Partner Network standing)
+
+## 02 — Stage Two: Anthropic Certification
+
+- 4 credentials: CCAR-F ($125, 60 Q), CCDV-F ($125, 53 Q), CCAO-F ($99, 60 Q), CCAR-P ($175, 63 Q)
+- Sab: Pearson VUE proctored, 120 min, 720 cut score, 12-month validity, on-time renewal free
+- Koi exam prerequisite nahi, lekin eligibility (partner email) alag cheez hai
+- FDE ke liye recommended: **CCAR-F → CCDV-F**
+- Academy course badge ≠ certification (free vs $99-175, no ID check vs government ID, completion
+  badge vs Credly credential)
+
+## 03 — Exam Domains
+
+- **CCAR-F:** Agentic Architecture 27% (sab se bara + book mein sab se strong), Claude Code Config
+  20%, Prompt Engineering 20%, Tool Design/MCP 18%, Context Management 15%
+- **CCDV-F:** Applications and Integration 33.1% + Model Selection 16.8% = ~50% ka aadha exam; Claude
+  Code + Eval milkar 6% se kam
+- **CCAO-F:** 7 domains, top 3 (Output Evaluation 21%, Workflow Integration 16%, Governance 15%) half
+  se zyada — judgment-focused, prompt-writing nahi
+- **CCAR-P:** CCAR-F ka poora mapping + stakeholder communication, operating model/handover, lifecycle
+- Is repo ke docs/ folders ka domain-by-domain mapping diya, aur root README.md ki staleness discover
+  hui isi mapping banate waqt (kai folders already documented hain jo README mein 🔲 dikhte hain)
+
+## 04 — Gaps + Six-Week Study Plan
+
+- 7-course Claude-specific sequence under development (Loop by Hand, Structured Extraction, Agent SDK,
+  Claude Code for Teams/CI/Routines, Managed Agents) — abhi links nahi
+- 3 permanent gaps: model-selection economics, baaqi Messages API surface (vision, extended thinking,
+  caching mechanics, Bedrock/Vertex/Foundry), Anthropic product terminology (CCAO-F ke liye zaroori)
+- 6-week plan: Weeks 1-2 blueprint + domain-weighted study, 3-4 build a small app (5+ domains), Week 5
+  practice test + weak-domain drill, Week 6 sit PCAR-F then PCDV-F
+
+## 05 — Registration, Retakes, Renewal, Costs, 6 Mistakes
+
+- Reschedule free 24h+ before; retakes max 4/12-months, waits 14/30/90 days
+- Exam day: govt photo ID, no phone/notes/2nd monitor, NDA required
+- Full path cost: Panaversity stage free (2 attempts) for students; Anthropic pair CCAR-F+CCDV-F =
+  $250 before discounts; renewal free on-time
+- 6 mistakes: booking before eligible, equal time per domain, badge≠cert, watching without building,
+  using real attempt as practice, letting credential lapse
+- Honest value: early-mover signal, no mature salary data yet, cert demonstrates skill but doesn't
+  replace it
+
+## 06 — Sample Tests + Official Exam Guides
+
+- 4 official exam guide PDFs (all v1.0) + Exam Registration Guide, links to each exam's Partner
+  Academy page
+- Free independent sample tests (flashgenius.net) for all 4 exams, not Anthropic-affiliated
+
+## 07 — Practice Log
+
+- User's own goal (set 2026-08-24): pass PCAR-F by **2026-10-05**
+- Week-by-week checklist mapped to the study plan, all not-started as of creation
+- Flags root README.md staleness discovered during this chapter's build
+
+## Is Chapter Ka Farq Baaqi Repo Se
+
+Baaqi chapters **skills** sikhate hain; yeh page **proof** ke baare mein hai — kaise ek independent,
+proctored credential se apni skill ko carry-in karo, bina kisi ko apna code dikhaye ya apni baat
+manwaye.

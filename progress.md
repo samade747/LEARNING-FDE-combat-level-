@@ -42,6 +42,36 @@
   (5) practice projects ko `docs/[slug]/projects/[slug]/` mein real runnable scaffold do, scripts
   test-before-commit; (6) har chapter "Test Your Understanding"/quiz section ke bina "complete" nahi.
 
+- 2026-08-24: User ne naya personal goal diya: **2026-10-05 tak PCAR-F (free Panaversity internal exam,
+  CCAR-F blueprint-aligned) pass karo** — Anthropic ke official Claude Certified Architect: Foundations
+  (CCAR-F) certification ki taraf pehla step, GIAIC/PIAIC/Panaversity ke sab faculty/students ke liye
+  ek community-wide challenge ka hissa. Zia Tutor AI se `outline_agent_factory` confirm kiya ke book
+  mein yeh top-level doc hai (`slug: certifications`, "Certifications: Proof You Can Carry In",
+  position #13, Front Matter ke `—` row wala jo root README mein already tha). `read_agent_factory_lesson`
+  se poora page ek window mein fetch hua (koi pagination nahi chahiye thi), naya `docs/certifications/`
+  folder banaya — README index + 8 numbered files (00-overview, 01-stage-one-panaversity,
+  02-stage-two-anthropic, 03-exam-domains yeh sab se zaroori hai kyunke domain-weight tables hain
+  CCAR-F/CCDV-F/CCAO-F/CCAR-P ke, 04-gaps-and-study-plan yani free 6-week plan, 05-registration-costs-
+  mistakes, 06-sample-tests, 07-practice-log jo user ke apne 2026-10-05 deadline ke sath week-by-week
+  checklist hai). **Zaroori discovery:** `docs/certifications/` folder **pehle se maujood tha** (README.md + 2 numbered
+files + SUMMARY.md, ek purani commit se) — lekin purana content bilkul alag scheme describe karta tha:
+ek single "Certified Agentic AI Architect" 5-course program (AI-101→AI-491, 15 exams) + optional CCA-F.
+Fresh fetch ne confirm kiya ke **book ne is poore page ko rewrite kar diya hai** — ab Panaversity
+qualification stage (PCAR-F/PCDV-F) + 4 alag Anthropic exams (CCAR-F/CCDV-F/CCAO-F/CCAR-P) wala
+structure hai, purani "AI-101" course numbering gayab hai. Purani 2 files
+(`00-two-tracks-one-ecosystem.md`, `01-professional-track-curriculum.md`) delete kar di kyunke unka
+content ab live page se match nahi karta, aur `SUMMARY.md` naye content ke sath dobara likha. **Lesson:**
+book content static nahi hai — dobara fetch karte waqt hamesha check karo ke purana content abhi bhi
+valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
+
+**Discovery isi kaam se hui:** `03-exam-domains.md` ke domain→book-coverage mapping
+  banate waqt pata chala ke root `README.md` ka status table **stale hai** — `docs/roles-this-book-trains/`,
+  `docs/ai-prompting-2026/`, `docs/what-you-carry-in/`, `docs/what-ai-actually-is-crash-course/`,
+  `docs/markdown-html-crash-course/` jaisi folders poori documented hain (README + numbered files +
+  SUMMARY.md maujood) lekin table abhi bhi 🔲 dikhata tha. Root `README.md` mein Courses & Certifications
+  row ko ✅ kiya, Front Matter progress bar 0/12→1/12, total 35/65→36/65, aur is staleness ko explicit
+  warning callout ki tarah note kiya (poora audit is task ka scope nahi tha, alag se karna hoga).
+
 ## In progress
 
 - (kuch nahi abhi — README.md aur dono root Loop Engineering files complete hain)
@@ -61,6 +91,11 @@
 - 2026-08-17: `docs/loop-engineering/09-commands-cheat-sheet.md` add ki — sab is chapter ke commands (Claude Code `/loop`, `/goal`, `/schedule`, worktree/subagent syntax; OpenCode shell equivalents; Routine API `curl`; decision table; minimum-safe-loop checklist) ek single-page quick-reference mein. `README.md` index aur `08-routine-drills-and-dreaming.md` ka footer link update kiye.
 
 ## Open / needs a human
+
+- **Root `README.md` status table stale hai** (upar ka discovery) — Front Matter/Foundations groups ke
+  kai rows abhi 🔲 dikhate hain jab ke docs/ mein content already maujood hai. Poora audit karke table
+  ko actual disk state se sync karna hai — separate task.
+
 
 - **Loop Engineering ke 12/12 projects ab sab mapped hain:** 5 official kits (1,2,3,6,bonus) live tested, 2 DIY scaffolds (4,8) khud banaye aur test kiye, 2 instructions-only (5,7 — existing projects par build), 4 (9-12) sirf user apne `claude.ai` account se kar sakta hai
 - User se confirm: root ki naye/updated files (`README.md`, `Loop-Engineering-Summary.md`, `Loop-Engineering-Final-Prep.md`, `progress.md`, `todolist.md`) ab commit + push karni hain?

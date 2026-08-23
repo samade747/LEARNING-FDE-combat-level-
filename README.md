@@ -62,7 +62,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 8 | What You Carry In: The Ownership Argument | 🔲 |
 | 9 | Getting Paid as a Vertical FDE | 🔲 |
 | 10 | Selling as a Vertical FDE | 🔲 |
-| — | Courses & Certifications | 🔲 |
+| — | Courses & Certifications | ✅ [`docs/certifications`](docs/certifications/README.md) |
 | — | Glossary | 🔲 |
 
 ### The Ecosystem (Platform + Business Model)
@@ -172,7 +172,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 ## 📊 Overall Progress
 
 ```
-Front Matter (12 docs)              ░░░░░░░░░░░░  0/12
+Front Matter (12 docs)              █░░░░░░░░░░░  1/12
 The Ecosystem (9 docs)              ░░░░░░░░░░░░  0/9
 Foundations — Everyone (6)          ░░░░░░░░░░░░  0/6
 General Agents (12)                 ████████████  12/12 ✅
@@ -181,14 +181,22 @@ Mode 1 — Problem-Solving (3)        ████████████  3/3 
 Mode 2 — Manufacturing (18)         ████████████  18/18 ✅
 References & Companions (3)         ░░░░░░░░░░░░  0/3
 
-TOTAL COVERED: 35 / 65 chapters
+TOTAL COVERED: 36 / 65 chapters
 ```
 
 **Poora Mode 1 + Mode 2 + General Agents + Personal Agent Harnesses group (35 chapters) is repo mein
 note ho chuka hai** — yehi book ka core skill-building spine hai (problem se worker tak, worker se
-poori manufactured workforce tak). Front Matter, The Ecosystem, Foundations, aur References &
-Companions groups (30 chapters) abhi baqi hain — yeh zyada tar "why/business-model/reference"
-material hai, core hands-on curriculum nahi.
+poori manufactured workforce tak). Plus **Courses & Certifications** (Front Matter ka `— |` row) —
+PCAR-F/CCAR-F certification pathway, 2026-08-24 ko naye "pass PCAR-F by 2026-10-05" goal ki wajah se
+priority mein note kiya gaya. Front Matter ke baaqi 11, The Ecosystem, Foundations, aur References &
+Companions groups (29 chapters) abhi baqi hain — yeh zyada tar "why/business-model/reference" material
+hai, core hands-on curriculum nahi.
+
+> ⚠️ **Known staleness:** Is table ke Front Matter/Foundations rows abhi bhi kuch jagah 🔲 dikhate hain
+> jab ke `docs/roles-this-book-trains/`, `docs/ai-prompting-2026/`, `docs/what-you-carry-in/`,
+> `docs/what-ai-actually-is-crash-course/`, `docs/markdown-html-crash-course/` jaisi folders **already
+> poori documented hain**. Yeh `docs/certifications/03-exam-domains.md` banate waqt discover hua —
+> poora audit abhi baaqi hai (dekho `progress.md`).
 
 ---
 

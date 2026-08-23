@@ -1,31 +1,42 @@
-# Courses & Certifications
+# Certifications — Notes (Roman Urdu + English)
 
-*Source: The AI Agent Factory — "Courses & Certifications" (Panaversity)*
-*URL: https://agentfactory.panaversity.org/docs/certifications*
-*Group: Front Matter (Chapter 11 of 12)*
+Ye notes **"Certifications: Proof You Can Carry In"** page ka easy explainer hain, Panaversity ke
+**The AI Agent Factory** book se (Zia Tutor AI connector ke zariye, `slug: certifications`, top-level
+Front Matter doc, position #13).
 
----
+Source: https://agentfactory.panaversity.org/docs/certifications
 
-## Yeh Chapter Kis Baare Mein Hai
+Verified on 22 August 2026 (book ki apni "Version note") against Anthropic's certification
+announcement, chaar official exam guides, aur Pearson VUE programme page. **Domain weights aur fees
+"subject to change without notice" hain** — is folder ka data 2026-08-23 ko fetch hua tha.
 
-Yeh page Panaversity ke **poore certification ecosystem** ka naqsha hai — do parallel tracks, jo alag backgrounds wale logon ke liye bane hain:
+## Index
 
-- **Professional Track (AI-101 → AI-491)** — un logon ke liye jo **banate hain**: developers, engineers. Primary tools: Claude Code, OpenCode, OpenClaw, OpenAI Agents SDK, Paperclip. Yeh track *Certified Agentic AI Architect* credential tak le jata hai, aur Anthropic ke apne **CCA-F (Claude Certified Architect — Foundations)** exam ke liye bhi prepare karta hai.
-- **Business & Domain Expert Track (BAI-100 → BAI-300)** — un logon ke liye jo **sochte hain aur domain jaante hain**: business strategists, domain experts. Primary tool: Claude Cowork. Yeh track *Certified Agentic AI Business Strategist* credential tak le jata hai.
+1. [00 — Overview: Do Stages, Ek Pathway](00-overview.md)
+2. [01 — Stage One: Panaversity Qualification (PCAR-F, PCDV-F)](01-stage-one-panaversity.md)
+3. [02 — Stage Two: Anthropic Certification (CCAR-F, CCDV-F, CCAO-F, CCAR-P)](02-stage-two-anthropic.md)
+4. [03 — Exam Domains: Blueprint Weights + Yeh Book Kahan Cover Karti Hai](03-exam-domains.md)
+5. [04 — Gaps + Six-Week Study Plan](04-gaps-and-study-plan.md)
+6. [05 — Registration, Retakes, Costs, 6 Mistakes](05-registration-costs-mistakes.md)
+7. [06 — Sample Tests + Official Exam Guides](06-sample-tests.md)
+8. [07 — Practice Log (meri apni PCAR-F push, deadline 2026-10-05)](07-practice-log.md)
 
-Is repo ka apna focus (harness engineering, loop engineering, agentic coding waghera) zyada tar **Professional Track** ke curriculum se match karta hai — is liye yeh page useful hai yeh samajhne ke liye ke jo hum yahan seekh rahe hain, woh Panaversity ke apne formal ladder mein kahan fit hota hai.
+## Ek Line Mein Poori Cheez
 
-Poora Professional Track **5 courses, 5 certification levels, 15 exams** par khara hai — Use → Code → Build → Compose → Ship, ek progression jo bilkul is repo ke apne groups (General Agents → Mode 1 → Mode 2) se milti hai.
+> **Poora path:** PCAR-F → PCDV-F → FDE Internship Program & partner access → CCAR-F → CCDV-F.
+> **Stage One** (PCAR-F/PCDV-F) Panaversity ka apna readiness-gate hai — free, khud proctor karte
+> hain, 720/1000 pass hai. **Stage Two** (CCAR-F/CCDV-F) Anthropic ke official, Pearson-VUE-proctored
+> exams hain, jinke liye partner-organisation email chahiye — jo Stage One pass karne se milta hai.
 
-## Parts
+## Is Repo Ka Apna Goal (2026-08-24)
 
-1. [Do Tracks, Ek Ecosystem — Professional vs Business Track](00-two-tracks-one-ecosystem.md)
-2. [Professional Track Ki Poori Curriculum — AI-101 se AI-491 Tak](01-professional-track-curriculum.md)
+User ne yeh personal challenge diya hai: **2026-10-05 tak PCAR-F (free internal exam) pass karo** —
+CCAR-F ki taraf pehla concrete step. Yeh folder isi push ka spine hai — deekho
+[`07-practice-log.md`](07-practice-log.md) live tracking ke liye.
 
----
+## Certification vs Baaqi Repo Se Farq
 
-## Sabse Zaroori Baat
-
-> Panaversity ka certification structure yeh dikhata hai ke **"builder" aur "domain expert" dono ke liye alag lekin barabar-value wale raaste hain** — koi bhi ek dusre se kam nahi. FDE banne ke liye dono halves zaroori hain: Professional Track se technical spine, aur Business Track se yeh samajh ke ek asli industry mein value kaise create hoti hai.
-
-*Yeh summary poore page (Choose Your Path, Learning Path, Certification Ladder, Curriculum Details) ka overview hai.*
+Baaqi is repo ke chapters (`docs/loop-engineering`, `docs/harness-engineering`, waghera) **skills**
+sikhate hain — kaise banayen. Yeh page **proof** ke baare mein hai — ek stranger ko kaise pata chale
+ke aap wo skill rakhte ho, bina unke aapka code parhe ya aapki baat pe yaqeen kiye. Dono zaroori hain:
+skill pehle, phir uska proctored evidence.
