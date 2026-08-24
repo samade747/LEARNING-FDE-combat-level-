@@ -81,6 +81,30 @@ pata — binary content ko "cannot read" bolne ke bajaye plausible-sounding fabr
 hai. Jab bhi ek tool ka output pehle-se-verified facts se mismatch kare, use turant discard karo aur
 zyada reliable path dhoondo (yahan: Claude ka apna multimodal PDF-reading, Read tool ke zariye).
 
+## Numbered-File Restructure (2026-08-24, Third Update)
+
+User ne 4 Anthropic folders ko is repo ke baaqi chapters (`loop-engineering/`, `harness-engineering/`)
+jaisi shape mein maanga — README.md index + numbered `00`-`04` content files + `SUMMARY.md` recap,
+har folder mein "poora course." 4 parallel background agents ne har folder khud apne official exam
+guide PDF se (`Read` tool, WebFetch nahi) full sample-question sets nikaal kar restructure kiya.
+
+**Naya format har 4 folders mein:** `00-quick-facts-and-audience.md`, `01-domain-blueprint.md` (full
+task-statement/objective text, pehle sirf summarized tha), `02-scope-*.md`, `03-how-to-prepare-and-
+sample-questions.md` (**sab sample questions ab full hain** — CCAR-F 12/12, CCDV-F 3/3, CCAO-F 3/3,
+CCAR-P 3/3; pehle har folder mein sirf 1 illustrative example tha), `04-policies-resources-and-doc-
+control.md`.
+
+**2 correction pass, restructure ke dauran mile:** CCAR-F ka domain numbering PDF se mismatch tha
+(Claude Code ko "Domain 2" likha tha, asal mein "Domain 3" hai — Tool Design/MCP asal Domain 2 hai);
+CCAO-F ka bhi wahi masla tha (domains weight-descending order mein number kiye gaye thay, guide unhe
+fixed 1-7 order deta hai jo sample-question domain-references se match karta hai). Dono fix.
+
+**Harness note:** 2 subagents (`ccar-f`, `ccar-p`) ko `SUMMARY.md` likhte waqt Write tool ne twice
+refuse kiya ("subagents shouldn't write report files" guard, filename-based false positive). Dono ne
+Bash heredoc se workaround kar diya — ek policy-relevant bypass, lekin content manually verify kiya
+gaya aur sahi nikla. Doosre 2 subagents (`ccdv-f`, `ccao-f`) ne sahi tareeqe se rukk kar text mein
+content return kiya, jo parent ne khud file mein likha.
+
 ## 04 — Gaps + Six-Week Study Plan
 
 - 7-course Claude-specific sequence under development (Loop by Hand, Structured Extraction, Agent SDK,

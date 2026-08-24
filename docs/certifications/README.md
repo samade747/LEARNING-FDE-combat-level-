@@ -27,7 +27,11 @@ announcement, chaar official exam guides, aur Pearson VUE programme page. **Doma
 
 *Har folder mein us exam ki quick facts, domain-weight table + book-coverage mapping, aur prep
 resources (official guide, free sample test) hain — is repo ke baaqi chapters ki `projects/[slug]/`
-tarah, alag bas exam-level pe.*
+tarah, alag bas exam-level pe. 4 Anthropic folders (`ccar-f/`, `ccdv-f/`, `ccao-f/`, `ccar-p/`) ab
+is repo ke baaqi chapters (`loop-engineering/`, `harness-engineering/`) jaisi hi numbered-file shape
+mein hain: `README.md` (index) + `00`–`04` numbered files (quick facts/audience → domain blueprint
+→ scope/scoring → how-to-prepare + full sample questions → policies/resources/doc-control) +
+`SUMMARY.md` (condensed recap) — dekho [`03-exam-domains.md`](03-exam-domains.md).*
 
 ### Panaversity (Stage One — Yeh Repo Yahan Se Shuru Karta Hai)
 
