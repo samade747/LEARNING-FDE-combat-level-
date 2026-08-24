@@ -97,9 +97,23 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
   kiya. **Lesson (naya, memory mein bhi save hoga):** kisi tool ka output jab already-verified facts se
   mismatch kare, turant discard karo aur reliable path dhoondo — chup-chap accept mat karo.
 
+- 2026-08-25: User ne 2 PDFs root mein add kiye: `Graph-Engineering-Complete-Guide (1).pdf` aur
+  `KSoR-Complete-Guide (1).pdf`, dono ko "check karo aur update accordingly" bola. Dono `Read` tool se
+  poore parhe (12 pages har ek). **Graph Engineering PDF** nikla condensed class-notes recap of
+  `docs/graph-engineering/` (already ✅ complete, sab 16 concepts match karte hain) — asal gap yeh tha
+  ke Loop Engineering ki tarah iska koi root-level `*-Summary.md` nahi tha. `Graph-Engineering-Summary.md`
+  (root) banaya PDF se (glossary, 7 parts, 8 projects, exam cheat-sheet). **KSoR PDF** nikla genuinely
+  naya content — Ecosystem chapter 7 "Designing the Vertical System of Record from First Principles"
+  (`docs/ecosystem-designing-the-vertical-sor/`) pehle bilkul khaali tha (2026-08-19 audit mein bhi note
+  hua tha). `panaversity/ksor` open-source SDK ke GitHub README se poora chapter banaya: README + 5
+  numbered files (00-04: kyun+definition, 7 principles+kya banaya ja sakta hai, architecture+tooling,
+  governance+AI-native role, applications+design goals+status) + SUMMARY.md — cross-linked
+  `ecosystem-system-of-record` (chapter 5) aur `ecosystem-fde-af-model` se. Root `README.md` ke dono
+  status rows update kiye (chapter 7: 🔲→✅; Graph Engineering row mein root summary link add kiya).
+
 ## In progress
 
-- (kuch nahi abhi — README.md aur dono root Loop Engineering files complete hain)
+- (kuch nahi abhi)
 
 - 2026-08-18: User ne khud Loop Engineering ke practice projects hands-on karne shuru kiye
   (`docs/loop-engineering/10-practice-log.md` mein track). **Project 7 (Break It On Purpose):** sky-watch

@@ -16,6 +16,12 @@
 
 ## Done
 
+- [x] User-provided root PDFs (`Graph-Engineering-Complete-Guide (1).pdf`,
+  `KSoR-Complete-Guide (1).pdf`) check + process kiye. `Graph-Engineering-Summary.md` (root) naya banaya
+  — Loop Engineering pattern match karta hai, `docs/graph-engineering/` (already ✅) ka root companion.
+  Ecosystem chapter 7 "Designing the Vertical System of Record from First Principles"
+  (`docs/ecosystem-designing-the-vertical-sor/`, pehle khaali) `panaversity/ksor` SDK README se poora
+  banaya — README + 5 numbered files + SUMMARY.md. Root `README.md` status table dono jagah update.
 - [x] 4 Anthropic cert folders (`ccar-f/`, `ccdv-f/`, `ccao-f/`, `ccar-p/`) deep-research kiye — official
   exam-guide PDFs `Read` tool se seedha parhe (WebFetch hallucinate kar raha tha 2 exams ke liye).
   Har folder mein ab MQC profile, task-statement/sub-skill breakdown, exam scenarios, sample

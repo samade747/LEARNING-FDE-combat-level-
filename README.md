@@ -75,7 +75,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 4 | **The Forward Deployed Engineer Agent Factory Model** | 🔲 |
 | 5 | Agent Factory System of Record | 🔲 |
 | 6 | The System of Context: Connecting the Records to Real Work | 🔲 |
-| 7 | Designing the Vertical System of Record from First Principles | 🔲 |
+| 7 | Designing the Vertical System of Record from First Principles | ✅ [`docs/ecosystem-designing-the-vertical-sor`](docs/ecosystem-designing-the-vertical-sor/README.md) |
 | 8 | Zia Tutor AI | 🔲 |
 | 9 | Zia Developer AI | 🔲 |
 
@@ -105,7 +105,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 7 | The Four Layers: Prompt, Context, Harness, Loop | ✅ | [`docs/four-layers`](docs/four-layers/README.md) |
 | 8 | Loop Engineering | ✅ | [`docs/loop-engineering`](docs/loop-engineering/README.md) + root [`Loop-Engineering-Summary.md`](Loop-Engineering-Summary.md) + [`Loop-Engineering-Final-Prep.md`](Loop-Engineering-Final-Prep.md) |
 | 9 | Harness Engineering | ✅ | [`docs/harness-engineering`](docs/harness-engineering/README.md) |
-| 10 | Graph Engineering | ✅ | [`docs/graph-engineering`](docs/graph-engineering/README.md) |
+| 10 | Graph Engineering | ✅ | [`docs/graph-engineering`](docs/graph-engineering/README.md) + root [`Graph-Engineering-Summary.md`](Graph-Engineering-Summary.md) |
 | 11 | Trusting the Checker (Evals) | ✅ | [`docs/trusting-the-checker`](docs/trusting-the-checker/README.md) |
 | 12 | Leaving the Laptop (Runtime) | ✅ | [`docs/leaving-the-laptop`](docs/leaving-the-laptop/README.md) |
 
@@ -209,6 +209,7 @@ docs/[chapter-slug]/
 
 Loop-Engineering-Summary.md      ← Loop Engineering ka aasan overview (root)
 Loop-Engineering-Final-Prep.md   ← Loop Engineering ka poora prep guide, real code example ke sath
+Graph-Engineering-Summary.md     ← Graph Engineering ka aasan overview (root)
 progress.md                       ← is learning-journey ki apni spine (loop engineering se seekha pattern)
 todolist.md                       ← active/done/backlog task list
 ```
