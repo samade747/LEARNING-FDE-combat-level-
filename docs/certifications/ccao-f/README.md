@@ -4,8 +4,8 @@ Ye notes **Claude Certified Associate – Foundations Exam Guide v1.0** (officia
 exam code CCAO-F) ka full breakdown hain — non-technical business users ke liye Anthropic ka
 credential (jaisa PCDV-F/CCAR-F technical roles ke liye hai).
 
-Source: PDF `Read` tool se poora parha (2026-08-24, dobara section-by-section 2026-08-25) — dekho
-[`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research Pass" note.
+Source: PDF `Read` tool se poora parha 2026-08-24 (pehli baar overview, phir dobara section-by-section
+confirm, isi din) — dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research Pass" note.
 
 ## Index
 

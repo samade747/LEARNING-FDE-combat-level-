@@ -59,3 +59,6 @@ communication), $175, 63 questions, 120 min, scaled pass 720/1000, criterion-ref
   appeal-proof hain
 - Doc control: v1.0, July 2026, initial publication
 - Repo push: abhi priority nahi (PCAR-F/CCAR-F pehle), lekin poora detail yahan already ready hai
+
+---
+[⬅ Certifications Index](../README.md)

@@ -1,10 +1,10 @@
 # 00 — Quick Facts + Audience
 
 *Source: Official **Claude Certified Associate – Foundations Exam Guide v1.0** (effective July 2026,
-exam code CCAO-F), PDF read in full (2026-08-24 pehli baar, 2026-08-25 ko dobara `Read` tool se
-section-by-section confirm) — text extraction ke liye `Read` tool use hua, WebFetch nahi (dekho
-[`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research Pass" note — WebFetch ka PDF summarizer pehle
-hallucinate kar chuka hai).*
+exam code CCAO-F), PDF read in full 2026-08-24 (pehli baar overview ke liye, phir dobara
+section-by-section confirm ke liye, isi din) — text extraction ke liye `Read` tool use hua, WebFetch
+nahi (dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research Pass" note — WebFetch ka PDF summarizer
+pehle hallucinate kar chuka hai).*
 
 ## Quick Facts (Guide Section 5 — "Exam Details at a Glance")
 
