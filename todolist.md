@@ -2,13 +2,14 @@
 
 ## Active
 
+- [ ] **9 real content gaps found (2026-08-25 Zia Tutor audit)** — user se priority order confirm
+  karni hai: Selling as a Vertical FDE, Glossary, The System of Context, Code You Never Write,
+  Skills & Connectors, How to Think in the AI Era, aur 3 References & Companions chapters (Which AI
+  Employees To Use in 2026?, Cheatsheets, Agentic Engineering Fundamentals). Plus 2 partial completions:
+  Thesis (Seven Invariants section + quiz) aur Getting Paid as a Vertical FDE (11/25 sections).
 - [ ] **PCAR-F push (deadline 2026-10-05):** `docs/certifications/07-practice-log.md` ke 6-week plan
   follow karo — Weeks 1-2 domain-weighted study, 3-4 ek chhoti app banao, 5 practice test, 6 PCAR-F
   sit karo.
-- [ ] Root `README.md` status table stale hai — kai Front Matter/Foundations chapters already
-  documented hain (`roles-this-book-trains`, `ai-prompting-2026`, `what-you-carry-in`,
-  `what-ai-actually-is-crash-course`, `markdown-html-crash-course`) lekin table 🔲 dikhata hai. Full
-  audit + sync chahiye.
 - [ ] Doorbell (Loop Eng Project 6): repo `samade747/my-doorbell` bana, workflow verify hui, secret
   set hai — lekin PR #1 run **fail** hui (`CLAUDE_CODE_OAUTH_TOKEN` khaali/invalid nikla). Fresh
   `claude setup-token` + `gh secret set` dobara chahiye, phir re-run confirm karna hai.
@@ -16,6 +17,9 @@
 
 ## Done
 
+- [x] Full Zia Tutor audit (`outline_agent_factory` + disk cross-check) — root `README.md` status
+  table stale-ness resolved (was 36/65, actually 54/65 fully done + 2 partial). 9 real gaps + 2
+  partials identified and tabled (see Active).
 - [x] User-provided root PDFs (`Graph-Engineering-Complete-Guide (1).pdf`,
   `KSoR-Complete-Guide (1).pdf`) check + process kiye. `Graph-Engineering-Summary.md` (root) naya banaya
   — Loop Engineering pattern match karta hai, `docs/graph-engineering/` (already ✅) ka root companion.

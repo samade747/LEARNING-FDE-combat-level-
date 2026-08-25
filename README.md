@@ -52,32 +52,32 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 1 | About: What is this thing I'm holding? | 🔲 |
-| 2 | How to Learn from This Book | 🔲 |
-| 3 | The Roles This Book Trains *(FDE ki definition yahan hai)* | 🔲 |
-| 4 | Preface: Why now, what's at stake | 🔲 |
-| 5 | AI Is Non-Negotiable: Answering the Objections | 🔲 |
-| 6 | Thesis: The Architectural Argument | 🔲 |
-| 7 | The Operating Layer: The Interface Argument | 🔲 |
-| 8 | What You Carry In: The Ownership Argument | 🔲 |
-| 9 | Getting Paid as a Vertical FDE | 🔲 |
-| 10 | Selling as a Vertical FDE | 🔲 |
+| 1 | About: What is this thing I'm holding? | ✅ [`docs/about`](docs/about/README.md) |
+| 2 | How to Learn from This Book | ✅ [`docs/how-to-learn-from-this-book`](docs/how-to-learn-from-this-book/README.md) |
+| 3 | The Roles This Book Trains *(FDE ki definition yahan hai)* | ✅ [`docs/roles-this-book-trains`](docs/roles-this-book-trains/README.md) |
+| 4 | Preface: Why now, what's at stake | ✅ [`docs/preface-agent-native`](docs/preface-agent-native/README.md) |
+| 5 | AI Is Non-Negotiable: Answering the Objections | ✅ [`docs/why-ai-is-non-negotiable`](docs/why-ai-is-non-negotiable/README.md) |
+| 6 | Thesis: The Architectural Argument | 🟡 [`docs/thesis`](docs/thesis/README.md) — sirf pehla hissa (vocab, teaching aid, Two Modes) covered; **"The Seven Invariants of the Agent Factory"** section + quiz abhi baaqi hain |
+| 7 | The Operating Layer: The Interface Argument | ✅ [`docs/the-agent-is-the-operating-layer`](docs/the-agent-is-the-operating-layer/README.md) |
+| 8 | What You Carry In: The Ownership Argument | ✅ [`docs/what-you-carry-in`](docs/what-you-carry-in/README.md) |
+| 9 | Getting Paid as a Vertical FDE | 🟡 [`docs/how-to-get-paid`](docs/how-to-get-paid/README.md) — sirf pehla aadha (two problems, market answer, 9 stations, 3 doors/pricing) covered; **11 sections baaqi** (earning-while-you-walk se sources tak, quiz sameet) |
+| 10 | Selling as a Vertical FDE | 🔲 not started |
 | — | Courses & Certifications | ✅ [`docs/certifications`](docs/certifications/README.md) |
-| — | Glossary | 🔲 |
+| — | Glossary | 🔲 not started — bara reference chapter (~36K tokens, 15 term-category sections) |
 
 ### The Ecosystem (Platform + Business Model)
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 1 | The Agent Factory Ecosystem (overview) | 🔲 |
-| 2 | Choosing Your Vertical | 🔲 |
-| 3 | The Ecosystem Concept | 🔲 |
-| 4 | **The Forward Deployed Engineer Agent Factory Model** | 🔲 |
-| 5 | Agent Factory System of Record | 🔲 |
-| 6 | The System of Context: Connecting the Records to Real Work | 🔲 |
+| 1 | The Agent Factory Ecosystem (overview) | ✅ [`docs/ecosystem-overview`](docs/ecosystem-overview/README.md) |
+| 2 | Choosing Your Vertical | ✅ [`docs/ecosystem-choosing-your-vertical`](docs/ecosystem-choosing-your-vertical/README.md) |
+| 3 | The Ecosystem Concept | ✅ [`docs/ecosystem-ecosystem-concept`](docs/ecosystem-ecosystem-concept/README.md) |
+| 4 | **The Forward Deployed Engineer Agent Factory Model** | ✅ [`docs/ecosystem-fde-af-model`](docs/ecosystem-fde-af-model/README.md) |
+| 5 | Agent Factory System of Record | ✅ [`docs/ecosystem-system-of-record`](docs/ecosystem-system-of-record/README.md) |
+| 6 | The System of Context: Connecting the Records to Real Work | 🔲 not started |
 | 7 | Designing the Vertical System of Record from First Principles | ✅ [`docs/ecosystem-designing-the-vertical-sor`](docs/ecosystem-designing-the-vertical-sor/README.md) |
-| 8 | Zia Tutor AI | 🔲 |
-| 9 | Zia Developer AI | 🔲 |
+| 8 | Zia Tutor AI | ✅ [`docs/ecosystem-zia-tutor-ai`](docs/ecosystem-zia-tutor-ai/README.md) |
+| 9 | Zia Developer AI | ✅ [`docs/ecosystem-zia-developer-ai`](docs/ecosystem-zia-developer-ai/README.md) |
 
 ### Getting Started: Crash Courses
 
@@ -85,12 +85,12 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 1 | What AI Actually Is: A Crash Course | 🔲 |
-| 2 | AI Prompting in 2026: A Crash Course | 🔲 |
-| 3 | Markdown In, HTML Out: A Crash Course | 🔲 |
-| 4 | Code You Never Write: A Crash Course | 🔲 |
-| 5 | Skills & Connectors: Teach AI Once, Connect It to Your Apps | 🔲 |
-| 6 | How to Think in the AI Era: Crash Course | 🔲 |
+| 1 | What AI Actually Is: A Crash Course | ✅ [`docs/what-ai-actually-is-crash-course`](docs/what-ai-actually-is-crash-course/README.md) |
+| 2 | AI Prompting in 2026: A Crash Course | ✅ [`docs/ai-prompting-2026`](docs/ai-prompting-2026/README.md) |
+| 3 | Markdown In, HTML Out: A Crash Course | ✅ [`docs/markdown-html-crash-course`](docs/markdown-html-crash-course/README.md) |
+| 4 | Code You Never Write: A Crash Course | 🔲 not started |
+| 5 | Skills & Connectors: Teach AI Once, Connect It to Your Apps | 🔲 not started |
+| 6 | How to Think in the AI Era: Crash Course | 🔲 not started |
 
 #### Group 2 — General Agents (12/12 ✅ Complete)
 
@@ -171,32 +171,40 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 
 ## 📊 Overall Progress
 
+*Audited 2026-08-25 against `outline_agent_factory` (live book structure) + actual disk state — dekho
+[`progress.md`](progress.md) is audit ki poori detail ke liye.*
+
 ```
-Front Matter (12 docs)              █░░░░░░░░░░░  1/12
-The Ecosystem (9 docs)              ░░░░░░░░░░░░  0/9
-Foundations — Everyone (6)          ░░░░░░░░░░░░  0/6
+Front Matter (12 docs)              ████████░░░░  8/12 ✅ + 2 🟡 partial + 2 🔲
+The Ecosystem (9 docs)              ███████████░  8/9  ✅ + 1 🔲
+Foundations — Everyone (6)          ██████░░░░░░  3/6  ✅ + 3 🔲
 General Agents (12)                 ████████████  12/12 ✅
 Personal Agent Harnesses (2)        ████████████  2/2   ✅
 Mode 1 — Problem-Solving (3)        ████████████  3/3   ✅
 Mode 2 — Manufacturing (18)         ████████████  18/18 ✅
-References & Companions (3)         ░░░░░░░░░░░░  0/3
+References & Companions (3)         ░░░░░░░░░░░░  0/3  🔲
 
-TOTAL COVERED: 36 / 65 chapters
+TOTAL: 54 fully ✅ + 2 🟡 partial + 9 🔲 missing = 65 chapters
 ```
 
-**Poora Mode 1 + Mode 2 + General Agents + Personal Agent Harnesses group (35 chapters) is repo mein
-note ho chuka hai** — yehi book ka core skill-building spine hai (problem se worker tak, worker se
-poori manufactured workforce tak). Plus **Courses & Certifications** (Front Matter ka `— |` row) —
-PCAR-F/CCAR-F certification pathway, 2026-08-24 ko naye "pass PCAR-F by 2026-10-05" goal ki wajah se
-priority mein note kiya gaya. Front Matter ke baaqi 11, The Ecosystem, Foundations, aur References &
-Companions groups (29 chapters) abhi baqi hain — yeh zyada tar "why/business-model/reference" material
-hai, core hands-on curriculum nahi.
+**Real gaps (9 chapters not started, 2 more partially done):**
 
-> ⚠️ **Known staleness:** Is table ke Front Matter/Foundations rows abhi bhi kuch jagah 🔲 dikhate hain
-> jab ke `docs/roles-this-book-trains/`, `docs/ai-prompting-2026/`, `docs/what-you-carry-in/`,
-> `docs/what-ai-actually-is-crash-course/`, `docs/markdown-html-crash-course/` jaisi folders **already
-> poori documented hain**. Yeh `docs/certifications/03-exam-domains.md` banate waqt discover hua —
-> poora audit abhi baaqi hai (dekho `progress.md`).
+| Group | Chapter | Gap |
+| --- | --- | --- |
+| Front Matter | Thesis | 🟡 missing "The Seven Invariants of the Agent Factory" section + quiz |
+| Front Matter | Getting Paid as a Vertical FDE | 🟡 missing 11 of 25 sections (second half — earning-while-you-walk through sources + quiz) |
+| Front Matter | Selling as a Vertical FDE | 🔲 not started |
+| Front Matter | Glossary | 🔲 not started (~36K-token reference, 15 term categories) |
+| The Ecosystem | The System of Context | 🔲 not started |
+| Foundations | Code You Never Write | 🔲 not started |
+| Foundations | Skills & Connectors | 🔲 not started |
+| Foundations | How to Think in the AI Era | 🔲 not started |
+| References & Companions | Which AI Employees To Use in 2026?, Cheatsheets, Agentic Engineering Fundamentals | 🔲 all 3 not started |
+
+**Poora Mode 1 + Mode 2 + General Agents + Personal Agent Harnesses group (35 chapters), plus 8/12 Front
+Matter aur 8/9 Ecosystem chapters, ab is repo mein note ho chuke hain** — bas status table pehle stale
+thi. Real remaining work bahut chota hai: 9 chapters (kai chhote reference/business-model pages) aur 2
+partial completions.
 
 ---
 

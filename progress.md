@@ -111,6 +111,23 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
   `ecosystem-system-of-record` (chapter 5) aur `ecosystem-fde-af-model` se. Root `README.md` ke dono
   status rows update kiye (chapter 7: 🔲→✅; Graph Engineering row mein root summary link add kiya).
 
+- 2026-08-25: User ne "Zia Tutor se aur fetch karo, is repo ke gaps dhoondo" mangi. `outline_agent_factory`
+  se poori book ki current authoritative structure confirm ki (root, then `the-ecosystem`,
+  `getting-started`, `foundations-everyone`, `references-companions` drill-down) aur har slug disk
+  (`docs/`) ke against cross-check kiya. **Nateeja: root `README.md` ka status table bohat stale tha** —
+  Front Matter ke 7/10 aur Ecosystem ke 7/9 chapters already fully documented thay lekin 🔲 dikha rahe
+  thay (staleness note khud README mein already flag ki hui thi, is baar poora resolve kiya). Table ab
+  audited: **54 fully ✅, 2 🟡 partial (thesis — Seven Invariants section + quiz missing; how-to-get-paid
+  — 11/25 sections missing, dusra aadha hissa), 9 🔲 genuinely not started** (how-to-sell, glossary,
+  ecosystem-system-of-context, 3 Foundations chapters — code-you-never-write, skills-connectors,
+  how-to-think-ai-era —, aur 3 References & Companions chapters — which-agents-2026, cheatsheets,
+  agentic-engineering-crash-course). `glossary` aur `how-to-get-paid` ke section-lists `read_agent_factory_lesson`
+  se pull kiye (75K+ char responses the, persisted files se `grep`/jq se sirf `sections`/`remaining_outline`
+  fields nikale — fetch discipline follow ki, poora text load nahi kiya context mein). Root `README.md`
+  ke 3 status tables (Front Matter, Ecosystem, Foundations) + Overall Progress block sab is audit se
+  update kiye, ek naya "Real gaps" table add ki. Content abhi nahi likha — sirf audit + report, user se
+  priority order confirm karna baaqi hai.
+
 ## In progress
 
 - (kuch nahi abhi)
