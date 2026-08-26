@@ -57,7 +57,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 3 | The Roles This Book Trains *(FDE ki definition yahan hai)* | ✅ [`docs/roles-this-book-trains`](docs/roles-this-book-trains/README.md) |
 | 4 | Preface: Why now, what's at stake | ✅ [`docs/preface-agent-native`](docs/preface-agent-native/README.md) |
 | 5 | AI Is Non-Negotiable: Answering the Objections | ✅ [`docs/why-ai-is-non-negotiable`](docs/why-ai-is-non-negotiable/README.md) |
-| 6 | Thesis: The Architectural Argument | 🟡 [`docs/thesis`](docs/thesis/README.md) — sirf pehla hissa (vocab, teaching aid, Two Modes) covered; **"The Seven Invariants of the Agent Factory"** section + quiz abhi baaqi hain |
+| 6 | Thesis: The Architectural Argument | ✅ [`docs/thesis`](docs/thesis/README.md) |
 | 7 | The Operating Layer: The Interface Argument | ✅ [`docs/the-agent-is-the-operating-layer`](docs/the-agent-is-the-operating-layer/README.md) |
 | 8 | What You Carry In: The Ownership Argument | ✅ [`docs/what-you-carry-in`](docs/what-you-carry-in/README.md) |
 | 9 | Getting Paid as a Vertical FDE | 🟡 [`docs/how-to-get-paid`](docs/how-to-get-paid/README.md) — sirf pehla aadha (two problems, market answer, 9 stations, 3 doors/pricing) covered; **11 sections baaqi** (earning-while-you-walk se sources tak, quiz sameet) |
@@ -88,9 +88,11 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 1 | What AI Actually Is: A Crash Course | ✅ [`docs/what-ai-actually-is-crash-course`](docs/what-ai-actually-is-crash-course/README.md) |
 | 2 | AI Prompting in 2026: A Crash Course | ✅ [`docs/ai-prompting-2026`](docs/ai-prompting-2026/README.md) |
 | 3 | Markdown In, HTML Out: A Crash Course | ✅ [`docs/markdown-html-crash-course`](docs/markdown-html-crash-course/README.md) |
-| 4 | Code You Never Write: A Crash Course | 🔲 not started |
-| 5 | Skills & Connectors: Teach AI Once, Connect It to Your Apps | 🔲 not started |
-| 6 | How to Think in the AI Era: Crash Course | 🔲 not started |
+| 4 | Claude and ChatGPT 101: A Crash Course | 🔲 not started |
+| 5 | AI Fluency: A Crash Course | 🔲 not started |
+| 6 | Code You Never Write: A Crash Course | 🔲 not started |
+| 7 | Skills & Connectors: Teach AI Once, Connect It to Your Apps | 🔲 not started |
+| 8 | How to Think in the AI Era: Crash Course | 🔲 not started |
 
 #### Group 2 — General Agents (12/12 ✅ Complete)
 
@@ -171,40 +173,42 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 
 ## 📊 Overall Progress
 
-*Audited 2026-08-25 against `outline_agent_factory` (live book structure) + actual disk state — dekho
-[`progress.md`](progress.md) is audit ki poori detail ke liye.*
+*Audited 2026-08-25 against `outline_agent_factory` (live book structure) + actual disk state, corrected
+2026-08-26 (Foundations-Everyone actually has 8 lessons not 6 — 2 more found: AI Fluency, Claude and
+ChatGPT 101) — dekho [`progress.md`](progress.md) is audit ki poori detail ke liye.*
 
 ```
-Front Matter (12 docs)              ████████░░░░  8/12 ✅ + 2 🟡 partial + 2 🔲
+Front Matter (12 docs)              █████████░░░  9/12 ✅ + 1 🟡 partial + 2 🔲
 The Ecosystem (9 docs)              ███████████░  8/9  ✅ + 1 🔲
-Foundations — Everyone (6)          ██████░░░░░░  3/6  ✅ + 3 🔲
+Foundations — Everyone (8)          ████░░░░░░░░  3/8  ✅ + 5 🔲
 General Agents (12)                 ████████████  12/12 ✅
 Personal Agent Harnesses (2)        ████████████  2/2   ✅
 Mode 1 — Problem-Solving (3)        ████████████  3/3   ✅
 Mode 2 — Manufacturing (18)         ████████████  18/18 ✅
 References & Companions (3)         ░░░░░░░░░░░░  0/3  🔲
 
-TOTAL: 54 fully ✅ + 2 🟡 partial + 9 🔲 missing = 65 chapters
+TOTAL: 55 fully ✅ + 1 🟡 partial + 11 🔲 missing = 67 chapters
 ```
 
-**Real gaps (9 chapters not started, 2 more partially done):**
+**Real gaps (11 chapters not started, 1 more partially done):**
 
 | Group | Chapter | Gap |
 | --- | --- | --- |
-| Front Matter | Thesis | 🟡 missing "The Seven Invariants of the Agent Factory" section + quiz |
 | Front Matter | Getting Paid as a Vertical FDE | 🟡 missing 11 of 25 sections (second half — earning-while-you-walk through sources + quiz) |
 | Front Matter | Selling as a Vertical FDE | 🔲 not started |
 | Front Matter | Glossary | 🔲 not started (~36K-token reference, 15 term categories) |
 | The Ecosystem | The System of Context | 🔲 not started |
+| Foundations | Claude and ChatGPT 101 | 🔲 not started |
+| Foundations | AI Fluency | 🔲 not started |
 | Foundations | Code You Never Write | 🔲 not started |
 | Foundations | Skills & Connectors | 🔲 not started |
 | Foundations | How to Think in the AI Era | 🔲 not started |
 | References & Companions | Which AI Employees To Use in 2026?, Cheatsheets, Agentic Engineering Fundamentals | 🔲 all 3 not started |
 
-**Poora Mode 1 + Mode 2 + General Agents + Personal Agent Harnesses group (35 chapters), plus 8/12 Front
+**Poora Mode 1 + Mode 2 + General Agents + Personal Agent Harnesses group (35 chapters), plus 9/12 Front
 Matter aur 8/9 Ecosystem chapters, ab is repo mein note ho chuke hain** — bas status table pehle stale
-thi. Real remaining work bahut chota hai: 9 chapters (kai chhote reference/business-model pages) aur 2
-partial completions.
+thi. Real remaining work bahut chota hai: 11 chapters (kai chhote reference/business-model pages) aur 1
+partial completion (Thesis 2026-08-26 ko poora hua — 48-Q quiz sameet).
 
 ---
 

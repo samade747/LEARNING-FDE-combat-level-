@@ -24,13 +24,14 @@ rehti hain.
 ## Parts
 
 1. [The Core Argument — Agents as Economic Actors](00-the-core-argument.md)
-2. [The Industrialized Stack and Production Engine](01-the-industrialized-stack.md)
-3. [The Human in the Loop and the 10-80-10 Rule](02-human-in-the-loop-and-10-80-10.md)
+2. [Paradigm Shift, Industrialized Stack, Production Engine](01-the-industrialized-stack.md)
+3. [Agents as Economic Actors, Human in the Loop, 10-80-10 Rule](02-human-in-the-loop-and-10-80-10.md)
 4. [Personal Agents and the Two-Layer Model](03-personal-agents-and-two-layer-model.md)
 5. [The Two Modes of General Agent Use](04-two-modes-of-general-agent-use.md)
 6. [The Seven Invariants — Part 1 (Principal to Engine)](05-seven-invariants-part1.md)
-7. [The Seven Invariants — Part 2 (System of Record to Nervous System)](06-seven-invariants-part2.md)
-8. [Engines Compared, and the Workforce Opportunity](07-engines-and-workforce-opportunity.md)
+7. [The Seven Invariants — Part 2 (System of Record to Nervous System) + Reference Stack](06-seven-invariants-part2.md)
+8. [Named Engines Compared, Reference Implementation, Workforce Opportunity](07-engines-and-workforce-opportunity.md)
+9. [Test Your Understanding (48 Q&A)](08-test-your-understanding.md)
 
 ---
 
