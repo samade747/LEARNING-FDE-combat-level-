@@ -1,0 +1,5 @@
+{
+  "decision": "PASS",
+  "reason": "The claim 'vendor_x supplied the component involved in incident_y' resolves as a 2-hop supported path.",
+  "grounded_in": ["claim_a", "claim_b"]
+}

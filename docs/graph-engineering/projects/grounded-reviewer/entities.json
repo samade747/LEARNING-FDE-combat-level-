@@ -1,0 +1,7 @@
+{
+  "entities": [
+    {"id": "vendor_x", "type": "Organization", "description": "The book's own running example vendor."},
+    {"id": "component_z", "type": "Component", "description": "Rate-limiter component supplied by vendor_x."},
+    {"id": "incident_y", "type": "Incident", "description": "The incident under investigation."}
+  ]
+}

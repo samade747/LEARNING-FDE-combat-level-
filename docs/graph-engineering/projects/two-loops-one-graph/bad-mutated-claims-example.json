@@ -1,0 +1,35 @@
+{
+  "$comment": "Deliberately bad: claim_0001's object was silently edited in place (mutation), and claim_0004 was silently deleted. Neither is allowed — check with: python precommit_check.py bad-mutated-claims-example.json --against graph/claims.json",
+  "claims": [
+    {
+      "id": "claim_0001",
+      "subject": "test_payments_flaky",
+      "predicate": "diagnosed_as",
+      "object": "payment_gateway_timeout",
+      "source": {"kind": "tool_output", "command": "pytest -k payments_flaky -v", "ref": "evidence/run_log.txt#L1-8"},
+      "produced_by": "run_triage_01",
+      "supersedes": null,
+      "created": "2026-07-20"
+    },
+    {
+      "id": "claim_0002",
+      "subject": "test_payments_flaky",
+      "predicate": "diagnosed_as",
+      "object": "payment_gateway_timeout",
+      "source": {"kind": "tool_output", "command": "pytest -k payments_flaky -v --runs=10", "ref": "evidence/run_log.txt#L10-18"},
+      "produced_by": "run_triage_02",
+      "supersedes": null,
+      "created": "2026-07-22"
+    },
+    {
+      "id": "claim_0003",
+      "subject": "checkout_service",
+      "predicate": "depends_on",
+      "object": "payment_gateway",
+      "source": {"kind": "document", "ref": "architecture.md"},
+      "produced_by": "run_triage_01",
+      "supersedes": null,
+      "created": "2026-07-20"
+    }
+  ]
+}

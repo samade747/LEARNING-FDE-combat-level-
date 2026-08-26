@@ -1,0 +1,14 @@
+{
+  "$comment": "Deliberately flawed: false-merges the trap (sf19+sf20 into one J. Patel), AND misses a merge (splits Rafael Ortiz's 2 forms into 2 separate clusters).",
+  "clusters": [
+    {"canonical": "Dr. Amara Chen", "form_ids": ["sf01", "sf02", "sf03"]},
+    {"canonical": "Northwind Logistics", "form_ids": ["sf04", "sf05", "sf06"]},
+    {"canonical": "Project Meridian", "form_ids": ["sf07", "sf08", "sf09"]},
+    {"canonical": "Contract NW-2025-07", "form_ids": ["sf10", "sf11"]},
+    {"canonical": "Rafael Ortiz", "form_ids": ["sf12"]},
+    {"canonical": "Raf Ortiz", "form_ids": ["sf13"]},
+    {"canonical": "Bright Horizon Capital", "form_ids": ["sf14", "sf15", "sf16"]},
+    {"canonical": "Incident NW-INC-42", "form_ids": ["sf17", "sf18"]},
+    {"canonical": "J. Patel", "form_ids": ["sf19", "sf20"]}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$comment": "Simulated first-attempt extraction (worse) — a misspelled entity name, a wrong predicate, a hallucinated relation, and a missed entity (James Wu). Score this against gold_labels.json to see the starting point of the ratchet.",
+  "entities": [
+    {"name": "TechFlow Inc.", "type": "Organization"},
+    {"name": "Maria Santos", "type": "Person"},
+    {"name": "Data Core Systems", "type": "Organization"},
+    {"name": "StreamSync module", "type": "Product"}
+  ],
+  "relations": [
+    {"subject": "Maria Santos", "predicate": "hired_by", "object": "TechFlow Inc."},
+    {"subject": "Maria Santos", "predicate": "previously_worked_at", "object": "Data Core Systems"},
+    {"subject": "Data Core Systems", "predicate": "filed_dispute_against", "object": "TechFlow Inc."},
+    {"subject": "StreamSync module", "predicate": "developed_by", "object": "Maria Santos"},
+    {"subject": "StreamSync module", "predicate": "supplied_to", "object": "TechFlow Inc."},
+    {"subject": "Maria Santos", "predicate": "founded", "object": "StreamSync module"}
+  ]
+}

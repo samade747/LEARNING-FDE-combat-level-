@@ -1,0 +1,5 @@
+{
+  "decision": "PASS",
+  "reason": "Component Z has always been reliable, so vendor_x is probably not at fault, and the claim seems fine.",
+  "grounded_in": ["claim_c", "claim_zzz"]
+}

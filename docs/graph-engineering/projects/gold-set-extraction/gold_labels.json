@@ -1,0 +1,19 @@
+{
+  "$comment": "Hand-labeled truth across all 5 docs, merged into one entity+relation set.",
+  "entities": [
+    {"name": "TechFlow Inc.", "type": "Organization"},
+    {"name": "Maria Santos", "type": "Person"},
+    {"name": "DataCore Systems", "type": "Organization"},
+    {"name": "StreamSync module", "type": "Product"},
+    {"name": "James Wu", "type": "Person"}
+  ],
+  "relations": [
+    {"subject": "Maria Santos", "predicate": "hired_by", "object": "TechFlow Inc."},
+    {"subject": "Maria Santos", "predicate": "previously_worked_at", "object": "DataCore Systems"},
+    {"subject": "DataCore Systems", "predicate": "filed_dispute_against", "object": "TechFlow Inc."},
+    {"subject": "StreamSync module", "predicate": "developed_by", "object": "Maria Santos"},
+    {"subject": "StreamSync module", "predicate": "allegedly_stolen_by", "object": "TechFlow Inc."},
+    {"subject": "James Wu", "predicate": "works_for", "object": "TechFlow Inc."},
+    {"subject": "TechFlow Inc.", "predicate": "settled_with", "object": "DataCore Systems"}
+  ]
+}

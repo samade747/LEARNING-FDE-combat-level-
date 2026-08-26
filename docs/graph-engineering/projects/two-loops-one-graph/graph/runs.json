@@ -1,0 +1,7 @@
+{
+  "runs": [
+    {"id": "run_triage_01", "loop": "triage", "created": "2026-07-20"},
+    {"id": "run_triage_02", "loop": "triage", "created": "2026-07-22"},
+    {"id": "run_changelog_01", "loop": "changelog", "created": "2026-07-23"}
+  ]
+}

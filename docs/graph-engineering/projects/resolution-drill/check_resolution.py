@@ -35,9 +35,9 @@ def main(path: str) -> int:
         proposed_clusters_used = {proposed_map.get(fid) for fid in exp["form_ids"]}
         if None in proposed_clusters_used:
             missing = [fid for fid in exp["form_ids"] if proposed_map.get(fid) is None]
-            errors.append(f"MISSED MERGE: '{exp['canonical']}' — form(s) {missing} not assigned to any cluster")
+            errors.append(f"MISSED MERGE: '{exp['canonical']}' - form(s) {missing} not assigned to any cluster")
         elif len(proposed_clusters_used) > 1:
-            errors.append(f"MISSED MERGE: '{exp['canonical']}' — forms {exp['form_ids']} landed in {len(proposed_clusters_used)} different clusters instead of 1")
+            errors.append(f"MISSED MERGE: '{exp['canonical']}' - forms {exp['form_ids']} landed in {len(proposed_clusters_used)} different clusters instead of 1")
 
     # 2. The trap: sf19 and sf20 are different people. They must NOT share a cluster.
     trap_ids = [c["form_ids"][0] for c in expected if c["canonical"].startswith("J. Patel")]

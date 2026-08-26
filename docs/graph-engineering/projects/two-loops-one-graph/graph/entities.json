@@ -1,0 +1,9 @@
+{
+  "entities": [
+    {"id": "checkout_service", "type": "Service", "description": "The checkout API, depends on the payment gateway."},
+    {"id": "payment_gateway", "type": "Service", "description": "Third-party payment processing service checkout_service calls."},
+    {"id": "test_payments_flaky", "type": "Test", "description": "An intermittently failing test in the payments suite."},
+    {"id": "tz_default_utc", "type": "RootCause", "description": "Root-cause theory: test fixture doesn't pin a timezone, defaults to UTC, fails on non-UTC CI runners."},
+    {"id": "payment_gateway_timeout", "type": "RootCause", "description": "Root-cause theory: the flakiness is actually the sandbox payment gateway timing out under load."}
+  ]
+}

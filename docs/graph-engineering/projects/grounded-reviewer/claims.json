@@ -1,0 +1,34 @@
+{
+  "claims": [
+    {
+      "id": "claim_a",
+      "subject": "vendor_x",
+      "predicate": "supplied",
+      "object": "component_z",
+      "source": {"kind": "tool_output", "command": "procurement-db query", "ref": "PO-4471"},
+      "produced_by": "run_2026-07-01",
+      "supersedes": null,
+      "created": "2026-07-01"
+    },
+    {
+      "id": "claim_b",
+      "subject": "component_z",
+      "predicate": "involved_in",
+      "object": "incident_y",
+      "source": {"kind": "tool_output", "command": "incident-db query", "ref": "INC-Y-postmortem"},
+      "produced_by": "run_2026-07-02",
+      "supersedes": null,
+      "created": "2026-07-02"
+    },
+    {
+      "id": "claim_c",
+      "subject": "component_z",
+      "predicate": "historically_reliable",
+      "object": "true",
+      "source": {"kind": "inference"},
+      "produced_by": "run_2026-07-02",
+      "supersedes": null,
+      "created": "2026-07-02"
+    }
+  ]
+}

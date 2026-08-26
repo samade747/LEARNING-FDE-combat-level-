@@ -1,0 +1,18 @@
+{
+  "$comment": "Simulated second-attempt extraction (after one prompt-line fix: 'copy entity names exactly as printed, and prefer the document's own verb for predicates') — better, still not perfect (misses the settlement relation from doc5).",
+  "entities": [
+    {"name": "TechFlow Inc.", "type": "Organization"},
+    {"name": "Maria Santos", "type": "Person"},
+    {"name": "DataCore Systems", "type": "Organization"},
+    {"name": "StreamSync module", "type": "Product"},
+    {"name": "James Wu", "type": "Person"}
+  ],
+  "relations": [
+    {"subject": "Maria Santos", "predicate": "hired_by", "object": "TechFlow Inc."},
+    {"subject": "Maria Santos", "predicate": "previously_worked_at", "object": "DataCore Systems"},
+    {"subject": "DataCore Systems", "predicate": "filed_dispute_against", "object": "TechFlow Inc."},
+    {"subject": "StreamSync module", "predicate": "developed_by", "object": "Maria Santos"},
+    {"subject": "StreamSync module", "predicate": "allegedly_stolen_by", "object": "TechFlow Inc."},
+    {"subject": "James Wu", "predicate": "works_for", "object": "TechFlow Inc."}
+  ]
+}

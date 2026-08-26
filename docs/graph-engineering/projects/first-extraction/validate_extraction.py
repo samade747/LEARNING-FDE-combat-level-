@@ -79,7 +79,7 @@ def main(paths: list[str]) -> int:
                     seen_pairs.add((n1, n2))
                     print(f"  - '{n1}' ({p1}) <-> '{n2}' ({p2})")
         if not seen_pairs:
-            print("  (none found by the cheap token-overlap heuristic — inspect manually too)")
+            print("  (none found by the cheap token-overlap heuristic - inspect manually too)")
 
     return 1 if all_errors else 0
 

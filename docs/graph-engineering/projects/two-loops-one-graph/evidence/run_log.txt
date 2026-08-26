@@ -1,0 +1,13 @@
+Lines 1-8: run_triage_01, 2026-07-20, command: pytest -k payments_flaky -v
+tests/payments/test_flaky.py::test_payments_flaky FAILED
+AssertionError: expected refund_time < 2026-07-20T00:00:00, got 2026-07-20T03:14:00
+--- fixture inspection ---
+fixture 'clock' has no tz override; defaulting to system UTC
+exit code: 1
+
+Lines 10-18: run_triage_02, 2026-07-22, command: pytest -k payments_flaky -v --runs=10
+tests/payments/test_flaky.py::test_payments_flaky PASSED (7/10 runs)
+tests/payments/test_flaky.py::test_payments_flaky FAILED (3/10 runs)
+--- gateway sandbox latency log ---
+p50=120ms p95=850ms p99=4200ms (3 requests exceeded 3000ms timeout threshold)
+exit code: 1 (flaky, not deterministic)

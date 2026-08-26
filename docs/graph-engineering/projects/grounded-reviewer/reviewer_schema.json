@@ -1,0 +1,19 @@
+{
+  "$comment": "A grounded verdict. decision=PASS or a claim being confirmed must cite grounded_in (real, non-inference claim ids that resolve in claims.json). decision=REVISE/FAIL must name required_evidence.",
+  "type": "object",
+  "required": ["decision", "reason"],
+  "properties": {
+    "decision": {"type": "string", "enum": ["PASS", "REVISE", "FAIL"]},
+    "reason": {"type": "string"},
+    "grounded_in": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Claim ids from claims.json that support a PASS. Required when decision is PASS and the claim being reviewed makes a factual assertion."
+    },
+    "required_evidence": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "What's missing. Required when decision is REVISE or FAIL."
+    }
+  }
+}
