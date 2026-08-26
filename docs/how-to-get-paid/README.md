@@ -24,6 +24,7 @@ Poora roadmap **9 stations** par khara hai — pehli 4 reading hain (aur decisio
 4. [Teen Doors, Kya Har Door Pay Karta Hai, aur Pricing](03-three-doors-and-pricing.md)
 5. [Chalte Hue Kamana, Kitna Waqt Lagega, aur Failure Modes](04-earning-while-walking-and-failure-modes.md)
 6. [Ayesha Ki Poori Walk, Ready Hone Ki Definition, aur Honest Label](05-ayesha-and-honest-label.md)
+7. [Sources aur Test Your Understanding (28 Q&A)](06-sources-and-test-your-understanding.md)
 
 ---
 

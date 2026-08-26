@@ -60,7 +60,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 6 | Thesis: The Architectural Argument | ✅ [`docs/thesis`](docs/thesis/README.md) |
 | 7 | The Operating Layer: The Interface Argument | ✅ [`docs/the-agent-is-the-operating-layer`](docs/the-agent-is-the-operating-layer/README.md) |
 | 8 | What You Carry In: The Ownership Argument | ✅ [`docs/what-you-carry-in`](docs/what-you-carry-in/README.md) |
-| 9 | Getting Paid as a Vertical FDE | 🟡 [`docs/how-to-get-paid`](docs/how-to-get-paid/README.md) — sirf pehla aadha (two problems, market answer, 9 stations, 3 doors/pricing) covered; **11 sections baaqi** (earning-while-you-walk se sources tak, quiz sameet) |
+| 9 | Getting Paid as a Vertical FDE | ✅ [`docs/how-to-get-paid`](docs/how-to-get-paid/README.md) |
 | 10 | Selling as a Vertical FDE | 🔲 not started |
 | — | Courses & Certifications | ✅ [`docs/certifications`](docs/certifications/README.md) |
 | — | Glossary | 🔲 not started — bara reference chapter (~36K tokens, 15 term-category sections) |
@@ -178,7 +178,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 ChatGPT 101) — dekho [`progress.md`](progress.md) is audit ki poori detail ke liye.*
 
 ```
-Front Matter (12 docs)              █████████░░░  9/12 ✅ + 1 🟡 partial + 2 🔲
+Front Matter (12 docs)              ██████████░░  10/12 ✅ + 2 🔲
 The Ecosystem (9 docs)              ███████████░  8/9  ✅ + 1 🔲
 Foundations — Everyone (8)          ████░░░░░░░░  3/8  ✅ + 5 🔲
 General Agents (12)                 ████████████  12/12 ✅
@@ -187,14 +187,13 @@ Mode 1 — Problem-Solving (3)        ████████████  3/3 
 Mode 2 — Manufacturing (18)         ████████████  18/18 ✅
 References & Companions (3)         ░░░░░░░░░░░░  0/3  🔲
 
-TOTAL: 55 fully ✅ + 1 🟡 partial + 11 🔲 missing = 67 chapters
+TOTAL: 56 fully ✅ + 11 🔲 missing = 67 chapters
 ```
 
-**Real gaps (11 chapters not started, 1 more partially done):**
+**Real gaps (11 chapters not started):**
 
 | Group | Chapter | Gap |
 | --- | --- | --- |
-| Front Matter | Getting Paid as a Vertical FDE | 🟡 missing 11 of 25 sections (second half — earning-while-you-walk through sources + quiz) |
 | Front Matter | Selling as a Vertical FDE | 🔲 not started |
 | Front Matter | Glossary | 🔲 not started (~36K-token reference, 15 term categories) |
 | The Ecosystem | The System of Context | 🔲 not started |
@@ -205,10 +204,10 @@ TOTAL: 55 fully ✅ + 1 🟡 partial + 11 🔲 missing = 67 chapters
 | Foundations | How to Think in the AI Era | 🔲 not started |
 | References & Companions | Which AI Employees To Use in 2026?, Cheatsheets, Agentic Engineering Fundamentals | 🔲 all 3 not started |
 
-**Poora Mode 1 + Mode 2 + General Agents + Personal Agent Harnesses group (35 chapters), plus 9/12 Front
+**Poora Mode 1 + Mode 2 + General Agents + Personal Agent Harnesses group (35 chapters), plus 10/12 Front
 Matter aur 8/9 Ecosystem chapters, ab is repo mein note ho chuke hain** — bas status table pehle stale
-thi. Real remaining work bahut chota hai: 11 chapters (kai chhote reference/business-model pages) aur 1
-partial completion (Thesis 2026-08-26 ko poora hua — 48-Q quiz sameet).
+thi. Real remaining work 11 chapters hai (kai chhote reference/business-model pages). Thesis aur Getting
+Paid dono 2026-08-26 ko poore hue (quiz sameet).
 
 ---
 

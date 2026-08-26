@@ -1,7 +1,5 @@
 # Getting Paid as a Vertical FDE — Summary
 
-⚠️ **Incomplete chapter:** is folder ka README 6 parts (00-05) index karta hai, lekin sirf **00-03 files exist karti hain** — `04-earning-while-walking-and-failure-modes.md` aur `05-ayesha-and-honest-label.md` abhi tak fetch nahi hue. Yeh summary sirf jo files exist karti hain unko cover karta hai (00-03); 04/05 baaki hain.
-
 Business series ka capstone: yeh book jo sikha chuki, woh paison mein kaise badalti hai. Poora roadmap **9 stations** par khara hai — pehli 4 reading (decision par khatam), agli 4 building (asset par khatam), aakhri selling.
 
 ## 00 — Do Problems, Ek Gap
@@ -30,3 +28,21 @@ Business series ka capstone: yeh book jo sikha chuki, woh paison mein kaise bada
 - **Pay table:** Job ~$190K/saal median ($170-200K+ band, Anthropic FDE $200-300K, frontier senior $450-600K); Freelance per-project $2K-$15K+; per-hour $150-250/ghanta; Retainer $4K-$10K/mahina; Startup koi band nahi (khud price set karo).
 - Reality anchor: pehla paid engagement chhota hota hai (kuch sau-hazar dollars), yeh failure nahi — service ladder apna kaam kar rahi hai.
 - **Pricing ke 4 instruments:** Contract of success (baseline+target+acceptance criteria, buyer se aana chahiye — isliye slice pehle), Retainer (Workers ko price karta hai, hours ko nahi), Products (khud price karte hain). Caution: outcome pricing sirf tab safe jab checker/eval set real ho.
+
+## 04 — Earning While You Walk, Kitna Waqt Lagega, 8 Failure Modes
+- **Do ladders ek sath:** Service ladder (Layer 1 SoR builds + Layer 4 Worker manufacturing, koi vertical zaroori nahi) abhi kamati hai; vertical ladder baad mein compound hoti hai. Pehli live slice 3-6 mahine part-time.
+- **Time budget table:** 1-4 reading (1-2 hafte), crash courses (~15-28 ghante), 5 screening (60-90 din), 6 design (3-6 hafte), 7 build (2-4 hafte), 8 SoC (1-2 hafte), 9 first sale (1-3 mahine) — stations overlap karte hain, 2 rows control mein nahi.
+- **8 failure modes:** résumé polish karna (cure: build-first-sell-second), unsigned expert se launch, biggest market choose karna, slice ko demo ki tarah ship karna, staff-aug ko engagement kehna, vertical widen karna, question-1-ke-bina force karna, connecting layer pehle banana. 9wan "failure": service domain par exit hona — yeh actually correct outcome hai.
+
+## 05 — Ayesha Ki Poori Walk, Definition of Ready, Honest Label
+- **Ayesha ki poori walk:** role-map se lekar cross-jurisdiction (Lahore→Chicago) pehli sale tak, teen doors order mein. Lesson: border-crossing ek naya build hai jo design reuse karta hai, free extension nahi.
+- **Definition of Ready:** 11-item checklist (FDE role samajh, Mode 2 shipped, service ladder par kama rahe, vertical 8-tests pass, expert **signed**, rights basis documented, thin slice complete, kernel par live, portfolio outcome-led).
+- **What this page doesn't cover:** technology (Getting Started), selling (Strategist track), legal/tax shape (local accountant chahiye).
+- **Honest label:** measured (demand, pay bands, failure rate) vs reasoned (slice→client conversion — abhi tak koi verified count nahi). Empty funnel table publish ki gayi hai — commitment hai ke future mein numbers se replace hogi.
+
+## 06 — Sources aur Test Your Understanding
+- 9 footnote sources (MIT Media Lab pilot-failure stat, Fast Company posting growth, CNBC vendor FDE units, Upwork/salary bands, Andrew Ng lock-in piece).
+- Book ka apna **28-question quiz** poora doc mein hai — poore roadmap (9 stations, 3 doors, pricing, failure modes, Ayesha) cover karta hai, English mein.
+
+---
+[⬅ Chapter Index](README.md)
