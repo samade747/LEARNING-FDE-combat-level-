@@ -2,7 +2,7 @@
 
 ## One-Quarter Syllabus (13 Weeks) Preparing for PCAR-F and CCAR-F
 
-**Accuracy checked:** 24 August 2026. Re-check the sources-of-truth section before each cohort because certification and product details can change.
+**Accuracy checked:** 26 August 2026. Re-check the sources-of-truth section before each cohort because certification and product details can change.
 
 ### At a glance
 
