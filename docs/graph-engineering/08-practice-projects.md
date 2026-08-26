@@ -1,4 +1,4 @@
-# 07 — Practice Projects (8 Graph Builds)
+# 08 — Practice Projects (8 Graph Builds)
 
 Graph ke baare mein parhna aur usay bharna alag cheezein hain. 8 builds, easy se hard tak, kisi bhi tool
 mein.
@@ -110,4 +110,4 @@ jo kisi model ne nahi likha. Jab ye walk succeed ho jaye, aap ne **anchors ke sa
 li hai.
 
 ---
-[⬅ Staying Grounded](06-staying-grounded.md) · [⬆ Index](README.md)
+[⬅ Dogfooding](07-dogfooding.md) · [Agla: Sources & Further Reading ➡](09-sources-further-reading.md) · [⬆ Index](README.md)

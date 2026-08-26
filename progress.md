@@ -2,6 +2,24 @@
 
 ## Done
 
+- 2026-08-26: User ne `Graph-Engineering-Complete-Guide (4).pdf` ko `docs/graph-engineering/` folder mein
+  seedha drop kiya aur docs update karne ko kaha. PDF parh kar dekha to wo already-covered content ka hi
+  ek "class notes" compile tha (Parts 1-7), lekin uski apni outline mein 2 sections explicitly listed
+  thay jo humari 00-07 files mein kahin nahi thay: **Dogfooding** aur **Exam-Prep Cheat Sheet**. Isi wajah
+  se `outline_agent_factory`/`read_agent_factory_lesson` se authoritative structure re-confirm ki (same
+  AGENTS.md Critical Rule audit jo pehle Loop aur Harness Engineering mein hua tha) — is dafa **Graph
+  Engineering** mein wahi gap mila: `using-a-graph-on-this-book-dogfooding`, `sources-further-reading`,
+  `flashcards-study-aid`, aur `test-your-understanding` (18-Q quiz) sab missing thay, sirf 00-07 files
+  thin (dogfooding + practice-projects ki jagah sirf 07-practice-projects tha).
+  Fix kiya: book ke apne order ko match karne ke liye `07-practice-projects.md` → `08-practice-projects.md`
+  renumber kiya, naye `07-dogfooding.md`, `09-sources-further-reading.md` (full bibliography + viral-PDF
+  origin-story correction), `10-test-your-understanding.md` (18 Q&A, English verbatim + Roman Urdu intro)
+  aur standalone `quiz.md` (same content, root-accessible copy) add kiye. `00-overview.md` mein book ke
+  "teaching-aid" section se **Glossary** (Zaroori Terms table) aur "two ways to read this course" note
+  add ki, jo pehle kahin nahi thi. Chapter `README.md` + `SUMMARY.md` index update kiye (PDF ko reference
+  ki tarah link kiya), root `Graph-Engineering-Summary.md` ka file-count aur dogfooding/test-understanding
+  pointers update kiye. Sab internal cross-file links verify kiye (bash grep chain, koi broken link nahi).
+
 - 2026-08-19: User ne har chapter folder (`docs/[slug]/`) ke liye ek `SUMMARY.md` maangi — har chapter/folder ka apna alag, sab points wala summary, Roman Urdu + English mein, usi folder mein. **Poore 55 content-wale chapter folders** mein `SUMMARY.md` add ki (4 folders — `ecosystem-designing-the-vertical-sor`, `ecosystem-system-of-context`, `glossary`, `how-to-sell` — khaali hain, skip kiye). Kaam 7 parallel background agents (fork) se hua, har ek ~8 folders ke README + poori numbered content files parh kar draft banata; ek harness-level restriction mili (subagents "SUMMARY.md" naam ki file khud Write nahi kar sakte — "report file" pattern samajh kar block hota hai) — sab agents ko redirect kiya draft **text** return karne ke liye, coordinator (main session) ne khud sab 55 files disk par likhin. Do folders mein pehle-se-maloom "incomplete chapter" gaps re-confirm hue (`docs/thesis/` sirf 00 file hai, 01-07 missing; `docs/how-to-get-paid/` sirf 00-03 hain, 04-05 missing) — dono ke SUMMARY.md mein warning note likha, baaki jo maujood tha wo poora cover kiya. Session beech mein claude.ai usage limit reset hui — resume karte waqt disk state check kiya (`find docs -name SUMMARY.md`) taake dobara kaam na ho, phir jo missing tha (2 batches ke files jo receive hue the lekin write nahi hue thay, + 1 fresh-launched agent ke 7 folders) complete kiya.
 - 2026-08-19 (correction): User ne pichli entry ka "sources-further-reading/flashcards/test-your-understanding skip kiya" faisla reject kiya — sahi tha, yeh bhi AGENTS.md critical-rule ka wahi gap tha jo "quiz/study-aid boilerplate hai" ka bahana bana kar chhupaya ja raha tha. Dono sections `flashcards-study-aid` bare `<Flashcards />` widget nikla (koi extractable static text nahi, live-site-only note likh diya) lekin `test-your-understanding` dono chapters mein **genuinely substantive content** nikla: **Harness Engineering** ke 18 aur **Loop Engineering** ke 61 (!) scenario-based exam questions, har ek real-world analogy ke sath, poori tarah book se. Dono `sources-further-reading` sections (full bibliography, one-line summary) bhi add ki. **Loop Engineering** ka ek aur poora-missed section mila isi audit mein: `using-these-loops-in-this-book-dogfooding` (2 real production loops jo yeh kitaab khud chalati hai — feedback loop + What's New loop) — Harness Engineering wali dogfooding sirf ek chapter mein thi, Loop Engineering ki khud reh gayi thi. Plus `key-words-in-plain-english` (glossary) aur `where-to-go-next` bhi missing thay.
   **Harness Engineering** mein add kiye: `09-sources-further-reading.md`, `10-test-your-understanding.md` (18 Q&A).

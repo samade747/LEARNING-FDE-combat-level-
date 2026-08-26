@@ -24,6 +24,12 @@
 
 ## Done
 
+- [x] User ne `Graph-Engineering-Complete-Guide (4).pdf` `docs/graph-engineering/` mein drop kiya — re-audit
+  se pata chala **Dogfooding, Sources & Further Reading, Test Your Understanding (18-Q)** sections
+  chapter se missing thay (sirf Parts 1-7 thin). `07-dogfooding.md`, `09-sources-further-reading.md`,
+  `10-test-your-understanding.md` + `quiz.md` add kiye, `07→08-practice-projects.md` renumber kiya,
+  `00-overview.md` mein Glossary section add ki. README/SUMMARY/root `Graph-Engineering-Summary.md`
+  sync kiye. Same AGENTS.md Critical Rule gap jo pehle Loop/Harness Engineering mein tha.
 - [x] `docs/ksor/` (naya, alag folder) banaya — user ne clarifying question ke jawab mein "Naya alag
   folder banao" confirm kiya (`docs/ecosystem-designing-the-vertical-sor/` untouched raha). 7 files:
   README + 00-04 numbered + SUMMARY.md, standalone framing ke sath, dono folders cross-linked. Root

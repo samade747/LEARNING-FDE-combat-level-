@@ -6,16 +6,24 @@ zariye).
 
 Source: https://agentfactory.panaversity.org/docs/graph-engineering-crash-course
 
+Reference PDF (poore course ka self-contained "class notes" version, user-provided, is folder mein
+committed): [`Graph-Engineering-Complete-Guide (4).pdf`](<Graph-Engineering-Complete-Guide (4).pdf>).
+Isi tarah ki ek earlier copy root par bhi hai (`Graph-Engineering-Complete-Guide (1).pdf`, jo
+[`Graph-Engineering-Summary.md`](../../Graph-Engineering-Summary.md) banane ke liye use hui thi).
+
 ## Index
 
-1. [00 — Overview: Memory Problem](00-overview.md)
+1. [00 — Overview: Memory Problem (+ Glossary)](00-overview.md)
 2. [01 — DAG of Work (Karpathy ka Rasta)](01-dag-of-work.md)
 3. [02 — Graph of Facts (Anthropic ka Rasta)](02-graph-of-facts.md)
 4. [03 — Graph Se Kaam Lena (Subgraph + Grounded Checker)](03-working-from-graph.md)
 5. [04 — Graph of Loops (Governance Layer)](04-graph-of-loops.md)
 6. [05 — Ek Complete Graph (Morning Triage Upgrade)](05-complete-graph-example.md)
 7. [06 — Staying Grounded (Kab Nahi Banani)](06-staying-grounded.md)
-8. [07 — Practice Projects (8 graph builds)](07-practice-projects.md)
+8. [07 — Dogfooding (Yeh Kitaab Khud Graph Kahan Use Karti Hai)](07-dogfooding.md)
+9. [08 — Practice Projects (8 graph builds)](08-practice-projects.md)
+10. [09 — Sources & Further Reading](09-sources-further-reading.md)
+11. [10 — Test Your Understanding (18-Q Exam Assessment)](10-test-your-understanding.md) · standalone copy: [quiz.md](quiz.md)
 
 ## Ek Line Mein Poori Cheez
 

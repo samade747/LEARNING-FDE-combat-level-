@@ -46,7 +46,15 @@
 - **Concept 15 — Kab graph nahi banani:** skip karo jab tasks independent hon, ek document se jawab aayein, relations fixed/simple hon, provenance zaroori na ho. 2 failure modes: graph builder ke bad judgment ko amplify karti hai (ontology/source policy), metrics gameable hain (entity recall vs compression — dono ko counter-metric chahiye).
 - **Concept 16 — Graph kya nahi kar sakti:** "Checker ka PASS trustworthy hai" — nahi (Trusting the Checker measure karti hai). "Memory apni jagah safe hai" — sirf utni jitna uska ghar (Leaving the Laptop). "Behtar wiring = behtar judgment" — nahi, ontology/source policy/anchors/"behtar ka matlab" hamesha insaan se ata hai.
 
-## 07 — Practice Projects (8 Graph Builds)
+## 07 — Dogfooding: Yeh Kitaab Khud Graph Kahan Use Karti Hai
+
+Ye kitaab **proto-graph** chalati hai — reader notes, GitHub issues, PRs, aur lessons sab typed,
+directed-linked records hain, jinse har shipped fix wapas us reader note tak trace ho sakti hai. Ye
+poori knowledge-graph extraction/resolution **jaan boojh kar nahi chalati** (Concept 15 khud par apply):
+relations simple hain, cross-session sawal links se hi answer hote hain, extraction pipeline abhi tak
+kisi query se earn nahi hui. Graph tab banega jab ek real sawal usay demand kare.
+
+## 08 — Practice Projects (8 Graph Builds)
 
 2 rules hamesha: throwaway repo + real documents, schema pehle likho (`graph/SCHEMA.md`).
 1. **Draw Your System** (Easy) — sab loops/checkers/gates/anchors ko typed nodes+edges draw karo.
@@ -57,3 +65,17 @@
 6. **The Grounded Reviewer** (Hard) — Part 6 reviewer ek chalti loop mein wire karo, 5 real beats chalao.
 7. **A Gold Set for Extraction** (Hard) — 5 documents hand-label, prompt ko score/ratchet karo (kam se kam 3 dafa).
 8. **Two Loops, One Graph (Capstone)** — triage + changelog loop ek graph share karein, pre-commit hook guard kare, counter-metric ho.
+
+## 09 — Sources & Further Reading
+
+Primary sources: Karpathy ka autoresearch + AgentHub (private ho chuki hai), Anthropic ki Knowledge
+Graph Construction Cookbook + Dynamic Workflows, Peter Steinberger ka "loops vs graphs" sawal, Carlos E.
+Perez ka governance essay. **Origin-story correction:** viral "1000x" PDF khud apne front page par
+kehti hai *independently compiled, not affiliated with/endorsed by Karpathy or Anthropic* — course
+apni khud ki provenance-discipline apne inputs par bhi apply karta hai.
+
+## 10 — Test Your Understanding (18-Q Exam Assessment)
+
+Live page ka `<Flashcards />` widget auto-generated hai (static copy possible nahi). Uske baad 18-question
+scenario-based `<Quiz>` (Concepts 1-16, Part 6, dogfooding sameet) — English mein verbatim (precision ke
+liye translate nahi kiya), sahi jawab + real-world analogy ke saath. Standalone copy: `quiz.md`.

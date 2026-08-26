@@ -1,8 +1,8 @@
 # Graph Engineering — Aasan Summary (Roman Urdu + English)
 
-*Source: The AI Agent Factory — "Graph Engineering: A Crash Course" (Panaversity) — 16 Concepts, Parts 1-7*
+*Source: The AI Agent Factory — "Graph Engineering: A Crash Course" (Panaversity) — 16 Concepts, Parts 1-7 + Dogfooding*
 *URL: https://agentfactory.panaversity.org/docs/graph-engineering-crash-course*
-*Poora tafseeli breakdown: [`docs/graph-engineering/`](docs/graph-engineering/README.md) (8 files, 00-07)*
+*Poora tafseeli breakdown: [`docs/graph-engineering/`](docs/graph-engineering/README.md) (11 files, 00-10 + quiz.md)*
 
 ---
 
@@ -157,4 +157,20 @@ command se ek line mein receipt ke saath jawab.
 
 ---
 
-Poori tafseeli breakdown (8 files, task-by-task) ke liye dekho [`docs/graph-engineering/`](docs/graph-engineering/README.md).
+## Dogfooding — Yeh Kitaab Khud Kya Chalati Hai
+
+Ye kitaab **proto-graph** chalati hai (reader notes → GitHub issues → PRs → lessons, sab typed-linked),
+lekin apne content par **poori knowledge-graph extraction/resolution jaan boojh kar nahi chalati** —
+Concept 15 khud par apply: relations simple hain, links se hi cross-session sawal answer hote hain.
+Graph tab banega jab ek real query usay demand kare.
+
+## Test Your Understanding
+
+Book ke live page par 18-question scenario-based `<Quiz>` hai (Concepts 1-16 + Part 6 + dogfooding),
+plus auto-generated `<Flashcards />`. Poora quiz Roman Urdu intro ke saath
+[`docs/graph-engineering/10-test-your-understanding.md`](docs/graph-engineering/10-test-your-understanding.md)
+mein hai (standalone copy: [`docs/graph-engineering/quiz.md`](docs/graph-engineering/quiz.md)).
+
+---
+
+Poori tafseeli breakdown (11 files, task-by-task) ke liye dekho [`docs/graph-engineering/`](docs/graph-engineering/README.md).

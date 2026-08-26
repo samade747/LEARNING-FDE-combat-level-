@@ -88,4 +88,4 @@ hoti hai.** Lekin ontology, source policy, anchors, aur *"behtar ka matlab kya h
 > wiring ye kaam nahi le sakti.**
 
 ---
-[⬅ Complete Graph Example](05-complete-graph-example.md) · [Agla: Practice Projects ➡](07-practice-projects.md)
+[⬅ Complete Graph Example](05-complete-graph-example.md) · [Agla: Dogfooding ➡](07-dogfooding.md)
