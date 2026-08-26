@@ -2,11 +2,12 @@
 
 ## Active
 
-- [ ] **9 real content gaps found (2026-08-25 Zia Tutor audit)** — user se priority order confirm
-  karni hai: Selling as a Vertical FDE, Glossary, The System of Context, Code You Never Write,
-  Skills & Connectors, How to Think in the AI Era, aur 3 References & Companions chapters (Which AI
-  Employees To Use in 2026?, Cheatsheets, Agentic Engineering Fundamentals). Plus 2 partial completions:
-  Thesis (Seven Invariants section + quiz) aur Getting Paid as a Vertical FDE (11/25 sections).
+- [ ] **11 net-new chapters baaqi (2026-08-26 corrected count)** — Thesis aur Getting Paid dono partial
+  chapters ab poore ho chuke (neeche Done mein). Baaqi: Selling as a Vertical FDE, Glossary, The System
+  of Context, Claude and ChatGPT 101, AI Fluency, Code You Never Write, Skills & Connectors, How to
+  Think in the AI Era, aur 3 References & Companions chapters (Which AI Employees To Use in 2026?,
+  Cheatsheets, Agentic Engineering Fundamentals). User ne "yes update it" keh kar in par kaam karne ki
+  ijazat de di hai (koi specific priority order nahi di) — book-order mein continue karo.
 - [ ] **PCAR-F push (deadline 2026-10-05):** `docs/certifications/07-practice-log.md` ke 6-week plan
   follow karo — Weeks 1-2 domain-weighted study, 3-4 ek chhoti app banao, 5 practice test, 6 PCAR-F
   sit karo. (2026-08-26 cross-check confirm kar chuka hai ke Week 1-2 ke sab required reads is repo
@@ -24,6 +25,11 @@
 
 ## Done
 
+- [x] **Thesis** aur **Getting Paid as a Vertical FDE** dono partial chapters poore kiye — Thesis mein
+  01-08 (Paradigm Shift, Industrialized Stack, 10-80-10, Two-Layer Model, Two Modes, Seven Invariants
+  x2, Named Engines, 48-Q quiz), Getting Paid mein 04-06 (Earning While Walking, Failure Modes, Ayesha's
+  Walk, Honest Label, Sources, 28-Q quiz). Dono commits alag push kiye. Foundations-Everyone count
+  correction (6→8 lessons) bhi root README mein sync ki.
 - [x] User ne `Graph-Engineering-Complete-Guide (4).pdf` `docs/graph-engineering/` mein drop kiya — re-audit
   se pata chala **Dogfooding, Sources & Further Reading, Test Your Understanding (18-Q)** sections
   chapter se missing thay (sirf Parts 1-7 thin). `07-dogfooding.md`, `09-sources-further-reading.md`,

@@ -148,7 +148,19 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
 
 ## In progress
 
-- (kuch nahi abhi)
+- 2026-08-26: User ne "yes update it" keh kar 9+2-gap list par kaam shuru karne ki ijazat di (priority
+  order khud choose karne ko kaha gaya). **Thesis** aur **Getting Paid as a Vertical FDE** dono partial
+  chapters poore kiye — Zia Tutor se live sections fetch kiye (`read_agent_factory_lesson`), Thesis mein
+  01-08 (Seven Invariants 2-parts + Reference Stack + 48-Q quiz parsed via Python script se Quiz JSX se),
+  Getting Paid mein 04-06 (Ayesha's walk, Honest Label, 28-Q quiz). Dono commits alag-alag push kiye.
+  Rasta mein audit correction mili: Foundations-Everyone group ki actual 8 lessons hain, 6 nahi (AI
+  Fluency aur Claude/ChatGPT 101 pehle miss ho gayi thin) — total chapter count 65→67 corrected. Root
+  README table dono jagah update. **Concurrent-session discovery:** isi session ke doran `docs/graph-
+  engineering/` par ek doosra local Claude session active mila (uncommitted changes + ek bad-message
+  commit "136") — us se door raha (`git reset` se sirf apne staged files rakhe), aur woh session khud
+  apna kaam "Complete Graph Engineering chapter..." commit + push kar ke khatam hua, bina kisi conflict
+  ke. Baaki 9 net-new chapters (how-to-sell, glossary, ecosystem-system-of-context, 5 foundations crash
+  courses, 3 references-companions) abhi baaqi hain.
 
 - 2026-08-26: User ne root mein `Claude Certified Architect Foundations (CCAR-F) FDE Track B
   Accelerated.md` add ki (Panaversity ka official 13-week syllabus, architect strand + FDE practicum
