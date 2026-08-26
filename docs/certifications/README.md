@@ -64,6 +64,14 @@ User ne yeh personal challenge diya hai: **2026-10-05 tak PCAR-F (free internal 
 CCAR-F ki taraf pehla concrete step. Yeh folder isi push ka spine hai — deekho
 [`07-practice-log.md`](07-practice-log.md) live tracking ke liye.
 
+**Fuller reference (2026-08-26):** root
+[`Claude Certified Architect Foundations (CCAR-F) FDE Track B Accelerated.md`](../../Claude%20Certified%20Architect%20Foundations%20%28CCAR-F%29%20FDE%20Track%20B%20Accelerated.md)
+Panaversity ka apna official 13-week Track B syllabus hai (user ne khud add ki, book ke Zia Tutor
+corpus se nahi — is folder ki tarah "book se nikala" content nahi, balke ek external curriculum doc
+hai). Yeh dono strands cover karta hai: **architect** (12-week class, CCAR-F blueprint ke task
+statements tak granular) aur **FDE practicum** (Vertical System of Record banana — KSoR, Fumadocs,
+stateless MCP). [`07-practice-log.md`](07-practice-log.md) mein iska cross-check + gap-analysis hai.
+
 ## Certification vs Baaqi Repo Se Farq
 
 Baaqi is repo ke chapters (`docs/loop-engineering`, `docs/harness-engineering`, waghera) **skills**

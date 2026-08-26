@@ -9,7 +9,14 @@
   Thesis (Seven Invariants section + quiz) aur Getting Paid as a Vertical FDE (11/25 sections).
 - [ ] **PCAR-F push (deadline 2026-10-05):** `docs/certifications/07-practice-log.md` ke 6-week plan
   follow karo — Weeks 1-2 domain-weighted study, 3-4 ek chhoti app banao, 5 practice test, 6 PCAR-F
-  sit karo.
+  sit karo. (2026-08-26 cross-check confirm kar chuka hai ke Week 1-2 ke sab required reads is repo
+  mein already maujood hain — ab sirf revise + apply karna hai, naya fetch nahi.)
+- [ ] **Track B "upcoming Claude sequence" periodically re-check karo** — 7 courses (The Loop by Hand,
+  Structured Extraction Pipelines, Claude Agent SDK, Claude Code for Teams, Claude Code as a CI
+  Worker, Claude Code Routines, Claude Managed Agents) abhi Zia Tutor corpus mein "not links yet" hain
+  (`docs/certifications/certifications` page se confirm, 2026-08-26). Jab live hon, `read_agent_
+  factory_lesson` se fetch karo — CCAR-F Domain 3 (20%) aur CCDV-F "Applications and Integration"
+  (33.1%) seedha in par depend karte hain.
 - [ ] Doorbell (Loop Eng Project 6): repo `samade747/my-doorbell` bana, workflow verify hui, secret
   set hai — lekin PR #1 run **fail** hui (`CLAUDE_CODE_OAUTH_TOKEN` khaali/invalid nikla). Fresh
   `claude setup-token` + `gh secret set` dobara chahiye, phir re-run confirm karna hai.
@@ -80,3 +87,9 @@
 
 - [ ] `Four-Layers-Summary_1.pdf` (duplicate PDF, repo root) — delete karna hai? (Pehle offer kiya tha, abhi tak koi jawab nahi)
 - [ ] Baaki practice projects: 6 (Doorbell — GitHub repo/App install chahiye), 9-12 (claude.ai account chahiye)
+- [ ] **Build the actual Vertical SoR (Track B FDE Practicum P1-P13, found 2026-08-26):** is repo ke
+  paas KSoR/SoR *concept docs* hain (`docs/ksor/`, `docs/ecosystem-designing-the-vertical-sor/`) lekin
+  koi real deployed project nahi — Track B syllabus Milestone 1 (Next.js+Fumadocs human site, 5+ governed
+  docs, live) aur Milestone 2 (stateless MCP 2026-07-28 search/retrieve/cite surface, working) dono
+  currently unmet hain. PCAR-F pass karne ke liye zaroori nahi, lekin CCAR-F/FDE-Internship ki taraf
+  agla concrete kaam hai — user se priority/timing confirm karni hai.

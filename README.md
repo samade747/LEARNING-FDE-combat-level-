@@ -219,6 +219,10 @@ Loop-Engineering-Summary.md      ← Loop Engineering ka aasan overview (root)
 Loop-Engineering-Final-Prep.md   ← Loop Engineering ka poora prep guide, real code example ke sath
 Graph-Engineering-Summary.md     ← Graph Engineering ka aasan overview (root)
 docs/ksor/                        ← KSoR standalone reference (chapter-context ke bina, SDK khud)
+Claude Certified Architect Foundations (CCAR-F) FDE Track B Accelerated.md
+                                  ← Panaversity ka apna 13-week Track B syllabus (external, user-provided,
+                                    Zia Tutor se nahi) — architect strand + FDE practicum (Vertical SoR)
+                                    dono ka authoritative week-by-week naqsha; dekho docs/certifications/07
 progress.md                       ← is learning-journey ki apni spine (loop engineering se seekha pattern)
 todolist.md                       ← active/done/backlog task list
 ```

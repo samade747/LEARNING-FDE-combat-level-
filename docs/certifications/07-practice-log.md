@@ -80,6 +80,41 @@ zariye, [01-stage-one-panaversity.md](01-stage-one-panaversity.md) dekho). Pass 
 
 ---
 
+## 2026-08-26 — Track B Accelerated Syllabus Cross-Check
+
+User ne root mein Panaversity ka apna
+[`Claude Certified Architect Foundations (CCAR-F) FDE Track B Accelerated.md`](../../Claude%20Certified%20Architect%20Foundations%20%28CCAR-F%29%20FDE%20Track%20B%20Accelerated.md)
+add ki — ek official 13-week syllabus (architect strand + FDE practicum, dono). Zia Tutor ke
+`outline_agent_factory` + `search_agent_factory` se cross-check kiya taake pata chale is repo ka
+current state us syllabus ke against kahan khara hai.
+
+**Achi khabar — Week 1, 6, aur 11 ke required reads is repo mein already maujood hain** (pehle
+audit mein iska explicit confirmation nahi tha):
+- Week 1: *Roles This Book Trains* (`docs/roles-this-book-trains`), *The FDE AF Model*
+  (`docs/ecosystem-fde-af-model`), *Agentic Coding Crash Course* (`docs/agentic-coding`), *The Four
+  Layers* (`docs/four-layers`), *Is This an Agent Problem?* (`docs/is-this-an-agent-problem`),
+  *Choosing Agentic Architectures* (`docs/choosing-agentic-architectures-crash-course`) — sab ✅
+- Week 6: *Spec-Driven Development* (`docs/spec-driven-development`) — ✅
+- Week 11: *Building the Context Layer* (`docs/context-layer-crash-course`) — ✅ (pehle "gap" list
+  mein galti se nahi tha, woh list stale thi is folder ke liye)
+
+**Confirm hua (koi change nahi, `04-gaps-and-study-plan.md` ka 2026-08-24 wala finding sahi hai):**
+syllabus ke Weeks 2-5, 9-10 ke "required Claude courses" — *The Loop by Hand*, *Claude Agent SDK*,
+*Claude Code for Teams*, *Claude Code as a CI Worker*, *Structured Extraction Pipelines*, *Claude
+Code Routines*, *Claude Managed Agents* — abhi bhi **"not links yet"** hain Zia Tutor corpus mein
+(book ki apni `certifications` page khud confirm karti hai). In par direct kaam nahi ho sakta jab tak
+Anthropic/Panaversity publish na karein — is table ko periodically dobara check karna hai.
+
+**Naya, genuinely actionable gap jo is cross-check se mila:** syllabus ka **FDE Practicum strand
+(P1-P13)** ek **actually deployed** Vertical SoR maangta hai — Next.js+Fumadocs human-readable site +
+stateless MCP (2026-07-28) agent-readable surface, live. Is repo ke paas KSoR/SoR ke **concept docs**
+already hain (`docs/ksor/`, `docs/ecosystem-designing-the-vertical-sor/`, `docs/certifications`
+khud) lekin koi real Fumadocs project ya MCP server abhi tak nahi bana/deploy hua — Milestones 1
+("live human surface, 5+ governed docs") aur 2 ("working stateless MCP search/retrieve/cite
+interface") is repo mein currently unmet hain. Yeh PCAR-F pass karne ke liye **zaroori nahi** (Week
+3-4 ka "chhoti application" self-check kaafi hai), lekin CCAR-F/FDE-Internship ki taraf agla concrete
+practicum kaam hai — [`todolist.md`](../../todolist.md) mein backlog ki tarah note kiya.
+
 ## Open Note — Root README.md Stale Hai
 
 Is chapter ke domain-mapping ([03-exam-domains.md](03-exam-domains.md)) banate waqt pata chala ke

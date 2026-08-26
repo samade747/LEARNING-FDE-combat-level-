@@ -132,6 +132,26 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
 
 - (kuch nahi abhi)
 
+- 2026-08-26: User ne root mein `Claude Certified Architect Foundations (CCAR-F) FDE Track B
+  Accelerated.md` add ki (Panaversity ka official 13-week syllabus, architect strand + FDE practicum
+  dono) aur "read think plan update accordingly" mangi. Zia Tutor `outline_agent_factory` +
+  `search_agent_factory` se poora cross-check kiya. **2 nateeje:** (1) syllabus ke Week 1/6/11 required
+  reads sab is repo mein already ✅ hain (`docs/roles-this-book-trains`, `ecosystem-fde-af-model`,
+  `agentic-coding`, `four-layers`, `is-this-an-agent-problem`, `choosing-agentic-architectures-crash-
+  course`, `spec-driven-development`, `context-layer-crash-course`) — pehle audit mein `choosing-
+  agentic-architectures-crash-course` aur `context-layer-crash-course` explicitly confirm nahi hue
+  thay, ab hain. (2) syllabus ke Weeks 2-5/9-10 "required Claude courses" (Loop by Hand, Claude Agent
+  SDK, Claude Code for Teams, Claude Code as a CI Worker, Structured Extraction Pipelines, Claude Code
+  Routines, Claude Managed Agents) abhi bhi Zia Tutor corpus mein "not links yet" hain — `04-gaps-and-
+  study-plan.md` ka 2026-08-24 wala finding confirm hua, koi naya kaam abhi mumkin nahi in par. **Naya
+  gap mila:** syllabus ka FDE Practicum (P1-P13) ek *actually deployed* Fumadocs site + stateless MCP
+  server maangta hai — is repo ke paas sirf KSoR/SoR *concept docs* hain (`docs/ksor/`, `docs/
+  ecosystem-designing-the-vertical-sor/`), koi real deployment nahi. PCAR-F ke liye zaroori nahi lekin
+  CCAR-F/Internship ki taraf agla concrete kaam hai. Root `README.md` (Repo Structure block),
+  `docs/certifications/README.md`, aur `docs/certifications/07-practice-log.md` (naya section) update
+  kiye is syllabus ko authoritative reference ki tarah link karne ke liye + findings document karne ke
+  liye.
+
 - 2026-08-26: User ne "KSor complete guide ka folder banho" mangi — clarifying question (AskUserQuestion)
   se confirm hua: `docs/ecosystem-designing-the-vertical-sor/` ko chherna nahi tha, balke ek **naya alag
   `docs/ksor/` folder** banana tha. Naya standalone reference folder banaya: `README.md` + `00`
