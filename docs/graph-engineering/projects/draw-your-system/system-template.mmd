@@ -1,0 +1,17 @@
+%% Draw Your System — blank template. Copy to my-system.mmd and fill in.
+%% Node types: Loop, Checker, HumanGate, Anchor, MemoryFile, Agent
+graph LR
+    classDef loop fill:#fde68a,stroke:#92400e
+    classDef checker fill:#bfdbfe,stroke:#1e3a8a
+    classDef gate fill:#fecaca,stroke:#7f1d1d
+    classDef anchor fill:#bbf7d0,stroke:#14532d
+    classDef memory fill:#e5e7eb,stroke:#374151
+
+    %% Replace these with your real nodes and labeled edges:
+    L1[Loop: name it]:::loop -->|produced| M1[(MemoryFile: name it)]:::memory
+    L1 -->|checked_by| C1{Checker: name it}:::checker
+    C1 -->|routes_to| G1[[HumanGate: name it]]:::gate
+    C1 -->|verified_against| A1((Anchor: name it)):::anchor
+
+    %% Circle (comment) any finding that lives ONLY in a transcript, never a memory file:
+    %% Circle (comment) any optimizing loop with no watcher / counter-metric:

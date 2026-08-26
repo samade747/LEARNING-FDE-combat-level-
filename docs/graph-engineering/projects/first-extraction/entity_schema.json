@@ -1,0 +1,31 @@
+{
+  "$comment": "Mirrors the Cookbook's Pydantic Entity/Relation classes as plain JSON Schema, so validate_extraction.py can check any tool's output without needing pydantic installed.",
+  "type": "object",
+  "required": ["entities", "relations"],
+  "properties": {
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type", "description"],
+        "properties": {
+          "name": {"type": "string", "description": "Surface form exactly as it appears in the document."},
+          "type": {"type": "string", "enum": ["Organization", "Person", "Component", "Incident", "Contract"]},
+          "description": {"type": "string", "description": "Context from the document — this is what makes resolution possible later."}
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["subject", "predicate", "object"],
+        "properties": {
+          "subject": {"type": "string", "description": "Must match an entity name in this same document's entities list."},
+          "predicate": {"type": "string"},
+          "object": {"type": "string", "description": "Must match an entity name in this same document's entities list."}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "surface_forms": [
+    {"id": "sf01", "text": "Dr. Amara Chen", "description": "Chief Data Officer at Northwind Logistics, quoted in the Q2 governance memo.", "doc_ref": "memo-q2.md"},
+    {"id": "sf02", "text": "Amara Chen", "description": "Signed off on the Meridian data-sharing agreement as Northwind's CDO.", "doc_ref": "agreement-nw-2025-07.md"},
+    {"id": "sf03", "text": "Dr. Chen", "description": "Northwind's data chief, referenced in the incident postmortem as the escalation contact.", "doc_ref": "postmortem-inc42.md"},
+
+    {"id": "sf04", "text": "Northwind Logistics", "description": "Logistics company running Project Meridian, headquartered in Austin.", "doc_ref": "memo-q2.md"},
+    {"id": "sf05", "text": "Northwind", "description": "The company behind the Meridian initiative, referenced throughout the contract.", "doc_ref": "agreement-nw-2025-07.md"},
+    {"id": "sf06", "text": "NWL", "description": "Ticker/short-code used internally for Northwind Logistics in the incident report.", "doc_ref": "postmortem-inc42.md"},
+
+    {"id": "sf07", "text": "Project Meridian", "description": "Northwind's route-optimization initiative, subject of the Q2 governance memo.", "doc_ref": "memo-q2.md"},
+    {"id": "sf08", "text": "Meridian", "description": "The initiative covered by contract NW-2025-07's data-sharing terms.", "doc_ref": "agreement-nw-2025-07.md"},
+    {"id": "sf09", "text": "the Meridian initiative", "description": "Referenced as the affected system in the March incident.", "doc_ref": "postmortem-inc42.md"},
+
+    {"id": "sf10", "text": "Contract NW-2025-07", "description": "The data-sharing agreement between Northwind and Bright Horizon Capital, signed by Amara Chen.", "doc_ref": "agreement-nw-2025-07.md"},
+    {"id": "sf11", "text": "the July contract", "description": "Referenced in the Q2 memo as the agreement governing Meridian's third-party data access.", "doc_ref": "memo-q2.md"},
+
+    {"id": "sf12", "text": "Rafael Ortiz", "description": "Lead engineer on Project Meridian, filed the incident report.", "doc_ref": "postmortem-inc42.md"},
+    {"id": "sf13", "text": "Raf Ortiz", "description": "Meridian's lead engineer, mentioned in the Q2 memo's roster update.", "doc_ref": "memo-q2.md"},
+
+    {"id": "sf14", "text": "Bright Horizon Capital", "description": "Investment firm and counterparty on contract NW-2025-07.", "doc_ref": "agreement-nw-2025-07.md"},
+    {"id": "sf15", "text": "Bright Horizon", "description": "The counterparty firm receiving Meridian data under the July contract.", "doc_ref": "memo-q2.md"},
+    {"id": "sf16", "text": "BHC", "description": "Short-code for Bright Horizon Capital used in the incident report's access-log section.", "doc_ref": "postmortem-inc42.md"},
+
+    {"id": "sf17", "text": "Incident NW-INC-42", "description": "The data-access incident investigated in the postmortem, affecting Meridian.", "doc_ref": "postmortem-inc42.md"},
+    {"id": "sf18", "text": "the March incident", "description": "Referenced in the Q2 memo as the reason for the new access-review policy.", "doc_ref": "memo-q2.md"},
+
+    {"id": "sf19", "text": "J. Patel", "description": "Compliance officer at Bright Horizon Capital, approved the March access-log review per the postmortem.", "doc_ref": "postmortem-inc42.md"},
+    {"id": "sf20", "text": "J. Patel", "description": "Hardware vendor contact for the warehouse scanner refresh, unrelated to Meridian or Bright Horizon, mentioned in the Q2 memo's procurement appendix.", "doc_ref": "memo-q2.md"}
+  ]
+}

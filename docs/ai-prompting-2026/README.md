@@ -38,6 +38,7 @@ yahan do moves mein se ek hai — sahi context andar lana, ya ghalat context bah
 5. [Part 4 — Working Safely and Choosing Tools (Concepts 11-13)](04-working-safely-and-choosing-tools.md)
 6. [Recap + Try This Now (12 Practice Prompts)](05-recap-and-practice-prompts.md)
 7. [Practice Projects — Snake Battle, Whack-a-Mole, Personal Page, AI Mini Textbook](06-practice-projects.md)
+8. [Test Your Understanding (30-question assessment)](07-test-your-understanding.md)
 
 ---
 

@@ -23,6 +23,7 @@ Chapter ka scope: **five refusals**, ek surviving asset, uski commercial value, 
 3. [Do System of Record Jo Aap Sath Le Jate Ho, Coverage, aur Narrowing Ka Argument](02-two-sors-coverage-and-narrowing.md)
 4. [Build First Sell Second, aur Kaun Kya Rakhta Hai](03-sequence-and-who-keeps-what.md)
 5. [Argument Kis Par Khara Hai, Honest Label, aur Aage Kya](04-what-it-rests-on-and-honest-label.md)
+6. [Test Your Understanding (58-question assessment)](05-test-your-understanding.md)
 
 ---
 

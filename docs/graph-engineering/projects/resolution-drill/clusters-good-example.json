@@ -1,0 +1,14 @@
+{
+  "$comment": "Answer key. The 2 J. Patel entries (sf19, sf20) are DIFFERENT people who happen to share a printed name — they must stay in 2 separate clusters, not merge.",
+  "clusters": [
+    {"canonical": "Dr. Amara Chen", "form_ids": ["sf01", "sf02", "sf03"]},
+    {"canonical": "Northwind Logistics", "form_ids": ["sf04", "sf05", "sf06"]},
+    {"canonical": "Project Meridian", "form_ids": ["sf07", "sf08", "sf09"]},
+    {"canonical": "Contract NW-2025-07", "form_ids": ["sf10", "sf11"]},
+    {"canonical": "Rafael Ortiz", "form_ids": ["sf12", "sf13"]},
+    {"canonical": "Bright Horizon Capital", "form_ids": ["sf14", "sf15", "sf16"]},
+    {"canonical": "Incident NW-INC-42", "form_ids": ["sf17", "sf18"]},
+    {"canonical": "J. Patel (Bright Horizon compliance officer)", "form_ids": ["sf19"]},
+    {"canonical": "J. Patel (hardware vendor contact)", "form_ids": ["sf20"]}
+  ]
+}

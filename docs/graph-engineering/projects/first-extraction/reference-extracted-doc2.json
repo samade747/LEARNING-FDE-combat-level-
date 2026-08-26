@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {"name": "ACL", "type": "Organization", "description": "Supplier, legal entity Aria Components Ltd., registered supplier since 2022, supplies rate-limiter modules including Component Z9."},
+    {"name": "AC-2024-11", "type": "Contract", "description": "Procurement contract, Net 30 terms, scope covers Z-series rate-limiter modules."},
+    {"name": "Component Z9", "type": "Component", "description": "Part of the Z-series rate-limiter modules supplied under this contract."},
+    {"name": "Marcus Webb", "type": "Person", "description": "ACL's quality lead, agreed to credit and revised inspection protocol after the June defect disclosure."}
+  ],
+  "relations": [
+    {"subject": "ACL", "predicate": "party_to", "object": "AC-2024-11"},
+    {"subject": "ACL", "predicate": "supplied", "object": "Component Z9"},
+    {"subject": "Marcus Webb", "predicate": "works_for", "object": "ACL"}
+  ]
+}

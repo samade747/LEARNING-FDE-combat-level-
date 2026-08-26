@@ -28,6 +28,7 @@ seekha hai, aap yeh poora page follow kar sakte ho.
 4. [The Ladder — Ek Book Se Seekhne Ke Chaar Tareeqe](03-the-ladder-four-rungs.md)
 5. [Yeh LMS Kyun Nahi Hai, Aur Zia Developer AI](04-why-not-an-lms-and-zia-developer.md)
 6. [Yeh Move Har Domain Ke Liye — Kit, Platform, Rules, 80/20](05-same-move-any-domain-and-kit.md)
+7. [Test Your Understanding (50-Question Assessment)](06-test-your-understanding.md)
 
 ---
 

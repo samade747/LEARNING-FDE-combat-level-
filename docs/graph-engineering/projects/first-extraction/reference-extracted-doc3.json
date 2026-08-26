@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {"name": "Aria", "type": "Organization", "description": "Long-standing Z-series supplier, disclosed the defect family on 2026-06-05."},
+    {"name": "INC-2091", "type": "Incident", "description": "Checkout outage on 2026-06-03, caused by a defective Z9 rate-limiter unit."},
+    {"name": "Sana Iqbal", "type": "Person", "description": "Platform team lead assigned to review the supplier's revised inspection protocol."},
+    {"name": "AC-2024-11", "type": "Contract", "description": "Contract the runbook should reference directly instead of the vendor's short name."}
+  ],
+  "relations": [
+    {"subject": "Aria", "predicate": "caused", "object": "INC-2091"},
+    {"subject": "Sana Iqbal", "predicate": "assigned_to", "object": "INC-2091"},
+    {"subject": "Aria", "predicate": "party_to", "object": "AC-2024-11"}
+  ]
+}

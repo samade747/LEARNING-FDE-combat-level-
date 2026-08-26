@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {"name": "Aria Components Ltd", "type": "Organization", "description": "Supplier of Component Z9 under contract AC-2024-11, notified of the outage and confirmed the batch defect."},
+    {"name": "Component Z9", "type": "Component", "description": "Rate-limiter module implicated in the outage; defective batch recalled after 2026-05-01."},
+    {"name": "INC-2091", "type": "Incident", "description": "40-minute checkout service outage on 2026-06-03."},
+    {"name": "AC-2024-11", "type": "Contract", "description": "Supply contract under which Component Z9 was purchased from Aria Components Ltd."},
+    {"name": "Priya Nair", "type": "Person", "description": "On-call engineer who escalated the incident."}
+  ],
+  "relations": [
+    {"subject": "Aria Components Ltd", "predicate": "supplied", "object": "Component Z9"},
+    {"subject": "Component Z9", "predicate": "involved_in", "object": "INC-2091"},
+    {"subject": "Aria Components Ltd", "predicate": "party_to", "object": "AC-2024-11"},
+    {"subject": "Priya Nair", "predicate": "escalated", "object": "INC-2091"}
+  ]
+}

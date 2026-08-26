@@ -28,6 +28,7 @@ AI usi pattern ko dobara chala sakta hai, jab tak hum jaan-boojh kar behtar raas
 3. [Objections 4-6 — Geopolitics, Reality, Existential Risk](02-objections-4-6.md)
 4. [Objections 7-9 — Environment, Bias, Wealth Concentration](03-objections-7-9.md)
 5. [The Bottom Line](04-the-bottom-line.md)
+6. [Test Your Understanding (67-question assessment)](05-test-your-understanding.md)
 
 ---
 

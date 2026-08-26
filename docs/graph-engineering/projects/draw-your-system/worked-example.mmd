@@ -1,0 +1,24 @@
+%% Worked example: a morning-triage loop + a review loop sharing a memory file.
+%% This is the kind of setup Part 6 upgrades into a real graph.
+graph LR
+    classDef loop fill:#fde68a,stroke:#92400e
+    classDef checker fill:#bfdbfe,stroke:#1e3a8a
+    classDef gate fill:#fecaca,stroke:#7f1d1d
+    classDef anchor fill:#bbf7d0,stroke:#14532d
+    classDef memory fill:#e5e7eb,stroke:#374151
+
+    Triage[Loop: morning-triage]:::loop -->|produced| Spine[(MemoryFile: progress.md)]:::memory
+    Triage -->|checked_by| Rev1{Checker: triage-reviewer}:::checker
+    Rev1 -->|routes_to risky| Gate[[HumanGate: needs-a-human]]:::gate
+    Rev1 -->|verified_against| Tests((Anchor: pytest exit_code)):::anchor
+
+    Changelog[Loop: changelog-writer]:::loop -->|reads| Spine
+    Changelog -->|produced| Notes[(MemoryFile: CHANGELOG.md)]:::memory
+    Changelog -->|checked_by| Rev2{Checker: changelog-reviewer}:::checker
+
+    %% CIRCLED: this finding lives only in a transcript today —
+    %% "flaky test root-caused to tz_default_utc" was said out loud in a chat,
+    %% never written into progress.md as a typed claim. Changelog loop cannot see it.
+
+    %% CIRCLED: Triage has no watcher on "issues closed per day" —
+    %% nothing catches it if the loop starts closing issues without real fixes (Gaming, Concept 12).

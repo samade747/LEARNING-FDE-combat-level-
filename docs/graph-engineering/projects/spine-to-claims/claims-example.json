@@ -1,0 +1,104 @@
+{
+  "claims": [
+    {
+      "id": "claim_0001",
+      "subject": "test_payments_refund",
+      "predicate": "diagnosed_as",
+      "object": "tz_default_utc_not_set",
+      "source": {"kind": "tool_output", "command": "pytest -k refund", "exit_code": 0, "ref": "5 reruns, 0/5 failures"},
+      "produced_by": "run_2026-07-14-triage",
+      "supersedes": null,
+      "created": "2026-07-14"
+    },
+    {
+      "id": "claim_0002",
+      "subject": "requests_dependency",
+      "predicate": "updated_to",
+      "object": "2.32.3",
+      "source": {"kind": "tool_output", "command": "pip-audit", "exit_code": 0, "ref": "0 high-severity findings, was 1"},
+      "produced_by": "run_2026-07-15-triage",
+      "supersedes": null,
+      "created": "2026-07-15"
+    },
+    {
+      "id": "claim_0003",
+      "subject": "dark_mode_feature_request",
+      "predicate": "classified_as",
+      "object": "feature_not_bug",
+      "source": {"kind": "inference"},
+      "produced_by": "run_2026-07-15-triage",
+      "supersedes": null,
+      "created": "2026-07-15"
+    },
+    {
+      "id": "claim_0004",
+      "subject": "discount_py_bug",
+      "predicate": "fixed_by",
+      "object": "changed_divide_by_1000_to_100",
+      "source": {"kind": "tool_output", "command": "pytest test_discount.py", "exit_code": 0, "ref": "3/3 pass, was 2/3 failing"},
+      "produced_by": "run_2026-07-16-triage",
+      "supersedes": null,
+      "created": "2026-07-16"
+    },
+    {
+      "id": "claim_0005",
+      "subject": "parser_py_null_check_line_88",
+      "predicate": "removed_because",
+      "object": "deemed_redundant",
+      "source": {"kind": "inference"},
+      "produced_by": "run_2026-07-17-triage",
+      "supersedes": null,
+      "created": "2026-07-17"
+    },
+    {
+      "id": "claim_0006",
+      "subject": "ci_yml_workflow",
+      "predicate": "updated_with",
+      "object": "timeout_minutes_10",
+      "source": {"kind": "tool_output", "command": "manual workflow_dispatch run", "exit_code": 0, "ref": "completed in 4m12s"},
+      "produced_by": "run_2026-07-18-triage",
+      "supersedes": null,
+      "created": "2026-07-18"
+    },
+    {
+      "id": "claim_0007",
+      "subject": "onboarding_docs",
+      "predicate": "flagged_as",
+      "object": "possibly_stale",
+      "source": {"kind": "document", "ref": "team Slack mention, not independently verified"},
+      "produced_by": "run_2026-07-19-triage",
+      "supersedes": null,
+      "created": "2026-07-19"
+    },
+    {
+      "id": "claim_0008",
+      "subject": "test_payments_flaky",
+      "predicate": "diagnosed_as",
+      "object": "tz_default_utc_not_set",
+      "source": {"kind": "tool_output", "command": "pytest -k payments_flaky -v", "exit_code": 0, "ref": "evidence/run_log.txt#L88-94"},
+      "produced_by": "run_2026-07-21-triage",
+      "supersedes": null,
+      "created": "2026-07-21"
+    },
+    {
+      "id": "claim_0009",
+      "subject": "checkout_latency_regression",
+      "predicate": "suspected_cause",
+      "object": "new_logging_middleware",
+      "source": {"kind": "inference"},
+      "produced_by": "run_2026-07-22-triage",
+      "supersedes": null,
+      "created": "2026-07-22"
+    },
+    {
+      "id": "claim_0010",
+      "subject": "public_api_response_shape_change",
+      "predicate": "escalated_because",
+      "object": "breaking_change_per_reviewer_verdict",
+      "source": {"kind": "inference"},
+      "produced_by": "run_2026-07-23-triage",
+      "supersedes": null,
+      "created": "2026-07-23"
+    }
+  ]
+}

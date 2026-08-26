@@ -27,6 +27,7 @@ ka ek chota piece build karte ho.
 5. [Step 4 Aur 5 — Beachhead Chuno, Chaar Gates Se Validate Karo](04-step4-beachhead-and-step5-validation-gates.md)
 6. [Launch Ke Baad, Aur Ayesha Ki Poori Kahani](05-after-launch-and-ayesha.md)
 7. [Longlist, Humare Apne Choices, Aur Aage Kahan Jaana Hai](06-longlist-and-our-own-choices.md)
+8. [Test Your Understanding (62-question assessment)](07-test-your-understanding.md)
 
 ---
 

@@ -1,0 +1,23 @@
+{
+  "claims": [
+    {
+      "id": "claim_0001",
+      "subject": "test_payments_refund",
+      "predicate": "diagnosed_as",
+      "object": "tz_default_utc_not_set",
+      "produced_by": "run_2026-07-14-triage",
+      "supersedes": null,
+      "created": "2026-07-14"
+    },
+    {
+      "id": "claim_0001",
+      "subject": "requests_dependency",
+      "predicate": "updated_to",
+      "object": "2.32.3",
+      "source": {"kind": "tool_output"},
+      "produced_by": "run_2026-07-15-triage",
+      "supersedes": "claim_9999",
+      "created": "2026-07-15"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "internal-ticketing": {
+      "command": "npx",
+      "args": ["-y", "@example/ticketing-mcp-server"],
+      "env": {
+        "TICKETING_API_KEY": "${TICKETING_API_KEY}",
+        "TICKETING_ORG": "${TICKETING_ORG:-demo-org}"
+      }
+    }
+  }
+}

@@ -35,6 +35,7 @@ cover kiya gaya hai.
 6. [Skill Author aur Connector/Plugin Engineer](05-skill-author-connector-plugin-engineer.md)
 7. [Supporting Roles aur Jahan Book Rukti Hai](06-supporting-roles-and-where-book-stops.md)
 8. [Your Type, aur FDE Résumé/Interview Appendices](07-your-type-and-fde-appendices.md)
+9. [Test Your Understanding (66-question assessment)](08-test-your-understanding.md)
 
 ---
 
