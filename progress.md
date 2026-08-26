@@ -132,6 +132,16 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
 
 - (kuch nahi abhi)
 
+- 2026-08-26: User ne "KSor complete guide ka folder banho" mangi — clarifying question (AskUserQuestion)
+  se confirm hua: `docs/ecosystem-designing-the-vertical-sor/` ko chherna nahi tha, balke ek **naya alag
+  `docs/ksor/` folder** banana tha. Naya standalone reference folder banaya: `README.md` + `00`
+  (Kyun/Definition) + `01` (7 Principles) + `02` (Architecture/Tooling) + `03` (Governance/AI-Native) +
+  `04` (Applications/Design Goals/Status) + `SUMMARY.md` — content `ecosystem-designing-the-vertical-sor`
+  ke sath identical (dono ek hi `KSoR-Complete-Guide (1).pdf` se aaye), lekin framing standalone hai
+  ("kisi ek book-chapter tak mehdood nahi") aur dono folders ek dusre ko cross-link karte hain. Sab
+  internal links verify kiye (bash script, koi broken link nahi). Root `README.md` mein chapter #7 row
+  aur Repo Structure section mein naye folder ka pointer add kiya.
+
 - 2026-08-18: User ne khud Loop Engineering ke practice projects hands-on karne shuru kiye
   (`docs/loop-engineering/10-practice-log.md` mein track). **Project 7 (Break It On Purpose):** sky-watch
   version pehle complete hui, phir user confused raha (2 dafa dobara samjhaya, real-life analogy

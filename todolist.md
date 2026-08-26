@@ -17,6 +17,10 @@
 
 ## Done
 
+- [x] `docs/ksor/` (naya, alag folder) banaya — user ne clarifying question ke jawab mein "Naya alag
+  folder banao" confirm kiya (`docs/ecosystem-designing-the-vertical-sor/` untouched raha). 7 files:
+  README + 00-04 numbered + SUMMARY.md, standalone framing ke sath, dono folders cross-linked. Root
+  `README.md` update kiya naye folder ko point karne ke liye.
 - [x] Full Zia Tutor audit (`outline_agent_factory` + disk cross-check) — root `README.md` status
   table stale-ness resolved (was 36/65, actually 54/65 fully done + 2 partial). 9 real gaps + 2
   partials identified and tabled (see Active).

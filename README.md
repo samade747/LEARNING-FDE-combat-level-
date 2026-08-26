@@ -75,7 +75,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 4 | **The Forward Deployed Engineer Agent Factory Model** | ✅ [`docs/ecosystem-fde-af-model`](docs/ecosystem-fde-af-model/README.md) |
 | 5 | Agent Factory System of Record | ✅ [`docs/ecosystem-system-of-record`](docs/ecosystem-system-of-record/README.md) |
 | 6 | The System of Context: Connecting the Records to Real Work | 🔲 not started |
-| 7 | Designing the Vertical System of Record from First Principles | ✅ [`docs/ecosystem-designing-the-vertical-sor`](docs/ecosystem-designing-the-vertical-sor/README.md) |
+| 7 | Designing the Vertical System of Record from First Principles | ✅ [`docs/ecosystem-designing-the-vertical-sor`](docs/ecosystem-designing-the-vertical-sor/README.md) + standalone [`docs/ksor`](docs/ksor/README.md) reference |
 | 8 | Zia Tutor AI | ✅ [`docs/ecosystem-zia-tutor-ai`](docs/ecosystem-zia-tutor-ai/README.md) |
 | 9 | Zia Developer AI | ✅ [`docs/ecosystem-zia-developer-ai`](docs/ecosystem-zia-developer-ai/README.md) |
 
@@ -218,6 +218,7 @@ docs/[chapter-slug]/
 Loop-Engineering-Summary.md      ← Loop Engineering ka aasan overview (root)
 Loop-Engineering-Final-Prep.md   ← Loop Engineering ka poora prep guide, real code example ke sath
 Graph-Engineering-Summary.md     ← Graph Engineering ka aasan overview (root)
+docs/ksor/                        ← KSoR standalone reference (chapter-context ke bina, SDK khud)
 progress.md                       ← is learning-journey ki apni spine (loop engineering se seekha pattern)
 todolist.md                       ← active/done/backlog task list
 ```
