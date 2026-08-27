@@ -2,6 +2,18 @@
 
 ## Done
 
+- 2026-08-27 (2nd update): User ne `pcar-f`/`pcdv-f` folders mein bhi projects+quiz mangi. PCAR-F
+  aur PCDV-F dono apne Anthropic counterpart (CCAR-F/CCDV-F) ke **bilkul usi domain-weight blueprint**
+  par based hain, isliye duplicate scaffolds banane ki bajaye dono folders ke "Practice Projects"
+  section CCAR-F/CCDV-F ke scaffolds ko point karte hain. PCAR-F ko CCAR-F ke already-bane 5 scaffolds
+  mil gaye (link hi kaafi tha). **CCDV-F ke paas koi scaffold nahi tha** (uska exam guide CCAR-F ki
+  tarah 4 numbered exercises nahi deta, sirf "ek application banao" + 3 sample questions) — isliye
+  pehle `docs/certifications/ccdv-f/projects/00-integration-application/` banaya (batch-vs-realtime
+  decision, prompt-injection guardrail, reusable MCP-tool pattern — 3 official sample questions,
+  Domain 2/7/8, 8 offline pytest tests pass), phir PCDV-F usay point karta hai. Dono PCAR-F aur
+  PCDV-F mein `05-test-your-understanding.md` + `quiz.md` (10 questions each) add kiye — Panaversity
+  logistics + apne-apne domain-weight blueprint par grounded.
+
 - 2026-08-27: User ne 4 workstreams ek sath mangi (ksor/certifications projects+quiz, CCAR-F ke
   missing exercises, naya CCAR-F Track B chapter) — 4 parallel background forks se kiya, coordinator
   (main session) ne verify + reconcile + root-doc updates + commit khud kiye. **Sabse bara finding:**

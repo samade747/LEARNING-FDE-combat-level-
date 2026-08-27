@@ -45,6 +45,19 @@ implementation-heavy questions ke liye chahiye.
 - **Real-attempt rule:** free sample test pehle do, real PCAR-F attempt exam-conditions practice ke
   baad hi lo — sirf 2 free attempts hain
 
+## Practice Projects
+
+PCAR-F **CCAR-F ke bilkul usi blueprint** par based hai, isliye is repo mein koi alag PCAR-F-specific
+scaffold duplicate nahi kiya gaya — [CCAR-F ke 5 project scaffolds](../ccar-f/projects/README.md)
+(agentic-loop, multi-tool-escalation, team-workflow, structured-extraction, multi-agent-research)
+hi PCAR-F ki asal hands-on prep hain, sab offline pytest se tested.
+
+## Test Your Understanding
+
+- [`05-test-your-understanding.md`](05-test-your-understanding.md) — 10 scenario-based questions
+  (Panaversity logistics + CCAR-F-blueprint domain weights)
+- [`quiz.md`](quiz.md) — same 10 questions, standalone self-test version
+
 ## Is Repo Ka Apna Push
 
 **Yeh wahi exam hai jo user ne 2026-10-05 tak pass karne ka target rakha hai.** Week-by-week plan aur

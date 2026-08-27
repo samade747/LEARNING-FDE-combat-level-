@@ -44,6 +44,20 @@ mein hai — PCDV-F **usi blueprint** pe based hai.
 - **Free sample test** (targets CCDV-F, is exam ke liye bhi valid): [CCDV-F, Developer Foundations](https://flashgenius.net/sample-tests/ccdv-f)
 - **Official blueprint authority:** [CCDV-F Exam Guide v1.0](https://everpath-course-content.s3-accelerate.amazonaws.com/instructor/6nizmqk8tpzpfjvt6qmmav7rh/public/1783542875/Claude+Certified+Developer+%E2%80%93+Foundations+Exam+Guide.pdf)
 
+## Practice Projects
+
+PCDV-F **CCDV-F ke bilkul usi blueprint** par based hai. CCDV-F guide (CCAR-F ke unlike) 4 numbered
+exercises nahi deta — sirf "ek application banao" + 3 sample questions (Domains 2, 7, 8). Is repo
+ka scaffold un teenon sample questions ko directly implement karta hai:
+[`CCDV-F Projects — 00-integration-application`](../ccdv-f/projects/00-integration-application/README.md)
+(batch-vs-realtime decision, prompt-injection guardrail, reusable MCP tool), 8 offline pytest tests.
+
+## Test Your Understanding
+
+- [`05-test-your-understanding.md`](05-test-your-understanding.md) — 10 scenario-based questions
+  (Panaversity logistics + CCDV-F-blueprint domain weights + 3 sample questions)
+- [`quiz.md`](quiz.md) — same 10 questions, standalone self-test version
+
 ## Is Repo Ka Apna Push
 
 Yeh **PCAR-F ke baad** ka step hai. PCAR-F par current focus — dekho
