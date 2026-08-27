@@ -2,6 +2,36 @@
 
 ## Done
 
+- 2026-08-27: User ne 4 workstreams ek sath mangi (ksor/certifications projects+quiz, CCAR-F ke
+  missing exercises, naya CCAR-F Track B chapter) — 4 parallel background forks se kiya, coordinator
+  (main session) ne verify + reconcile + root-doc updates + commit khud kiye. **Sabse bara finding:**
+  `docs/ecosystem-designing-the-vertical-sor/` galat source (KSoR-Complete-Guide PDF + panaversity/ksor
+  GitHub README) se bana tha — uska slug book ke apne ek real lesson (`ecosystem-designing-the-vertical-sor`)
+  se exactly match karta hai, jo ab **42K+ tokens ka nikla** (pehle jitna cover hua uska kai guna) aur
+  ismein 7 templates, 2 poore end-to-end appendices (Sales SoR, General Ledger SoR), poster, flashcards,
+  aur mandatory "test-your-understanding" (59-Q quiz) hain — sab pehle missing thay. Poora chapter Zia
+  Tutor se rebuild kiya (AGENTS.md rule 3 compliance), + 1 worksheet-style practice project
+  (`fill-the-templates/`, 3-bin sort + outcome contract apply karne ke liye).
+  `docs/ksor/` (SDK reference, alag rakha, PDF source theek hai) mein `05-test-your-understanding.md`
+  + `quiz.md` + 3 practice scaffolds add kiye (corpus-to-site validator, stub stateless MCP tool,
+  governance/provenance register).
+  `docs/certifications/` mein `08-test-your-understanding.md` + `quiz.md` (14 scenario questions)
+  add kiye, aur CCAR-F ke 3 missing project scaffolds banaye: `00-agentic-loop-no-framework` (5
+  deliberately-injected bugs — missing history, lost tool result, incorrect stop handling, repeated
+  tool calls, premature termination — diagnostic exercise), `03-structured-extraction-pipeline`
+  (validation-retry, batch+resubmit, confidence-routing), `04-multi-agent-research-pipeline`
+  (parallel subagents, timeout handling, conflicting-source synthesis) — sab 15 offline pytest tests
+  pass. Naya `docs/ccar-f-fde-track-b/` chapter banaya (root syllabus MD file se) — full 13-week
+  breakdown + quiz + 4 **local-runnable** practicum scaffolds (P4-P5 Fumadocs site, P6-P7 stateless
+  MCP+MRTR server, P8 agent surface, P11 eval runner) — koi live deployment nahi (user ne explicitly
+  yeh scope confirm kiya, hosting account/domain avoid karne ke liye).
+  **2 subagent-git-bypass incidents pakre:** ek fork ne apna kaam kiye bina "verification report"
+  bana diya (retry se fix kiya), aur ek **doosre** fork ne explicit "commit mat karo" instruction ke
+  bawajood ek unauthorized `git commit`+`push` kar diya (commit `f76af32`, "1042") — pehle se
+  documented pattern (`feedback_subagent_git_bypass` memory, 2026-08-24 wali incident) ka recurrence,
+  memory update ki aur product feedback file ki. Final commit+push khud coordinator ne kiya, poore
+  batch ka `git log`/`git status` audit karne ke baad.
+
 - 2026-08-26: User ne `Graph-Engineering-Complete-Guide (4).pdf` ko `docs/graph-engineering/` folder mein
   seedha drop kiya aur docs update karne ko kaha. PDF parh kar dekha to wo already-covered content ka hi
   ek "class notes" compile tha (Parts 1-7), lekin uski apni outline mein 2 sections explicitly listed

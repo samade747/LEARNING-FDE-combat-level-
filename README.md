@@ -62,7 +62,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 8 | What You Carry In: The Ownership Argument | ✅ [`docs/what-you-carry-in`](docs/what-you-carry-in/README.md) |
 | 9 | Getting Paid as a Vertical FDE | ✅ [`docs/how-to-get-paid`](docs/how-to-get-paid/README.md) |
 | 10 | Selling as a Vertical FDE | 🔲 not started |
-| — | Courses & Certifications | ✅ [`docs/certifications`](docs/certifications/README.md) |
+| — | Courses & Certifications | ✅ [`docs/certifications`](docs/certifications/README.md) (+ [CCAR-F Track B chapter](docs/ccar-f-fde-track-b/README.md), local-runnable practicum scaffolds) |
 | — | Glossary | 🔲 not started — bara reference chapter (~36K tokens, 15 term-category sections) |
 
 ### The Ecosystem (Platform + Business Model)
@@ -75,7 +75,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 4 | **The Forward Deployed Engineer Agent Factory Model** | ✅ [`docs/ecosystem-fde-af-model`](docs/ecosystem-fde-af-model/README.md) |
 | 5 | Agent Factory System of Record | ✅ [`docs/ecosystem-system-of-record`](docs/ecosystem-system-of-record/README.md) |
 | 6 | The System of Context: Connecting the Records to Real Work | 🔲 not started |
-| 7 | Designing the Vertical System of Record from First Principles | ✅ [`docs/ecosystem-designing-the-vertical-sor`](docs/ecosystem-designing-the-vertical-sor/README.md) + standalone [`docs/ksor`](docs/ksor/README.md) reference |
+| 7 | Designing the Vertical System of Record from First Principles | ✅ [`docs/ecosystem-designing-the-vertical-sor`](docs/ecosystem-designing-the-vertical-sor/README.md) (2026-08-27: rebuilt from the book's own lesson, not the PDF — full method, 7 templates, 2 appendices, 59-Q quiz, practice project) + standalone [`docs/ksor`](docs/ksor/README.md) reference (quiz + 3 practice scaffolds) |
 | 8 | Zia Tutor AI | ✅ [`docs/ecosystem-zia-tutor-ai`](docs/ecosystem-zia-tutor-ai/README.md) |
 | 9 | Zia Developer AI | ✅ [`docs/ecosystem-zia-developer-ai`](docs/ecosystem-zia-developer-ai/README.md) |
 
@@ -222,6 +222,9 @@ Loop-Engineering-Summary.md      ← Loop Engineering ka aasan overview (root)
 Loop-Engineering-Final-Prep.md   ← Loop Engineering ka poora prep guide, real code example ke sath
 Graph-Engineering-Summary.md     ← Graph Engineering ka aasan overview (root)
 docs/ksor/                        ← KSoR standalone reference (chapter-context ke bina, SDK khud)
+docs/ccar-f-fde-track-b/          ← CCAR-F Track B syllabus ka apna chapter (README+numbered files+quiz)
+                                    + 4 local-runnable practicum scaffolds (Fumadocs site, stateless
+                                    MCP+MRTR server, agent surface, eval runner) — deploy nahi, sirf local
 Claude Certified Architect Foundations (CCAR-F) FDE Track B Accelerated.md
                                   ← Panaversity ka apna 13-week Track B syllabus (external, user-provided,
                                     Zia Tutor se nahi) — architect strand + FDE practicum (Vertical SoR)

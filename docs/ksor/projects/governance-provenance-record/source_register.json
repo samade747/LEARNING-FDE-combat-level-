@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "stable_id": "policy-refund-window-001",
+      "owner": "store-ops-lead",
+      "version": "2.1",
+      "authority_class": "authority",
+      "review_state": "approved",
+      "effective_period": "2026-01-01/open",
+      "source_commit": "a1b2c3d"
+    },
+    {
+      "stable_id": "procedure-refund-escalation-001",
+      "owner": "store-ops-lead",
+      "version": "1.3",
+      "authority_class": "authority",
+      "review_state": "approved",
+      "effective_period": "2026-01-01/open",
+      "source_commit": "a1b2c3d"
+    },
+    {
+      "stable_id": "about-001",
+      "owner": "fixture-team",
+      "version": "1.0",
+      "authority_class": "orientation",
+      "review_state": "approved",
+      "effective_period": "2026-01-01/open",
+      "source_commit": "a1b2c3d"
+    },
+    {
+      "stable_id": "draft-loyalty-policy-001",
+      "owner": "",
+      "version": "0.1",
+      "authority_class": "authority",
+      "review_state": "draft",
+      "effective_period": "",
+      "source_commit": ""
+    }
+  ]
+}

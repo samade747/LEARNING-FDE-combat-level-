@@ -6,8 +6,11 @@ KSoR (`panaversity/ksor`) is the open-source SDK that builds this: governed, pro
 knowledge, served identically to humans (a website) and AI agents (MCP) — "Same Truth." Package is at
 `0.0.0` — a name-reserving placeholder; everything below is design, not yet implemented.
 
-*(Standalone reference — same content jo [`../ecosystem-designing-the-vertical-sor/`](../ecosystem-designing-the-vertical-sor/README.md)
-mein book ke chapter-7 example ki tarah hai, yahan bina kisi chapter-context ke.)*
+*(Standalone SDK reference. Correction 2026-08-27: pehle yahan likha tha ke yeh
+[`../ecosystem-designing-the-vertical-sor/`](../ecosystem-designing-the-vertical-sor/README.md) mein
+book ke chapter example ki tarah hai — galat tha. Book ke apne lesson mein `panaversity/ksor` ya "KSoR"
+ka koi zikr nahi hai; dono folders sirf naam mein similar hain. Woh chapter ek generic method hai, yeh
+folder ek specific open-source SDK hai — dono independent.)*
 
 ## 00 — Kyun Aur Definition
 
@@ -60,6 +63,21 @@ mein book ke chapter-7 example ki tarah hai, yahan bina kisi chapter-context ke.
   Human-readable, Versioned, Reproducible, Composable, Extensible
 - Status: active development, purane VSOR implementation se evolve ho raha hai; MCP agent surface abhi
   sirf design hai. Apache 2.0, npm package `@panaversity/ksor`
+
+## 05 — Test Your Understanding
+
+- 12-question scenario-based quiz (`05-test-your-understanding.md` + standalone `quiz.md`), is
+  chapter ke `00`-`04` se grounded (koi live book `<Quiz>` component nahi, is fixture-README ke liye
+  khud likha gaya)
+
+## Practice Projects (`projects/`)
+
+- **Corpus-to-Site Skeleton** — `knowledge/`+`instance.md` convention + governance-frontmatter
+  validator
+- **Stub Stateless MCP Tool** — pure-function `search`/`retrieve` handler, abstains instead of
+  guessing
+- **Governance/Provenance Record** — source register + validator (Source→Draft→Review→Approved
+  pipeline, draft-never-citable)
 
 ---
 [⬅ Index](README.md)

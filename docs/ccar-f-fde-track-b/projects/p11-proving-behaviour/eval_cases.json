@@ -1,0 +1,55 @@
+[
+  {
+    "id": "C1",
+    "class": "answerable_with_citation",
+    "kind": "citation",
+    "question": "What is the refund approval threshold?",
+    "expect_status": "answered",
+    "expect_citation": "POLICY-REFUND-001"
+  },
+  {
+    "id": "C2",
+    "class": "requires_rule_plus_fact",
+    "kind": "rule_plus_fact",
+    "order_id": "order-101",
+    "expect_status": "answered",
+    "expect_needs_approval": true
+  },
+  {
+    "id": "C3",
+    "class": "requires_rule_plus_fact",
+    "kind": "rule_plus_fact",
+    "order_id": "order-102",
+    "expect_status": "answered",
+    "expect_needs_approval": false
+  },
+  {
+    "id": "C4",
+    "class": "requires_rule_plus_fact",
+    "kind": "rule_plus_fact",
+    "order_id": "order-999",
+    "expect_status": "abstain"
+  },
+  {
+    "id": "C5",
+    "class": "outside_boundary_abstain",
+    "kind": "outside_boundary",
+    "question": "What is tomorrow's weather?",
+    "expect_status": "abstain"
+  },
+  {
+    "id": "C6",
+    "class": "outside_boundary_abstain",
+    "kind": "outside_boundary",
+    "question": "Who will win the next election?",
+    "expect_status": "abstain"
+  },
+  {
+    "id": "C7",
+    "class": "answerable_with_citation",
+    "kind": "citation",
+    "question": "What does the refund policy say?",
+    "expect_status": "answered",
+    "expect_citation": "POLICY-REFUND-001"
+  }
+]

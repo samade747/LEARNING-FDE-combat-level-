@@ -22,6 +22,8 @@ announcement, chaar official exam guides, aur Pearson VUE programme page. **Doma
 6. [05 — Registration, Retakes, Costs, 6 Mistakes](05-registration-costs-mistakes.md)
 7. [06 — Sample Tests + Official Exam Guides (index into per-cert folders)](06-sample-tests.md)
 8. [07 — Practice Log (meri apni PCAR-F push, deadline 2026-10-05)](07-practice-log.md)
+9. [08 — Test Your Understanding (14 Scenario-Based Questions)](08-test-your-understanding.md)
+10. [Quiz — Self-Contained (same 14 questions)](quiz.md)
 
 ## Har Certification Ka Apna Folder
 

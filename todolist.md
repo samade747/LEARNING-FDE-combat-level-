@@ -99,9 +99,9 @@
 
 - [ ] `Four-Layers-Summary_1.pdf` (duplicate PDF, repo root) — delete karna hai? (Pehle offer kiya tha, abhi tak koi jawab nahi)
 - [ ] Baaki practice projects: 6 (Doorbell — GitHub repo/App install chahiye), 9-12 (claude.ai account chahiye)
-- [ ] **Build the actual Vertical SoR (Track B FDE Practicum P1-P13, found 2026-08-26):** is repo ke
-  paas KSoR/SoR *concept docs* hain (`docs/ksor/`, `docs/ecosystem-designing-the-vertical-sor/`) lekin
-  koi real deployed project nahi — Track B syllabus Milestone 1 (Next.js+Fumadocs human site, 5+ governed
-  docs, live) aur Milestone 2 (stateless MCP 2026-07-28 search/retrieve/cite surface, working) dono
-  currently unmet hain. PCAR-F pass karne ke liye zaroori nahi, lekin CCAR-F/FDE-Internship ki taraf
-  agla concrete kaam hai — user se priority/timing confirm karni hai.
+- [x] **Local-runnable Track B FDE Practicum scaffolds (2026-08-27):** `docs/ccar-f-fde-track-b/`
+  chapter + `projects/` mein 4 scaffolds — Fumadocs corpus-to-site (P4-P5), stateless MCP + MRTR
+  server (P6-P7), agent surface with knowledge-boundary (P8), 3-class eval runner (P11) — sab local
+  hi chalte hain (koi live deploy nahi, user ne yehi scope confirm kiya tha). **Abhi bhi baaki:**
+  actual **live/public deployment** (real Next.js+Fumadocs hosting, real MCP server URL) — jab
+  CCAR-F/FDE-Internship ki taraf aage badhna ho, user se hosting/domain decision leni hogi.
