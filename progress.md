@@ -2,6 +2,30 @@
 
 ## Done
 
+- 2026-08-28: User ne certifications ke baare mein "aur data lao, book se aur Anthropic se, research
+  karo, quiz + sab kuch banao" mangi. **Research (book + live Anthropic pages):** Zia Tutor
+  `certifications` page dobara search kiya (generation 43→44, content substantively unchanged —
+  domain weights same). Do live Anthropic-adjacent sources cross-check kiye: **Pearson VUE program
+  page** (WebFetch) aur locally-maujood **Exam Registration Guide PDF** (`Read` tool, safe — PDF
+  hallucination-risk memory follow ki). 4 findings mile: (1) naya — Global Premier tier ke liye
+  100%-off promotion 31 Aug 2026 tak, phir 50%; (2) naya — poora exam-day/registration flow detail
+  (password rules, security questions, CCTV/palm-vein consent, accommodation-before-scheduling);
+  (3) ⚠️ **unresolved discrepancy** — book "24-hour reschedule window" kehti hai, Pearson VUE page
+  "48 hours" — dono flag kiye, conservative number follow karne ko kaha, resolve nahi kiya khud se;
+  (4) ⚠️ registration-guide PDF ka apna CCAR-F-domain screenshot (30/25/25/20%, 4 domains) is repo
+  ke verified table (27/20/20/18/15%, 5 domains, full Exam Guide v1.0 se) se **bilkul alag** nikla —
+  stale/pre-v1.0 screenshot maan kar flag kiya, **is repo ka table nahi badla** (poora-text-parhi
+  authoritative Exam Guide hi source of truth rahi). Sab 4 `docs/certifications/05-registration-
+  costs-mistakes.md` mein naye section ki tarah likh diye, honest uncertainty ke sath.
+  **Build:** `ccao-f` (judgment-heavy, coding-appropriate nahi) ko quiz + 10-Q test-understanding +
+  ek **no-code judgment-drills worksheet** (8 scenarios + reference answers, jaisa `tool-diet`
+  pattern) mila. `ccar-p` (capstone) ko quiz + 10-Q test-understanding + ek coding project
+  (`00-professional-scenarios/`, teenon official sample questions — least-privilege, cache-aware
+  prompt ordering, RAG-regression diagnosis — 6 offline pytest tests pass) mila. Ab poore
+  `docs/certifications/` (sab 4 Anthropic + 2 Panaversity folders) mein quiz/test-understanding hai,
+  aur jahan technically appropriate hai wahan tested practice projects bhi — **33 offline pytest
+  tests total, sab pass.**
+
 - 2026-08-27 (2nd update): User ne `pcar-f`/`pcdv-f` folders mein bhi projects+quiz mangi. PCAR-F
   aur PCDV-F dono apne Anthropic counterpart (CCAR-F/CCDV-F) ke **bilkul usi domain-weight blueprint**
   par based hain, isliye duplicate scaffolds banane ki bajaye dono folders ke "Practice Projects"

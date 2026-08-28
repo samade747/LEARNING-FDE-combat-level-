@@ -15,6 +15,14 @@ Source PDF: `docs/certifications/Claude+Certified+Architect+–+Professional+Exa
 3. [02 — Book Coverage, Scope Note, aur Scoring](02-book-coverage-and-scope.md)
 4. [03 — How to Prepare + Sample Questions (full text, 3 questions)](03-how-to-prepare-and-sample-questions.md)
 5. [04 — Registration, Policies, Resources, aur Document Control](04-policies-resources-and-doc-control.md)
+6. [05 — Test Your Understanding (10 questions)](05-test-your-understanding.md) · [Quiz (same content)](quiz.md)
+
+## Practice Projects
+
+[`projects/00-professional-scenarios/`](projects/00-professional-scenarios/README.md) — all 3
+official sample questions (least-privilege tool config, cache-aware prompt ordering, RAG regression
+diagnosis) implemented as offline-testable decision logic, 6 pytest tests, all passing. Builds on
+[CCAR-F's 5 scaffolds](../ccar-f/projects/README.md) for foundation practice.
 
 ## Ek Line Mein Poori Cheez
 

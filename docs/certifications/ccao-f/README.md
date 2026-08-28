@@ -14,6 +14,14 @@ confirm, isi din) — dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research P
 3. [02 — Book Coverage + Scoring](02-book-coverage-and-scope.md)
 4. [03 — How to Prepare + Sample Questions (full 3, with rationale)](03-how-to-prepare-and-sample-questions.md)
 5. [04 — Policies, Resources + Doc Control](04-policies-resources-and-doc-control.md)
+6. [05 — Test Your Understanding (10 questions)](05-test-your-understanding.md) · [Quiz (same content)](quiz.md)
+
+## Practice
+
+[`projects/00-judgment-drills/`](projects/00-judgment-drills/README.md) — 8 no-code judgment drills
+(worksheet + reference answers), grounded in the 3 heaviest domains (Output Evaluation, Workflow
+Integration, Governance = 52% of the exam). Coding scaffold nahi diya gaya — CCAO-F ki skill
+evaluation/judgment hai, implementation nahi.
 
 ## Ek Line Mein Poori Cheez
 
