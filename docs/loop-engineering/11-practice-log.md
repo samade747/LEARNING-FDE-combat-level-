@@ -21,7 +21,7 @@ ho — sirf steps parh lena kaafi nahi.
 | 6 | 🔔 Doorbell Loop | ✅ Done | `claude setup-token` se fresh token liya (browser auth, standalone terminal se — Claude Code session ke andar se `!` prefix bhi hang ho gaya tha, real TTY chahiye tha), `gh secret set` se update kiya, PR #1 par empty commit se workflow re-trigger kiya — Claude ne 45s mein review complete kiya, asal jaan-boojh kar dala gaya `average_altitude` off-by-one bug (`range(len(readings)-1)`) sahi pakra aur fix suggest kiya |
 | 7 | 🔦 Break It On Purpose | ✅ Done | ~3.9s/beat, ~$4-1000/month cadence-dependent. Sky-watch version: 2 sabotage runs, dono clean stop. Easy joke-loop version: user ne khud terminal mein sabotage run kiya — clean "needs a human" stop, fabrication se saaf mana |
 | 8 | 🔁 Daily Loop (Capstone) | ✅ Done | User ne khud run kiya — issue #1 fixed+PASS+ready-to-merge, issue #2 escalated untouched, progress.md sahi update hua. Doosri run ne dobara kuch nahi kiya — spine confirmed |
-| 9 | 🎭 Rehearse for Free | ⬜ Not started | claude.ai account chahiye |
+| 9 | 🎭 Rehearse for Free | ✅ Done | 2 "Run now" fires, dono failed — GitHub App linking issue + koi merged PR na hona. Dono baar transcript ne honest, specific diagnosis di, koi fabrication nahi — yehi A5 ka core sabak hai (status green nahi tha bhi, aur jab tha bhi transcript hi sach batata) |
 | 10 | 🔐 Secrets Drill | ⬜ Not started | claude.ai account chahiye |
 | 11 | 🚦 Two-Routine Gate | ⬜ Not started | claude.ai account chahiye |
 | 12 | 💭 Dreaming Capstone | ⬜ Not started | claude.ai account chahiye |
@@ -373,17 +373,55 @@ identify kiya, fix suggest kiya (`range(len(readings))` ya `sum(readings) / len(
 
 ---
 
-## Baaki Projects (9-12)
+## Project 9 — Rehearse a Routine For Free
 
-- **Project 9 — Rehearse for Free**: jaise pilot asal flight se pehle simulator mein practice karta
-  hai — bina real risk ke dekhna ke agar loop chale to kya hoga.
+**Concept:** one-off run + transcript reading, A5 (green status ≠ task success).
+**Time:** 20-30 min · **Uses:** `claude.ai/code/routines`
+
+> 🧩 **Sabse aasan zaban mein:** status column sirf batata hai "session crash nahi hui" — task
+> success hua ya nahi, yeh **sirf transcript** batata hai. Is project mein hum jaan-boojh kar aisi
+> situations banate hain jahan status akela dhoka de sakta hai.
+
+### Steps
+
+1. `claude.ai/code/routines` → New routine → Remote, prompt: *"Summarize yesterday's merged pull
+   requests in samade747/my-doorbell and push a short summary to a new branch claude/summary."*
+2. Trigger UI mein "one-off" apna alag option nahi nikla — **Schedule** trigger choose kiya (koi
+   bhi preset), save kiya, phir **"Run now"** se manually fire kiya (yeh schedule se alag hai,
+   daily cap mein count nahi hota)
+3. **Run 1:** fail — transcript ne bataya "GitHub write access is denied for samade747/my-doorbell"
+4. GitHub App reconnect + repo access grant kiya
+5. **Run 2:** phir bhi fail — is baar transcript ne **do alag reasons** diye: (a) Claude GitHub App
+   is org/account ke liye abhi bhi properly linked nahi thi (sirf ek connection step hua tha, doosra
+   — claude.ai connector reconnect — chhoot gaya), (b) repo mein kal koi merged PR thi hi nahi (sirf
+   1 commit, 2026-08-19 se)
+
+### Done jab (self-check)
+
+- [x] Kam se kam 2 runs ka transcript parha (status color nahi)
+- [x] Har fail ki **specific, mechanical wajah** bata sakte ho (guess nahi)
+- [x] Confirm kiya model ne fabricate **nahi** kiya jab task complete nahi ho saka
+
+**✅ Complete** — clean-success run nahi mila (GitHub App linking abhi bhi incomplete tha), lekin
+project ka asal sabak (A5: status ≠ truth, transcript hi sach batata hai) **dono runs** mein
+demonstrate hua: dono baar Claude ne specific, honest failure diagnosis di — ek baar "push denied,"
+doosri baar "linking incomplete + koi merged PR nahi" — kabhi silent ya fabricated success nahi.
+User ne confirm kiya yeh do transcripts hi is project ke maqsad ke liye kaafi hain, clean-success
+chase karna zaroori nahi samjha.
+
+**Full detail:** [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) (Project 9 hissa)
+
+---
+
+## Baaki Projects (10-12)
+
 - **Project 10 — Secrets Drill**: jaise ghar ki chaabi kisi ko dete waqt sirf woh darwaza kholti ho jo
   zaroori hai, poora ghar nahi — loop ko sirf utni hi permission do jitni uska kaam maangta hai.
 - **Project 11 — Two-Routine Gate**: jaise bank mein bara transaction 2 logon ke sign chahiye hote
   hain, sirf ek ke nahi — do alag routines ek doosre ko double-check karti hain risky kaam se pehle.
 - **Project 12 — Dreaming Capstone**: jaise raat ko so kar dimag din bhar ki baatein "process" karta
   hai aur kal ka behtar plan banata hai — loop khud apne purane runs dekh kar khud ko behtar banati hai.
-- Projects 9-12 detail: [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md)
+- Projects 10-12 detail: [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md)
 
 ---
 [⬅ Commands Cheat Sheet](10-commands-cheat-sheet.md) · [⬆ Index](README.md) · [Agla: Key Words Glossary ➡](12-key-words-glossary.md)
