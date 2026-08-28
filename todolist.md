@@ -97,6 +97,12 @@
 
 ## Backlog / Open Questions
 
+- [ ] **`docs/ksor/` chapter version-stale (found 2026-08-29):** built from `KSoR-Complete-Guide` PDF
+  + an older GitHub README state. Live `docs/status.md` in `panaversity/ksor` now shows real, shipped
+  CLI verbs (`ksor init/build/serve/ingest/migrate/schema/grant/takedown/calibrate/gc`, npm
+  `0.0.42`) that go well beyond what the chapter documents. Needs a research-and-update pass like
+  `docs/ccar-f-fde-track-b/` just got, whenever KSoR content is next touched.
+
 - [ ] `Four-Layers-Summary_1.pdf` (duplicate PDF, repo root) — delete karna hai? (Pehle offer kiya tha, abhi tak koi jawab nahi)
 - [ ] Baaki practice projects: 6 (Doorbell — GitHub repo/App install chahiye), 9-12 (claude.ai account chahiye)
 - [x] **Local-runnable Track B FDE Practicum scaffolds (2026-08-27):** `docs/ccar-f-fde-track-b/`

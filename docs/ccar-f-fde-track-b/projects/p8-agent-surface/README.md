@@ -31,5 +31,16 @@ python agent_surface.py   # two example questions, one in-corpus, one not
 - [x] Out-of-corpus question → `abstain`, no fabricated `answer` key (this is the boundary the
       milestone actually tests — not "does the tool run", but "does it know what it doesn't know")
 
+## Real Path (For the Actual Practicum Deliverable)
+
+**2026-08-29 update:** `@panaversity/ksor` now ships `ksor serve` — "in-process MCP server (reads
+`./instance.md`; exits 3 if missing)" per its own `docs/status.md`, running over the **stateless HTTP,
+MCP protocol v2026-07-28** gateway (search/read/outline tools, hybrid vector+keyword retrieval with
+**calibrated abstention** — `ksor calibrate` measures the abstention floor in real embedding space).
+That is this scaffold's `search`/`retrieve`/abstain trio, for real, on a real governed record — it
+needs Postgres+pgvector and an embedding-provider key (`ksor ingest` populates the database first).
+This hand-built version stays useful for what it's cheap to test structurally: the boundary-enforcement
+*logic itself*, with zero infra.
+
 ---
 [⬅ Practicum Index](../../02-fde-practicum.md) · [⬆ Chapter Index](../../README.md)

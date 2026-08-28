@@ -49,20 +49,25 @@ def main() -> int:
             errors.append(f"P6: expected hits for query 'bin', got {r1}")
 
         # P7 — MRTR round 1: ask for approval, expect input_required + requestState.
+        # inputRequests is a spec-shaped map: {"approver": {"method": "elicitation/create", ...}}.
         round1 = call("tools/call", {"tool": "request_approval", "arguments": {"amount": 500}})
-        if round1.get("status") != "input_required" or "requestState" not in round1:
+        if round1.get("resultType") != "input_required" or "requestState" not in round1:
             errors.append(f"P7 round 1: expected input_required + requestState, got {round1}")
+        if round1.get("inputRequests", {}).get("approver", {}).get("method") != "elicitation/create":
+            errors.append(f"P7 round 1: inputRequests.approver should be a spec-shaped elicitation/create request, got {round1.get('inputRequests')}")
         state = round1.get("requestState", "")
 
-        # P7 round 2: supply inputResponses + the requestState from round 1.
+        # P7 round 2: caller echoes requestState UNCHANGED and supplies
+        # inputResponses, keyed the same as inputRequests, shaped like the
+        # matching ElicitResult ({"action": "accept"|"decline", "content": {...}}).
         round2 = call(
             "tools/call",
             {
                 "tool": "request_approval",
-                "arguments": {"requestState": state, "inputResponses": {"approver": "yes"}},
+                "arguments": {"requestState": state, "inputResponses": {"approver": {"action": "accept", "content": {"decision": "yes"}}}},
             },
         )
-        if round2 != {"status": "complete", "result": {"amount": 500, "approved": True}}:
+        if round2 != {"resultType": "complete", "result": {"amount": 500, "approved": True}}:
             errors.append(f"P7 round 2: unexpected result {round2}")
 
         # P7 re-entrancy: replay the exact same round-2 call — must succeed
@@ -72,7 +77,7 @@ def main() -> int:
             "tools/call",
             {
                 "tool": "request_approval",
-                "arguments": {"requestState": state, "inputResponses": {"approver": "yes"}},
+                "arguments": {"requestState": state, "inputResponses": {"approver": {"action": "accept", "content": {"decision": "yes"}}}},
             },
         )
         if round2_replay != round2:
@@ -85,11 +90,24 @@ def main() -> int:
             "tools/call",
             {
                 "tool": "request_approval",
-                "arguments": {"requestState": tampered_state, "inputResponses": {"approver": "yes"}},
+                "arguments": {"requestState": tampered_state, "inputResponses": {"approver": {"action": "accept", "content": {"decision": "yes"}}}},
             },
         )
-        if tampered.get("status") != "error":
+        if tampered.get("resultType") != "error":
             errors.append(f"P7 tamper check: tampered requestState was NOT rejected: {tampered}")
+
+        # P7 decline path: the ElicitResult action can also be "decline".
+        round1b = call("tools/call", {"tool": "request_approval", "arguments": {"amount": 900}})
+        state_b = round1b.get("requestState", "")
+        declined = call(
+            "tools/call",
+            {
+                "tool": "request_approval",
+                "arguments": {"requestState": state_b, "inputResponses": {"approver": {"action": "decline", "content": {}}}},
+            },
+        )
+        if declined != {"resultType": "complete", "result": {"amount": 900, "approved": False}}:
+            errors.append(f"P7 decline path: unexpected result {declined}")
 
     finally:
         proc.terminate()

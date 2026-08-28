@@ -2,6 +2,26 @@
 
 ## Done
 
+- 2026-08-29: User ne `docs/ccar-f-fde-track-b/` ke liye "find out aur update karo" mangi — live
+  primary sources se research kiya (root syllabus MD file khud unchanged nikla, 2026-08-26 se). **2 bare
+  findings:**
+  (1) **`@panaversity/ksor` ab genuinely shipped hai** (npm `0.0.42`, `docs/status.md` GitHub se
+  confirm) — `ksor init`, `ksor build`, `ksor serve`, `ksor ingest` sab real, released commands hain,
+  jo P4/P5/P8 practicum weeks ke bilkul real equivalents hain. `p4-p5-fumadocs-corpus-to-site/` aur
+  `p8-agent-surface/` READMEs mein "Real Path" sections add kiye exact current commands ke sath
+  (pehle wala `create-fumadocs-app` hint generic/stale tha).
+  (2) **MCP 2026-07-28 spec ka poora primary-source text mila** (changelog +
+  [MRTR pattern page](https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/mrtr))
+  — pehle `p6-p7-stateless-mcp/` scaffold honestly kehta tha "book MRTR cover nahi karti, exact fields
+  syllabus se hain, spec ke against verify karo." Ab woh verification ho chuki hai: `server.py` poora
+  rewrite hua spec-exact field names (`resultType`, `inputRequests` as `elicitation/create`-shaped map,
+  `inputResponses` as `ElicitResult`-shaped) + spec ki apni replay-protection guidance (principal + TTL
+  + request-digest HMAC envelope mein) ke sath — `test_server.py` mein ek naya decline-path test bhi
+  add hua. Sab 4 scaffolds dobara verify hue, sab pass.
+  **Follow-up flag (is turn mein nahi kiya, scope se bahar tha):** `docs/ksor/` chapter (PDF-sourced,
+  older SDK-README-based) ab is naye `docs/status.md` se **version-stale** hai — `todolist.md` mein
+  backlog note kar diya.
+
 - 2026-08-28: User ne certifications ke baare mein "aur data lao, book se aur Anthropic se, research
   karo, quiz + sab kuch banao" mangi. **Research (book + live Anthropic pages):** Zia Tutor
   `certifications` page dobara search kiya (generation 43→44, content substantively unchanged —

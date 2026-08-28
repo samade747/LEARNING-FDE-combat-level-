@@ -38,18 +38,25 @@ re-run `node build.js`, confirm it fails with a named missing field — then put
 
 ## Real Fumadocs (For the Actual Practicum Deliverable)
 
-This scaffold proves the provenance discipline; it is not a Fumadocs site. To build the real P4-P5
-human projection:
+This scaffold proves the provenance discipline; it is not a Fumadocs site. **2026-08-29 update:**
+`@panaversity/ksor` has shipped `ksor init`/`ksor build` since v0.0.41 (checked against its own
+`docs/status.md`, live on GitHub) — per this syllabus's own rule ("use shipped `ksor` commands where
+they exist; otherwise build the relevant surface directly"), that is now the real P4-P5 path, not a
+generic `create-fumadocs-app` scaffold:
 
 ```bash
-npx create-fumadocs-app@latest
-# then migrate knowledge/*.md into the generated content/ directory,
-# keeping the same provenance frontmatter fields.
-npm run build   # static export, per docs/status.md in panaversity/ksor
+# requires Node.js 24+
+npx @panaversity/ksor@latest init my-knowledge-sor
+cd my-knowledge-sor && npm install && npm run dev   # site live at localhost:3000, hot-reloads on edit
+
+# then migrate knowledge/*.md into the generated knowledge/ directory,
+# keeping the same 6-field provenance frontmatter this scaffold enforces
+ksor build   # validates the whole record + generates indexes; exit 1 on any error, repo untouched
 ```
 
-Check `docs/status.md` in `panaversity/ksor` before this step — KSoR's reference site structure is
-evolving; use shipped commands where they exist.
+`ksor build` is exactly this scaffold's `build.js`, for real: it validates provenance/governance
+structurally and refuses to produce output on a bad record. Milestone 1 ("live human surface, 5+
+governed documents") is this `npm run dev` site, not the `static/` folder above.
 
 ---
 [⬅ Practicum Index](../../02-fde-practicum.md) · [⬆ Chapter Index](../../README.md)

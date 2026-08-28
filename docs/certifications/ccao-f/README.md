@@ -15,6 +15,7 @@ confirm, isi din) — dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research P
 4. [03 — How to Prepare + Sample Questions (full 3, with rationale)](03-how-to-prepare-and-sample-questions.md)
 5. [04 — Policies, Resources + Doc Control](04-policies-resources-and-doc-control.md)
 6. [05 — Test Your Understanding (10 questions)](05-test-your-understanding.md) · [Quiz (same content)](quiz.md)
+7. [06 — Easy Exam Guide (Roman Urdu cram-sheet, exam-day checklist)](06-easy-exam-guide.md)
 
 ## Practice
 
