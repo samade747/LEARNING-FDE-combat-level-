@@ -18,13 +18,15 @@
   (`docs/certifications/certifications` page se confirm, 2026-08-26). Jab live hon, `read_agent_
   factory_lesson` se fetch karo — CCAR-F Domain 3 (20%) aur CCDV-F "Applications and Integration"
   (33.1%) seedha in par depend karte hain.
-- [ ] Doorbell (Loop Eng Project 6): repo `samade747/my-doorbell` bana, workflow verify hui, secret
-  set hai — lekin PR #1 run **fail** hui (`CLAUDE_CODE_OAUTH_TOKEN` khaali/invalid nikla). Fresh
-  `claude setup-token` + `gh secret set` dobara chahiye, phir re-run confirm karna hai.
 - [ ] User se confirm: baqi 30 chapters (Front Matter 12, The Ecosystem 9, Foundations-Everyone 6, References & Companions 3) note karni hain `docs/` mein?
 
 ## Done
 
+- [x] **Doorbell (Loop Eng Project 6) — complete (2026-08-29):** fresh `claude setup-token` (standalone
+  terminal, browser auth — Claude Code session ke andar se 2x hang hua tha, real TTY chahiye tha),
+  `gh secret set CLAUDE_CODE_OAUTH_TOKEN` update kiya, PR #1 par empty commit se re-trigger kiya —
+  Claude ne 45s mein `average_altitude`'s jaan-boojh kar dala gaya off-by-one bug sahi pakra. Loop
+  Engineering ab **8/12 projects Done** (9-12 claude.ai account maangte hain, blocked).
 - [x] **Thesis** aur **Getting Paid as a Vertical FDE** dono partial chapters poore kiye — Thesis mein
   01-08 (Paradigm Shift, Industrialized Stack, 10-80-10, Two-Layer Model, Two Modes, Seven Invariants
   x2, Named Engines, 48-Q quiz), Getting Paid mein 04-06 (Earning While Walking, Failure Modes, Ayesha's

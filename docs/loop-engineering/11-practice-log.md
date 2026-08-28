@@ -18,7 +18,7 @@ ho — sirf steps parh lena kaafi nahi.
 | 3 | 🧠 Morning Brief w/ Memory (Sky Watch) | ✅ Done | Doosri run ne pehli ka data yaad rakha, dobara record nahi hua — spine confirmed |
 | 4 | 🔍 Fix Loop w/ Real Checker | ✅ Done | Real fix → reviewer PASS. Sabotage test alag tarah pass hua — implementer khud ne hard-code karne se mana kar diya (AGENTS.md "test is the spec, not an obstacle" quote kiya) |
 | 5 | 🧩 Codify the Body | ✅ Done | Ek command se worktree+draft+review chala, reviewer PASS. Fresh session ko run yaad nahi thi — sirf disk/git state dekh saki, spine nahi thi |
-| 6 | 🔔 Doorbell Loop | 🔶 In progress | `gh` CLI install + login kiya, repo `samade747/my-doorbell` bana + workflow file verify hui, `claude setup-token` se token liya — secret set karna baaki (Step 4) |
+| 6 | 🔔 Doorbell Loop | ✅ Done | `claude setup-token` se fresh token liya (browser auth, standalone terminal se — Claude Code session ke andar se `!` prefix bhi hang ho gaya tha, real TTY chahiye tha), `gh secret set` se update kiya, PR #1 par empty commit se workflow re-trigger kiya — Claude ne 45s mein review complete kiya, asal jaan-boojh kar dala gaya `average_altitude` off-by-one bug (`range(len(readings)-1)`) sahi pakra aur fix suggest kiya |
 | 7 | 🔦 Break It On Purpose | ✅ Done | ~3.9s/beat, ~$4-1000/month cadence-dependent. Sky-watch version: 2 sabotage runs, dono clean stop. Easy joke-loop version: user ne khud terminal mein sabotage run kiya — clean "needs a human" stop, fabrication se saaf mana |
 | 8 | 🔁 Daily Loop (Capstone) | ✅ Done | User ne khud run kiya — issue #1 fixed+PASS+ready-to-merge, issue #2 escalated untouched, progress.md sahi update hua. Doosri run ne dobara kuch nahi kiya — spine confirmed |
 | 9 | 🎭 Rehearse for Free | ⬜ Not started | claude.ai account chahiye |
@@ -339,11 +339,42 @@ threading confirm ki (`create_draft` + `replyToMessageId` → `send_message(draf
 
 ---
 
-## Baaki Projects (6, 9-12)
+## Project 6 — Doorbell Loop
 
-- **Project 6 — Doorbell Loop** (event-driven): jaise ghar ki doorbell — jab tak koi na bajaye kuch
-  nahi hota, jaise hi bajaye turant jawab milta hai. Fixed time par nahi, **trigger** hone par chalti
-  hai. [`doorbell/README.md`](projects/doorbell/README.md) (GitHub repo + App install chahiye)
+**Concept:** event-driven loop — fixed time par nahi, **trigger** (PR open/update) hone par chalti hai.
+**Time:** setup + 1 GitHub Actions run
+
+> 🧩 **Sabse aasan zaban mein:** jaise ghar ki doorbell — jab tak koi na bajaye kuch nahi hota, jaise
+> hi bajaye turant jawab milta hai. Yahan "bajaana" ek naya PR ya PR-update hai, "jawab" hai Claude ka
+> code review comment.
+
+### Steps
+
+1. Repo `samade747/my-doorbell` bana, `.github/workflows/doorbell.yml` workflow banayi
+   (`anthropics/claude-code-action@v1`, `pull_request: [opened, synchronize]` par trigger)
+2. Ek jaan-boojh kar bug wala PR banaya (`average_altitude` mein off-by-one)
+3. `CLAUDE_CODE_OAUTH_TOKEN` secret set kiya — **pehli koshish fail hui** (invalid/khaali token,
+   run log mein exact error: "Environment variable validation failed")
+4. Fresh token liya `claude setup-token` se — **standalone terminal se**, kyunki Claude Code session
+   ke andar se (`!` prefix ke zariye bhi) yeh command 2 baar hang ho gayi (real browser-auth TTY
+   chahiye tha jo sandboxed Bash tool nahi de sakta)
+5. `gh secret set` se naya token update kiya, PR par empty commit push kar ke workflow re-trigger kiya
+
+### Done jab (self-check)
+
+- [x] Workflow real trigger (PR push) par chalti hai, manual run nahi
+- [x] Claude ne jaan-boojh kar dala gaya bug pakra, sahi wajah bataayi
+
+**✅ Complete** — run `33216281046`, 45 seconds mein Claude ne `average_altitude`'s off-by-one
+(`range(len(readings) - 1)` last reading skip karta hai, division poori `len` se hoti hai) sahi
+identify kiya, fix suggest kiya (`range(len(readings))` ya `sum(readings) / len(readings)`).
+
+**Full detail:** [`projects/doorbell/README.md`](projects/doorbell/README.md)
+
+---
+
+## Baaki Projects (9-12)
+
 - **Project 9 — Rehearse for Free**: jaise pilot asal flight se pehle simulator mein practice karta
   hai — bina real risk ke dekhna ke agar loop chale to kya hoga.
 - **Project 10 — Secrets Drill**: jaise ghar ki chaabi kisi ko dete waqt sirf woh darwaza kholti ho jo
