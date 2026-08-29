@@ -2,6 +2,25 @@
 
 ## Done
 
+- 2026-08-30: User ne "loop eng projects complete karte hain" bola — baaki Projects 10/11/12 sab cloud
+  routines use karte hain. User ne **Project 12 (Dreaming Capstone) pehle** choose kiya, main real cloud
+  routine banaun. **Complete:** throwaway repo `samade747/my-doorbell` → `dreaming-demo/` folder mein
+  seed (base-loop `progress.md` with 2 planted repeated failures — lint-before-commit 3x,
+  reviewer-wrong-branch 2x — `dreaming-state.md`, `CLAUDE.md` with an unused CHANGELOG rule). Weekly
+  cloud routine `trig_01BwicMH3whg74osL1QUEVqm` (`0 0 * * 0`) banayi via RemoteTrigger, "Run now" se
+  test kiya (session `cse_01AEEzB36DSJKSx9zpAFV82C`, `success`, 12 turns, 62s). Routine ne: spine
+  parhi, **dono planted patterns evidence ke sath pakre** (har dated entry verbatim quoted), smallest
+  `CLAUDE.md` change draft ki (CHANGELOG rule → `ruff`-before-commit swap + rule-2 tighten), branch
+  `claude/dreaming-2026-08-30` banayi, **master untouched**. Uska apna `git push` **403** se fail
+  (*"Claude doesn't have GitHub access... Claude GitHub App"* — Project 9 wala hi recurring blocker),
+  prompt ke fallback per poori PR description print ki, **koi fabrication nahi**. Phir user ke `gh` PAT
+  (alag credential) se wahi change reproduce karke **real PR** khola:
+  [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2) — **merge nahi kiya** (Project 12 ka
+  core rule: dreaming loop apne rules khud approve nahi karti). Naya folder
+  `docs/loop-engineering/projects/dreaming-loop/` (README + routine-prompt + seed/ + RUN-LOG).
+  `11-practice-log.md` + loop-engineering `README.md` updated. **Loop Engineering ab 10/12 projects
+  Done** (10, 11 baaki — setup ready, claude.ai routines UI ke env-vars panel / webhook trigger chahiye).
+
 - 2026-08-29: User ne `docs/ccar-f-fde-track-b/` ke liye "find out aur update karo" mangi — live
   primary sources se research kiya (root syllabus MD file khud unchanged nikla, 2026-08-26 se). **2 bare
   findings:**

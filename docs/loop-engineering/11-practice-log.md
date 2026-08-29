@@ -22,9 +22,9 @@ ho — sirf steps parh lena kaafi nahi.
 | 7 | 🔦 Break It On Purpose | ✅ Done | ~3.9s/beat, ~$4-1000/month cadence-dependent. Sky-watch version: 2 sabotage runs, dono clean stop. Easy joke-loop version: user ne khud terminal mein sabotage run kiya — clean "needs a human" stop, fabrication se saaf mana |
 | 8 | 🔁 Daily Loop (Capstone) | ✅ Done | User ne khud run kiya — issue #1 fixed+PASS+ready-to-merge, issue #2 escalated untouched, progress.md sahi update hua. Doosri run ne dobara kuch nahi kiya — spine confirmed |
 | 9 | 🎭 Rehearse for Free | ✅ Done | 2 "Run now" fires, dono failed — GitHub App linking issue + koi merged PR na hona. Dono baar transcript ne honest, specific diagnosis di, koi fabrication nahi — yehi A5 ka core sabak hai (status green nahi tha bhi, aur jab tha bhi transcript hi sach batata) |
-| 10 | 🔐 Secrets Drill | ⬜ Not started | claude.ai account chahiye |
-| 11 | 🚦 Two-Routine Gate | ⬜ Not started | claude.ai account chahiye |
-| 12 | 💭 Dreaming Capstone | ⬜ Not started | claude.ai account chahiye |
+| 10 | 🔐 Secrets Drill | ⬜ Not started | throwaway repo `my-doorbell` mein `.env` + `.gitignore` ready |
+| 11 | 🚦 Two-Routine Gate | ⬜ Not started | Routine A cron se ban sakti hai; Routine B ko API/webhook trigger chahiye |
+| 12 | 💭 Dreaming Capstone | ✅ Done | Real cloud routine `trig_01BwicMH3whg74osL1QUEVqm` — dono planted patterns (A 3x, B 2x) evidence ke sath pakre, PR draft ki, master untouched. Routine ka push 403 (Claude GitHub App uninstalled, Project 9 jaisa) — `gh` PAT se real PR khola: [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2), merge nahi kiya |
 
 Status legend: ⬜ Not started · 🔶 In progress · ✅ Done (self-check pass ho gaya)
 
@@ -413,15 +413,51 @@ chase karna zaroori nahi samjha.
 
 ---
 
-## Baaki Projects (10-12)
+## Project 12 — Dreaming Capstone *(✅ Done — 2026-08-30)*
+
+**Concept:** spine + dreaming (12), maker-checker (11), schedule (6), human gate (Part 5).
+
+> 🧩 **Sabse aasan zaban mein:** jaise raat ko so kar dimaag din bhar ki baatein "process" karta hai
+> aur kal ka behtar plan banata hai — loop khud apne purane runs dekh kar khud ko behtar banati hai.
+> Lekin apne rules khud nahi badalti: ek PR draft karti hai (evidence ke sath), insaan decide karta hai.
+
+**Setup:** `samade747/my-doorbell` → `dreaming-demo/` folder (Project 6 ka throwaway repo). Base-loop
+`progress.md` mein 2 planted repeated failures: **A** — lint (`ruff`) skipped before commit (3x:
+2026-08-10/16/23), **B** — reviewer subagent ko galat branch di (2x: 2026-08-13/21). `CLAUDE.md` mein
+ek CHANGELOG rule jo kisi run ne kabhi use nahi kiya (deletion candidate).
+
+**Weekly cloud routine** (`trig_01BwicMH3whg74osL1QUEVqm`, `0 0 * * 0`) — "Run now" se test kiya:
+
+### Done jab (self-check)
+
+- [x] PR ka proposed change real, cited log entries tak trace (teenon A + dono B entries verbatim quoted)
+- [x] Planted repeated failures pakre gaye + proposal ban gayi
+- [x] Koi change `CLAUDE.md` (master) mein bina merge kiye nahi — sirf PR branch
+- [x] `dreaming-state.md` aaj ki date (2026-08-30) se update hui
+
+**✅ Complete** — routine run `cse_01AEEzB36DSJKSx9zpAFV82C` (`success`, 12 turns, 62s) ne spine
+parhi, dono patterns evidence ke sath pakre, smallest change (CHANGELOG rule → `ruff`-before-commit
+swap + rule 2 tighten) branch `claude/dreaming-2026-08-30` par draft ki, **master untouched**. Uska
+apna `git push` **403** se fail (*"Claude doesn't have GitHub access... Claude GitHub App"* — Project
+9 wala hi blocker), aur prompt ke fallback per poori PR description print ki — koi fabrication nahi.
+`gh` PAT (alag credential) se wahi change **real PR** ki tarah khola:
+[my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2) — **merge nahi kiya** (human gate).
+
+**Full detail:** [`projects/dreaming-loop/`](projects/dreaming-loop/README.md) +
+[`projects/dreaming-loop/RUN-LOG.md`](projects/dreaming-loop/RUN-LOG.md)
+
+---
+
+## Baaki Projects (10-11)
 
 - **Project 10 — Secrets Drill**: jaise ghar ki chaabi kisi ko dete waqt sirf woh darwaza kholti ho jo
-  zaroori hai, poora ghar nahi — loop ko sirf utni hi permission do jitni uska kaam maangta hai.
-- **Project 11 — Two-Routine Gate**: jaise bank mein bara transaction 2 logon ke sign chahiye hote
-  hain, sirf ek ke nahi — do alag routines ek doosre ko double-check karti hain risky kaam se pehle.
-- **Project 12 — Dreaming Capstone**: jaise raat ko so kar dimag din bhar ki baatein "process" karta
-  hai aur kal ka behtar plan banata hai — loop khud apne purane runs dekh kar khud ko behtar banati hai.
-- Projects 10-12 detail: [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md)
+  zaroori hai — gitignored `.env` cloud clone tak nahi pahunchti, secret Environment Variables panel
+  mein hona chahiye. Setup (`my-doorbell` mein `.env` + `.gitignore`) taiyar hai; routine + env-vars
+  panel claude.ai UI se.
+- **Project 11 — Two-Routine Gate**: jaise bank mein bara transaction 2 logon ke sign chahiye — Routine
+  A draft karti hai, Routine B (API/webhook trigger) tab hi chalti hai jab **aap** fire karo. Routine A
+  cron se ban sakti hai; B ke liye webhook trigger wiring chahiye.
+- Detail: [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md)
 
 ---
 [⬅ Commands Cheat Sheet](10-commands-cheat-sheet.md) · [⬆ Index](README.md) · [Agla: Key Words Glossary ➡](12-key-words-glossary.md)

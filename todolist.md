@@ -114,7 +114,16 @@
   `docs/ccar-f-fde-track-b/` just got, whenever KSoR content is next touched.
 
 - [ ] `Four-Layers-Summary_1.pdf` (duplicate PDF, repo root) — delete karna hai? (Pehle offer kiya tha, abhi tak koi jawab nahi)
-- [ ] Baaki practice projects: 6 (Doorbell — GitHub repo/App install chahiye), 9-12 (claude.ai account chahiye)
+- [ ] **Loop Engineering — 10/12 projects Done.** 6 (Doorbell) ✅, 9 (Rehearse) ✅, 12 (Dreaming
+  Capstone) ✅ 2026-08-30 (real cloud routine `trig_01BwicMH3whg74osL1QUEVqm`, PR
+  [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2)). **Baaki: 10 (Secrets Drill) +
+  11 (Two-Routine Gate)** — setup ready (`my-doorbell` mein `.env`+`.gitignore`), lekin env-vars
+  panel / webhook trigger claude.ai routines UI se chahiye. **Recurring blocker:** Claude GitHub App
+  account pe installed nahi (Projects 9 aur 12 dono mein cloud routine ka `git push` 403) — fix:
+  https://github.com/apps/claude/installations/select_target
+- [ ] **Dreaming Loop PR review pending (user):** [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2)
+  — Project 12 ka rule: dreaming loop apne rules khud approve nahi karti. User evidence dekh kar
+  merge/close kare.
 - [x] **Local-runnable Track B FDE Practicum scaffolds (2026-08-27):** `docs/ccar-f-fde-track-b/`
   chapter + `projects/` mein 4 scaffolds — Fumadocs corpus-to-site (P4-P5), stateless MCP + MRTR
   server (P6-P7), agent surface with knowledge-boundary (P8), 3-class eval runner (P11) — sab local

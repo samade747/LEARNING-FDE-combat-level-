@@ -38,8 +38,9 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 | 7 (easy version) — Joke Loop | Observability, 13, 14 | [`joke-loop/README.md`](projects/joke-loop/README.md) | [`joke-loop/README.md`](projects/joke-loop/README.md) | ✅ DIY, simpler stand-in — koi API key nahi, ~60-line script |
 | 8 — Your Own Daily Loop (Capstone) | Sab 6 parts | [`daily-triage-demo/SUMMARY.md`](projects/daily-triage-demo/SUMMARY.md) | [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md) | ✅ DIY scaffold banaya, khud test kiya — bug + risky-issue dono confirm |
 | Bonus — Paper Watch | 12 (spine) | [`paper-watch/SUMMARY.md`](projects/paper-watch/SUMMARY.md) | [`paper-watch/README.md`](projects/paper-watch/README.md) | ✅ Official kit, live tested — spine confirmed |
-| 9-11 — Routine Drills | Appendix A1-A6 | [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account/Routines UI chahiye |
-| 12 — Dreaming Capstone | Concept 12 | [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Sirf aap kar sakte ho — live `claude.ai` account chahiye |
+| 9 — Rehearse a Routine For Free | Appendix A1/A3/A5 | [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) | (isi file mein) | ✅ Done — 2 one-off runs, dono honest failure diagnosis |
+| 10-11 — Routine Drills | Appendix A2/A4 | [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Setup ready — env-vars panel / webhook trigger claude.ai UI se |
+| 12 — Dreaming Capstone | Concept 12 (spine + dreaming) | [`dreaming-loop/README.md`](projects/dreaming-loop/README.md) | [`dreaming-loop/RUN-LOG.md`](projects/dreaming-loop/RUN-LOG.md) | ✅ Done — real cloud routine, planted patterns pakre, PR [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2) |
 
 **Dogfooding note:** yeh kitaab khud 2 production loops se chalti hai (feedback loop + What's New loop)
 — dekho [`06-dogfooding.md`](06-dogfooding.md). Book ka apna live proof ke loop parts kaam karte hain.
