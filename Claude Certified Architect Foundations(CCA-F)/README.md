@@ -23,7 +23,11 @@ hello_world/                      ← smoke-test scripts
 | Item | Status |
 | --- | --- |
 | Week 1 — Foundations Sprint | ✅ done (2026-08-29) |
-| P1 — Thesis + Setup | ✅ done (P2 = vertical choice, user input pending) |
-| Week 2 — Agentic Loop by Hand | ⏭ next (`stop_reason/` partly started) |
+| P1 — Thesis + Setup | ✅ done |
+| Week 2 — Agentic Loop by Hand | ✅ done — `stop_reason/plan.md` deliverable complete |
+| P2 — Choose the Vertical | 🟡 scored, needs user's vertical confirmation |
+| Week 3 — Claude Agent SDK I | ⏭ next |
+
+Operating guide: [`HOW-TO-RUN.md`](HOW-TO-RUN.md).
 
 Auth: **claude-agent-sdk** (bundled Claude Code CLI login) — koi `ANTHROPIC_API_KEY` nahi chahiye.

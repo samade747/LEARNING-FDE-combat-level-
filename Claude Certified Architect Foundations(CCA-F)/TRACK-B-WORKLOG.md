@@ -20,27 +20,34 @@ Notes chapter: [`../docs/ccar-f-fde-track-b/`](../docs/ccar-f-fde-track-b/README
 | Week | Strand | Status | Artifact |
 | --- | --- | --- | --- |
 | Week 1 | Architect — Foundations Sprint | ✅ done | `week-01-foundations-sprint/` |
-| P1 | Practicum — FDE/SoR Thesis + Setup | ✅ done (P2 blocked on vertical choice) | `practicum/P1-thesis-and-setup.md` |
-| Week 2 | Architect — The Agentic Loop by Hand | ⏭ next | `stop_reason/` (partly started) |
-| P2 | Practicum — Choose the Vertical | ⏭ next (needs user input) | — |
+| P1 | Practicum — FDE/SoR Thesis + Setup | ✅ done | `practicum/P1-thesis-and-setup.md` |
+| Week 2 | Architect — The Agentic Loop by Hand | ✅ done | `week-02-agentic-loop-by-hand/` |
+| P2 | Practicum — Choose the Vertical | 🟡 scored, blocked on user's vertical confirmation | `practicum/P2-choose-the-vertical.md` |
+| Week 3 | Architect — Claude Agent SDK I | ⏭ next | — |
+| P3 | Practicum — Design the Vertical SoR | ⏭ blocked on P2 | — |
 
 ## Done
 
-- 2026-08-29: Workspace set up. Auth verified (claude-agent-sdk).
-- 2026-08-29: **Week 1 complete** — Hour 1 (`hour1_messages_api_demo.py` real run + `hour1-notes.md`:
-  response fields explained, plan-vs-direct defense), Hour 2 (`hour2-concepts.md`: 4 architect
-  distinctions), Hour 3 (`hour3-classification-lab.md`: 6 problems classified with enforcement +
-  failure mode), trade-off notebook entry filled.
-- 2026-08-29: **P1 complete** — thesis (governed knowledge vs chatbot, 4 reasons), 3 candidate
-  verticals with screening notes, environment verified (Node 24.18 / pnpm 9.12 / uv 0.6).
+- 2026-08-29: Workspace set up. Auth verified (claude-agent-sdk). `HOW-TO-RUN.md` operating guide.
+- 2026-08-29: **Week 1 complete** — Hour 1 (`hour1_messages_api_demo.py` real run + notes), Hour 2
+  (4 architect distinctions), Hour 3 (classification lab: 6 problems → type/enforcement/failure mode).
+- 2026-08-29: **P1 complete** — governed-knowledge-vs-chatbot thesis, 3 candidate verticals, env verified.
+- 2026-08-29: **Week 2 complete** — `concepts.md` (statelessness, content blocks, stop_reason table,
+  tool round-trip, ceiling, parallel, tool_choice); `by_hand_loop.py` correct 2-tool loop (offline
+  FakeClient, real run: 3 turns, parallel tools); **`lib/sdk_parser/stop_reason.py`** NEW — completes
+  `stop_reason/plan.md` (`classify_stop_reason`/`is_tool_turn`/`text_is_final`/`next_step`);
+  `test_week2.py` 6 tests pass; 5-bug diagnostic (`diagnostic-lab.md`, scaffold `pytest` 5 pass);
+  `scenario-practice.md` 12 items; `homework.md`; 2 trade-off notebook entries.
+- 2026-08-29: **P2 scored** — 5-criteria matrix, provisional recommendation **Vertical #1 (PK
+  freelancer/software-house tax & FBR compliance)**. Source register template started.
 
 ## Open / Blocked
 
-- **P2 needs user's personal-access input** — kaunsi vertical (3 candidates: PK tax/FBR compliance,
-  SECP company compliance, AAOIFI Shariah-fintech rules). Sabse zyada wazan: kis domain mein real
-  practitioners + real source docs tak access hai.
-- Week 1 Hour 1 finding: claude-agent-sdk ke per-turn `AssistantMessage.stop_reason` `None` aata hai;
-  sirf `ResultMessage` par populate hota hai. Week 2 mein iska asar dekhna hai.
+- **P2/P3 blocked on user** — vertical confirm karna hai (#1 recommended). Aur personal-access check:
+  (a) 1 practitioner jisse verify kara sako, (b) 3+ real source docs. Yeh bina P3 ka
+  scope/ownership/sources define nahi ho sakta.
+- Week 1 finding (still relevant): claude-agent-sdk per-turn `AssistantMessage.stop_reason` = `None`;
+  `classify_stop_reason(None)` → `"unknown"` + warning by design.
 
 ## Readiness Targets (Week 13 decision)
 

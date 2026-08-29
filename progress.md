@@ -234,17 +234,23 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
 
 ## In progress
 
-- 2026-08-29: User ne **CCAR-F FDE Track B** course "step by step shuru karo" bola. Setup decisions
-  (AskUserQuestion): dono strands saath, auth = claude-agent-sdk (bundled CLI login, verified), vertical
-  P2 par decide. Working directory = `Claude Certified Architect Foundations(CCA-F)/` (user ne pehle se
-  yahan `stop_reason/` + `lib/sdk_parser/` shuru kiya tha — Week 2 territory). Naya: `TRACK-B-WORKLOG.md`
-  (course spine), `trade-off-notebook.md` (graded artifact). **Week 1 (Foundations Sprint) complete:**
-  Hour 1 `hour1_messages_api_demo.py` real run (claude-sonnet-5, `stop_reason=end_turn`) + notes
-  explaining every response field + plan-vs-direct defense; Hour 2 four architect distinctions; Hour 3
-  classification lab (6 business problems → type + enforcement + failure mode). **P1 complete:**
-  governed-knowledge-vs-chatbot thesis, 3 candidate verticals (PK tax/FBR, SECP compliance, AAOIFI
-  Shariah-fintech), env verified (Node 24.18/pnpm 9.12/uv 0.6). **Next:** Week 2 (Agentic Loop by Hand,
-  builds on `stop_reason/`) + P2 (needs user's personal-access input to pick the vertical).
+- 2026-08-29: **CCAR-F FDE Track B** course chal raha hai (working dir `Claude Certified Architect
+  Foundations(CCA-F)/`). Setup: dono strands saath, auth = claude-agent-sdk (verified), vertical P2
+  par. Spine `TRACK-B-WORKLOG.md`, graded `trade-off-notebook.md`, operating guide `HOW-TO-RUN.md`.
+  - **Week 1 (Foundations Sprint) ✅** — Hour 1 Messages API demo (real run) + response-field notes +
+    plan-vs-direct defense; Hour 2 four architect distinctions; Hour 3 classification lab (6 problems
+    → type/enforcement/failure mode).
+  - **Week 2 (The Agentic Loop by Hand) ✅** — `concepts.md`; `by_hand_loop.py` correct 2-tool loop
+    (offline FakeClient, real run — parallel tools + tool_result round-trip + end_turn);
+    **`lib/sdk_parser/stop_reason.py`** NEW = completes user's own `stop_reason/plan.md` goal
+    (`classify_stop_reason`/`is_tool_turn`/`text_is_final`/`next_step`); `test_week2.py` 6 pass;
+    5-bug diagnostic lab (existing scaffold `pytest` 5 pass, symptoms→root-cause writeup);
+    `scenario-practice.md` 12 items; homework; 2 trade-off notebook entries.
+  - **P1 ✅** — governed-knowledge-vs-chatbot thesis, 3 candidate verticals, env verified.
+  - **P2 🟡** — 5-criteria matrix scored, provisional pick **Vertical #1 (PK freelancer/software-house
+    tax & FBR compliance)**. Source register template started.
+  - **Blocked:** P2/P3 need user to confirm the vertical + a personal-access check (1 practitioner +
+    3 real source docs). **Next architect:** Week 3 (Claude Agent SDK I — tools, permissions, MCP).
 
 - 2026-08-26: User ne "yes update it" keh kar 9+2-gap list par kaam shuru karne ki ijazat di (priority
   order khud choose karne ko kaha gaya). **Thesis** aur **Getting Paid as a Vertical FDE** dono partial
