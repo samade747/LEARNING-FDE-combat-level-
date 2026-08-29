@@ -2,6 +2,13 @@
 
 ## Active
 
+- [ ] **CCAR-F FDE Track B course chal raha hai (shuru 2026-08-29)** — working dir
+  `Claude Certified Architect Foundations(CCA-F)/`, spine = `TRACK-B-WORKLOG.md`. **Done:** Week 1
+  (Foundations Sprint) + P1 (thesis + setup). **Next:** Week 2 (Agentic Loop by Hand — `stop_reason/`
+  par build) + **P2 blocked on user** — vertical choose karni hai (3 candidates: PK tax/FBR, SECP,
+  AAOIFI Shariah-fintech; deciding factor = personal access to practitioners + source docs). Dono
+  strands saath chalane hain, auth = claude-agent-sdk.
+
 - [ ] **11 net-new chapters baaqi (2026-08-26 corrected count)** — Thesis aur Getting Paid dono partial
   chapters ab poore ho chuke (neeche Done mein). Baaqi: Selling as a Vertical FDE, Glossary, The System
   of Context, Claude and ChatGPT 101, AI Fluency, Code You Never Write, Skills & Connectors, How to

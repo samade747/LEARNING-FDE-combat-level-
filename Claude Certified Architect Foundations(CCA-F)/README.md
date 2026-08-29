@@ -1,19 +1,29 @@
-# Claude Certified Architect Foundations (CCA-F)
+# Claude Certified Architect Foundations (CCA-F) — Track B Working Directory
 
-Personal practice scaffold — sdk_parser build karne ki practice, Claude Code project conventions
-(nested `CLAUDE.md`, `.claude/`) ke sath.
+Yeh **CCAR-F / PCAR-F Track B (Accelerated, 13-week)** course ka hands-on workspace hai. Notes
+chapter alag hai ([`../docs/ccar-f-fde-track-b/`](../docs/ccar-f-fde-track-b/README.md)); yahan asal
+coursework hota hai — weekly labs, 4 architect projects, aur FDE practicum (P1-P13).
 
 ## Structure
 
 ```
-.claude/              ← project-level Claude Code settings (khaali, abhi tak koi config nahi)
-hello_world/           ← smoke-test script (hello.py)
-__pycache__/           ← Python bytecode cache (auto-generated, tracked yahan sirf structure ke liye)
-lib/sdk_parser/         ← core package: __init__.py, formatter.py, logger.py, CLAUDE.md (directory-scoped)
-stop_reason/            ← plan.md — is hisse ka goal + approach
+TRACK-B-WORKLOG.md              ← is course ki spine — kaunsi week done, kya decision, kya blocked
+trade-off-notebook.md            ← graded artifact (7%) — har lab ke baad 3 sawal
+week-01-foundations-sprint/       ← Week 1: entry verify + architecture decision framework  ✅
+practicum/                        ← P1-P13: Vertical System of Record banana
+  P1-thesis-and-setup.md            ← governed-knowledge thesis + 3 candidate verticals  ✅
+stop_reason/                      ← Week 2 groundwork: Messages API stop_reason by hand
+lib/sdk_parser/                   ← helper package (offline formatter + logger), Week 2 mein extend hoga
+hello_world/                      ← smoke-test scripts
+.claude/                          ← project-level Claude Code settings
 ```
 
 ## Status
 
-Skeleton stage — `lib/sdk_parser` ka `format_response_summary()` kaam karta hai (offline, koi API
-call nahi), `stop_reason/plan.md` ka Goal likha hua hai, baaqi implementation abhi baaki hai.
+| Item | Status |
+| --- | --- |
+| Week 1 — Foundations Sprint | ✅ done (2026-08-29) |
+| P1 — Thesis + Setup | ✅ done (P2 = vertical choice, user input pending) |
+| Week 2 — Agentic Loop by Hand | ⏭ next (`stop_reason/` partly started) |
+
+Auth: **claude-agent-sdk** (bundled Claude Code CLI login) — koi `ANTHROPIC_API_KEY` nahi chahiye.

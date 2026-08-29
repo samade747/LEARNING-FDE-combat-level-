@@ -234,6 +234,18 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
 
 ## In progress
 
+- 2026-08-29: User ne **CCAR-F FDE Track B** course "step by step shuru karo" bola. Setup decisions
+  (AskUserQuestion): dono strands saath, auth = claude-agent-sdk (bundled CLI login, verified), vertical
+  P2 par decide. Working directory = `Claude Certified Architect Foundations(CCA-F)/` (user ne pehle se
+  yahan `stop_reason/` + `lib/sdk_parser/` shuru kiya tha — Week 2 territory). Naya: `TRACK-B-WORKLOG.md`
+  (course spine), `trade-off-notebook.md` (graded artifact). **Week 1 (Foundations Sprint) complete:**
+  Hour 1 `hour1_messages_api_demo.py` real run (claude-sonnet-5, `stop_reason=end_turn`) + notes
+  explaining every response field + plan-vs-direct defense; Hour 2 four architect distinctions; Hour 3
+  classification lab (6 business problems → type + enforcement + failure mode). **P1 complete:**
+  governed-knowledge-vs-chatbot thesis, 3 candidate verticals (PK tax/FBR, SECP compliance, AAOIFI
+  Shariah-fintech), env verified (Node 24.18/pnpm 9.12/uv 0.6). **Next:** Week 2 (Agentic Loop by Hand,
+  builds on `stop_reason/`) + P2 (needs user's personal-access input to pick the vertical).
+
 - 2026-08-26: User ne "yes update it" keh kar 9+2-gap list par kaam shuru karne ki ijazat di (priority
   order khud choose karne ko kaha gaya). **Thesis** aur **Getting Paid as a Vertical FDE** dono partial
   chapters poore kiye — Zia Tutor se live sections fetch kiye (`read_agent_factory_lesson`), Thesis mein
