@@ -39,7 +39,8 @@ Source: https://agentfactory.panaversity.org/docs/loop-engineering-crash-course
 | 8 — Your Own Daily Loop (Capstone) | Sab 6 parts | [`daily-triage-demo/SUMMARY.md`](projects/daily-triage-demo/SUMMARY.md) | [`daily-triage-demo/README.md`](projects/daily-triage-demo/README.md) | ✅ DIY scaffold banaya, khud test kiya — bug + risky-issue dono confirm |
 | Bonus — Paper Watch | 12 (spine) | [`paper-watch/SUMMARY.md`](projects/paper-watch/SUMMARY.md) | [`paper-watch/README.md`](projects/paper-watch/README.md) | ✅ Official kit, live tested — spine confirmed |
 | 9 — Rehearse a Routine For Free | Appendix A1/A3/A5 | [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) | (isi file mein) | ✅ Done — 2 one-off runs, dono honest failure diagnosis |
-| 10-11 — Routine Drills | Appendix A2/A4 | [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md) | (isi file mein) | 🖐️ Setup ready — env-vars panel / webhook trigger claude.ai UI se |
+| 10 — The Secrets Drill | Appendix A2/A4 | [`secrets-drill/README.md`](projects/secrets-drill/README.md) | [`secrets-drill/check_token.py`](projects/secrets-drill/check_token.py) | 🔶 Run 1 done (cloud) — gitignored `.env` cloud clone tak nahi pahuncha; Run 2 = env-vars panel (1 browser step) |
+| 11 — Two-Routine Gate | Appendix A3/A4/A6 | [`two-routine-gate/README.md`](projects/two-routine-gate/README.md) | (isi file mein) | ⬜ Blocked — Claude GitHub App install chahiye (Projects 9/12 wala blocker) |
 | 12 — Dreaming Capstone | Concept 12 (spine + dreaming) | [`dreaming-loop/README.md`](projects/dreaming-loop/README.md) | [`dreaming-loop/RUN-LOG.md`](projects/dreaming-loop/RUN-LOG.md) | ✅ Done — real cloud routine, planted patterns pakre, PR [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2) |
 
 **Dogfooding note:** yeh kitaab khud 2 production loops se chalti hai (feedback loop + What's New loop)

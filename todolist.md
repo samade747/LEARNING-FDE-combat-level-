@@ -114,13 +114,14 @@
   `docs/ccar-f-fde-track-b/` just got, whenever KSoR content is next touched.
 
 - [ ] `Four-Layers-Summary_1.pdf` (duplicate PDF, repo root) — delete karna hai? (Pehle offer kiya tha, abhi tak koi jawab nahi)
-- [ ] **Loop Engineering — 10/12 projects Done.** 6 (Doorbell) ✅, 9 (Rehearse) ✅, 12 (Dreaming
-  Capstone) ✅ 2026-08-30 (real cloud routine `trig_01BwicMH3whg74osL1QUEVqm`, PR
-  [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2)). **Baaki: 10 (Secrets Drill) +
-  11 (Two-Routine Gate)** — setup ready (`my-doorbell` mein `.env`+`.gitignore`), lekin env-vars
-  panel / webhook trigger claude.ai routines UI se chahiye. **Recurring blocker:** Claude GitHub App
-  account pe installed nahi (Projects 9 aur 12 dono mein cloud routine ka `git push` 403) — fix:
-  https://github.com/apps/claude/installations/select_target
+- [ ] **Loop Engineering — 10.5/12 projects.** 6/9/12 ✅. **Project 10 (Secrets Drill): Run 1 ✅**
+  (cloud routine — gitignored `.env` cloud tak nahi pahuncha, `check_token.py` FAIL). **Run 2 baaqi:**
+  user claude.ai routine ke Environment→Variables panel mein `MY_API_TOKEN=dummy-abc123` add kare →
+  Run now (API se env-vars set nahi ho sakte). **Project 11 (Two-Routine Gate): BLOCKED** — dono
+  routines ko GitHub push chahiye. **Recurring blocker → USER ACTION:** Claude GitHub App install karo
+  → https://github.com/apps/claude/installations/select_target . Uske baad: Project 11 (~10 min) +
+  Project 12 dreaming routine (`trig_01BwicMH3whg74osL1QUEVqm`, abhi disabled) re-enable + clean
+  re-run. Sab 3 cloud routines abhi disabled (weekly push-fail avoid karne ko).
 - [ ] **Dreaming Loop PR review pending (user):** [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2)
   — Project 12 ka rule: dreaming loop apne rules khud approve nahi karti. User evidence dekh kar
   merge/close kare.

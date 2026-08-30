@@ -2,6 +2,24 @@
 
 ## Done
 
+- 2026-08-31: **Loop Engineering Project 10 (Secrets Drill) — Run 1 complete + Project 11 designed.**
+  `samade747/my-doorbell` mein `secrets-demo/check_token.py` (`.env` phir `os.environ` mein
+  `MY_API_TOKEN` dhoondta hai), `.env` gitignored. **Run 1 (cloud routine `trig_01ES54hQwfs1H3N54KctsQLh`,
+  session `cse_01CxujYh3GgfPX1w8Bq5jSGy`, `success` 8s):** `check_token.py` → FAIL exit 1;
+  `ls .env` → nahi; `git ls-files | grep -c env` → 0. Mechanical wajah confirmed: gitignored `.env`
+  fresh cloud checkout tak nahi pahunchta. Ek probe run (ab disabled) ne `os.environ` scan kiya —
+  `MY_API_TOKEN` UNSET (sirf infra creds `GITHUB_TOKEN`/`AWS_*`/`CLAUDE_CODE_*`). **Run 2 (env-var
+  PASS) baaqi:** RemoteTrigger API `environment_variables` ko trigger config mein **allow nahi karta**
+  (by design — "not supported on triggers, persisted+replayed") — user ko claude.ai routine ke
+  **Environment → Variables** panel mein `MY_API_TOKEN` add karna hai, phir Run now (~2 min browser).
+  **Project 11 (Two-Routine Gate):** design doc ready (`projects/two-routine-gate/`), lekin
+  **blocked** — dono routines ko GitHub push/PR chahiye → 403 (Projects 9/12 wala hi Claude GitHub
+  App blocker). App install ke baad ~5-10 min. Naye folders: `projects/secrets-drill/`,
+  `projects/two-routine-gate/`. Teenon cloud routines (dreaming, secrets Run 1, probe) **disabled**
+  ki gayeen (warna weekly fire hoke push-fail hoti raheen) — GitHub App install ke baad user
+  re-enable kare. **Loop Engineering: 10.5/12** (10 half, 11 blocked). Memory:
+  [[reference-claude-github-app-not-installed]].
+
 - 2026-08-30: User ne "loop eng projects complete karte hain" bola — baaki Projects 10/11/12 sab cloud
   routines use karte hain. User ne **Project 12 (Dreaming Capstone) pehle** choose kiya, main real cloud
   routine banaun. **Complete:** throwaway repo `samade747/my-doorbell` → `dreaming-demo/` folder mein

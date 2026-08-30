@@ -22,8 +22,8 @@ ho — sirf steps parh lena kaafi nahi.
 | 7 | 🔦 Break It On Purpose | ✅ Done | ~3.9s/beat, ~$4-1000/month cadence-dependent. Sky-watch version: 2 sabotage runs, dono clean stop. Easy joke-loop version: user ne khud terminal mein sabotage run kiya — clean "needs a human" stop, fabrication se saaf mana |
 | 8 | 🔁 Daily Loop (Capstone) | ✅ Done | User ne khud run kiya — issue #1 fixed+PASS+ready-to-merge, issue #2 escalated untouched, progress.md sahi update hua. Doosri run ne dobara kuch nahi kiya — spine confirmed |
 | 9 | 🎭 Rehearse for Free | ✅ Done | 2 "Run now" fires, dono failed — GitHub App linking issue + koi merged PR na hona. Dono baar transcript ne honest, specific diagnosis di, koi fabrication nahi — yehi A5 ka core sabak hai (status green nahi tha bhi, aur jab tha bhi transcript hi sach batata) |
-| 10 | 🔐 Secrets Drill | ⬜ Not started | throwaway repo `my-doorbell` mein `.env` + `.gitignore` ready |
-| 11 | 🚦 Two-Routine Gate | ⬜ Not started | Routine A cron se ban sakti hai; Routine B ko API/webhook trigger chahiye |
+| 10 | 🔐 Secrets Drill | 🔶 Run 1 done | Run 1 (cloud, `cse_01CxujYh3GgfPX1w8Bq5jSGy`): gitignored `.env` cloud clone tak nahi pahuncha → `check_token.py` FAIL exit 1, mechanical wajah confirmed. Run 2 (env-var PASS) = 1 browser step (Variables panel — API `environment_variables` triggers pe allow nahi) |
+| 11 | 🚦 Two-Routine Gate | ⬜ Blocked | Routine A/B dono ko GitHub push chahiye → 403 (Claude GitHub App uninstalled). App install ke baad ~5 min ka kaam |
 | 12 | 💭 Dreaming Capstone | ✅ Done | Real cloud routine `trig_01BwicMH3whg74osL1QUEVqm` — dono planted patterns (A 3x, B 2x) evidence ke sath pakre, PR draft ki, master untouched. Routine ka push 403 (Claude GitHub App uninstalled, Project 9 jaisa) — `gh` PAT se real PR khola: [my-doorbell#2](https://github.com/samade747/my-doorbell/pull/2), merge nahi kiya |
 
 Status legend: ⬜ Not started · 🔶 In progress · ✅ Done (self-check pass ho gaya)
@@ -448,16 +448,48 @@ apna `git push` **403** se fail (*"Claude doesn't have GitHub access... Claude G
 
 ---
 
-## Baaki Projects (10-11)
+## Project 10 — The Secrets Drill *(🔶 Run 1 done — 2026-08-31)*
 
-- **Project 10 — Secrets Drill**: jaise ghar ki chaabi kisi ko dete waqt sirf woh darwaza kholti ho jo
-  zaroori hai — gitignored `.env` cloud clone tak nahi pahunchti, secret Environment Variables panel
-  mein hona chahiye. Setup (`my-doorbell` mein `.env` + `.gitignore`) taiyar hai; routine + env-vars
-  panel claude.ai UI se.
-- **Project 11 — Two-Routine Gate**: jaise bank mein bara transaction 2 logon ke sign chahiye — Routine
-  A draft karti hai, Routine B (API/webhook trigger) tab hi chalti hai jab **aap** fire karo. Routine A
-  cron se ban sakti hai; B ke liye webhook trigger wiring chahiye.
-- Detail: [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md)
+Setup: `samade747/my-doorbell` → `secrets-demo/check_token.py` (`MY_API_TOKEN` ko `.env` phir
+`os.environ` mein dhoondta hai), `.env` gitignored.
+
+- **Run 1 ✅** — routine `trig_01ES54hQwfs1H3N54KctsQLh`, session `cse_01CxujYh3GgfPX1w8Bq5jSGy`
+  (`success`, 8s): `check_token.py` → `FAIL: MY_API_TOKEN not found`, exit 1. `ls .env` → nahi,
+  `git ls-files | grep -c env` → 0. **Mechanical wajah:** `.env` gitignored → commit nahi hua →
+  fresh cloud checkout mein hai hi nahi. Ek probe run ne `os.environ` bhi scan kiya — `MY_API_TOKEN`
+  UNSET (sirf infra creds: `GITHUB_TOKEN`/`AWS_*`/`CLAUDE_CODE_*`).
+- **Run 2 (env-var PASS)** — 1 browser step baaqi. RemoteTrigger API `environment_variables` ko
+  trigger config mein **allow nahi karta** (by design — secrets trigger JSON mein persist nahi
+  hone chahiye). Aap: routine → **Environment → Variables** → `MY_API_TOKEN=dummy-abc123` → Run now.
+  Full steps: [`projects/secrets-drill/README.md`](projects/secrets-drill/README.md).
+
+### Done jab (self-check)
+
+- [x] Run 1 → FAIL (cloud), mechanical wajah pata hai
+- [x] Confirm: gitignored `.env` cloud clone tak nahi pahunchta
+- [ ] Run 2 → PASS (Variables panel — browser step)
+
+**Sabak:** gitignored files cloud runner ke liye invisible. Secrets environment config mein — runtime
+inject, kabhi commit nahi.
+
+---
+
+## Project 11 — Two-Routine Gate *(⬜ Blocked — Claude GitHub App)*
+
+> 🧩 jaise bank mein bara transaction 2 logon ke sign chahiye — Routine A draft karti hai
+> (`claude/release-note` branch), Routine B **tab hi** chalti hai jab **aap** usay explicitly fire
+> karo (API trigger / `RemoteTrigger run`). B khud-ba-khud kabhi nahi chalti — yehi "gate" hai.
+
+**Blocker:** dono routines ko GitHub par push/PR karna hai — cloud sandbox se `git push` **403**
+deta hai (*"Claude doesn't have GitHub access... Claude GitHub App"*), bilkul Projects 9 aur 12
+jaisa. **Fix:** [Claude GitHub App install karo](https://github.com/apps/claude/installations/select_target)
+— phir Projects 11 (aur clean 12 re-run) dono ~5-10 min mein complete ho jayenge.
+
+Design ready hai: [`projects/two-routine-gate/README.md`](projects/two-routine-gate/README.md).
+
+---
+
+Detail: [`09-routine-drills-and-dreaming.md`](09-routine-drills-and-dreaming.md)
 
 ---
 [⬅ Commands Cheat Sheet](10-commands-cheat-sheet.md) · [⬆ Index](README.md) · [Agla: Key Words Glossary ➡](12-key-words-glossary.md)
