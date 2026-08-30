@@ -48,6 +48,21 @@ Cloud routine ka `git push` account-level GitHub App setting se blocked tha. Use
 - [x] `dreaming-state.md` aaj ki date (2026-08-30) se update hui
 - [x] Evidence-less improvement nahi — har claim ek dated entry tak trace
 
+## Run 2 — clean re-run attempt, 2026-08-31 (branch `claude/dreaming-2026-08-31`)
+
+Routine re-enabled + "Run now" (session `cse_01FDDFBWpx7N9fXkFk8ZM6Cn`) to test whether the Claude
+GitHub App is installed yet. **Still HTTP 403** on `git push` — App **not installed**. Also the
+Sunday scheduled fire (`cse_01WyUMrBnUtN7UZrKGkK73u7`, 2026-08-30 00:07) hit the same 403.
+
+The loop again read the spine, found both patterns, made minimal edits (this run added the `ruff`
+rule + tightened rule 2 but **skipped the required deletion** — slightly worse than Run 1; PR #2
+has the better version), committed to `claude/dreaming-2026-08-31` locally, `master` untouched,
+push 403, fallback printed. Routine disabled again.
+
+**Blocker confirmed twice more.** Fix: install Claude GitHub App
+(https://github.com/apps/claude/installations/select_target). Then re-enable
+`trig_01BwicMH3whg74osL1QUEVqm` and "Run now" — it will push + open its own PR.
+
 ### Sabak (A5 + Concept 12)
 
 - **Status `success` ≠ task fully done** — routine ne `success` return kiya, lekin uska apna push
