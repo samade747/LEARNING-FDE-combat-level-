@@ -4,6 +4,12 @@
 same content, taake khud test kar sako ya apni class ko exam ki tarah de sako. Book ke `certifications`
 page se grounded (har chapter file — `00` se `07` tak — is quiz ka source hai).
 
+> ⚠️ **Written before the 28 Aug 2026 pathway change (re-fetched 2026-09-01).** Question **logic**
+> valid hai; **exam names/sequence purane hain** — jahan "PCAR-F → PCDV-F" / "PCAR-F pehle" ho,
+> ab **"PCAO-F → PCAR-F"** / **"PCAO-F pehle"** parho. Recommended Anthropic pair ab **CCAO-F → CCAR-F**.
+> **Q3 stale** (ab "Architect kyun na pehle" — jawab: judgment se pehle, architecture baad). See
+> [`08-test-your-understanding.md`](08-test-your-understanding.md) header.
+
 ---
 
 ### Q1. Ek candidate seedha Anthropic Partner Academy par jaake CCAR-F book karna chahta hai, personal Gmail se

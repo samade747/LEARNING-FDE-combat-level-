@@ -1,24 +1,29 @@
-# 02 — Stage Two: Anthropic Certification (CCAR-F, CCDV-F, CCAO-F, CCAR-P)
+# 02 — Stage Two: Anthropic Certification (CCAO-F → CCAR-F, + CCDV-F, CCAR-P)
 
 ## Stage One Complete Hone Ke Baad
 
 Ek dafa **FDE Internship Program & partner access** mil jaye, official Anthropic exams shuru karo. FDE
-path ke liye order: **CCAR-F pehle → CCDV-F baad**. Yeh order Anthropic ka apna rule nahi — Panaversity
-ka recommended learning sequence hai, taake Stage One wala architecture-first progression barqarar
-rahe.
+path ke liye order (28 Aug 2026): **CCAO-F pehle → CCAR-F baad**. Yeh order Anthropic ka apna rule
+nahi — Panaversity ka recommended learning sequence hai, jo Stage One (Associate → Architect) ko
+mirror karta hai: pehle broad Claude judgment, phir architecture validate karo.
 
 ## Chaar Anthropic Credentials
 
 | Certification | Code | Price | Questions | For |
 | --- | --- | --- | --- | --- |
+| Claude Certified Associate: Foundations | **CCAO-F** | $99 | 60 | Using, evaluating, advising on, leading Claude adoption |
 | Claude Certified Architect: Foundations | **CCAR-F** | $125 | 60 | Designing Claude and agent systems |
 | Claude Certified Developer: Foundations | **CCDV-F** | $125 | 53 | Building and shipping Claude applications |
-| Claude Certified Associate: Foundations | **CCAO-F** | $99 | 60 | Advising, selling, leading Claude projects |
-| Claude Certified Architect: Professional | **CCAR-P** | $175 | 63 | Owning solutions end to end |
+| Claude Certified Architect: Professional | **CCAR-P** | $175 | 63* | Owning solutions end to end |
 
-*Sab counts/prices ab official exam guide PDFs se directly confirm hain (2026-08-24 ko poore 4 guides
-padhe) — CCAR-P ka 63-question count pehle sirf independent-guide-reported tha, ab official guide se
-verified hai.*
+*Prices aur teen counts (60/60/53) book ke published exam guides se confirm hain. **`*` CCAR-P ka
+63-question count:** book page (28 Aug 2026) ab keh rahi hai "reported by independent guides rather
+than confirmed from an official exam guide" — yeh is repo ke 2026-08-24 wale note ("official PDF se
+verified") se **conflict** karta hai. Is repo ne us din CCAR-P Exam Guide PDF khud `Read` tool se
+padha tha; book page conservative ho gaya hai. **Conservative treat karo: 63 = independent-reported,
+official confirmation uncertain.***
+
+**Recommended FDE pair ki poori cost: CCAO-F + CCAR-F = $224** (partner discounts se pehle).
 
 ## Exam Mechanics — Sab Exams Shared Hain
 
@@ -38,28 +43,33 @@ gate** phir bhi lagta hai (dekho [01](01-stage-one-panaversity.md)).
 
 ## Konsa Credential Aapka Hai — FDE Ke Liye
 
-Chaaron credentials role-based hain, koi ladder nahi. Lekin is book ka specific target role
-**Vertical FDE** hai — us ke liye recommended pair:
+Chaaron credentials role-based hain, koi formal ladder nahi. Lekin is book ka specific target role
+**Vertical FDE** hai — us ke liye recommended initial pair (28 Aug 2026):
 
 ```
-CCAR-F → CCDV-F
+CCAO-F → CCAR-F
 ```
 
-- **CCAR-F se shuru karo** — architectural judgment validate karta hai: agentic architecture, Claude
-  Code configuration, prompt engineering, tool design + MCP, context management
-- **Phir CCDV-F** — implementation side validate karta hai: applications + integration, model
-  selection, agents + workflows, prompting + context, tools + MCP, security, Claude Code, eval/debugging
+- **CCAO-F se shuru karo** — wo broad judgment validate karta hai jo FDE ko customers + teams ke sath
+  chahiye: prompting, output evaluation + validation, workflow integration, product selection,
+  governance, responsible use, troubleshooting, aur "kab human review chahiye"
+- **Phir CCAR-F** — architectural judgment validate karta hai: agentic architecture, Claude Code
+  configuration, prompt engineering, tool design + MCP, context management
 
-Doosre credentials ke apne roles hain:
+Doosre credentials useful rehte hain:
 
-- **CCAO-F** — jo log Claude adoption advise/sell/lead karte hain, integration khud nahi banate. Is
-  book ke initial FDE path ka focus nahi.
+- **CCDV-F** — un FDEs ke liye natural **additional** credential jo deeper proof chahte hain ke wo
+  Claude applications, integrations, agents, workflows, tools, aur production systems build + ship kar
+  sakte hain. (Pehle yeh FDE gate ka doosra exam tha — ab additional hai.)
 - **CCAR-P** — senior architects ke liye professional capstone jo poore solution ka ownership rakhte
-  hain end-to-end (stakeholder communication + lifecycle management sameet). Abhi focus nahi.
+  hain end-to-end (stakeholder communication + lifecycle management sameet).
 
 **Ek rule note karo:** agar aapki organisation ke liye partner-program standing matter karti hai,
 **CCAO-F Claude Partner Network tier eligibility mein count nahi hota.** Baaqi teen technical
 credentials (Developer Foundations, Architect Foundations, Architect Professional) count hote hain.
+**Lekin** FDE learning progression ke liye CCAO-F ab pehla step hai — iska educational value kam nahi
+hota, bas partner-tier math mein CCAR-F wala exam count hota hai, CCAO-F wala nahi. Pair (CCAO-F →
+CCAR-F) dono kaam karta hai: learning progression + technical credentialing.
 
 ## Course Badges Certifications Nahi Hain
 

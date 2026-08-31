@@ -2,13 +2,24 @@
 
 ## Panaversity Route
 
-**Track B → PCAR-F → PCDV-F preparation → pass PCDV-F → FDE Internship Program + partner access →
-CCAR-F → CCDV-F**
+> ⚠️ **2026-09-01:** book ne `certifications` page (Version note: updated 28 Aug 2026) par pathway
+> restructure kiya. Yeh syllabus file (user-provided, 26 Aug 2026) us se **purani** hai — iska route
+> line ab stale hai. **Current route (book se):**
+>
+> **PCAO-F → PCAR-F → FDE Internship Program + partner access → CCAO-F → CCAR-F**
+>
+> PCDV-F/CCDV-F ab FDE gate ka hissa **nahi** — "additional technical credential". Ab **PCAO-F pehle**
+> aata hai (Associate = judgment foundation), phir PCAR-F (Architect = system design).
+
+**Is syllabus ka apna route line (26 Aug 2026, ab stale):** ~~Track B → PCAR-F → PCDV-F preparation →
+pass PCDV-F → FDE Internship Program + partner access → CCAR-F → CCDV-F~~
 
 Zaroori distinctions:
-- PCAR-F/PCDV-F **Panaversity ki apni requirements** hain, Anthropic prerequisites nahi
-- Yeh syllabus sirf **PCAR-F/CCAR-F architecture content** prepare karta hai — PCDV-F (developer exam)
-  nahi (dekho [[certifications]] chapter, jahan poora PCAR-F→PCDV-F→CCAR-F→CCDV-F pathway hai)
+- PCAO-F/PCAR-F **Panaversity ki apni requirements** hain, Anthropic prerequisites nahi
+- Yeh syllabus sirf **PCAR-F/CCAR-F architecture content** prepare karta hai — **PCAO-F** (associate
+  exam, ab pehla gate exam) ka judgment/evaluation focus alag se prepare karna hoga (dekho
+  [[certifications]] chapter — [`docs/certifications/00-overview.md`](../certifications/00-overview.md)
+  ka updated pathway + [`docs/certifications/ccao-f/`](../certifications/ccao-f/README.md) blueprint)
 - Vertical specialization practicum mein hi shuru ho jati hai, sirf certification ke baad nahi
 - Pearson VUE: Claude Certification Program Claude Partner Network organizations ke liye open hai;
   registration Anthropic Partner Academy se shuru hoti hai

@@ -6,22 +6,24 @@ Front Matter doc, position #13).
 
 Source: https://agentfactory.panaversity.org/docs/certifications
 
-Verified on 22 August 2026 (book ki apni "Version note") against Anthropic's certification
-announcement, chaar official exam guides, aur Pearson VUE programme page. **Domain weights aur fees
-"subject to change without notice" hain** — is folder ka data 2026-08-23 ko fetch hua tha.
+**Re-fetched 2026-09-01 from the Zia Tutor AI connector (corpus generation 47, page "Version note":
+updated 28 August 2026) + a live WebFetch cross-check.** ⚠️ **Bara change:** book ne poora FDE pathway
+restructure kar diya — ab **Associate pehle, Architect doosra** (neeche). Pehla verify 22 Aug 2026 ka
+tha (PCAR-F → PCDV-F gate) — wo ab **stale** hai. Domain weights aur fees "subject to change without
+notice" hain.
 
 ## Index — Shared Pathway Files
 
 *Yeh files sab certifications pe apply hoti hain — pathway, logistics, study plan.*
 
 1. [00 — Overview: Do Stages, Ek Pathway](00-overview.md)
-2. [01 — Stage One: Panaversity Qualification (PCAR-F, PCDV-F)](01-stage-one-panaversity.md)
-3. [02 — Stage Two: Anthropic Certification (CCAR-F, CCDV-F, CCAO-F, CCAR-P)](02-stage-two-anthropic.md)
+2. [01 — Stage One: Panaversity Qualification (PCAO-F → PCAR-F)](01-stage-one-panaversity.md)
+3. [02 — Stage Two: Anthropic Certification (CCAO-F → CCAR-F, + CCDV-F, CCAR-P)](02-stage-two-anthropic.md)
 4. [03 — Exam Domains: At A Glance (index into per-cert folders)](03-exam-domains.md)
 5. [04 — Gaps + Six-Week Study Plan](04-gaps-and-study-plan.md)
 6. [05 — Registration, Retakes, Costs, 6 Mistakes](05-registration-costs-mistakes.md)
 7. [06 — Sample Tests + Official Exam Guides (index into per-cert folders)](06-sample-tests.md)
-8. [07 — Practice Log (meri apni PCAR-F push, deadline 2026-10-05)](07-practice-log.md)
+8. [07 — Practice Log (meri apni PCAO-F → PCAR-F push, deadline 2026-10-05)](07-practice-log.md)
 9. [08 — Test Your Understanding (14 Scenario-Based Questions)](08-test-your-understanding.md)
 10. [Quiz — Self-Contained (same 14 questions)](quiz.md)
 
@@ -35,36 +37,47 @@ mein hain: `README.md` (index) + `00`–`04` numbered files (quick facts/audienc
 → scope/scoring → how-to-prepare + full sample questions → policies/resources/doc-control) +
 `SUMMARY.md` (condensed recap) — dekho [`03-exam-domains.md`](03-exam-domains.md).*
 
-### Panaversity (Stage One — Yeh Repo Yahan Se Shuru Karta Hai)
+### Panaversity (Stage One — FDE gate = PCAO-F **phir** PCAR-F)
 
-| Folder | Exam | Status |
+| Folder | Exam | Status (per book, 28 Aug 2026) |
 | --- | --- | --- |
-| [`pcar-f/`](pcar-f/README.md) | Panaversity Certified Architect: Foundations | **Available now — is repo ka current target** |
-| [`pcdv-f/`](pcdv-f/README.md) | Panaversity Certified Developer: Foundations | Available now |
-| [`pcao-f/`](pcao-f/README.md) | Panaversity Certified Associate: Foundations | Planned |
-| [`pcar-p/`](pcar-p/README.md) | Panaversity Certified Architect: Professional | Planned |
+| [`pcao-f/`](pcao-f/README.md) | Panaversity Certified Associate: Foundations | **Required FIRST** — FDE gate ka pehla exam |
+| [`pcar-f/`](pcar-f/README.md) | Panaversity Certified Architect: Foundations | **Required SECOND** — is repo ka current study target |
+| [`pcdv-f/`](pcdv-f/README.md) | Panaversity Certified Developer: Foundations | Additional technical credential (ab FDE gate ka hissa nahi) |
+| [`pcar-p/`](pcar-p/README.md) | Panaversity Certified Architect: Professional | Advanced / professional track |
 
-### Anthropic (Stage Two)
+*Har Panaversity exam ke 720/1000 pass, do free attempts (Panaversity students). Book ab exam-level
+"Available/Planned" status nahi deta — sirf role batati hai; "PCAO-F planned" wali purani line hata di.*
 
-| Folder | Exam | FDE Path Focus? |
-| --- | --- | --- |
-| [`ccar-f/`](ccar-f/README.md) | Claude Certified Architect: Foundations | ✅ Yes — pehla |
-| [`ccdv-f/`](ccdv-f/README.md) | Claude Certified Developer: Foundations | ✅ Yes — doosra |
-| [`ccao-f/`](ccao-f/README.md) | Claude Certified Associate: Foundations | Nahi (advising/selling role) |
-| [`ccar-p/`](ccar-p/README.md) | Claude Certified Architect: Professional | Nahi (senior capstone) |
+### Anthropic (Stage Two — recommended FDE pair = CCAO-F **phir** CCAR-F)
+
+| Folder | Exam | Price · Qs | FDE Path Focus? |
+| --- | --- | --- | --- |
+| [`ccao-f/`](ccao-f/README.md) | Claude Certified Associate: Foundations | $99 · 60 | ✅ **Yes — pehla** (recommended FDE pair ka Step 1; broad judgment) |
+| [`ccar-f/`](ccar-f/README.md) | Claude Certified Architect: Foundations | $125 · 60 | ✅ **Yes — doosra** (system design; counts toward partner tier) |
+| [`ccdv-f/`](ccdv-f/README.md) | Claude Certified Developer: Foundations | $125 · 53 | Additional — build/ship proof after the pair |
+| [`ccar-p/`](ccar-p/README.md) | Claude Certified Architect: Professional | $175 · 63* | Nahi (senior capstone) |
+
+*`*` CCAR-P ke 63 questions — book page (28 Aug) ise wapas "independent guides only, not
+official-confirmed" keh rahi hai, jabke is repo ne 2026-08-24 ko official PDF khud padha tha. Neeche
+02 mein flagged.*
+
+**Note:** CCAO-F Claude Partner Network **tier eligibility mein count nahi hota** — sirf CCDV-F /
+CCAR-F / CCAR-P count hote hain. Lekin FDE learning progression ke liye CCAO-F ab pehla step hai.
 
 ## Ek Line Mein Poori Cheez
 
-> **Poora path:** PCAR-F → PCDV-F → FDE Internship Program & partner access → CCAR-F → CCDV-F.
-> **Stage One** (PCAR-F/PCDV-F) Panaversity ka apna readiness-gate hai — free, khud proctor karte
-> hain, 720/1000 pass hai. **Stage Two** (CCAR-F/CCDV-F) Anthropic ke official, Pearson-VUE-proctored
-> exams hain, jinke liye partner-organisation email chahiye — jo Stage One pass karne se milta hai.
+> **Poora path (28 Aug 2026):** PCAO-F → PCAR-F → FDE Internship Program & partner access → CCAO-F →
+> CCAR-F. **Stage One** (PCAO-F + PCAR-F) Panaversity ka apna readiness-gate hai — students ko 2 free
+> attempts, khud proctor karte hain, 720/1000 pass. **Stage Two** (CCAO-F + CCAR-F, = $224) Anthropic
+> ke official Pearson-VUE exams hain, jinke liye partner-organisation email chahiye — jo Stage One
+> pass karne se milta hai. Logic: **use AI well → evaluate it → govern it → design the system.**
 
-## Is Repo Ka Apna Goal (2026-08-24)
+## Is Repo Ka Apna Goal (2026-08-24, path-update 2026-09-01)
 
-User ne yeh personal challenge diya hai: **2026-10-05 tak PCAR-F (free internal exam) pass karo** —
-CCAR-F ki taraf pehla concrete step. Yeh folder isi push ka spine hai — deekho
-[`07-practice-log.md`](07-practice-log.md) live tracking ke liye.
+User ka personal challenge: **2026-10-05 tak PCAR-F pass karo**. ⚠️ **Book ne pathway badla —
+ab PCAO-F PCAR-F se PEHLE aata hai.** Isliye us deadline se pehle **do exams** hain (PCAO-F → PCAR-F),
+ek nahi. Spine + revised plan: [`07-practice-log.md`](07-practice-log.md).
 
 **Fuller reference (2026-08-26):** root
 [`Claude Certified Architect Foundations (CCAR-F) FDE Track B Accelerated.md`](../../Claude%20Certified%20Architect%20Foundations%20%28CCAR-F%29%20FDE%20Track%20B%20Accelerated.md)

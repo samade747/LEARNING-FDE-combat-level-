@@ -2,6 +2,32 @@
 
 ## Done
 
+- 2026-09-01: User ne `docs/certifications/` ko "live page + Zia Tutor ke mutabiq update karo" bola.
+  Zia Tutor connector se `certifications` lesson re-fetch kiya (**corpus generation 47**, page
+  "Version note": **updated 28 August 2026**) + live WebFetch cross-check. **BARA change: FDE pathway
+  restructure ho gaya:**
+  - **Purana:** `PCAR-F → PCDV-F → FDE Internship → CCAR-F → CCDV-F` (PCDV-F gate)
+  - **Naya:** `PCAO-F → PCAR-F → FDE Internship + partner access → CCAO-F → CCAR-F` — **Associate
+    pehle, Architect doosra** ("use AI well → evaluate it → govern it → design the system")
+  - **PCAO-F** ab FDE gate ka pehla exam (pehle "Planned, not the FDE focus"). **PCDV-F/CCDV-F** gate
+    se hata — "additional technical credential".
+  - Costs confirmed: CCAO-F $99, CCAR-F $125, CCDV-F $125, CCAR-P $175. **Recommended pair CCAO-F +
+    CCAR-F = $224** (pehle CCAR-F+CCDV-F = $250).
+  - CCAO-F 7-domain blueprint (Output Eval 21% heaviest) **pehle se repo mein tha** (official PDF se
+    2026-08-24) — sirf sequence + CCAO-F ka path role badla.
+  - Naya "Why Anthropic Matters Now" section: $65B Series H, $47B run-rate, confidential S-1
+    (1 Jun 2026), potential $2T IPO valuation, 40k firms / 10k+ certified consultants.
+  - 5 of the 7 "upcoming Claude courses" ab live-page par linked (Loop by Hand, Structured
+    Extraction, Agent SDK, Claude Code Teams/CI); Routines + Managed Agents "for the work, not the exam".
+  - ⚠️ **CCAR-P 63-question count:** book page ab wapas "independent guides only" keh rahi hai —
+    repo ke 2026-08-24 "official-PDF-confirmed" note se conflict, conservative treat karo (flagged).
+  - Reschedule 24h vs Pearson VUE 48h — book ne 24h re-confirm kiya, discrepancy still open.
+  **Files updated:** README, 00, 01, 02, 03, 04, 05, 06, 07-practice-log (user goal checklist
+  revised — Week 1 = CCAO-F blueprint), SUMMARY; per-cert: pcao-f (rewrote), pcar-f, pcdv-f, ccao-f
+  (00+README), ccar-f, ccdv-f; header banner on 08 + quiz.md (Q3 stale). Also flagged in
+  `docs/ccar-f-fde-track-b/04-certification-path-and-sources.md` (syllabus route line stale). Memory
+  `project_pcar-f-goal` updated.
+
 - 2026-09-01: User ne "aur projects nikalo" bola (Loop Eng 10/11 blocked hone ke baad). Menu diya,
   user ne **Harness Engineering ke 8 projects** choose kiye. Throwaway repos scratchpad mein banaye,
   `claude -p` se chalaye. **6/8 + appendix done:**

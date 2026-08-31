@@ -1,8 +1,10 @@
 # CCDV-F — Claude Certified Developer: Foundations
 
 Ye notes **CCDV-F** (Claude Certified Developer – Foundations) exam ka full breakdown hain, official
-Anthropic Exam Guide v1.0 se (PDF `Read` tool se poora parha, 2026-08-24). Yeh is repo ke FDE path
-ka **doosra Anthropic exam** hai — dekho [Stage Two](../02-stage-two-anthropic.md).
+Anthropic Exam Guide v1.0 se (PDF `Read` tool se poora parha, 2026-08-24). **28 Aug 2026 se yeh FDE
+gate ka hissa nahi** — recommended pair ab CCAO-F → CCAR-F hai; CCDV-F "additional technical
+credential" hai jo aap pair ke **baad** le sakte ho agar deeper build/ship proof chahiye. Dekho
+[Stage Two](../02-stage-two-anthropic.md). Blueprint (53 Qs, 8 domains) valid hai — sirf path role badla.
 
 ## Index
 

@@ -3,37 +3,43 @@
 Front Matter, top-level doc (position #13). Panaversity ke certification pathway ka naqsha — kaise
 proctored proof paida karo ke aap Vertical FDE ka kaam kar sakte ho.
 
-**Note:** Yeh chapter 2026-08-24 ko poori tarah dobara fetch hua Zia Tutor AI se. Book ne is page ko
-poori tarah rewrite kiya hai — purana version (single "Certified Agentic AI Architect" 5-course
-program, AI-101→AI-491, aur ek optional CCA-F exam) ab **replaced** ho chuka hai naye, zyada elaborate
-structure se (Panaversity qualification stage + Anthropic ke 4 alag proctored exams). Purani files
-(`00-two-tracks-one-ecosystem.md`, `01-professional-track-curriculum.md`) delete ki gayi hain, kyunke
-unka content ab live page se match nahi karta.
+**Note:** Yeh chapter pehle 2026-08-24 ko fetch hua tha. **2026-09-01 ko dobara re-fetch kiya
+(Zia Tutor corpus gen 47, book "Version note": updated 28 August 2026).** ⚠️ **Book ne FDE pathway
+restructure kar diya:** ab **Associate pehle, Architect doosra** (PCAO-F → PCAR-F → ... → CCAO-F →
+CCAR-F). Purana PCAR-F→PCDV-F gate ab stale. PCDV-F/CCDV-F "additional credential" ban gaye.
 
 ## 00 — Overview: Do Stages, Ek Pathway
 
-- **Poora path:** PCAR-F → PCDV-F → FDE Internship Program & partner access → CCAR-F → CCDV-F
-- **Kyun zaroori:** ek proctored certification sab se portable "carry-in" asset hai — stranger seconds
-  mein verify kar sakta hai
-- **Access gate:** Anthropic registration sirf Claude Partner Network organisation email se hoti hai
-  (personal email accept nahi). Panaversity partner network member hai — PCAR-F+PCDV-F pass karne se
-  FDE Internship Program milta hai, jo partner access provision karta hai
-- Version note: 22 Aug 2026 verify, sab 4 guides v1.0, domain weights change ho sakte hain
+- **Poora path (28 Aug 2026):** PCAO-F → PCAR-F → FDE Internship Program & partner access → CCAO-F → CCAR-F
+- **Logic:** use AI well → evaluate it correctly → govern it responsibly → design the system (judgment
+  se pehle, architecture baad)
+- **Kyun zaroori:** ek proctored certification sab se portable "carry-in" asset hai
+- **Access gate:** Anthropic registration sirf Claude Partner Network organisation email se hoti hai.
+  Panaversity partner network member hai — **PCAO-F + PCAR-F** pass karne se FDE Internship Program
+  milta hai, jo partner access provision karta hai
+- Version note: 28 Aug 2026 verify, sab 4 guides v1.0. **Naya section "Why Anthropic Matters Now":**
+  $65B Series H ($965B valuation), $47B run-rate, confidential S-1 (1 Jun 2026), potential $2T IPO
+  valuation, 40k firms applied, 10k+ consultants certified
 
 ## 01 — Stage One: Panaversity Qualification & Partner Access
 
-- 4 Panaversity exams planned (PCAR-F, PCDV-F available now; PCAO-F, PCAR-P planned), 720/1000 pass
-- FDE path: **PCAR-F pehle, PCDV-F baad mein** — architecture-first sequence
+- 4 Panaversity exams, 720/1000 pass. **FDE gate = PCAO-F (first) + PCAR-F (second).** PCDV-F =
+  additional credential (gate se hata). PCAR-P = advanced track
+- Book ab per-exam "Available/Planned" status nahi deti, sirf role
 - Students ko 2 free attempts/exam; baaqi sab proctoring fee (TBA) dete hain
 - Gate 2 wajah se: Anthropic attempt mehenga/waqt-talab hai ($99-175, 14/30/90-din waits); credential
   ka signal maintain karna hai (Claude Partner Network standing)
 
 ## 02 — Stage Two: Anthropic Certification
 
-- 4 credentials: CCAR-F ($125, 60 Q), CCDV-F ($125, 53 Q), CCAO-F ($99, 60 Q), CCAR-P ($175, 63 Q)
+- 4 credentials: CCAO-F ($99, 60 Q), CCAR-F ($125, 60 Q), CCDV-F ($125, 53 Q), CCAR-P ($175, 63 Q*)
+- `*` CCAR-P 63 — book page (28 Aug) ab "independent guides only, not official-confirmed" keh rahi hai
+  (repo ne 2026-08-24 ko official PDF padha tha — conflict, conservative treat karo)
 - Sab: Pearson VUE proctored, 120 min, 720 cut score, 12-month validity, on-time renewal free
 - Koi exam prerequisite nahi, lekin eligibility (partner email) alag cheez hai
-- FDE ke liye recommended: **CCAR-F → CCDV-F**
+- **FDE ke liye recommended pair: CCAO-F → CCAR-F = $224.** CCDV-F/CCAR-P optional
+- CCAO-F Claude Partner Network **tier eligibility mein count nahi hota** (CCDV-F/CCAR-F/CCAR-P count
+  hote hain) — lekin FDE learning progression ka pehla step yehi hai
 - Academy course badge ≠ certification (free vs $99-175, no ID check vs government ID, completion
   badge vs Credly credential)
 
@@ -111,15 +117,19 @@ content return kiya, jo parent ne khud file mein likha.
   Claude Code for Teams/CI/Routines, Managed Agents) — abhi links nahi
 - 3 permanent gaps: model-selection economics, baaqi Messages API surface (vision, extended thinking,
   caching mechanics, Bedrock/Vertex/Foundry), Anthropic product terminology (CCAO-F ke liye zaroori)
-- 6-week plan: Weeks 1-2 blueprint + domain-weighted study, 3-4 build a small app (5+ domains), Week 5
-  practice test + weak-domain drill, Week 6 sit PCAR-F then PCDV-F
+- Live page: of the 7 courses, **5 are exam-relevant** (Loop by Hand, Structured Extraction, Agent
+  SDK, Claude Code for Teams, Claude Code as CI Worker); Routines + Managed Agents are "for the work,
+  not the exam"
+- 6-week plan (reordered 28 Aug): **Weeks 1-2 Associate blueprint** (output eval, workflow, governance —
+  judgment not vocabulary), **Weeks 3-4 Architect + build a small app**, Week 5 practice **PCAO-F then
+  PCAR-F**, Week 6 sit **PCAO-F then PCAR-F**
 
 ## 05 — Registration, Retakes, Renewal, Costs, 6 Mistakes
 
 - Reschedule free 24h+ before; retakes max 4/12-months, waits 14/30/90 days
 - Exam day: govt photo ID, no phone/notes/2nd monitor, NDA required
-- Full path cost: Panaversity stage free (2 attempts) for students; Anthropic pair CCAR-F+CCDV-F =
-  $250 before discounts; renewal free on-time
+- Full path cost: Panaversity stage free (2 attempts) for students; Anthropic pair **CCAO-F+CCAR-F =
+  $224** before discounts (pehle CCAR-F+CCDV-F = $250 tha); renewal free on-time
 - 6 mistakes: booking before eligible, equal time per domain, badge≠cert, watching without building,
   using real attempt as practice, letting credential lapse
 - Honest value: early-mover signal, no mature salary data yet, cert demonstrates skill but doesn't
@@ -135,7 +145,9 @@ content return kiya, jo parent ne khud file mein likha.
 ## 07 — Practice Log
 
 - User's own goal (set 2026-08-24): pass PCAR-F by **2026-10-05**
-- Week-by-week checklist mapped to the study plan, all not-started as of creation
+- ⚠️ 2026-09-01: path change means **PCAO-F comes first** — two exams before the deadline, not one.
+  Checklist revised: Week 1 CCAO-F blueprint, Week 2 CCAR-F blueprint, Weeks 3-4 build, Week 5 practice
+  both, Week 6 sit PCAO-F then PCAR-F
 - Flags root README.md staleness discovered during this chapter's build
 
 ## Is Chapter Ka Farq Baaqi Repo Se

@@ -4,6 +4,14 @@ Is chapter ke `00`–`07` files ka apna assessment — book ke `certifications` 
 based (na sirf recall). Har question ek real situation deta hai jo koi FDE-track candidate face kar
 sakta hai. Poori quiz `quiz.md` mein bhi hai, waisi hi content, standalone self-test ki tarah.
 
+> ⚠️ **Written before the 28 Aug 2026 pathway change (re-fetched 2026-09-01).** In questions ka
+> **logic** valid hai (access gate, why-a-gate, external candidates, retake math) lekin **exam names
+> aur sequence purane hain**: jahan bhi "PCAR-F → PCDV-F" ya "PCAR-F pehle" likha hai, ab
+> **"PCAO-F → PCAR-F"** aur **"PCAO-F pehle, PCAR-F doosra"** parho. Recommended Anthropic pair ab
+> **CCAO-F → CCAR-F** ($224), CCDV-F/PCDV-F additional credential. **Q3 poori tarah stale hai** —
+> ab sawal "PCDV-F kyun na pehle" nahi, "Architect kyun na pehle" hai; jawab: judgment (Associate)
+> architecture (Architect) se pehle. Details: [`00-overview.md`](00-overview.md).
+
 ---
 
 ### Q1. Ek candidate seedha Anthropic Partner Academy par jaake CCAR-F book karna chahta hai, personal Gmail se

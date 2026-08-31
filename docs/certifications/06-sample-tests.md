@@ -21,15 +21,31 @@ karta hai.
 
 ## Free Sample Tests (Panaversity Exams Ke Liye Bhi Valid)
 
+### Step 1 — Anthropic Academy (free, Anthropic ki apni)
+
+Book kehti hai: **pehle apne exam ke liye [Anthropic Academy](https://anthropic.skilljar.com/)
+courses karo** — free hain, Anthropic ka apna material hai.
+
+| Aapka exam | Highest-value free courses |
+| --- | --- |
+| CCAO-F | Claude 101 · AI Capabilities and Limitations · AI Fluency track for your role |
+| CCAR-F | Building with the Claude API · MCP: Advanced Topics · Claude Code 101 · official docs (agents, context management, tool design) |
+| CCDV-F | Building with the Claude API · Introduction to MCP · Claude Code in Action · Introduction to agent skills · Introduction to subagents |
+| CCAR-P | CCAR-F row + Bedrock/Vertex AI agar cloud platform se deploy karte ho |
+
+### Step 2 — Third-party practice sets (gaps dhoondne ke liye)
+
 | Exam | Free Sample Test | Bhi Help Karta Hai |
 | --- | --- | --- |
+| [CCAO-F](ccao-f/README.md) | [flashgenius.net/sample-tests/ccao-f](https://flashgenius.net/sample-tests/ccao-f) | [PCAO-F](pcao-f/README.md) |
 | [CCAR-F](ccar-f/README.md) | [flashgenius.net/sample-tests/ccar-f](https://flashgenius.net/sample-tests/ccar-f) | [PCAR-F](pcar-f/README.md) |
 | [CCDV-F](ccdv-f/README.md) | [flashgenius.net/sample-tests/ccdv-f](https://flashgenius.net/sample-tests/ccdv-f) | [PCDV-F](pcdv-f/README.md) |
-| [CCAO-F](ccao-f/README.md) | [flashgenius.net/sample-tests/ccao-f](https://flashgenius.net/sample-tests/ccao-f) | [PCAO-F](pcao-f/README.md) (jab launch ho) |
-| [CCAR-P](ccar-p/README.md) | [flashgenius.net/sample-tests/ccar-p](https://flashgenius.net/sample-tests/ccar-p) | [PCAR-P](pcar-p/README.md) (jab launch ho) |
+| [CCAR-P](ccar-p/README.md) | [flashgenius.net/sample-tests/ccar-p](https://flashgenius.net/sample-tests/ccar-p) | [PCAR-P](pcar-p/README.md) |
 
-**Independent practice materials hain, Anthropic se affiliated nahi.** In se apne gaps dhoondo exam
-fee kharch karne se pehle.
+Book ek **CCAR-F Practice Exam** bhi mention karti hai (full-length, 60 items, 120 min, domain-scored).
+**Independent practice materials hain, Anthropic se affiliated nahi aur yahan endorsed nahi.** In se
+apne gaps dhoondo exam fee kharch karne se pehle; **[official exam guide](02-stage-two-anthropic.md)
+hi authority hai ke kya test hota hai.**
 
 ---
 [⬅ Index](README.md) · [Peechay: Registration, Costs, Mistakes](05-registration-costs-mistakes.md) ·

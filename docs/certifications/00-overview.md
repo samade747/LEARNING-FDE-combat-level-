@@ -12,14 +12,28 @@ Yeh is book ke target role ke liye khaas zaroori hai: **Vertical FDE** aksar kaa
 hire hota hai, kabhi kabhi kisi aise insaan se jo kaam ko seedha evaluate nahi kar sakta. **Ek
 independent credential us conversation ka starting point badal deta hai.**
 
-## Poora Recommended Path
+## Poora Recommended Path (28 August 2026 — book ne restructure kiya)
 
 ```
-PCAR-F → PCDV-F → FDE Internship Program & partner access → CCAR-F → CCDV-F
+PCAO-F → PCAR-F → FDE Internship Program & partner access → CCAO-F → CCAR-F
 ```
 
-- **Stage One** — Panaversity ka apna qualification path
-- **Stage Two** — Anthropic ka official certification program
+- **Stage One** — Panaversity ka apna qualification path: **pehle Associate (PCAO-F), phir Architect
+  (PCAR-F)**
+- **Stage Two** — Anthropic ka official certification program: **pehle CCAO-F, phir CCAR-F** (= $224)
+
+**Order jaan-boojh kar hai — "Associate pehle, Architect doosra":**
+
+1. **PCAO-F/CCAO-F pehle** kyunki judgment foundation hai — effective prompting, output evaluation +
+   validation, hallucination detection, workflow integration, model/product selection, governance +
+   responsible use, aur "kab human review chahiye" — yeh sab specialize karne se pehle aani chahiye.
+2. **PCAR-F/CCAR-F doosra** kyunki architecture usi judgment par bnti hai — agentic architecture,
+   Claude Code config, prompt engineering, tool design + MCP, context management.
+
+> Ek line mein: **use AI well → evaluate it correctly → govern it responsibly → design the system.**
+
+**Purana path (PCAR-F → PCDV-F → ... → CCAR-F → CCDV-F) ab stale hai.** PCDV-F/CCDV-F ab FDE gate ka
+hissa nahi — "additional technical credential" ban gaye, recommended pair ke baad ke liye.
 
 ## Access Gate — Kyun Seedha Anthropic Exam Nahi De Sakte
 
@@ -29,8 +43,8 @@ accept nahi hota**, aur abhi individual sign-up ka koi rasta nahi hai.
 
 **Panaversity Claude Partner Network ka member hai.** Is pathway mein:
 
-- **PCAR-F aur PCDV-F dono pass karo** → **Panaversity FDE Internship Program** ke liye qualify ho jate
-  ho
+- **PCAO-F aur PCAR-F dono pass karo** (usi order mein) → **Panaversity FDE Internship Program** ke
+  liye qualify ho jate ho
 - Us program ke zariye Panaversity organisational access provision kar sakta hai jo Anthropic
   registration ke liye chahiye
 - **Internship Panaversity ke partner-relationship se aapko eligible banati hai. Panaversity
@@ -38,13 +52,29 @@ accept nahi hota**, aur abhi individual sign-up ka koi rasta nahi hai.
 
 ## Version Note (Book Ki Apni)
 
-22 August 2026 ko verify hua tha — Anthropic ke certification announcement, 4 official exam guides,
-aur Pearson VUE programme page ke against. **Chaaron guides Version 1.0 hain, effective July 2026.**
+**Updated 28 August 2026** — Anthropic ke certification materials + current public company info ke
+against (Zia Tutor corpus generation 47, is repo ne 2026-09-01 ko re-fetch kiya). **Chaaron guides
+Version 1.0 hain, effective July 2026.**
 
-- **Book se current guide download karo, exam book karne se pehle** — Architect Foundations guide
-  v0.1 se v0.2, phir v1.0 tak kuch mahinon mein badal chuki hai
-- **Domain weights change ho sakte hain** — har guide khud kehti hai "subject to change without
-  notice"
+- **Book se current guide download karo, exam book karne se pehle** — blueprints, domain weights,
+  registration rules, programme details sab change ho sakte hain
+- **Pichla verify 22 Aug 2026 ka tha** (PCAR-F-first pathway) — 28 Aug wale update ne poora sequence
+  ulat diya (Associate ab pehle)
+
+## "Why Anthropic Matters Now" (Book Ka Naya Section)
+
+Book ab context deti hai — kyun yeh credential ab zyada important hai:
+
+- **28 May 2026:** Anthropic ne **$65B Series H** announce ki, **$965B post-money valuation**;
+  run-rate revenue **$47B** cross kar gaya
+- **1 June 2026:** SEC ke paas **confidential draft Form S-1** submit ki — IPO ka rasta khula
+- Reuters (27 Aug 2026): IPO prospectus Labor Day ke baad publicly unveil ho sakta hai; ek
+  **$2 trillion valuation** "plausible" bataya gaya (yeh *reported potential* hai, announced price nahi)
+- **Claude Partner Network:** $100M investment; June 2026 tak **40,000+ firms ne apply kiya**,
+  **10,000+ consultants ne Claude certification earn ki**
+
+> Learner ke liye conclusion: ek Anthropic certification duniya ke sab se consequential AI ecosystems
+> mein se ek ke andar **portable proof of capability** ban rahi hai.
 
 ---
 [⬅ Index](README.md) · [Agla: Stage One — Panaversity Qualification ➡](01-stage-one-panaversity.md)

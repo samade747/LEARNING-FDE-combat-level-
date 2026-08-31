@@ -4,25 +4,35 @@
 "Stage One" + "CCAR-F: Architect, Foundations" (PCAR-F is aligned to CCAR-F's blueprint). Yeh is
 repo ka **immediate goal** hai — dekho [`../07-practice-log.md`](../07-practice-log.md).*
 
+## ⚠️ Path Change (28 August 2026)
+
+Book ne pathway restructure kiya. **PCAR-F ab FDE gate ka DOOSRA exam hai — PCAO-F pehle aata hai.**
+
+```
+PCAO-F → PCAR-F → FDE Internship Program & partner access → CCAO-F → CCAR-F
+```
+
+Purana: "PCAR-F pehle, phir PCDV-F". Naya: PCDV-F gate se hata, PCAO-F pehle aa gaya.
+
 ## Quick Facts
 
 | Field | Detail |
 | --- | --- |
 | **Full name** | Panaversity Certified Architect: Foundations |
 | **Matches** | [CCAR-F](../ccar-f/README.md) (Anthropic's official exam) |
-| **Status** | **Available now** |
+| **Role in path** | **Required second** ([PCAO-F](../pcao-f/README.md) ke baad) |
 | **Proctored by** | Panaversity (independently) |
 | **Pass score** | 720 / 1000 |
 | **Cost** | **Free** — Panaversity students get 2 free attempts; 3rd+ attempt fee TBA. Everyone else pays proctoring fee (TBA) |
-| **Stage One order** | **Pehla** exam (PCDV-F se pehle) |
-| **Unlocks** | Pass PCAR-F + PCDV-F both → Panaversity FDE Internship Program & partner access → eligible to register for CCAR-F |
+| **Unlocks** | Pass PCAO-F **+ PCAR-F** both → Panaversity FDE Internship Program & partner access → eligible to register for CCAO-F → CCAR-F |
 
-## Kyun Pehle
+## Kyun Doosre
 
-Architect Foundations system design, agentic architecture, prompt engineering, tool design, aur
-context management pe zor deti hai — un learners ke liye behtar pehla checkpoint jinke paas abhi deep
-development experience nahi hai. PCAR-F pass karna deta hai wo mental model jo PCDV-F ki
-implementation-heavy questions ke liye chahiye.
+Architect Foundations system-level trade-offs poochta hai — agentic architecture, Claude Code
+configuration, prompt engineering, tool design + MCP, context management. Yeh sab **usi judgment par
+bnta hai** jo PCAO-F test karta hai (effective prompting, output evaluation, governance, "kab human
+review"). Isliye Associate pehle, Architect doosra: *use AI well → evaluate it → govern it → design
+the system.*
 
 ## Domain Weights (CCAR-F Blueprint Se Aligned)
 

@@ -19,8 +19,8 @@ pehle hallucinate kar chuka hai).*
 | **Passing score** | Scaled 720 / (100–1,000 range) |
 | **Validity** | 12 months, award-date se |
 | **Result reporting** | Pass/fail + scaled score + domain-wise percent-correct |
-| **Panaversity-aligned exam** | [PCAO-F](../pcao-f/README.md) — **planned**, abhi available nahi |
-| **FDE path focus** | **Nahi** — is book ke initial FDE path (CCAR-F → CCDV-F) ka hissa nahi |
+| **Panaversity-aligned exam** | [PCAO-F](../pcao-f/README.md) — FDE gate ka **pehla** exam |
+| **FDE path focus** | ✅ **Yes — pehla** (28 Aug 2026: recommended FDE pair ab **CCAO-F → CCAR-F**; CCAO-F broad judgment establish karta hai architecture se pehle). Note: CCAO-F Claude Partner Network tier-eligibility mein count **nahi** hota — sirf CCDV-F/CCAR-F/CCAR-P count hote hain — lekin learning progression ka pehla step yehi hai |
 
 ## Purpose Aur Value (Guide Section 2)
 

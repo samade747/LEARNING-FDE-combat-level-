@@ -3,24 +3,31 @@
 *Source: [Certifications](https://agentfactory.panaversity.org/docs/certifications), sections
 "Stage One" + "CCDV-F: Developer, Foundations" (PCDV-F is aligned to CCDV-F's blueprint).*
 
+## ⚠️ Path Change (28 August 2026)
+
+Book ne pathway restructure kiya. **PCDV-F ab FDE gate ka hissa NAHI hai** — pehle "PCAR-F ke baad,
+doosra gate exam" tha. Ab: **"additional technical credential"** — recommended pair (PCAO-F → PCAR-F,
+phir CCAO-F → CCAR-F) ke **baad**, agar aapko deeper build/ship proof chahiye.
+
 ## Quick Facts
 
 | Field | Detail |
 | --- | --- |
 | **Full name** | Panaversity Certified Developer: Foundations |
 | **Matches** | [CCDV-F](../ccdv-f/README.md) (Anthropic's official exam) |
-| **Status** | **Available now** |
+| **Role in path** | **Additional credential** — ab FDE gate ka hissa nahi |
 | **Proctored by** | Panaversity (independently) |
 | **Pass score** | 720 / 1000 |
 | **Cost** | **Free** — Panaversity students get 2 free attempts; 3rd+ attempt fee TBA. Everyone else pays proctoring fee (TBA) |
-| **Stage One order** | **Doosra** exam (PCAR-F ke baad) |
-| **Unlocks** | Pass PCAR-F + PCDV-F both → Panaversity FDE Internship Program & partner access → eligible to register for CCAR-F/CCDV-F |
+| **When** | Recommended pair complete karne ke baad, optional deeper credential |
 
-## Kyun Doosre Number Par
+## Kyun Ab Additional Hai
 
 Developer Foundations prove karti hai ke aap architecture se implementation tak move kar sakte ho:
-applications, integrations, agents, workflows, tools, MCP, security, testing, debugging. PCAR-F ka
-mental model pehle chahiye — is liye PCDV-F doosre number par hai.
+applications, integrations, agents, workflows, tools, MCP, security, testing, debugging. Book ne
+faisla kiya ke FDE gate ke liye judgment (Associate) + system design (Architect) kaafi hain —
+implementation proof optional next step hai. Blueprint aur book-coverage abhi bhi valid hain, sirf
+path role badla.
 
 ## Domain Weights (CCDV-F Blueprint Se Aligned, Bohat Uneven)
 

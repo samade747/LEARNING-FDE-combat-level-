@@ -1,8 +1,12 @@
 # CCAO-F — Claude Certified Associate: Foundations
 
 Ye notes **Claude Certified Associate – Foundations Exam Guide v1.0** (official, effective July 2026,
-exam code CCAO-F) ka full breakdown hain — non-technical business users ke liye Anthropic ka
-credential (jaisa PCDV-F/CCAR-F technical roles ke liye hai).
+exam code CCAO-F) ka full breakdown hain — limited-to-moderate technical users ke liye Anthropic ka
+credential.
+
+> ⚠️ **Path change (28 August 2026):** CCAO-F ab **recommended FDE pair ka pehla exam** hai
+> (CCAO-F → CCAR-F). Pehle "advising/selling role, FDE path ka focus nahi" tha. Ab: broad judgment
+> pehle, architecture doosra — dekho [`../00-overview.md`](../00-overview.md).
 
 Source: PDF `Read` tool se poora parha 2026-08-24 (pehli baar overview, phir dobara section-by-section
 confirm, isi din) — dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research Pass" note.

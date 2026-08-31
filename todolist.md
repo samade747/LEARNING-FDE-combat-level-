@@ -16,10 +16,19 @@
   Think in the AI Era, aur 3 References & Companions chapters (Which AI Employees To Use in 2026?,
   Cheatsheets, Agentic Engineering Fundamentals). User ne "yes update it" keh kar in par kaam karne ki
   ijazat de di hai (koi specific priority order nahi di) — book-order mein continue karo.
-- [ ] **PCAR-F push (deadline 2026-10-05):** `docs/certifications/07-practice-log.md` ke 6-week plan
-  follow karo — Weeks 1-2 domain-weighted study, 3-4 ek chhoti app banao, 5 practice test, 6 PCAR-F
-  sit karo. (2026-08-26 cross-check confirm kar chuka hai ke Week 1-2 ke sab required reads is repo
-  mein already maujood hain — ab sirf revise + apply karna hai, naya fetch nahi.)
+- [ ] **PCAO-F → PCAR-F push (deadline 2026-10-05):** ⚠️ **2026-09-01 path change** — book ne pathway
+  restructure kiya (28 Aug 2026 version): ab **PCAO-F (Associate) pehle, phir PCAR-F**. Do exams
+  deadline se pehle, ek nahi. `docs/certifications/07-practice-log.md` checklist revised: Week 1 CCAO-F
+  blueprint (Output Eval 21% / Workflow 16% / Governance 15%), Week 2 CCAR-F blueprint, Weeks 3-4
+  build, Week 5 practice both, Week 6 sit PCAO-F then PCAR-F. CCAO-F blueprint pehle se repo mein hai
+  (`ccao-f/01-domain-blueprint.md`).
+- [ ] **CCAR-P 63-question count discrepancy (2026-09-01):** book page (28 Aug) ab "independent guides
+  only, not official-confirmed" keh rahi hai; repo ne 2026-08-24 ko official PDF khud padha tha.
+  Conflict flagged in `02-stage-two-anthropic.md` + `03-exam-domains.md`. Agar CCAR-P relevant ho,
+  official CCAR-P Exam Guide v1.0 dobara verify karo.
+- [ ] **Track B syllabus route line stale:** `docs/ccar-f-fde-track-b/04-certification-path-and-sources.md`
+  flagged — user-provided syllabus (26 Aug) ka `PCAR-F → PCDV-F → ...` route ab book se match nahi
+  karta. Baaki Track B chapter theek hai (architecture content unchanged).
 - [ ] **Track B "upcoming Claude sequence" periodically re-check karo** — 7 courses (The Loop by Hand,
   Structured Extraction Pipelines, Claude Agent SDK, Claude Code for Teams, Claude Code as a CI
   Worker, Claude Code Routines, Claude Managed Agents) abhi Zia Tutor corpus mein "not links yet" hain

@@ -1,9 +1,11 @@
 # CCAR-F — Claude Certified Architect: Foundations
 
 Yeh notes **Claude Certified Architect – Foundations Exam Guide v1.0** (effective July 2026, exam code
-CCAR-F) ka full breakdown hain, PDF `Read` tool se poora parha gaya 2026-08-24. Yeh is repo ke FDE
-path ka **pehla Anthropic exam** hai — dekho [Stage Two](../02-stage-two-anthropic.md). Panaversity-aligned
-free version: [PCAR-F](../pcar-f/README.md) (same blueprint).
+CCAR-F) ka full breakdown hain, PDF `Read` tool se poora parha gaya 2026-08-24. **28 Aug 2026 se yeh
+FDE pair ka DOOSRA Anthropic exam hai** ([CCAO-F](../ccao-f/README.md) pehle, phir CCAR-F) — dekho
+[Stage Two](../02-stage-two-anthropic.md). Panaversity-aligned free version:
+[PCAR-F](../pcar-f/README.md) (same blueprint). CCAR-F Claude Partner Network tier eligibility mein
+count hota hai (CCAO-F nahi). Book: "launched March 2026, programme ka pehla exam."
 
 Source PDF: `docs/certifications/Claude+Certified+Architect+–+Foundations+Exam+Guide.pdf`
 

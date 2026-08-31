@@ -6,24 +6,36 @@ pattern par jo [Loop Engineering](../loop-engineering/11-practice-log.md) aur
 [Harness Engineering](../harness-engineering/11-practice-log.md) ki practice logs mein use hua.*
 
 **Goal (2026-08-24 ko set hua):** 2026-10-05 tak **PCAR-F** (free Panaversity internal exam) pass
-karo — CCAR-F/CCDV-F ki taraf, phir poori CCAR-F/CCDV-F ki taraf pehla concrete step. Deadline se
-6 hafte se kam waqt hai, isliye [04-gaps-and-study-plan.md](04-gaps-and-study-plan.md) ka 6-week plan
-compress karke follow karo.
+karo — FDE path ka concrete step.
+
+> ⚠️ **Path change (2026-09-01, book "Version note": updated 28 Aug 2026):** book ne pathway
+> restructure kiya — ab **PCAO-F (Associate) PEHLE aata hai, phir PCAR-F**. Iska matlab deadline se
+> pehle **do exams** hain, ek nahi:
+> `PCAO-F → PCAR-F → FDE Internship & partner access → CCAO-F → CCAR-F`
+> PCDV-F/CCDV-F ab gate se hat gaye (additional credential). Neeche wala plan revised hai.
+
+Deadline se ~5 hafte hain — [04-gaps-and-study-plan.md](04-gaps-and-study-plan.md) ka 6-week plan
+compress karo (Associate + Architect ek saath, kyunki dono blueprints ka bara hissa is repo mein
+already cover hai).
 
 **Rule:** ek week ka checkbox tab hi tick hota hai jab uska "Done jab" criteria khud dekh liya ho.
 
 ---
 
-## Progress Checklist
+## Progress Checklist (revised 2026-09-01 — Associate pehle)
 
 | Week | Focus | Status | Notes |
 | --- | --- | --- | --- |
-| 1-2 | CCAR-F blueprint + domain-weighted study ([03](03-exam-domains.md)) | ⬜ Not started | |
-| 3-4 | Ek chhoti application banao jo 5+ domains touch kare | ⬜ Not started | |
-| 5 | Free sample test (CCAR-F) exam conditions mein, weak domains drill | ⬜ Not started | |
-| 6 | Re-test weak domains, **PCAR-F sit karo** | ⬜ Not started | |
+| 1 | **CCAO-F blueprint** — Output Evaluation 21% · Workflow Integration 16% · Governance 15% (= 52%). Judgment drills: [`ccao-f/projects/00-judgment-drills/`](ccao-f/projects/00-judgment-drills/README.md) | ⬜ Not started | Yeh naya step — pehle plan mein nahi tha |
+| 2 | **CCAR-F blueprint** — Agentic Architecture 27% · Claude Code Config 20% · Prompt Eng 20% · Tool/MCP 18% · Context 15%. Repo mein already strong (Loop/Harness/Graph Eng, Agent SDK notes) | ⬜ Not started | |
+| 3-4 | Ek chhoti application banao jo kai domains touch kare (API call + tool/MCP + prompt/context eng + basic eval) | ⬜ Not started | CCAR-F project scaffolds: [`ccar-f/projects/`](ccar-f/projects/README.md) |
+| 5 | Free sample tests exam conditions mein — **CCAO-F pehle, phir CCAR-F**. Weak domains drill | ⬜ Not started | flashgenius.net + Anthropic Academy |
+| 6 | Re-test weak domains, **PCAO-F sit karo, phir PCAR-F** | ⬜ Not started | Dono 720/1000, 2 free attempts each |
 
 Status legend: ⬜ Not started · 🔶 In progress · ✅ Done
+
+**Readiness (Track B ka standard, dono exams par apply):** har blueprint domain ka ek-line summary,
+practice test pe domain-wise 75%+, missed questions ka principle explain kar sako.
 
 ---
 

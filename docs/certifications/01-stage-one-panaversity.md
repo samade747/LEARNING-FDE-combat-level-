@@ -5,40 +5,50 @@
 Har exam Anthropic ke matching credential ke blueprint se **aligned** hai, **720/1000** passing
 threshold ke sath. Panaversity khud independently administer aur proctor karta hai.
 
-| Panaversity exam | Code | Matches | Status |
+| Panaversity exam | Code | Matches | Role in the path (28 Aug 2026) |
 | --- | --- | --- | --- |
-| Panaversity Certified Architect: Foundations | **PCAR-F** | CCAR-F | **Available now** |
-| Panaversity Certified Developer: Foundations | **PCDV-F** | CCDV-F | **Available now** |
-| Panaversity Certified Associate: Foundations | **PCAO-F** | CCAO-F | Planned |
-| Panaversity Certified Architect: Professional | **PCAR-P** | CCAR-P | Planned |
+| Panaversity Certified Associate: Foundations | **PCAO-F** | CCAO-F | **Required first** |
+| Panaversity Certified Architect: Foundations | **PCAR-F** | CCAR-F | **Required second** |
+| Panaversity Certified Developer: Foundations | **PCDV-F** | CCDV-F | Additional technical credential |
+| Panaversity Certified Architect: Professional | **PCAR-P** | CCAR-P | Advanced / professional track |
 
-**Yeh repo ka immediate target: PCAR-F — abhi available hai.**
+*Book ab per-exam "Available/Planned" status nahi deti — sirf role. Pichli line ("PCAO-F planned,
+sirf PCAR-F + PCDV-F available") ab valid nahi.*
 
-## Qualification Stage — Sequence Zaroori Hai
+**Yeh repo ka study target: PCAR-F — lekin FDE gate ke liye PCAO-F PEHLE dena hai.**
 
-FDE role ke liye Stage One mein **do exams** hain: **pehle PCAR-F, phir PCDV-F**.
+## Qualification Stage — Sequence Zaroori Hai (Ab Ulat)
 
-- **PCAR-F pehle** — Architect Foundations system design, agentic architecture, prompt engineering,
-  tool design, aur context management pe zor deti hai. Un learners ke liye behtar pehla checkpoint
-  jinke paas abhi deep development experience nahi hai.
-- **PCDV-F baad mein** — Developer Foundations prove karti hai ke aap architecture se implementation
-  tak move kar sakte ho: applications, integrations, agents, workflows, tools, MCP, security, testing,
-  debugging.
+FDE role ke liye Stage One mein **do exams** hain: **pehle PCAO-F, phir PCAR-F**.
+
+- **PCAO-F pehle** — Associate Foundations wo baseline judgment establish karti hai jo har AI
+  professional ko specialize karne se pehle aani chahiye: effective prompting, output evaluation +
+  validation, workflow integration, appropriate model/product use, governance, responsible use, aur
+  "kab human review chahiye".
+- **PCAR-F baad mein** — Architect Foundations AI fluency se system design ki taraf le jaati hai:
+  agentic architecture, Claude Code configuration, prompt engineering, tool design + MCP, context
+  management.
+
+Yeh progression do sawal isi order mein poochta hai:
+
+1. **Kya aap AI ko responsibly aur effectively use + evaluate kar sakte ho?**
+2. **Kya aap wo systems design kar sakte ho jinme AI operate karega?**
 
 **Dono pass karo → Panaversity FDE Internship Program aur partner access ke liye qualify.**
 Panaversity students aur external candidates dono ko same proctored standard pe rakha jata hai.
 External candidates jo dono pass karte hain, wo bhi is route ke liye qualify hote hain — Panaversity
 course mein enrolled hona zaroori nahi.
 
-Sirf tab **Stage Two** — official Anthropic exams, usi order mein (**CCAR-F pehle, CCDV-F baad**).
+Sirf tab **Stage Two** — official Anthropic exams, usi order mein (**CCAO-F pehle, CCAR-F baad**).
 
 ```
-Panaversity qualification → FDE Internship Program & partner access → eligible Anthropic registration
-→ official Anthropic exams
+Panaversity qualification (PCAO-F → PCAR-F) → FDE Internship Program & partner access
+→ eligible Anthropic registration → official Anthropic exams (CCAO-F → CCAR-F)
 ```
 
-**Anthropic khud PCAR-F ya PCDV-F require nahi karta** — yeh Panaversity ke apne readiness aur access
-requirements hain, is route ke liye.
+**Anthropic khud PCAO-F ya PCAR-F require nahi karta** — yeh Panaversity ke apne readiness aur access
+requirements hain, is route ke liye. **PCDV-F ab is gate ka hissa nahi** — recommended pair ke baad
+ka additional credential hai.
 
 ## Panaversity Exams Ki Cost
 
@@ -61,34 +71,38 @@ kisi ke khilaf count nahi hote. In se apni weak areas real sitting se pehle disc
    delay dono kharch kar sakta hai. Pehle 2 Panaversity attempts free hain — same blueprint ke against
    ek sasti readiness check.
 
-   **Agar PCAR-F/PCDV-F pe 720 clear nahi hota, farz mat karo ke corresponding Anthropic exam
+   **Agar PCAO-F/PCAR-F pe 720 clear nahi hota, farz mat karo ke corresponding Anthropic exam
    different jayega.**
 
 2. **Credential ka koi matlab bhi hona chahiye.** Certified-practitioner counts Claude Partner Network
    standing ka ek input hain (deployed customers aur public references ke sath). Agar access careless
    ho jaye, signal sab ke liye kamzor ho jata hai. Gate is signal ko protect karta hai.
 
-## Architect Pehle, Phir Developer — Kyun
+## Associate Pehle, Phir Architect — Kyun
 
-Dono Foundations exams FDE work ke complementary hisse test karte hain.
+Dono Foundations exams FDE readiness ke alag layers test karte hain.
 
-- **PCAR-F pehle** — architecture aapko mental model deti hai: agentic architecture, prompts, tools,
-  MCP, Claude Code configuration, aur context ke baare mein reason karna, poori application surface
-  implement karne se pehle.
-- **PCDV-F baad mein** — implementation proof hai. Poochta hai: kya un architectural choices ko working
-  applications, integrations, agents, workflows, production-oriented systems mein badal sakte ho.
+- **PCAO-F pehle kyunki judgment foundation hai.** Agentic system design karne se pehle aapko: effectively
+  prompt karna, output evaluate karna, hallucinations/inconsistencies detect karna, results validate
+  karna, appropriate workflows choose karna, product capabilities + limitations samajhna, aur
+  governance + responsible-use principles apply karna — yeh sab aana chahiye.
+- **PCAR-F baad mein kyunki architecture usi judgment par bnti hai.** Yeh system-level trade-offs
+  poochta hai: agents, tools, MCP, prompts, Claude Code configuration, aur context ke around.
 
-Dono milke wo breadth dikhate hain jo ek Vertical FDE se expect ki jaati hai: **pehle system design
-karo, phir system banao.**
+Dono milke ek cleaner progression banate hain future Vertical FDE ke liye:
+
+> **Use AI well → evaluate it correctly → govern it responsibly → design the system.**
+
+Internship phir wo environment deti hai jahan yeh skills deployment experience mein badalti hain.
 
 > **Note:** Do-exam requirement **Panaversity ki** hai, Anthropic ki nahi. Anthropic ek certification
 > ko doosre se pehle require nahi karta — usay sirf eligible access chahiye Claude Partner Network
 > organisation ke zariye. Panaversity decide karta hai kaun uski FDE Internship Program aur partner
 > access ke liye qualify karta hai.
 
-**Poori quick-facts + domain-weight detail:** [`pcar-f/`](pcar-f/README.md) ·
-[`pcdv-f/`](pcdv-f/README.md) · [`pcao-f/`](pcao-f/README.md) (planned) ·
-[`pcar-p/`](pcar-p/README.md) (planned)
+**Poori quick-facts + domain-weight detail:** [`pcao-f/`](pcao-f/README.md) ·
+[`pcar-f/`](pcar-f/README.md) · [`pcdv-f/`](pcdv-f/README.md) (additional) ·
+[`pcar-p/`](pcar-p/README.md) (advanced)
 
 ---
 [⬅ Index](README.md) · [Peechay: Overview](00-overview.md) ·
