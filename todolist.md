@@ -114,6 +114,11 @@
   `docs/ccar-f-fde-track-b/` just got, whenever KSoR content is next touched.
 
 - [ ] `Four-Layers-Summary_1.pdf` (duplicate PDF, repo root) — delete karna hai? (Pehle offer kiya tha, abhi tak koi jawab nahi)
+- [ ] **Harness Engineering practice — 6/8 + appendix done (2026-09-01).** P1 First Wall, P2 Lint
+  Hook, P3 Error Audit, P4 Tool Diet (worksheet), P5 Typed Reviewer, P7 Fenced Night (1 beat),
+  Appendix hook drills — sab `claude -p` se throwaway repos mein. **Baaki:** P6 Ratchet Week (real
+  7-day run — ledger session-data se seeded), P8 Model Swap (needs hardened loop + 3 nights on alt
+  model). Details: `docs/harness-engineering/11-practice-log.md`.
 - [ ] **Loop Engineering — 10.5/12 projects.** 6/9/12 ✅. **Project 10 (Secrets Drill): Run 1 ✅**
   (cloud routine — gitignored `.env` cloud tak nahi pahuncha, `check_token.py` FAIL). **Run 2 baaqi:**
   user claude.ai routine ke Environment→Variables panel mein `MY_API_TOKEN=dummy-abc123` add kare →
