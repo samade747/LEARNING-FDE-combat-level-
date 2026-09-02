@@ -31,9 +31,12 @@
   slugs pe `-crash-course` suffix laga. Ex-"7-course upcoming sequence" ab study guides mein live
   links. Certifications scope se bahar — poora `outline_agent_factory` walk + `docs/` disk cross-check
   karke root `README.md` status table + Track B references sync karni hain.
-- [ ] **Track B syllabus route line stale:** `docs/ccar-f-fde-track-b/04-certification-path-and-sources.md`
-  flagged — user-provided syllabus (26 Aug) ka `PCAR-F → PCDV-F → ...` route ab book se match nahi
-  karta (ab PCAO-F → PCAR-F; Anthropic optional). Baaki Track B chapter theek hai.
+- [x] **Track B route line updated (2026-09-02, gen 61):** `docs/ccar-f-fde-track-b/04-certification-path-and-sources.md`
+  + root `Claude Certified Architect Foundations (CCAR-F) FDE Track B Accelerated.md` (line ~366) dono
+  updated — old `Track B → PCAR-F → PCDV-F → ...` route struck through, current
+  `PCAO-F → PCAR-F → FDE Internship → (optional) CCAO-F → CCAR-F` + "same blueprint one level up" +
+  PCAO-F rollout dates + Anthropic-optional note. Sources-of-truth tables point to per-exam pages.
+  Baaki Track B chapter (architecture content) unchanged.
 - [ ] User se confirm: baqi 30 chapters (Front Matter 12, The Ecosystem 9, Foundations-Everyone 6, References & Companions 3) note karni hain `docs/` mein?
 
 ## Done

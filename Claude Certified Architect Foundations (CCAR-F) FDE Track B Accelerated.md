@@ -361,16 +361,39 @@ The Vertical SoR is the programme's primary portfolio artifact for FDE Internshi
 
 ### Panaversity route to the official Anthropic exams
 
-This syllabus prepares the **Architect Foundations** content. Under the current Panaversity route:
+This syllabus prepares the **Architect Foundations** content.
 
-**Track B → PCAR-F → PCDV-F preparation → pass PCDV-F → FDE Internship Program + partner access → CCAR-F → CCDV-F**
+> ⚠️ **Route updated 2026-09-02** against the Agent Factory certifications section (Zia Tutor MCP,
+> corpus generation 61, book "Version note": updated 1 September 2026). The original route line below
+> (written 26 Aug 2026) is superseded.
+
+**Current route:** **PCAO-F → PCAR-F → FDE Internship Program → *(optional)* CCAO-F → CCAR-F**
+
+~~Original (26 Aug 2026, stale): Track B → PCAR-F → PCDV-F preparation → pass PCDV-F → FDE Internship
+Program + partner access → CCAR-F → CCDV-F~~
 
 Important distinctions:
 
-- **PCAR-F and PCDV-F are Panaversity requirements for this route, not Anthropic prerequisites.**
-- This syllabus prepares **PCAR-F/CCAR-F architecture content**. It does **not** prepare the intervening **PCDV-F** developer exam.
-- Vertical specialization begins during this practicum and deepens during internship; it does not start only after certification.
-- Pearson VUE currently states that the Claude Certification Program is open to organizations in the Claude Partner Network and that exam registration begins in Anthropic Partner Academy.
+- **PCAO-F and PCAR-F are Panaversity requirements for this route, not Anthropic prerequisites.**
+  **PCAO-F (Associate) now comes first** — it establishes the judgment/evaluation/governance
+  foundation; PCAR-F (Architect) builds system design on top of it.
+- **PCDV-F is no longer part of the FDE gate** — it is an "additional technical credential" taken
+  after the pair, if deeper build/ship proof is wanted.
+- **Stage Two (the Anthropic exams) is now explicitly optional.** The book: *"Sitting the Anthropic
+  exams is optional… The Panaversity credentials and the internship stand on their own."* Panaversity
+  assists internship participants with registration.
+- This syllabus prepares **PCAR-F/CCAR-F architecture content**. It does **not** prepare the
+  **PCAO-F** associate exam's judgment/evaluation focus — prepare that separately (Agent Factory
+  `/docs/certifications/pcao-f`, or `docs/certifications/pcao-f/` in this repo).
+- Each Panaversity exam is now **"same blueprint, one level up"**: the full matching Anthropic
+  blueprint at published weights, then additional vendor-neutral / professional coverage.
+- **Rollout (gen 61):** PCAO-F sample 10 Sep 2026, proctored 18 Sep 2026; **PCAR-F sample and
+  proctored exam are "coming soon" with no date yet** — interim rehearsal is the book's CCAR-F
+  Practice Exam.
+- Vertical specialization begins during this practicum and deepens during internship; it does not
+  start only after certification.
+- Claude Certification Program registration requires an **eligible organisational account** (personal
+  email not accepted); registration begins in Anthropic Partner Academy.
 
 ### Sources of truth
 
@@ -378,7 +401,7 @@ Important distinctions:
 | --- | --- |
 | CCAR-F blueprint, format, task statements | **Claude Certified Architect – Foundations Exam Guide, v1.0 (July 2026)** |
 | Anthropic scheduling/retakes/Partner Academy route | **Pearson VUE Claude Certification Program page** |
-| Panaversity qualification sequence and attempts | **Agent Factory Certifications page** |
+| Panaversity qualification sequence, attempts, per-exam rollout dates | **Agent Factory certifications section** — per-exam pages `/docs/certifications/{pcao-f,pcar-f,pcar-p,pcdv-f}` (Zia Tutor MCP, gen 61) |
 | MCP protocol | **Model Context Protocol specification 2026-07-28** |
 | KSoR shipped functionality | **`panaversity/ksor` → `docs/status.md`** |
 | KSoR runtime requirement | Current KSoR README/status |

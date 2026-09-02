@@ -2,6 +2,14 @@
 
 ## Done
 
+- 2026-09-02 (follow-up): User "update Track B route line from book too" — Track B ki stale route line
+  dono jagah fix ki: `docs/ccar-f-fde-track-b/04-certification-path-and-sources.md` aur root
+  `Claude Certified Architect Foundations (CCAR-F) FDE Track B Accelerated.md` (~line 366). Purana
+  `Track B → PCAR-F → PCDV-F → ... → CCAR-F → CCDV-F` struck through; naya
+  `PCAO-F → PCAR-F → FDE Internship → (optional) CCAO-F → CCAR-F`. "Same blueprint one level up",
+  PCAO-F rollout dates (sample 10 Sep / proctored 18 Sep), Anthropic-optional, aur PCDV-F ab gate se
+  bahar — sab noted. Sources-of-truth tables ab per-exam book pages point karti hain. Todo closed.
+
 - 2026-09-02: User "certifications update it from book" — Zia Tutor se re-fetch (**corpus generation
   61**, book "Version note": **updated 1 September 2026**). Book ne certifications section **restructure**
   kiya:
