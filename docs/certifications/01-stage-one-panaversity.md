@@ -1,9 +1,14 @@
-# 01 — Stage One: Panaversity Qualification & Partner Access
+# 01 — Stage One: Panaversity Qualification & The Internship
+
+*Gen 61 note: book heading ab "Panaversity Qualification and the Internship" hai. Har exam ka apna
+book page bhi hai — `/docs/certifications/{pcao-f,pcar-f,pcar-p,pcdv-f}`.*
 
 ## Panaversity Ka Poora Framework — 4 Proctored Exams
 
-Har exam Anthropic ke matching credential ke blueprint se **aligned** hai, **720/1000** passing
-threshold ke sath. Panaversity khud independently administer aur proctor karta hai.
+Har exam **"same blueprint one level up"** hai: matching Anthropic credential ka poora blueprint
+(published weights pe) examine hota hai, **phir aage** — vendor-neutral + professional coverage (Claude
++ ChatGPT/other vendors study guide mein side by side). **720/1000** passing threshold. Panaversity
+khud independently administer aur proctor karta hai.
 
 | Panaversity exam | Code | Matches | Role in the path (28 Aug 2026) |
 | --- | --- | --- | --- |
@@ -34,21 +39,24 @@ Yeh progression do sawal isi order mein poochta hai:
 1. **Kya aap AI ko responsibly aur effectively use + evaluate kar sakte ho?**
 2. **Kya aap wo systems design kar sakte ho jinme AI operate karega?**
 
-**Dono pass karo → Panaversity FDE Internship Program aur partner access ke liye qualify.**
-Panaversity students aur external candidates dono ko same proctored standard pe rakha jata hai.
-External candidates jo dono pass karte hain, wo bhi is route ke liye qualify hote hain — Panaversity
-course mein enrolled hona zaroori nahi.
+**Dono pass karo → Panaversity FDE Internship Program ke liye qualify.** Panaversity students aur
+external candidates dono ko same proctored standard pe rakha jata hai. External candidates jo dono
+pass karte hain, wo bhi is route ke liye qualify hote hain — Panaversity course mein enrolled hona
+zaroori nahi.
 
-Sirf tab **Stage Two** — official Anthropic exams, usi order mein (**CCAO-F pehle, CCAR-F baad**).
+Uske baad **Stage Two — optional**: agar aap choose karo, official Anthropic exams usi order mein
+(**CCAO-F pehle, CCAR-F baad**). Panaversity internship participants ki registration mein assist
+karta hai.
 
 ```
-Panaversity qualification (PCAO-F → PCAR-F) → FDE Internship Program & partner access
-→ eligible Anthropic registration → official Anthropic exams (CCAO-F → CCAR-F)
+Panaversity qualification (PCAO-F → PCAR-F) → FDE Internship Program
+→ (optional) assisted Anthropic registration → official Anthropic exams (CCAO-F → CCAR-F)
 ```
 
 **Anthropic khud PCAO-F ya PCAR-F require nahi karta** — yeh Panaversity ke apne readiness aur access
-requirements hain, is route ke liye. **PCDV-F ab is gate ka hissa nahi** — recommended pair ke baad
-ka additional credential hai.
+requirements hain, is route ke liye. **Panaversity credentials + internship standalone value rakhte
+hain — Anthropic pair na baithna bhi valid choice hai.** **PCDV-F is gate ka hissa nahi** —
+additional credential hai.
 
 ## Panaversity Exams Ki Cost
 
@@ -63,6 +71,10 @@ reward bhi karte hain.
 
 **Real attempt kharch karne se pehle [free sample tests](06-sample-tests.md) do** — free hain aur
 kisi ke khilaf count nahi hote. In se apni weak areas real sitting se pehle discover karo.
+
+⚠️ **Rollout (gen 61, 1 Sep 2026):** Panaversity ka **PCAO-F sample 10 Sep 2026**, **proctored
+PCAO-F 18 Sep 2026** ko live. **PCAR-F / PCDV-F / PCAR-P samples abhi "coming soon"** — koi date
+nahi. PCAR-F ke liye interim rehearsal: book ka CCAR-F Practice Exam (`/docs/ccar-f-practice-exam`).
 
 ## Gate Kyun Hai — 2 Wajahen, Revenue Koi Nahi
 
@@ -96,9 +108,9 @@ Dono milke ek cleaner progression banate hain future Vertical FDE ke liye:
 Internship phir wo environment deti hai jahan yeh skills deployment experience mein badalti hain.
 
 > **Note:** Do-exam requirement **Panaversity ki** hai, Anthropic ki nahi. Anthropic ek certification
-> ko doosre se pehle require nahi karta — usay sirf eligible access chahiye Claude Partner Network
-> organisation ke zariye. Panaversity decide karta hai kaun uski FDE Internship Program aur partner
-> access ke liye qualify karta hai.
+> ko doosre se pehle require nahi karta — usay sirf eligible organisational account chahiye. Panaversity
+> decide karta hai kaun uski FDE Internship Program ke liye qualify karta hai; wahan se Anthropic
+> registration mein assist milta hai — lekin Anthropic pair baithna **optional** hai.
 
 **Poori quick-facts + domain-weight detail:** [`pcao-f/`](pcao-f/README.md) ·
 [`pcar-f/`](pcar-f/README.md) · [`pcdv-f/`](pcdv-f/README.md) (additional) ·

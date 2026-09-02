@@ -16,25 +16,24 @@
   Think in the AI Era, aur 3 References & Companions chapters (Which AI Employees To Use in 2026?,
   Cheatsheets, Agentic Engineering Fundamentals). User ne "yes update it" keh kar in par kaam karne ki
   ijazat de di hai (koi specific priority order nahi di) — book-order mein continue karo.
-- [ ] **PCAO-F → PCAR-F push (deadline 2026-10-05):** ⚠️ **2026-09-01 path change** — book ne pathway
-  restructure kiya (28 Aug 2026 version): ab **PCAO-F (Associate) pehle, phir PCAR-F**. Do exams
-  deadline se pehle, ek nahi. `docs/certifications/07-practice-log.md` checklist revised: Week 1 CCAO-F
-  blueprint (Output Eval 21% / Workflow 16% / Governance 15%), Week 2 CCAR-F blueprint, Weeks 3-4
-  build, Week 5 practice both, Week 6 sit PCAO-F then PCAR-F. CCAO-F blueprint pehle se repo mein hai
-  (`ccao-f/01-domain-blueprint.md`).
-- [ ] **CCAR-P 63-question count discrepancy (2026-09-01):** book page (28 Aug) ab "independent guides
-  only, not official-confirmed" keh rahi hai; repo ne 2026-08-24 ko official PDF khud padha tha.
-  Conflict flagged in `02-stage-two-anthropic.md` + `03-exam-domains.md`. Agar CCAR-P relevant ho,
-  official CCAR-P Exam Guide v1.0 dobara verify karo.
+- [ ] **PCAO-F → PCAR-F push (deadline 2026-10-05):** ⚠️ **2026-09-02 gen 61 timing constraint** —
+  PCAO-F proctored **18 Sep se live** (sample 10 Sep); PCAR-F sample+proctored **date-less
+  ("coming soon")**. Deadline at-risk — `07-practice-log.md` risk-analysis table (A: both in time /
+  B: PCAR-F slips → re-scope to PCAO-F / C: nothing bookable → prep-only). Stance: prep deadline-ready
+  (dono blueprints, samples 75%+), sitting seat-dependent. Checklist: Week 1 CCAO-F blueprint, Week 2
+  CCAR-F blueprint + 6 scenarios, Weeks 3-4 build, Week 5 PCAO-F sample + CCAR-F Practice Exam, Week 6
+  sit PCAO-F (18 Sep) then PCAR-F (when seat opens).
+- [x] **CCAR-P 63-question count discrepancy — RESOLVED (2026-09-02, gen 61):** book: "Every price
+  and every count above comes from Anthropic's published exam guides." 63 + full 7-domain blueprint
+  wapas official. Repo ka 2026-08-24 PDF-read sahi tha. `02`/`03`/`pcar-p/` updated.
+- [ ] **Book course-catalog re-audit (new, 2026-09-02):** gen 47→61 mein book ka poora course
+  structure expand hua (Foundations 10, General Agents 15, Mode 2 3, etc.) aur bahut se existing
+  slugs pe `-crash-course` suffix laga. Ex-"7-course upcoming sequence" ab study guides mein live
+  links. Certifications scope se bahar — poora `outline_agent_factory` walk + `docs/` disk cross-check
+  karke root `README.md` status table + Track B references sync karni hain.
 - [ ] **Track B syllabus route line stale:** `docs/ccar-f-fde-track-b/04-certification-path-and-sources.md`
   flagged — user-provided syllabus (26 Aug) ka `PCAR-F → PCDV-F → ...` route ab book se match nahi
-  karta. Baaki Track B chapter theek hai (architecture content unchanged).
-- [ ] **Track B "upcoming Claude sequence" periodically re-check karo** — 7 courses (The Loop by Hand,
-  Structured Extraction Pipelines, Claude Agent SDK, Claude Code for Teams, Claude Code as a CI
-  Worker, Claude Code Routines, Claude Managed Agents) abhi Zia Tutor corpus mein "not links yet" hain
-  (`docs/certifications/certifications` page se confirm, 2026-08-26). Jab live hon, `read_agent_
-  factory_lesson` se fetch karo — CCAR-F Domain 3 (20%) aur CCDV-F "Applications and Integration"
-  (33.1%) seedha in par depend karte hain.
+  karta (ab PCAO-F → PCAR-F; Anthropic optional). Baaki Track B chapter theek hai.
 - [ ] User se confirm: baqi 30 chapters (Front Matter 12, The Ecosystem 9, Foundations-Everyone 6, References & Companions 3) note karni hain `docs/` mein?
 
 ## Done

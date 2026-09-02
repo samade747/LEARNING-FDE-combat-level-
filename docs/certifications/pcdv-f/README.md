@@ -1,13 +1,27 @@
 # PCDV-F — Panaversity Certified Developer: Foundations
 
-*Source: [Certifications](https://agentfactory.panaversity.org/docs/certifications), sections
-"Stage One" + "CCDV-F: Developer, Foundations" (PCDV-F is aligned to CCDV-F's blueprint).*
+*Source: book page **[`/docs/certifications/pcdv-f`](https://agentfactory.panaversity.org/docs/certifications/pcdv-f)**
+(gen 61 pe apna dedicated page). Re-fetched 2026-09-02 (Zia Tutor corpus gen 61).*
 
-## ⚠️ Path Change (28 August 2026)
+## Role In Path
 
-Book ne pathway restructure kiya. **PCDV-F ab FDE gate ka hissa NAHI hai** — pehle "PCAR-F ke baad,
-doosra gate exam" tha. Ab: **"additional technical credential"** — recommended pair (PCAO-F → PCAR-F,
-phir CCAO-F → CCAR-F) ke **baad**, agar aapko deeper build/ship proof chahiye.
+**PCDV-F FDE gate ka hissa NAHI hai** — gate = PCAO-F → PCAR-F. PCDV-F **"additional technical
+credential"** hai: recommended pair ke baad, agar deeper build/ship proof chahiye. Sample + proctored
+exam "coming soon".
+
+Book: *"It proves you can build and ship, not only design."* Audience (guide se): AI/ML engineers,
+technical leads, senior software engineers. **Non-technical users / no hands-on dev experience /
+prompt-writing-only roles ke liye nahi** — un ke liye PCAO-F.
+
+## "Same Blueprint, One Level Up"
+
+PCDV-F poora CCDV-F blueprint (published weights) examine karta hai, phir vendor-neutral aage —
+study guide mein **OpenAI Agents SDK aur open-weights models** Claude courses ke saath. Book: API
+contract (na ek vendor ka Messages API), agent loop (na ek framework ka harness), evaluation
+discipline (na ek product ka debugging view), secrets+identity obligation.
+
+**CCDV-F is the credential that travels** (Anthropic issued, employer-verifiable, CV pe). **CCDV-F
+Claude Partner Network tier eligibility mein count hota hai** (CCAO-F nahi).
 
 ## Quick Facts
 
@@ -42,9 +56,17 @@ path role badla.
 | Claude Code | 3.1% | [Claude Code and OpenCode](../../agentic-coding/README.md) |
 | Eval, Testing, and Debugging | 2.6% | [Trusting the Checker](../../trusting-the-checker/README.md), [Eval-Driven Development](../../eval-driven-development-crash-course/README.md) |
 
-**Poori sub-skill-weight-level detail** (har domain ke andar tak breakdown, gaps, study priority —
-official CCDV-F Exam Guide v1.0 se, 2026-08-24 ko poora padha) [CCDV-F folder](../ccdv-f/README.md)
-mein hai — PCDV-F **usi blueprint** pe based hai.
+**Gen 61 pe book page bhi Applications & Integration (33.1%) ka sub-objective breakdown deta hai:**
+Claude Application Design 8.6% · Software Engineering Foundations 7.4% · Claude API Mechanics 6.8% ·
+Configuration Management 4.1% · Understanding Requirements 3.4% · Systems Life Cycle 2.8%. **Top 3
+rows = exam ke sab se bare 3 single objectives.** Book: *"a software engineering exam with an LLM in
+it, not an LLM exam with some code attached"* — REST/JSON/async/version-control/code-review apne
+terms pe test hote hain.
+
+**Poori sub-skill-weight-level detail** (official CCDV-F Exam Guide v1.0 se, 2026-08-24 ko poora
+padha) [CCDV-F folder](../ccdv-f/README.md) mein hai — PCDV-F **usi blueprint** pe based hai.
+Recommended experience (required nahi): 1–5 saal software engineering + 6mo+ hands-on Claude/LLM,
+Python ya TypeScript, REST APIs + CLI.
 
 ## Prep Resources
 

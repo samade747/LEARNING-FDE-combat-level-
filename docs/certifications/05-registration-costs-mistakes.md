@@ -4,9 +4,10 @@
 
 - **Panaversity exams** — Panaversity ke zariye register karo. Qualification requirements aur access
   route [01 — Stage One](01-stage-one-panaversity.md) mein hain.
-- **Anthropic exams** — FDE Internship Program & partner access setup hone ke baad, eligible
-  organisational account se **Anthropic Partner Academy** ke zariye register karo. Recommended path
-  ke liye **CCAO-F pehle, phir CCAR-F** (28 Aug 2026).
+- **Anthropic exams (optional)** — FDE Internship Program milne ke baad, eligible organisational
+  account se **Anthropic Partner Academy** ke zariye register karo (Panaversity assist karta hai).
+  Recommended path ke liye **CCAO-F pehle, phir CCAR-F**. Yeh step optional hai — Panaversity
+  credentials + internship standalone value rakhte hain.
 
 Exam page kholo, [guide download karo](06-sample-tests.md#official-exam-guides), register + pay karo,
 phir **Pearson VUE** se OnVUE ya test-centre appointment schedule karo. **Partner-tier discounts
@@ -31,6 +32,11 @@ checkout pe apply hote hain.**
 **Accommodations** Pearson VUE ke zariye request karo, aur **schedule karne se pehle approval lo.**
 
 **Results** — Credly digital credential + score report jo domain-by-domain performance dikhata hai.
+⚠️ **720 = scaled score (100–1000), 72% nahi.** Per-domain % informational hai, pass/fail decide
+nahi karta (dekho [02](02-stage-two-anthropic.md)).
+
+**Appeals (gen 61, CCDV-F page se):** Pearson VUE ko **14 din ke andar** appeal karo. **Standard-
+setting outcome (cut score) aur individual item content appealable nahi hain.**
 
 ## What The Whole Path Costs
 
@@ -39,7 +45,8 @@ checkout pe apply hote hain.**
 | PCAO-F, pehle 2 attempts | **Free** | Proctoring fee: **TBA** |
 | PCAR-F, pehle 2 attempts | **Free** | Proctoring fee: **TBA** |
 | Teesra+ attempt (same Panaversity exam) | Fee: **TBA** | Proctoring fee: **TBA** |
-| FDE Internship Program & partner access | **No additional fee** | **No additional fee** |
+| FDE Internship Program | **No additional fee** | **No additional fee** |
+| CCAO-F + CCAR-F (Stage Two) | **Optional** | **Optional** |
 | CCAO-F | $99 (before partner discount) | $99 (before partner discount) |
 | CCAR-F | $125 (before partner discount) | $125 (before partner discount) |
 | Recommended pair: CCAO-F + CCAR-F | **$224 before discounts** | **$224 before discounts** |
@@ -54,8 +61,9 @@ attempt policy ke andar); external candidates Panaversity proctoring fee dete ha
 
 ## Six Mistakes Worth Avoiding
 
-1. **Eligible hone se pehle booking karna** — official Anthropic exams book karne se pehle **PCAO-F
-   aur PCAR-F** dono complete karo aur FDE Internship Program & partner access le lo.
+1. **Eligible hone se pehle booking karna** — (agar aap optional Anthropic exams choose karo)
+   official Anthropic exams book karne se pehle **PCAO-F aur PCAR-F** dono complete karo aur FDE
+   Internship Program mein enter karo.
 2. **Har domain ko equal study time dena** — ek 2.6% domain ko 33.1% domain jitna time mat do.
 3. **Course badge ko certification samajhna** — completion badge proctored Claude certification
    credential nahi hai.
@@ -105,8 +113,8 @@ aur (jahan applicable) **palm-vein biometric consent** shamil hai. Naam registra
 hona chahiye — mismatch ho to `certifications-support@anthropic.com` ko schedule karne se **pehle**
 contact karo. Accommodations bhi schedule karne se **pehle** Pearson se approve honi chahiye.
 
-**3. ⚠️ Still-unresolved discrepancy — reschedule window:** book (28 Aug 2026 version, 2026-09-01 ko
-re-fetch) "**24 ghante pehle tak free**" par qaim hai — Registration section (upar) bhi book se yehi
+**3. ⚠️ Still-unresolved discrepancy — reschedule window:** book (gen 61, 1 Sep 2026 version pe bhi
+re-confirm) "**24 ghante pehle tak free**" par qaim hai — Registration section (upar) bhi book se yehi
 leta hai. Pearson VUE ka apna program page ab bhi "**48 hours**" kehta hai. Dono official sources
 disagree karte hain aur book ne 24h re-confirm kiya hai. **Jab tak resolve na ho, zyada conservative
 number (48 ghante) follow karo** — 24-48 ghante ki window mein reschedule/cancel = fee forfeit ka

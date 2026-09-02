@@ -8,11 +8,29 @@ pattern par jo [Loop Engineering](../loop-engineering/11-practice-log.md) aur
 **Goal (2026-08-24 ko set hua):** 2026-10-05 tak **PCAR-F** (free Panaversity internal exam) pass
 karo — FDE path ka concrete step.
 
-> ⚠️ **Path change (2026-09-01, book "Version note": updated 28 Aug 2026):** book ne pathway
-> restructure kiya — ab **PCAO-F (Associate) PEHLE aata hai, phir PCAR-F**. Iska matlab deadline se
-> pehle **do exams** hain, ek nahi:
-> `PCAO-F → PCAR-F → FDE Internship & partner access → CCAO-F → CCAR-F`
-> PCDV-F/CCDV-F ab gate se hat gaye (additional credential). Neeche wala plan revised hai.
+> ⚠️ **Path change (2026-09-01, gen 47):** pathway restructure — **PCAO-F PEHLE, phir PCAR-F**
+> (do exams, ek nahi). PCDV-F/CCDV-F gate se hat gaye.
+> `PCAO-F → PCAR-F → FDE Internship Program → (optional) CCAO-F → CCAR-F`
+>
+> ⚠️⚠️ **Timing constraint (2026-09-02, gen 61):** book ne PCAO-F ke **live dates** publish kiye:
+> - **PCAO-F sample: 10 September 2026**
+> - **PCAO-F proctored exam: 18 September 2026 se live**
+> - **PCAR-F: sample aur proctored dono "coming soon" — koi date nahi**
+>
+> **2026-10-05 deadline ab realistically at-risk hai.** PCAR-F ke liYa to seat 5 Oct se pehle
+> available ho jaye (uncertain), ya deadline slip kare. Neeche risk analysis.
+
+### Deadline Risk Analysis (2026-09-02)
+
+| Scenario | PCAR-F seat by ~1 Oct? | Deadline outcome |
+| --- | --- | --- |
+| **A — both live in time** | PCAO-F 18 Sep + PCAR-F seat late Sep | Tight but possible: PCAO-F ~18–22 Sep, PCAR-F ~28 Sep–4 Oct. Har exam ke 2 free attempts, koi retake-wait cushion nahi |
+| **B — PCAR-F slips past 5 Oct** | Nahi | PCAO-F to ho jaye (pass by ~25 Sep). PCAR-F jab bhi seat aaye. Deadline PCAO-F tak re-scope karo, PCAR-F ko "seat ke intzaar mein, prep done" |
+| **C — nothing bookable** | Nahi | Dono ki full prep + samples complete rakho; sit karo jaise hi live ho |
+
+**Practical stance:** prep ko treat karo jaise deadline 5 Oct hai (dono blueprints ready, samples
+75%+), lekin **actual sitting book/seat pe depend karta hai jo abhi Panaversity ke control mein hai,
+tumhare nahi.** Yeh honest re-scope hai, scope-cut nahi.
 
 Deadline se ~5 hafte hain — [04-gaps-and-study-plan.md](04-gaps-and-study-plan.md) ka 6-week plan
 compress karo (Associate + Architect ek saath, kyunki dono blueprints ka bara hissa is repo mein
@@ -27,10 +45,10 @@ already cover hai).
 | Week | Focus | Status | Notes |
 | --- | --- | --- | --- |
 | 1 | **CCAO-F blueprint** — Output Evaluation 21% · Workflow Integration 16% · Governance 15% (= 52%). Judgment drills: [`ccao-f/projects/00-judgment-drills/`](ccao-f/projects/00-judgment-drills/README.md) | ⬜ Not started | Yeh naya step — pehle plan mein nahi tha |
-| 2 | **CCAR-F blueprint** — Agentic Architecture 27% · Claude Code Config 20% · Prompt Eng 20% · Tool/MCP 18% · Context 15%. Repo mein already strong (Loop/Harness/Graph Eng, Agent SDK notes) | ⬜ Not started | |
+| 2 | **CCAR-F blueprint** — Agentic Architecture & Orchestration 27% · Claude Code Config & Workflows 20% · Prompt Eng & Structured Output 20% · Tool Design & MCP 18% · Context Mgmt & Reliability 15%. Repo mein already strong (Loop/Harness/Graph Eng, Agent SDK notes). 6 CCAR-F scenarios memorize karo | ⬜ Not started | Domain names gen 61 pe refined |
 | 3-4 | Ek chhoti application banao jo kai domains touch kare (API call + tool/MCP + prompt/context eng + basic eval) | ⬜ Not started | CCAR-F project scaffolds: [`ccar-f/projects/`](ccar-f/projects/README.md) |
-| 5 | Free sample tests exam conditions mein — **CCAO-F pehle, phir CCAR-F**. Weak domains drill | ⬜ Not started | flashgenius.net + Anthropic Academy |
-| 6 | Re-test weak domains, **PCAO-F sit karo, phir PCAR-F** | ⬜ Not started | Dono 720/1000, 2 free attempts each |
+| 5 | Samples exam conditions mein — **PCAO-F sample (10 Sep)** + **CCAR-F Practice Exam** (PCAR-F sample abhi nahi). Weak domains drill | ⬜ Not started | flashgenius.net + Anthropic Academy + book CCAR-F Practice Exam |
+| 6 | **PCAO-F sit karo (18 Sep se live)**. PCAR-F: seat available hote hi sit karo — jab tak prep + samples 75%+ | ⬜ Not started | Dono 720/1000, 2 free attempts each. PCAR-F date Panaversity pe depend |
 
 Status legend: ⬜ Not started · 🔶 In progress · ✅ Done
 

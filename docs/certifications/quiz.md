@@ -9,6 +9,10 @@ page se grounded (har chapter file — `00` se `07` tak — is quiz ka source ha
 > ab **"PCAO-F → PCAR-F"** / **"PCAO-F pehle"** parho. Recommended Anthropic pair ab **CCAO-F → CCAR-F**.
 > **Q3 stale** (ab "Architect kyun na pehle" — jawab: judgment se pehle, architecture baad). See
 > [`08-test-your-understanding.md`](08-test-your-understanding.md) header.
+>
+> ⚠️ **Gen 61 (2026-09-02):** Stage Two ab **optional** (Panaversity assists registration; internship
+> standalone value). **720 = scaled score, 72% nahi; no per-domain minimum. CCAR-P = 63 Q
+> (official-confirmed).** PCAO-F proctored **18 Sep 2026 se live**, PCAR-F "coming soon".
 
 ---
 

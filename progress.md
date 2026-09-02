@@ -2,6 +2,43 @@
 
 ## Done
 
+- 2026-09-02: User "certifications update it from book" — Zia Tutor se re-fetch (**corpus generation
+  61**, book "Version note": **updated 1 September 2026**). Book ne certifications section **restructure**
+  kiya:
+  - `certifications` ab ek single doc nahi, ek **group** (`certifications-proof-you-can-carry-in`,
+    position #13) jismein 5 pages: overview + **har Panaversity exam ka apna dedicated page**
+    (`certifications-{pcao-f,pcar-f,pcar-p,pcdv-f}`). Har page: official domain weights + us exam ka
+    course-by-course study guide + "Sit a Sample First" + seat-request card.
+  - **Anthropic exams ab explicitly OPTIONAL** — *"Sitting the Anthropic exams is optional... The
+    Panaversity credentials and the internship stand on their own."* Panaversity registration mein
+    "assist" karta hai (pehle framing "yehi ek route" thi).
+  - **PCAO-F live dates:** sample **10 Sep 2026**, proctored **18 Sep 2026**. PCAR-F/PCDV-F/PCAR-P
+    samples "coming soon" — no date. → user ki 2026-10-05 deadline **at-risk**; `07-practice-log.md`
+    mein risk-analysis table (Scenario A/B/C) add ki: prep deadline-ready rakho, sitting seat-dependent.
+  - **"Same blueprint, one level up"** framing — har Panaversity exam poora Anthropic blueprint
+    (published weights) + phir vendor-neutral / professional coverage.
+  - **CCAR-P 63-question count + full 7-domain blueprint RESOLVED** — gen 61: *"Every price and every
+    count above comes from Anthropic's published exam guides."* Pichla "independent-only, uncertain"
+    flag (28 Aug book page ne walk-back kiya tha) khatam — is repo ne 2026-08-24 ko PDF se jo padha
+    tha wahi sahi tha. Todo line closed.
+  - **720 = scaled score (100–1000), 72% NAHI. No per-domain minimum.** Har page pe repeat. Appeals:
+    Pearson VUE ko 14 din mein; cut score + item content appealable nahi.
+  - CCAO-F objective list mein "configuration and knowledge management" add hua. CCDV-F page pe
+    Applications-&-Integration (33.1%) ka sub-objective breakdown. Recommended experience: CCDV-F
+    1–5yr SWE + 6mo Claude; CCAR-P 3+yr architecture + 6mo Claude prod.
+  - **Study-guide course slugs ab live links** (Loop by Hand, Agent SDK, Structured Extraction,
+    Claude Code Teams/CI, Skills & Connectors, Governance/Risk, Workflow Design & Diagnosis, Code You
+    Never Write). Book ka poora course catalog gen 47→61 mein kaafi expand hua (Foundations 10,
+    General Agents 15) + bahut se slugs pe `-crash-course` suffix — ek **alag catalog re-audit** chahiye
+    (certifications scope se bahar; flag kiya `04-gaps-and-study-plan.md` mein).
+  - CCAR-F refined domain names (Agentic Architecture **& Orchestration** etc.) — repo ke `ccar-f/`
+    folder mein PDF se yeh names pehle se thay; ab pathway files bhi match karti hain.
+  - **Files updated:** `README.md`, `00`–`07`, `SUMMARY.md`, `08` + `quiz.md` (gen-61 nuance notes),
+    `pcao-f/README.md`, `pcar-f/README.md` (substantial rewrite — 6 scenarios, out-of-scope list,
+    Agent-SDK priority, CCAR-F Practice Exam), `pcdv-f/README.md`, `pcar-p/README.md` (rewrite — full
+    blueprint restored), `ccar-f/README.md` (gen-61 note). 4 Anthropic PDF-derived folders
+    authoritative rehte hain.
+
 - 2026-09-01: User ne `docs/certifications/` ko "live page + Zia Tutor ke mutabiq update karo" bola.
   Zia Tutor connector se `certifications` lesson re-fetch kiya (**corpus generation 47**, page
   "Version note": **updated 28 August 2026**) + live WebFetch cross-check. **BARA change: FDE pathway

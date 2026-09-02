@@ -11,6 +11,12 @@ sakta hai. Poori quiz `quiz.md` mein bhi hai, waisi hi content, standalone self-
 > **CCAO-F → CCAR-F** ($224), CCDV-F/PCDV-F additional credential. **Q3 poori tarah stale hai** —
 > ab sawal "PCDV-F kyun na pehle" nahi, "Architect kyun na pehle" hai; jawab: judgment (Associate)
 > architecture (Architect) se pehle. Details: [`00-overview.md`](00-overview.md).
+>
+> ⚠️ **Gen 61 (2026-09-02) further nuance:** Stage Two (Anthropic exams) ab **explicitly optional** —
+> Panaversity credentials + internship standalone value rakhte hain, Panaversity registration mein
+> "assist" karta hai (Q1/Q3 ka "access gate" logic phir bhi sahi: eligible organisational account
+> chahiye, personal email nahi). Aur: **720 = scaled score, 72% nahi; no per-domain minimum.**
+> **CCAR-P = 63 questions (ab official-confirmed).** PCAO-F proctored **18 Sep 2026 se live**.
 
 ---
 

@@ -9,6 +9,11 @@ count hota hai (CCAO-F nahi). Book: "launched March 2026, programme ka pehla exa
 
 Source PDF: `docs/certifications/Claude+Certified+Architect+–+Foundations+Exam+Guide.pdf`
 
+*Gen 61 note (2026-09-02): book ne ab `/docs/certifications/pcar-f` par ek public page banaya jo isi
+blueprint ko mirror karta hai (5 refined domain names, 6 scenarios, out-of-scope list, "scaled score
+not 72%"). Yeh folder — official PDF se poora parha — authoritative rehta hai; PCAR-F-side framing
+[`../pcar-f/README.md`](../pcar-f/README.md) mein hai.*
+
 ## Index
 
 1. [00 — Quick Facts + Intended Audience](00-quick-facts-and-audience.md)

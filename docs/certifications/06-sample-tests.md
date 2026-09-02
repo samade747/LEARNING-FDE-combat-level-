@@ -3,6 +3,23 @@
 **Har exam ka apna official guide link + free sample test link ab uske apne folder mein hai** (Prep
 Resources section). Yeh file sirf ek single-page lookup table hai.
 
+## Panaversity Ke Apne Samples (Gen 61 — "Sit a Sample First")
+
+Gen 61 pe har Panaversity exam page ka apna **"Sit a Sample First"** section hai. Sample free hai
+aur attempt consume nahi karta.
+
+| Exam | Panaversity sample | Proctored exam |
+| --- | --- | --- |
+| **PCAO-F** | **10 September 2026** | **18 September 2026** |
+| PCAR-F | "coming soon" — no date | "coming soon" |
+| PCDV-F | "coming soon" — no date | "coming soon" |
+| PCAR-P | "coming soon" — no date | "coming soon" |
+
+**PCAR-F ke liye interim rehearsal:** book ka **CCAR-F Practice Exam** (`/docs/ccar-f-practice-exam`)
+— 60 items, 120 min, published blueprint weights, **all 6 production scenarios** (exam din 4 draw
+hote hain), per-domain scored, har answer explain karta hai ke sahi option cause ko kyun address
+karta hai. ⚠️ Yeh CCAR-F rehearsal hai — PCAR-F sample **nahi**, aur is pe score PCAR-F result nahi.
+
 ## Official Exam Guides (Sab v1.0, Effective July 2026)
 
 | Exam | Guide | Registration Page |

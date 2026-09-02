@@ -1,21 +1,26 @@
 # 04 — Gaps + Six-Week Study Plan
 
-## Claude-Specific Coverage Abhi Development Mein Hai
+## Claude-Specific Coverage — Ab Publish Ho Rahi Hai (Gen 61)
 
-Ek **7-course Claude-specific sequence** design ho chuki hai jo missing platform material cover karegi
-— abhi under development, progressively publish hogi.
+⚠️ **Gen 61 (1 Sep 2026) change:** jo courses pehle "not links yet" thay, ab book ke per-exam study
+guides mein **live links** hain. Book slugs (repo ke local folders se alag ho sakte hain):
 
-| Missing Tha | Cover Karega (Under Development) |
-| --- | --- |
-| Messages API loop, `stop_reason`, tool results | **The Loop by Hand** |
-| Structured output, schemas, Message Batches | **Structured Extraction Pipelines** |
-| Claude Agent SDK | **Claude Agent SDK** |
-| Claude Code configuration team-scale pe | **Claude Code for Teams** |
-| Claude Code unattended, headless, CI mein | **Claude Code as a CI Worker** |
-| Scheduled/event-driven Claude automation | **Claude Code Routines** |
-| Anthropic ka hosted agent harness | **Claude Managed Agents** |
+| Missing Tha | Course (ab linked) | Book slug |
+| --- | --- | --- |
+| Messages API loop, `stop_reason`, tool results | The Loop by Hand | `loop-by-hand-crash-course` |
+| Structured output, schemas, Message Batches | Structured Extraction Pipelines | `structured-extraction-crash-course` |
+| Claude Agent SDK | Build AI Agents with the Claude Agent SDK | `claude-agent-sdk-crash-course` |
+| Claude Code config team-scale | Claude Code for Teams | `claude-code-teams-crash-course` |
+| Claude Code headless/CI | Claude Code as a CI Worker | `claude-code-ci-crash-course` |
+| Skills + connectors | Skills & Connectors | `skills-connectors-crash-course` |
+| AI fluency, governance, workflow diagnosis | AI Fluency · Governance, Risk & Responsible Use · Workflow Design & Diagnosis · Code You Never Write | `*-crash-course` |
 
-**28 Aug 2026 update — in mein se 5 exam-relevant hain, 2 nahi:**
+*Note: book ka **poora course catalog gen 47→61 mein kaafi expand hua** (Foundations 10 courses,
+General Agents 15, waghera) aur bohat se existing slugs pe `-crash-course` suffix laga (e.g.
+`loop-engineering-crash-course`). Yeh certifications scope se bahar hai — ek alag catalog re-audit
+chahiye. Is repo ke internal cross-links (`docs/loop-engineering/` waghera) affected nahi.*
+
+**In mein se 5 exam-relevant hain, 2 nahi:**
 
 | Course | Exam mein? |
 | --- | --- |
@@ -89,14 +94,19 @@ pehle. Explanations use karo yeh samajhne ke liye ke **sahi trade-off sahi kyun 
 ### Week 6: Panaversity Gate Complete Karo
 
 Apni weakest domains dobara test karo, **PCAO-F pehle, phir PCAR-F.** Dono pass hone ke baad aur **FDE
-Internship Program & partner access** milne ke baad, material fresh rakho aur **CCAO-F pehle, CCAR-F
-baad** ki taraf move karo.
+Internship Program** milne ke baad — agar chaaho — **CCAO-F pehle, CCAR-F baad** (optional Stage Two).
 
 Poori sequence:
 
 ```
-PCAO-F → PCAR-F → FDE Internship Program & partner access → CCAO-F → CCAR-F
+PCAO-F → PCAR-F → FDE Internship Program → (optional) CCAO-F → CCAR-F
 ```
+
+⚠️ **Gen 61 timing constraint:** proctored **PCAO-F sirf 18 Sep 2026 se live**, aur **PCAR-F ka
+proctored/sample abhi date-less ("coming soon")**. Yani is 6-week plan ka Week 6 "sit both" step
+seat-availability pe depend karta hai — dekho [`07-practice-log.md`](07-practice-log.md) ki risk
+analysis. Tab tak: study + samples (PCAO-F sample 10 Sep; PCAR-F ke liye book ka CCAR-F Practice
+Exam) chalate raho.
 
 **Jab tak practice results na batayein ke zaroorat hai, dobara scratch se study cycle shuru mat
 karo.**
