@@ -2,6 +2,16 @@
 
 ## Done
 
+- 2026-09-04: User ne **GIAIC Final Graduation Exam P3-FDEAGA** (FDE–Agent Factory Model & Advanced
+  General Agents) ka poora announcement paste kiya — first week Sept 2026 (~4 din), 100 MCQ / 140 min
+  / 70% pass, 8-module syllabus (Roles, Ecosystem, Local AI & Agentic Coding, Loop Eng, Harness Eng,
+  Trusting the Checker, Leaving the Laptop, General Agents Web). User: "proper docs banah kar do" +
+  "zero se shuru". CCAO-F ab secondary (graduation ke baad). Naya prep folder start kiya:
+  `docs/certifications/p3-fdeaga/` — `README.md` (exam facts + module→existing-deep-notes map),
+  `00-exam-facts-and-plan.md` (4-day plan + test strategy), `01-roles-we-are-training-for.md` (full
+  cram sheet + 15 MCQ, grounded `roles-this-book-trains` gen 62). Modules 02–08 + `quiz.md` +
+  `SUMMARY.md` baaqi hain. Zia Tutor record ka primary goal P3-FDEAGA update kiya.
+
 - 2026-09-02 (follow-up): User "update Track B route line from book too" — Track B ki stale route line
   dono jagah fix ki: `docs/ccar-f-fde-track-b/04-certification-path-and-sources.md` aur root
   `Claude Certified Architect Foundations (CCAR-F) FDE Track B Accelerated.md` (~line 366). Purana
