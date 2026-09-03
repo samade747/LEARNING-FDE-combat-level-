@@ -2,6 +2,13 @@
 
 ## Active
 
+- [ ] **P3-FDEAGA GIAIC Final Graduation Exam (first week Sept 2026, ~4 days) — PRIMARY.** 100 MCQ /
+  140 min / 70%. Cram pack `docs/certifications/p3-fdeaga/` **built + committed 2026-09-04**: README,
+  00 (plan/strategy), 01–08 (per-module cheat sheets + ~18 MCQ each, grounded gen 62), SUMMARY
+  (night-before), quiz (60-Q mock). **Next:** user apne module scenario-question answers bheje
+  (teaching-rehearsal style); weak modules par targeted re-teach. CCAO-F secondary (post-graduation),
+  reading list: ai-fluency, claude-101, skills-connectors, general-agents-web, cowork.
+
 - [ ] **CCAR-F FDE Track B course chal raha hai (shuru 2026-08-29)** — working dir
   `Claude Certified Architect Foundations(CCA-F)/`, spine = `TRACK-B-WORKLOG.md`, guide = `HOW-TO-RUN.md`.
   **Done:** Week 1 + Week 2 (architect), P1 + P2-scored (practicum). `stop_reason/plan.md` deliverable

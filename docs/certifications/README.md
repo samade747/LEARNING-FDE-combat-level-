@@ -43,6 +43,14 @@ updated 1 September 2026).** Pichla sync 2026-09-01 (gen 47, 28 Aug 2026) ka tha
 Domain weights aur fees phir bhi "subject to change without notice" hain — exam book karne se pehle
 current guide download karo.
 
+## ⚡ P3-FDEAGA — GIAIC Final Graduation Exam (separate, time-critical)
+
+GIAIC ka apna **Final Graduation Exam** (Sindh Governor House, first week Sept 2026) — is cert-ladder
+se alag hai. **100 MCQ / 140 min / 70% pass.** Syllabus = 8 book modules (Roles, Ecosystem, Local AI &
+Agentic Coding, Loop Eng, Harness Eng, Trusting the Checker, Leaving the Laptop, General Agents Web).
+Dedicated cram pack: **[`p3-fdeaga/`](p3-fdeaga/README.md)** — per-module cheat sheets + MCQ + 60-Q
+mock + night-before one-pager.
+
 ## Index — Shared Pathway Files
 
 *Yeh files sab certifications pe apply hoti hain — pathway, logistics, study plan.*
