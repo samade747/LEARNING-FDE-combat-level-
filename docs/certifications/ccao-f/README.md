@@ -29,6 +29,14 @@ confirm, isi din) — dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research P
 Integration, Governance = 52% of the exam). Coding scaffold nahi diya gaya — CCAO-F ki skill
 evaluation/judgment hai, implementation nahi.
 
+## Supplementary Practice (Third-Party, Unofficial)
+
+[`Matthew-Purcell-CCAO-F-Practice-60Q.pdf`](Matthew-Purcell-CCAO-F-Practice-60Q.pdf) — independent
+60-Q practice set by a candidate jo exam pass kar chuka (LinkedIn: purcellmatthew), official blueprint
+weights ke proportional, full "why not others" rationale ke sath. **Anthropic se affiliated nahi, live
+item bank se nahi** (PDF ka apna disclaimer) — [`07-full-mock-60q.md`](07-full-mock-60q.md) ke
+saath dusra independent data point ke tor pe use karo, replacement nahi.
+
 ## Ek Line Mein Poori Cheez
 
 > CCAO-F yeh test nahi karta ke aap kitne acche prompts likh sakte ho — yeh test karta hai ke aap

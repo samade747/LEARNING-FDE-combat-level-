@@ -24,6 +24,15 @@ official sample questions (least-privilege tool config, cache-aware prompt order
 diagnosis) implemented as offline-testable decision logic, 6 pytest tests, all passing. Builds on
 [CCAR-F's 5 scaffolds](../ccar-f/projects/README.md) for foundation practice.
 
+## Supplementary Practice (Third-Party, Unofficial)
+
+[`Matthew-Purcell-CCAR-P-Practice-63Q.pdf`](Matthew-Purcell-CCAR-P-Practice-63Q.pdf) — independent
+63-Q practice set (matches live item count) by a candidate jo launch-day exam pass kar chuka
+(LinkedIn: purcellmatthew), official 7-domain blueprint weights ke proportional (Solution Design 17%
+→ 11 Q, Integration 19% → 12 Q, etc.), full "why not others" rationale. **Anthropic se affiliated
+nahi, live item bank se nahi** — supplements [`05-test-your-understanding.md`](05-test-your-understanding.md),
+replace nahi karta.
+
 ## Ek Line Mein Poori Cheez
 
 > CCAR-F test karta hai ke aap ek agentic system **design/build** kar sakte ho; CCAR-P test karta hai

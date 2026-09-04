@@ -22,6 +22,18 @@ not 72%"). Yeh folder — official PDF se poora parha — authoritative rehta ha
 4. [03 — How to Prepare + 4 Exercises + 12 Sample Questions (Full)](03-how-to-prepare-and-sample-questions.md)
 5. [04 — Policies, Resources & Document Control](04-policies-resources-and-doc-control.md)
 
+## Supplementary Practice (Third-Party, Unofficial)
+
+- [`Matthew-Purcell-CCAR-F-Practice-60Q-v2.pdf`](Matthew-Purcell-CCAR-F-Practice-60Q-v2.pdf) —
+  independent 60-Q practice set (v2), all 6 published scenarios (10 Q har ek), official 5-domain
+  blueprint weights ke proportional, full "why not others" rationale. Candidate ne khud exam launch
+  day pass kiya (LinkedIn: purcellmatthew). **Anthropic se affiliated nahi, live item bank se nahi.**
+- [`Matthew-Purcell-CCAR-F-Quick-Reference.pdf`](Matthew-Purcell-CCAR-F-Quick-Reference.pdf) —
+  ek-page cram sheet: `stop_reason` values, `tool_choice` modes, MCP config (`.mcp.json` vs
+  `~/.claude.json`), CLAUDE.md hierarchy, `.claude/rules/`, skills frontmatter, plan mode, CI flags
+  (`-p`, `--output-format json`), session resume/fork — "convention" facts jo reasoning se derive nahi
+  hote, sirf yaad rakhne padte hain.
+
 ## Poori Cheez Ek Line Mein
 
 > CCAR-F recall test nahi karta — **judgment** test karta hai: jab agent 12% cases mein verification skip
