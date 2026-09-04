@@ -81,4 +81,5 @@ zyada tar scenario questions inhi mein se ek honge:
   daal do
 
 ---
-[⬅ 05 — Test Your Understanding](05-test-your-understanding.md) · [Quiz](quiz.md) · [⬆ Chapter Index](README.md)
+[⬅ 05 — Test Your Understanding](05-test-your-understanding.md) · [Quiz](quiz.md) ·
+[07 — Full Mock (60 Q) ➡](07-full-mock-60q.md) · [⬆ Chapter Index](README.md)

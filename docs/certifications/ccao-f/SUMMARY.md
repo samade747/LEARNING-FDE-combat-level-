@@ -4,6 +4,16 @@ Non-technical business credential — Claude ko productivity tool ki tarah use k
 karna, aur limitations pe Architect/Developer ko escalate karna. $99, 60 questions, 120 min, scaled
 pass 720/1000, 12-month validity.
 
+*Update-check 2026-09-05: Zia Tutor AI corpus live re-fetch kiya (`certifications-overview` +
+`certifications-pcao-f`, ab gen 63, pehle gen 61 pe capture hua tha) — **koi CCAO-F blueprint/scoring/
+policy fact nahi badla.** Book ka apna CCAO-F-specific page nahi hai (sirf PCAO-F page, jo CCAO-F ko
+mirror karta hai) — is folder ki authority hamesha official PDF (`Read` tool, 2026-08-24) rehti hai,
+book page sirf cross-check ke liye. Ek hi naya detail confirm hua: PCAO-F sample **10 Sep 2026** se,
+proctored **18 Sep 2026** se available (yeh already `../pcar-f/README.md` mein note tha, ab
+double-confirmed). Isi pass mein **aggressive-prep gap fill hui: 60-question domain-weighted full mock
+exam** add hua — [`07-full-mock-60q.md`](07-full-mock-60q.md) (D1=8, D2=13, D3=7, D4=10, D5=7, D6=9,
+D7=6, official weights ke proportional).
+
 ## 00 — Quick Facts + Audience
 
 - $99 · 60 Q · 120 min · Pearson VUE proctored · scaled 720/1000 · 12-month validity

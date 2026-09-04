@@ -2,6 +2,16 @@
 
 ## Done
 
+- 2026-09-05: User "ccao-f aggressive prep, check book updates". Zia Tutor corpus live re-fetch kiya
+  (`certifications-overview` + `certifications-pcao-f`, gen 63 vs pehle-captured gen 61) — **koi CCAO-F
+  fact change nahi mila** (book ka apna CCAO-F page nahi hai, sirf PCAO-F jo isi ko mirror karta hai;
+  PCAO-F dates — sample 10 Sep, proctored 18 Sep 2026 — re-confirm hue, already known). Gap identify
+  ki: `ccao-f/` ke paas sirf 10-Q quiz tha, P3-FDEAGA-style 60-Q domain-weighted full mock nahi tha.
+  **Naya:** `docs/certifications/ccao-f/07-full-mock-60q.md` — 60 scenario MCQs, official 7-domain
+  weights ke proportional (D1=8·D2=13·D3=7·D4=10·D5=7·D6=9·D7=6), source strictly official PDF blueprint
+  + 3 verbatim sample Qs (koi live item-bank content nahi). README index + `06-easy-exam-guide.md`
+  footer + `SUMMARY.md` mein wire kiya.
+
 - 2026-09-04: User ne **GIAIC Final Graduation Exam P3-FDEAGA** (FDE–Agent Factory Model & Advanced
   General Agents) ka poora announcement paste kiya — first week Sept 2026 (~4 din), 100 MCQ / 140 min
   / 70% pass, 8-module syllabus. User: "proper docs banah kar do" + "zero se shuru". CCAO-F ab
