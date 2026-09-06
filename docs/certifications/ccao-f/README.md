@@ -22,6 +22,7 @@ confirm, isi din) — dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research P
 7. [06 — Easy Exam Guide (Roman Urdu cram-sheet, exam-day checklist)](06-easy-exam-guide.md)
 8. [07 — Full Mock Exam (60 Q, domain-weighted, timed drill)](07-full-mock-60q.md)
 9. [08 — Teaching Walkthrough (Roman Urdu, domain-by-domain + scenario brainstorming)](08-teaching-walkthrough.md)
+10. [09 — Purcell Practice 60Q Answer Key (Roman Urdu, full third-party set)](09-purcell-practice-60q.md)
 
 ## Practice
 
@@ -36,7 +37,9 @@ evaluation/judgment hai, implementation nahi.
 60-Q practice set by a candidate jo exam pass kar chuka (LinkedIn: purcellmatthew), official blueprint
 weights ke proportional, full "why not others" rationale ke sath. **Anthropic se affiliated nahi, live
 item bank se nahi** (PDF ka apna disclaimer) — [`07-full-mock-60q.md`](07-full-mock-60q.md) ke
-saath dusra independent data point ke tor pe use karo, replacement nahi.
+saath dusra independent data point ke tor pe use karo, replacement nahi. Poora set Roman Urdu mein
+(sawaal + jawab + rationale, PDF ke bagair readable) —
+[`09-purcell-practice-60q.md`](09-purcell-practice-60q.md).
 
 ## Ek Line Mein Poori Cheez
 

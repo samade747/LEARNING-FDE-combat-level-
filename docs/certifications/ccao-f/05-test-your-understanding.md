@@ -167,4 +167,97 @@ hai?
 *(Source: README.md — Practice)*
 
 ---
+
+### Q11. Domain 5 — Project knowledge source stale ho jaye to?
+
+**Q:** Ek team ka Claude Project mein internal policy document knowledge source ke tor par upload hai.
+Kuch hafton baad woh document naye version mein update hota hai, lekin Project mein purana hi upload
+raha. Sabse appropriate action?
+
+- Kuch nahi karna — Claude khud internet se latest version check kar lega
+- **Project ki knowledge source ko manually update karna — purana document naye version se
+  replace/remove karna** ✅
+- System instructions mein likh dena "hamesha latest policy follow karo"
+- Naya Project bana lena har baar jab koi document update ho
+
+**Explanation:** Project ka knowledge source static upload hai — Claude khud "latest version" dhoond
+ke apne aap update nahi karta. Instructions likhna technical guarantee nahi hai. Domain 5 ka core
+skill yahi hai — knowledge sources ko maintain/update karna, sirf configure karke chhod na dena.
+*(Source: 01-domain-blueprint.md — Domain 5)*
+
+---
+
+### Q12. Domain 1 — vague result ko fix karna: flattery vs specification
+
+**Q:** Ek marketing associate types "write something about our new product" aur generic result se
+disappointed hai. Sabse effective revision kaunsi hai?
+
+- "Write something better about our new product."
+- **"Write a 150-word LinkedIn post announcing our scheduling app to small-business owners;
+  friendly, professional tone; end with a waitlist call to action."** ✅
+- "Write about our product" repeated three times in a row
+- "You are the world's greatest copywriter, with decades of award-winning experience. Write
+  something about our product that really captures how great it is."
+
+**Explanation:** Elaborate persona/flattery prompts impressive lagte hain lekin koi real
+specification nahi dete. Effective prompting ka matlab concrete task decomposition hai — length,
+audience, tone, aur call-to-action specify karna.
+*(Source: user-provided practice question, Domain 1)*
+
+---
+
+### Q13. Domain 1 — shallow/uneven coverage ko task decomposition se fix karna
+
+**Q:** Ek operations lead ko quarterly review chahiye jo budget variance, project status, staffing,
+aur next-quarter risks cover kare. Ek single prompt poori document mangta hai lekin shallow, uneven
+coverage deta hai. Kaunsi technique isay fix karti hai?
+
+- Poori document dobara mangna, lekin word count double kar dena
+- Claude ko kehna "weak sections par zyada try karo"
+- Sirf bullet points mein switch kar dena, taake gaps kam nazar aayein
+- **Decompose karna: har section ko apna alag request banana, har ek review karna, phir ek combined,
+  consistent draft mangna** ✅
+
+**Explanation:** Multi-part request ko ek hi mega-prompt mein daalna shallow/uneven coverage deta
+hai. Sahi technique task decomposition hai: har section alag request, phir combine.
+*(Source: user-provided practice question, Domain 1)*
+
+---
+
+### Q14. Domain 1 — draft weak ho to specific feedback se iterate karna
+
+**Q:** Claude ka pehla draft (client email) bohot formal hai aur key request final paragraph mein
+dab gayi hai. Iterate karne ka sabse effective tareeqa kya hai?
+
+- **Specific feedback dena: "Make it warmer and more conversational, and move the request to
+  reschedule into the opening two sentences"** ✅
+- Wahi identical prompt dobara bhej dena, "natural variation" pe umeed rakh kar
+- Bilkul nayi conversation shuru karna aur original prompt dobara type karna
+- Draft ko as-is accept karna aur sab kuch khud manually edit karna
+
+**Explanation:** Prompts iterate karna ka matlab hai concrete, specific feedback dena — same prompt
+dobara bhejna ya nayi conversation shuru karna targeted fix nahi deta.
+*(Source: user-provided practice question, Domain 1)*
+
+---
+
+### Q15. Domain 1 — prompting strategy ko task-type ke hisaab se adapt karna
+
+**Q:** Ek project manager Claude se do alag kaam karwana chahta hai: internal program ke naam
+brainstorm karna, aur program ka formal charter draft karna. Prompting strategy in dono mein kaise
+alag honi chahiye?
+
+- Dono tasks ke liye identical prompt use karna, kyunki prompting principles universal hote hain
+- Brainstorm mein exact formatting rules aur strict limits dena; charter mein maximum creativity
+  aur complete structural freedom dena
+- **Brainstorm ke liye: bohot saare varied options mangna, judgment defer karna; charter ke liye:
+  structure, required sections, tone, aur constraints dena** ✅
+- Brainstorming avoid karna, kyunki models original ideas generate nahi kar sakte
+
+**Explanation:** Brainstorming divergent task hai (varied options, judgment baad mein); charter
+drafting convergent/formal task hai (structure + tone + constraints zaroori). Prompting strategy
+task-type ke hisaab se adapt honi chahiye.
+*(Source: user-provided practice question, Domain 1)*
+
+---
 [⬅ CCAO-F Index](README.md) · [Quiz (same content) ➡](quiz.md)
