@@ -2,6 +2,20 @@
 
 ## Done
 
+- 2026-09-09: User "ccao-f teach step by step" + "100-question scenario quiz banao, 4 options, correct
+  marked, complexity 10/10, quiz100.md mein". Zia Tutor corpus gen 66 se grounding fetch ki (prompting
+  audience/format/goal + brainstorm-iterate loop + diagnose-vs-grade; governance route-first / five
+  distinctions / anonymisation; connectors inherit-your-perms / four questions; instructions-memory-
+  projects rule; compute-don't-write). **Naya:** `docs/certifications/ccao-f/quiz100.md` — 100 scenario
+  MCQs, official 7-domain weights ke proportional (D1=14·D2=21·D3=12·D4=16·D5=12·D6=15·D7=10), har Q
+  4 plausible options + `**Sahi jawab**` + 1-line rationale, 8 multiple-response items, answer-key grid
+  + scoring bands. Source strictly official blueprint + 3 verbatim samples + book crash-course
+  grounding — koi live item-bank content nahi. README index mein wire kiya. Teaching bhi shuru:
+  Domain 1 Step 1 (effective prompt = audience/format/goal) + 4-anchor memory map (BRIEF → TODO-JODO →
+  CHAUDA/TANG → NUDGE) diya, screen-reader ke liye words-carry-the-shape format. Also built earlier
+  this session: Google Doc "CCAO-F Teaching Guide (Roman Urdu + English)" (all 7 domains) in user's
+  Drive.
+
 - 2026-09-05: User "ccao-f aggressive prep, check book updates". Zia Tutor corpus live re-fetch kiya
   (`certifications-overview` + `certifications-pcao-f`, gen 63 vs pehle-captured gen 61) — **koi CCAO-F
   fact change nahi mila** (book ka apna CCAO-F page nahi hai, sirf PCAO-F jo isi ko mirror karta hai;

@@ -23,6 +23,7 @@ confirm, isi din) — dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research P
 8. [07 — Full Mock Exam (60 Q, domain-weighted, timed drill)](07-full-mock-60q.md)
 9. [08 — Teaching Walkthrough (Roman Urdu, domain-by-domain + scenario brainstorming)](08-teaching-walkthrough.md)
 10. [09 — Purcell Practice 60Q Answer Key (Roman Urdu, full third-party set)](09-purcell-practice-60q.md)
+11. [quiz100 — 100-Q Scenario Quiz, complexity 10/10 (domain-weighted, 4 options + answer + rationale)](quiz100.md)
 
 ## Practice
 
