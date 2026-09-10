@@ -2,6 +2,17 @@
 
 ## Done
 
+- 2026-09-11: User ne PCAO-F book page URL paste ki (`/docs/certifications/pcao-f`). Zia Tutor corpus
+  **gen 70** se full page re-read (pehle-captured gen 61/63 vs ab gen 70 — koi fact drift nahi: 7
+  domains + weights same, sample 10 Sep / proctored 18 Sep same, CCAO-F twin $99 / 60 items / 120 min
+  / 720-of-1000 / 12-mo validity same). Gap: `pcao-f/` ke paas sirf `README.md` tha, siblings
+  (`pcar-f/`, `pcdv-f/`) jaisi quiz + TYU nahi thi (AGENTS.md Critical Rule). **Naya:**
+  `docs/certifications/pcao-f/quiz.md` + `05-test-your-understanding.md` — 10-Q self-contained,
+  Panaversity logistics (attempts/cost/sequence/rollout) + "same blueprint one level up" framing;
+  domain-level drills deliberately `../ccao-f/` mein rakhe (single source of truth). `pcao-f/README.md`
+  mein "Test Your Understanding" section add ki. `AskUserQuestion` se scope confirm kiya (option:
+  "Build quiz + TYU").
+
 - 2026-09-09: User "ccao-f teach step by step" + "100-question scenario quiz banao, 4 options, correct
   marked, complexity 10/10, quiz100.md mein". Zia Tutor corpus gen 66 se grounding fetch ki (prompting
   audience/format/goal + brainstorm-iterate loop + diagnose-vs-grade; governance route-first / five

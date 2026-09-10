@@ -6,6 +6,10 @@
   `07-full-mock-60q.md` (60 Q, domain-weighted) added to `docs/certifications/ccao-f/`, wired into
   index. Next (open): user attempts the mock, weak domains get targeted re-drill.
 
+- [x] **PCAO-F quiz + TYU (2026-09-11):** gen 70 re-read (no fact drift), `pcao-f/quiz.md` +
+  `05-test-your-understanding.md` (10-Q, Panaversity logistics + "one level up" framing) added,
+  README wired. `pcao-f/` ab siblings ke barabar. Next (open): user attempts, weak spots re-drill.
+
 - [ ] **P3-FDEAGA GIAIC Final Graduation Exam (first week Sept 2026, ~4 days) — PRIMARY.** 100 MCQ /
   140 min / 70%. Cram pack `docs/certifications/p3-fdeaga/` **built + committed 2026-09-04**: README,
   00 (plan/strategy), 01–08 (per-module cheat sheets + ~18 MCQ each, grounded gen 62), SUMMARY

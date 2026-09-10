@@ -88,6 +88,15 @@ instruction+knowledge layer in general; governance → regulated-client obligati
 no-code judgment drills (worksheet + reference answers), 3 heaviest domains par grounded. CCAO-F ki
 skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
 
+## Test Your Understanding
+
+- [`05-test-your-understanding.md`](05-test-your-understanding.md) — 10 scenario-based questions
+  (Panaversity logistics: attempts, cost, sequence, rollout + "same blueprint one level up" framing)
+- [`quiz.md`](quiz.md) — same 10 questions, standalone self-test version
+
+Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
+(single source of truth).
+
 ## Is Repo Ka Apna Push
 
 **Ab PCAO-F user ke 2026-10-05 PCAR-F deadline se pehle aata hai** — do exams, ek nahi. Revised
