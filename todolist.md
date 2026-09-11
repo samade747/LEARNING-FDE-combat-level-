@@ -6,6 +6,12 @@
   `07-full-mock-60q.md` (60 Q, domain-weighted) added to `docs/certifications/ccao-f/`, wired into
   index. Next (open): user attempts the mock, weak domains get targeted re-drill.
 
+- [ ] **2-3 Day Intensive Push (2026-09-11, ⚠️ actual PCAO-F sitting blocked till 18 Sep — see
+  `07-practice-log.md`):** `ccao-f/08-teaching-walkthrough.md` ab sab 7 domains cover karti hai
+  (Domain 1 se pehle tha, 2-7 abhi add hue). 3-day content sprint plan likha. **Next:** user
+  scenario-Q jawab bheje domain-by-domain, phir 07-full-mock-60q / 09-purcell-practice-60q / quiz100
+  attempt kare — weak domains yahan se identify hongi.
+
 - [x] **PCAO-F quiz + TYU (2026-09-11):** gen 70 re-read (no fact drift), `pcao-f/quiz.md` +
   `05-test-your-understanding.md` (10-Q, Panaversity logistics + "one level up" framing) added,
   README wired. `pcao-f/` ab siblings ke barabar. Next (open): user attempts, weak spots re-drill.

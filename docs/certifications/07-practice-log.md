@@ -40,6 +40,43 @@ already cover hai).
 
 ---
 
+## ⚠️⚠️⚠️ 2026-09-11 — "0% to 100% in 2-3 Days" Intensive Push
+
+User ne bola: prep abhi **0%** hai, **PCAO-F pehle phir CCAO-F**, "poora exam book se data nikalo aur
+prep karo", target **2-3 din mein 100%**.
+
+**Honest logistics reality check (repo ke apne dates se, gen 70):**
+
+| Cheez | Date | Aaj se (2026-09-11) |
+| --- | --- | --- |
+| PCAO-F **sample** | 10 Sep 2026 | **guzar chuka** (1 din pehle) — window abhi bhi open ho sakti hai, confirm karo `pcao-f/README.md` ke live-page link se |
+| PCAO-F **proctored** | 18 Sep 2026 se live | **7 din baad** — 2-3 din mein sit karna possible nahi, Panaversity ka apna rollout hai, hamare control mein nahi |
+| CCAO-F (Anthropic) | koi fixed date nahi, lekin org-account/internship route ke peeche | PCAO-F + PCAR-F dono pass + FDE Internship ke baad hi (ya independent $99 Pearson VUE route agar wo alag se accessible ho) |
+
+**Matlab:** "2-3 din mein 100%" ka matlab ho sakta hai **content-ready 100%** (sab 7 domains + PCAO-F
+logistics pakke) — lekin **actual sitting** proctored PCAO-F ke liye 18 Sep tak wait karni padegi.
+Yeh scope-cut nahi hai, sirf date jo repo khud already track kar raha hai (upar "Timing constraint").
+Prep ko is intensive 2-3-din window mein **100% exam-ready** banao, phir jab bhi seat khule turant sit
+karo.
+
+### 3-Day Content Sprint (naya, compressed)
+
+| Day | Kya karna hai | Kahan |
+| --- | --- | --- |
+| **1** | Domain 1 revise + Domain 2, 4, 6 (52% weight) padho aur scenario Qs ka jawab likho | [`ccao-f/08-teaching-walkthrough.md`](ccao-f/08-teaching-walkthrough.md) |
+| **1 (evening)** | Domain-weighted 60-Q mock, exam conditions (120 min, no notes) | [`ccao-f/07-full-mock-60q.md`](ccao-f/07-full-mock-60q.md) |
+| **2** | Domain 3, 5, 7 padho aur scenario Qs ka jawab likho | [`ccao-f/08-teaching-walkthrough.md`](ccao-f/08-teaching-walkthrough.md) |
+| **2 (evening)** | PCAO-F logistics quiz (10 Q, ~20 min) + Purcell 60-Q third-party practice (120 min, exam conditions) | [`pcao-f/quiz.md`](pcao-f/quiz.md) · [`ccao-f/09-purcell-practice-60q.md`](ccao-f/09-purcell-practice-60q.md) |
+| **3** | Weak-domain targeted re-drill (Day 1-2 ke wrong answers se) + full 100-Q mock, timed | [`ccao-f/quiz100.md`](ccao-f/quiz100.md) |
+| **3 (evening)** | Cram pass — sab 7 domains ek-line summary yaad karo | [`ccao-f/06-easy-exam-guide.md`](ccao-f/06-easy-exam-guide.md) |
+
+**Done jab (self-check, "100%" ka apna criterion):**
+- [ ] Sab 7 domains ka apna ek-line summary bina dekhe likh sakta hoon
+- [ ] `07-full-mock-60q.md`, `09-purcell-practice-60q.md`, aur `quiz100.md` teenon attempt ho chuke,
+  har ek pe domain-wise score note hua
+- [ ] Weakest 1-2 domains ka targeted re-study ho chuka aur dobara attempt pe sudhar dikh raha hai
+- [ ] PCAO-F logistics (attempts, cost, sequence, rollout dates) 10/10 pakka hai
+
 ## Progress Checklist (revised 2026-09-01 — Associate pehle)
 
 | Week | Focus | Status | Notes |

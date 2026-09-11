@@ -2,6 +2,20 @@
 
 ## Done
 
+- 2026-09-11: User "prep 0%, PCAO-F pehle phir CCAO-F, 2-3 din mein 100% karni hai, book se pura data
+  nikalo." Zia Tutor se domains 2-7 ke liye targeted grounding fetch ki (output-evaluation/prove-it-
+  on-work-you-know/cross-model-checking; model-tier-pattern/cost-speed-quality; task-definition/
+  delegation-map/say-what-it-does-then-name-the-gate; four-features-one-mechanism/connectors/skill-vs-
+  project; four-governance-questions/the-case-4-screens/defined-gate; diagnose-by-timing/symptom-to-
+  concept-mapping). **Naya:** `ccao-f/08-teaching-walkthrough.md` complete kiya — Domains 2-7 (pehle
+  sirf Domain 1 tha), har ek 3 core ideas + scenario brainstorming (MCQ nahi, open reasoning, jaisa
+  learner ka apna teaching-rehearsal style). `07-practice-log.md` mein "2-3 Day Intensive Push" section
+  add kiya — honest logistics check: PCAO-F sample 10 Sep (guzar chuka), proctored 18 Sep se live
+  (7 din baad — 2-3 din mein actual sitting possible nahi, Panaversity ka rollout hai). 3-day content
+  sprint table (Day 1: D1+D2+D4+D6, Day 2: D3+D5+D7 + PCAO-F quiz + Purcell 60Q, Day 3: quiz100 +
+  cram) — sab existing practice assets (07-full-mock-60q, 09-purcell-practice-60q, quiz100) ko days
+  mein map kiya, koi naya duplicate mock nahi banaya.
+
 - 2026-09-11: User ne PCAO-F book page URL paste ki (`/docs/certifications/pcao-f`). Zia Tutor corpus
   **gen 70** se full page re-read (pehle-captured gen 61/63 vs ab gen 70 — koi fact drift nahi: 7
   domains + weights same, sample 10 Sep / proctored 18 Sep same, CCAO-F twin $99 / 60 items / 120 min
