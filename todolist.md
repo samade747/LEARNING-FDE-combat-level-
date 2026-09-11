@@ -6,6 +6,9 @@
   `07-full-mock-60q.md` (60 Q, domain-weighted) added to `docs/certifications/ccao-f/`, wired into
   index. Next (open): user attempts the mock, weak domains get targeted re-drill.
 
+- [x] **General Agents on the Web — chapter completed (2026-09-11):** `projects/` (6 scaffolds) +
+  `quiz.md`/`05-test-your-understanding.md` added — root README's ✅ ab actually true, pehle stale tha.
+
 - [ ] **2-3 Day Intensive Push (2026-09-11, ⚠️ actual PCAO-F sitting blocked till 18 Sep — see
   `07-practice-log.md`):** `ccao-f/08-teaching-walkthrough.md` ab sab 7 domains cover karti hai
   (Domain 1 se pehle tha, 2-7 abhi add hue). 3-day content sprint plan likha. **Next:** user

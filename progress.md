@@ -2,6 +2,18 @@
 
 ## Done
 
+- 2026-09-11: User poocha "general agents on the web projects complete hain?" — audit se pata chala
+  **nahi**: `04-practice-projects.md` mein 6 projects sirf prose the, `projects/` folder exist hi nahi
+  karta tha (AGENTS.md rule 5 violation), aur koi Test-Your-Understanding/quiz section nahi thi
+  (Critical Rule violation) — root README.md phir bhi ✅ marked tha (stale). User ne "complete kro"
+  bola. **Naya:** `docs/general-agents-web/projects/` — 6 no-code scaffold folders (closed-lid-test,
+  three-tier-audit, ring-the-gate, first-reporting-schedule, one-task-two-vendors, exit-drill), har ek
+  ka README (Setup + Steps + Done-jab checklist, worksheet-style jaisa `ccao-f/00-judgment-drills`,
+  koi code/hook nahi kyunke skill product-usage hai) + `projects/README.md` index, sab 00-03 concept
+  files (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12) se directly grounded. `quiz.md` +
+  `05-test-your-understanding.md` — 10 scenario questions, book ke apne Self-Check examples se
+  grounded. `04-practice-projects.md`, `README.md`, `SUMMARY.md` sab wire kiye.
+
 - 2026-09-11: User "prep 0%, PCAO-F pehle phir CCAO-F, 2-3 din mein 100% karni hai, book se pura data
   nikalo." Zia Tutor se domains 2-7 ke liye targeted grounding fetch ki (output-evaluation/prove-it-
   on-work-you-know/cross-model-checking; model-tier-pattern/cost-speed-quality; task-definition/

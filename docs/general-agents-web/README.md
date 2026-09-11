@@ -12,7 +12,9 @@ Source: https://agentfactory.panaversity.org/docs/general-agents-web-crash-cours
 2. [01 — The Surface (Account Spine, 3 File Tiers, Connectors, Gate)](01-the-surface.md)
 3. [02 — Working Unwatched (Delegation Loop, Scheduled Tasks)](02-working-unwatched.md)
 4. [03 — Choosing + Open Path](03-choosing-open-path.md)
-5. [04 — Practice Projects (6 hands-on)](04-practice-projects.md)
+5. [04 — Practice Projects (6 hands-on, runnable scaffolds)](04-practice-projects.md)
+6. [05 — Test Your Understanding (10 scenario-based questions)](05-test-your-understanding.md)
+7. [Quiz — Self-Contained (same 10 questions)](quiz.md)
 
 ## Ek Line Mein Poori Cheez
 

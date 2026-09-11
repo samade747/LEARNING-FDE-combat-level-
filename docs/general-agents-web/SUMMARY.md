@@ -36,3 +36,9 @@ July 2026 mein Claude Cowork aur ChatGPT Work browser mein ek "agent surface" le
 4. **The First Reporting Schedule** (Medium, 30 min + 1 hafta) — Monday-morning brief, 4 jawab likho, 2 dafa unattended fire honi chahiye success signal ke sath.
 5. **One Task, Two Vendors** (Medium, 45 min) — wahi assignment Cowork aur ChatGPT Work dono mein, comparison table verify karo.
 6. **The Exit Drill (Capstone)** (45 min) — farz karo platform gayab ho gaya, sirf Tier 3 se working state reconstruct karo, jo reconstruct na ho sake uski list banao (= Tier-2 exposure).
+
+Har project ka apna runnable scaffold [`projects/`](projects/README.md) mein hai (Setup + Steps + Done-jab checklist).
+
+## 05 — Test Your Understanding
+
+10 scenario-based questions, sab 12 concepts grounded — [`05-test-your-understanding.md`](05-test-your-understanding.md) (scenario version) aur [`quiz.md`](quiz.md) (same content, standalone).
