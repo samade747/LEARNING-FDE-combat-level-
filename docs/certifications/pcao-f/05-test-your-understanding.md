@@ -1,9 +1,10 @@
 # 05 — Test Your Understanding (Scenario-Based)
 
 PCAO-F-specific assessment — Panaversity logistics (attempts, cost, sequence, rollout) + the CCAO-F
-blueprint PCAO-F is aligned to ("same blueprint, one level up"). Same content as [`quiz.md`](quiz.md),
-standalone self-test version. Domain-level judgment drills [`../ccao-f/`](../ccao-f/README.md) folder
-mein hain, yahan nahi.
+blueprint PCAO-F is aligned to ("same blueprint, one level up", full exam mechanics). Same content as
+[`quiz.md`](quiz.md), standalone self-test version. Grounded in book page gen 71 (re-read
+2026-09-13). Domain-level judgment drills [`../ccao-f/`](../ccao-f/README.md) folder mein hain,
+yahan nahi.
 
 ---
 
@@ -164,6 +165,23 @@ layer: client ko pehle batao system kya **nahi** karega.
 **Explanation:** Pehle free sample (10 Sep), phir proctored (18 Sep se). Alag caveat: CCAO-F guide ke
 apne sample questions live item bank se nahi aate — sirf shape dikhate hain, content nahi.
 *(Source: book page — "Sit a Sample First", "The Anthropic Twin" → footnotes)*
+
+---
+
+### Q11. CCAO-F ka time limit aur credential validity kya hai?
+
+**Q:** PCAO-F jis Anthropic blueprint (CCAO-F) pe khada hai, uska time limit aur validity kitni hai?
+
+- 90 minutes, lifetime valid
+- **120 minutes, 60 items; award date se 12 mahine valid, phir free non-proctored recertification
+  (Partner Academy) — on-time renewal free** ✅
+- 60 minutes, 6 mahine validity
+- Time limit fixed nahi
+
+**Explanation:** CCAO-F: 60 items / 120 min / Pearson VUE / scaled score 720 pe pass / koi
+prerequisite nahi. Validity 12 mahine — lapse par full exam full fee, on-time renewal free
+assessment se.
+*(Source: book page — "The Anthropic Twin")*
 
 ---
 [⬅ PCAO-F Index](README.md) · [Quiz (same content) ➡](quiz.md)
