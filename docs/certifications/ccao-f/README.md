@@ -24,6 +24,7 @@ confirm, isi din) — dekho [`../SUMMARY.md`](../SUMMARY.md) ka "Deep Research P
 9. [08 — Teaching Walkthrough (Roman Urdu, domain-by-domain + scenario brainstorming)](08-teaching-walkthrough.md)
 10. [09 — Purcell Practice 60Q Answer Key (Roman Urdu, full third-party set)](09-purcell-practice-60q.md)
 11. [quiz100 — 100-Q Scenario Quiz, complexity 10/10 (domain-weighted, 4 options + answer + rationale)](quiz100.md)
+12. [hardquiz — Harder Companion Quiz, 100 Q, complexity 12/10 (longer scenarios, closer-call distractors, deeper book concepts)](hardquiz.md)
 
 ## Practice
 
