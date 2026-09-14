@@ -199,6 +199,11 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
 - [`05-test-your-understanding.md`](05-test-your-understanding.md) — 10 scenario-based questions
   (Panaversity logistics: attempts, cost, sequence, rollout + "same blueprint one level up" framing)
 - [`quiz.md`](quiz.md) — same 10 questions, standalone self-test version
+- [`extreme-quiz.md`](extreme-quiz.md) — **24-Q, complexity 10/10, "beyond CCAO-F" only** (vendor-
+  neutral product/model class-of-decision, configuration/knowledge-management general layer,
+  regulated-client governance, "tell the client what it won't do first"). Shared 7-domain core at
+  extreme difficulty is [`../ccao-f/quiz100.md`](../ccao-f/quiz100.md) +
+  [`../ccao-f/hardquiz.md`](../ccao-f/hardquiz.md) — do that first.
 
 Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
 (single source of truth).

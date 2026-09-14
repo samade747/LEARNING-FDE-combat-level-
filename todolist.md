@@ -2,6 +2,12 @@
 
 ## Active
 
+- [ ] **PCAO-F extreme prep (2026-09-15, ⚠️ proctored 18 Sep — 3 din baaki):**
+  `pcao-f/extreme-quiz.md` (24-Q, complexity 10/10, "beyond CCAO-F" delta only) added, README wired.
+  **Next:** user attempts it (self-check answer key included) + does `ccao-f/quiz100.md`/`hardquiz.md`
+  for shared core if not already 75%+ there. Live rehearsal in-chat also started (agentic-coding
+  crash-course quiz touched first, then user redirected to PCAO-F).
+
 - [x] **CCAO-F aggressive-prep pass (2026-09-05):** book-update check (gen 63, no fact changes) +
   `07-full-mock-60q.md` (60 Q, domain-weighted) added to `docs/certifications/ccao-f/`, wired into
   index. Next (open): user attempts the mock, weak domains get targeted re-drill.

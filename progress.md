@@ -2,6 +2,19 @@
 
 ## Done
 
+- 2026-09-15: User "PCAO-F prep continue karwao, extreme level, time kam hai (proctored 18 Sep — 3
+  din baaki), teaching simple/bachon-wala, lekin quiz highest-hardest expert 10/10, longest scenario
+  based." Naya `docs/certifications/pcao-f/extreme-quiz.md` — 24 Q, complexity 10/10, jaan-boojh kar
+  `ccao-f/quiz100.md`/`hardquiz.md` (shared 7-domain core) se **duplicate nahi** — sirf PCAO-F ka
+  "beyond CCAO-F" delta cover karta hai (vendor-neutral product/model class-of-decision,
+  configuration/knowledge-management general layer, regulated-client governance, "client ko pehle
+  batao yeh kya nahi karega"). Har stem lamba/dense (10/10 complexity) lekin rationale jaan-boojh kar
+  simple Roman Urdu mein likha (user ki teaching-style request). Grounding: `README.md` ka gen-71
+  "Same Blueprint, One Level Up" section (2026-09-13 fetch) + `ccao-f/01-domain-blueprint.md` — koi
+  live item-bank content nahi, self-authored practice hai jaisa `hardquiz.md` pattern. README wired.
+  Same session mein pehle Zia Tutor se `getting-started/agentic-coding-crash-course` quiz-continuation
+  bhi ki thi (user ne phir PCAO-F par switch kiya).
+
 - 2026-09-11: User poocha "general agents on the web projects complete hain?" — audit se pata chala
   **nahi**: `04-practice-projects.md` mein 6 projects sirf prose the, `projects/` folder exist hi nahi
   karta tha (AGENTS.md rule 5 violation), aur koi Test-Your-Understanding/quiz section nahi thi
