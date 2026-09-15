@@ -1,9 +1,9 @@
 # PCAO-F — Panaversity Certified Associate: Foundations
 
 *Source: book page **[`/docs/certifications/pcao-f`](https://agentfactory.panaversity.org/docs/certifications/pcao-f)**.
-Re-fetched 2026-09-13 (Zia Tutor corpus **gen 71**, full lesson via `read_agent_factory_lesson`,
-all 8 book sections in one window). Pichla sync 2026-09-02 tha (gen 61) — us waqt sirf ek
-one-paragraph summary tha; ab neeche har book section apni jagah doc hui hai.*
+Re-confirmed 2026-09-16 (Zia Tutor corpus still **gen 71**, unchanged since 2026-09-13 fetch — full
+lesson via `read_agent_factory_lesson`, all 8 book sections). Pichla sync 2026-09-02 tha (gen 61) —
+us waqt sirf ek one-paragraph summary tha; ab neeche har book section apni jagah doc hui hai.*
 
 Yeh FDE path ka **pehla exam** hai, aur sirf ek layer test karta hai: **judgment**. AI use karna,
 uska output evaluate karna, aur usay kahan operate karne dena hai — yeh govern karna. **Build karna
@@ -20,7 +20,7 @@ ho, aur jaante ho ke kab human review chahiye.
 ## ⚠️ Rollout Dates (Gen 71, confirmed)
 
 - **Sample exam** — free, live already; attempt consume nahi karta (widget: `<MockExam id="pcao-f">`)
-- **Proctored PCAO-F: 18 September 2026 se live** — aaj (2026-09-13) se **5 din baaki**
+- **Proctored PCAO-F: 18 September 2026 se live** — aaj (2026-09-16) se **2 din baaki**
 - Har attempt Panaversity account mein save hota hai — score reports baad mein dobara khol sakte ho
 
 ```
