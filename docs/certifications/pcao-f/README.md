@@ -204,6 +204,9 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
   regulated-client governance, "tell the client what it won't do first"). Shared 7-domain core at
   extreme difficulty is [`../ccao-f/quiz100.md`](../ccao-f/quiz100.md) +
   [`../ccao-f/hardquiz.md`](../ccao-f/hardquiz.md) — do that first.
+- [`pcaofexamquiz.md`](pcaofexamquiz.md) — **100-Q original hard scenario bank**, domain-weighted
+  (21/16/15/14/12/12/10 matching published weights), modelled on real-exam complexity/format
+  (single + "Select TWO/THREE — all-or-nothing" items) without copying any real exam content.
 
 Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
 (single source of truth).
