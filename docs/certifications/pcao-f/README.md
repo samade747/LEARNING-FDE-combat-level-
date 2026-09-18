@@ -210,6 +210,10 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
 - [`pcaofexamquizv1.md`](pcaofexamquizv1.md) — **100-Q harder companion** to the above (same
   relationship as `../ccao-f/quiz100.md` → `../ccao-f/hardquiz.md`): longer layered scenarios with
   embedded red-herring details, closely-matched distractors, and a higher share of multi-select items.
+- [`pcaofexamquizv2.md`](pcaofexamquizv2.md) — **100-Q max-difficulty tier**: every wrong option is a
+  correct application of a *different* real principle misapplied to that scenario, several questions
+  build directly on an earlier "correction" only to test whether it was over-corrected, and Domain 7
+  specifically chains into the earlier files' own fixed problems recurring in a new form.
 
 Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
 (single source of truth).
