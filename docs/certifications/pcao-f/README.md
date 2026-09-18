@@ -207,6 +207,9 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
 - [`pcaofexamquiz.md`](pcaofexamquiz.md) — **100-Q original hard scenario bank**, domain-weighted
   (21/16/15/14/12/12/10 matching published weights), modelled on real-exam complexity/format
   (single + "Select TWO/THREE — all-or-nothing" items) without copying any real exam content.
+- [`pcaofexamquizv1.md`](pcaofexamquizv1.md) — **100-Q harder companion** to the above (same
+  relationship as `../ccao-f/quiz100.md` → `../ccao-f/hardquiz.md`): longer layered scenarios with
+  embedded red-herring details, closely-matched distractors, and a higher share of multi-select items.
 
 Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
 (single source of truth).
