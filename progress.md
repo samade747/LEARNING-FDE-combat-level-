@@ -2,6 +2,15 @@
 
 ## Done
 
+- 2026-09-20 (raat): User: "ab istarhan `pcaofcombatlevel2.md` banao, aur muskil, longest scenario, har option ek jaisa lage,
+  AI ko bhi samajhne mein time lage." **Naya:** `docs/certifications/pcao-f/pcaofcombatlevel2.md` — 100 Q (D2=21 · D4=16 ·
+  D6=15 · D1=14 · D3=12 · D5=12 · D7=10), 4 options, 18 "Select TWO", per-option "kyun galat", "Yaad rakho", Grounded-in,
+  answer-key + "Look-alike traps" cheat-sheet. Design: chaaron options ek saanche ke (ek pivot farq), ordering sawal, stacked
+  principles, ghalat-premise dawe, stems 118-156 alfaaz. Sab Zia Tutor gen 75 ke 9 courses par grounded (jo maine
+  pichhle turn mein parhe). Balance: keys 21/21/20/20, correct-longest ~58%, stems red-herrings ke sath. Honest limit:
+  kisi doosre ne cold attempt nahi kiya (ambiguity check sirf meri apni review se); kuch sawal (jaise D3 W1/W3 Manual, D1
+  Q9 Project test) meri padhai ke hisaab se sahi hain, agar user ko do jawab dikhein to Q number bataye.
+
 - 2026-09-20 (baad mein): User ne "v1 v2 ko rebalance kar do" kaha. `pcaofexamquizv1.md`/`v2.md` par script se
   (options shuffle + explanations ke letter-references remap, sorted letter-lists, article "A" alag) A/B/C/D = 24/24/24/23
   kiya (pehle 80/79 B), options aur Answer ke ilawa baaqi content byte-identical verify kiya. Correct options

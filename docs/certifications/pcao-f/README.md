@@ -221,6 +221,11 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
   (A/B/C/D = 22/21/21/21; correct option sab se lamba sirf ~28%) — kyunke `v1`/`v2` mein ~81/100
   jawab B hain aur correct option ~95% sab se lamba hai (sirf "B" bharne se ~81%). Grounding: Zia
   Tutor gen 75 ke 9 study-guide courses.
+- [`pcaofcombatlevel2.md`](pcaofcombatlevel2.md) — **100-Q "look-alike options" tier (2026-09-20)**, Level 1 se
+  aur mushkil: chaaron options ek hi saanche/lambai ke (sirf ek pivot farq karta hai), kai *ordering* sawal (wahi
+  qadam alag tarteeb mein), stacked principles, ghalat-premise wale dawe stem mein, 18 "Select TWO", stems 118-156
+  alfaaz. Answer key balanced (21/21/20/20); correct option sab se lamba ~58% (pehli files mein ~95%). Heuristic
+  score guide (official nahi): >= 60% exam level, 45-60% qareeb.
 
 Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
 (single source of truth).
