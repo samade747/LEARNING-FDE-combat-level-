@@ -226,6 +226,11 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
   qadam alag tarteeb mein), stacked principles, ghalat-premise wale dawe stem mein, 18 "Select TWO", stems 118-156
   alfaaz. Answer key balanced (21/21/20/20); correct option sab se lamba ~58% (pehli files mein ~95%). Heuristic
   score guide (official nahi): >= 60% exam level, 45-60% qareeb.
+- [`pcaofcombatlevel3.md`](pcaofcombatlevel3.md) — **100-Q "long-vignette, look-alike" tier (2026-09-21)**, Level 2 se
+  aur mushkil: stems 98-192 alfaaz (timeline, numbered observations, kai logon ke dawe), sawal ki shakal badalti
+  hai (EXCEPT/INCORRECT, mapping, ordering, computed hisaab jaise 656,000 vs 348,000 tokens aur 84 net ghante), 23
+  "Select TWO". Answer key balanced (20/19/19/19 single); correct option sab se lamba ~49% (60/123 slots). Heuristic
+  score guide (official nahi): >= 50% exam level ya upar, 35-50% qareeb.
 
 Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
 (single source of truth).

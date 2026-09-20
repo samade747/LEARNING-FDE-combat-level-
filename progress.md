@@ -2,6 +2,14 @@
 
 ## Done
 
+- 2026-09-21: User: "ab istrahn `pcaofcombatlevel3.md` banao, aur muskil, long scenario, koi easily jawab na de sake."
+  **Naya:** `docs/certifications/pcao-f/pcaofcombatlevel3.md` — 100 Q (D2=21 · D4=16 · D6=15 · D1=14 · D3=12 · D5=12 · D7=10),
+  23 "Select TWO", stems 98-192 alfaaz (median 137), sawal ki shakal mix: EXCEPT/INCORRECT, mapping, ordering, computed hisaab
+  (656,000 vs 348,000 tokens; 84 net ghante x 1,800 - 60,000 = 91,200). Keys single 20/19/19/19; correct-longest ~49% (parity
+  patch se 84 -> 60 slots). Zia Tutor gen 75 ke 9 courses par grounded; Level 1/2 se 4-gram overlap <= 0.03. Honest limit:
+  kisi doosre ne cold attempt nahi kiya; length tell bilkul khatam nahi; difficulty heuristic hai (real exam se zyada mushkil
+  banane ki koshish, calibrated nahi).
+
 - 2026-09-20 (raat): User: "ab istarhan `pcaofcombatlevel2.md` banao, aur muskil, longest scenario, har option ek jaisa lage,
   AI ko bhi samajhne mein time lage." **Naya:** `docs/certifications/pcao-f/pcaofcombatlevel2.md` — 100 Q (D2=21 · D4=16 ·
   D6=15 · D1=14 · D3=12 · D5=12 · D7=10), 4 options, 18 "Select TWO", per-option "kyun galat", "Yaad rakho", Grounded-in,

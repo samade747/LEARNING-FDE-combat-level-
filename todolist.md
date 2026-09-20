@@ -2,6 +2,10 @@
 
 ## Active
 
+- [ ] **PCAO-F combat level 3 (2026-09-21):** `pcao-f/pcaofcombatlevel3.md` (100 Q, long vignettes, EXCEPT/mapping/
+  ordering/hisaab, 23 Select TWO) added + README wired. **Next:** Level 1 -> 2 -> 3 order mein; ambiguity mile to Q number
+  batao. Pending: interactive quiz L1 Q1 aur L2 Q1 ke jawab.
+
 - [ ] **PCAO-F combat level 2 (2026-09-20):** `pcao-f/pcaofcombatlevel2.md` (100 Q, look-alike options, ordering
   items) added + README wired. **Next:** user Level 1 pehle (>=70% raw), phir Level 2 (do baithakon mein); ambiguity mile
   to Q number batao.
