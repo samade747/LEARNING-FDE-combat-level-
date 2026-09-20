@@ -1,7 +1,7 @@
 # PCAO-F — Panaversity Certified Associate: Foundations
 
 *Source: book page **[`/docs/certifications/pcao-f`](https://agentfactory.panaversity.org/docs/certifications/pcao-f)**.
-Re-confirmed 2026-09-16 (Zia Tutor corpus still **gen 71**, unchanged since 2026-09-13 fetch — full
+Re-read 2026-09-20 (Zia Tutor corpus ab **gen 75** — 7 domains/weights, 720/1000, 18 Sep proctored sittings, CCAO-F twin facts same, koi fact drift nahi). Pehle re-confirmed 2026-09-16 (gen 71, unchanged since 2026-09-13 fetch — full
 lesson via `read_agent_factory_lesson`, all 8 book sections). Pichla sync 2026-09-02 tha (gen 61) —
 us waqt sirf ek one-paragraph summary tha; ab neeche har book section apni jagah doc hui hai.*
 
@@ -214,6 +214,13 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
   correct application of a *different* real principle misapplied to that scenario, several questions
   build directly on an earlier "correction" only to test whether it was over-corrected, and Domain 7
   specifically chains into the earlier files' own fixed problems recurring in a new form.
+- [`pcaofcombatlevel1.md`](pcaofcombatlevel1.md) — **100-Q combat-level tier (2026-09-20)**, real exam
+  se jaan-bujh kar zyada mushkil: lambi vignettes + red herrings, har wrong option ek asli principle
+  ghalat jagah, 15 "Select TWO — all-or-nothing", har option ka apna "kyun galat", Roman Urdu "Yaad
+  rakho", answer-key table aur "confusion pairs" cheat-sheet. **Answer-key aur option-length balanced**
+  (A/B/C/D = 22/21/21/21; correct option sab se lamba sirf ~28%) — kyunke `v1`/`v2` mein ~81/100
+  jawab B hain aur correct option ~95% sab se lamba hai (sirf "B" bharne se ~81%). Grounding: Zia
+  Tutor gen 75 ke 9 study-guide courses.
 
 Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
 (single source of truth).

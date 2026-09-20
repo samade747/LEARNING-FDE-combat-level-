@@ -2,6 +2,23 @@
 
 ## Done
 
+- 2026-09-20: User: "pcaofexamquizv2.md jaisa quiz — real exam mein aane ke chances hon — `pcaofcombatlevel1.md`,
+  extremely hard, longest scenario-based, confusing, combat level, 100 Q, 4 options; think/plan/research."
+  **Naya:** `docs/certifications/pcao-f/pcaofcombatlevel1.md` — 100 Q (D2=21 · D4=16 · D6=15 · D1=14 · D3=12 ·
+  D5=12 · D7=10), har sawal ke 4 options, 15 "Select TWO — all-or-nothing", har option ka apna "kyun galat",
+  Roman Urdu "Yaad rakho", "Grounded in" line, answer-key table + confusion-pairs cheat-sheet. Research:
+  Zia Tutor **gen 75** (PCAO-F page dobara parhi — koi fact drift nahi) + 9 study-guide courses. Fetch
+  `general-purpose` background agent ne kiya (AGENTS.md pattern); maine baad mein `git log`/`status` check
+  kiya — koi commit/push nahi hua. Honest note: Governance, AI Fluency, Workflow Design, Just Delegate It,
+  What AI Actually Is, Quick Reference, Skills & Connectors poore parhe; AI Prompting 2026, General Agents
+  on the Web, Code You Never Write sirf digest (headings/callouts/tables + Code You Never Write ka
+  verification section poora) se parhe.
+  **Finding (purani files ke bare mein):** `pcaofexamquizv1.md`/`v2.md` mein 100 mein se ~81 ka jawab **B**
+  hai (D kabhi nahi) aur correct option ~95% sawalon mein sab se lamba hai — sirf "B" bharne se ~81% score.
+  Naya file script se banaya (data + patch + generator, scratchpad mein — repo mein nahi) jo answer letters
+  (22/21/21/21) aur option-length (correct sab se lamba ~28%) balance karti hai; purani 300 stems se
+  max 4-gram overlap 0.028. Purani files ko chhua nahi — rebalance user ke faisle par (Open mein).
+
 - 2026-09-15: User "PCAO-F prep continue karwao, extreme level, time kam hai (proctored 18 Sep — 3
   din baaki), teaching simple/bachon-wala, lekin quiz highest-hardest expert 10/10, longest scenario
   based." Naya `docs/certifications/pcao-f/extreme-quiz.md` — 24 Q, complexity 10/10, jaan-boojh kar
@@ -541,6 +558,9 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
 - 2026-08-17: `docs/loop-engineering/09-commands-cheat-sheet.md` add ki — sab is chapter ke commands (Claude Code `/loop`, `/goal`, `/schedule`, worktree/subagent syntax; OpenCode shell equivalents; Routine API `curl`; decision table; minimum-safe-loop checklist) ek single-page quick-reference mein. `README.md` index aur `08-routine-drills-and-dreaming.md` ka footer link update kiye.
 
 ## Open / needs a human
+
+- **`pcaofexamquizv1.md` / `pcaofexamquizv2.md` answer-key skew (2026-09-20):** ~81/100 jawab B, correct option
+  ~95% sab se lamba. Kya inhe rebalance karna hai (options shuffle + lengths barabar)? User se confirm.
 
 - **Root `README.md` status table stale hai** (upar ka discovery) — Front Matter/Foundations groups ke
   kai rows abhi 🔲 dikhate hain jab ke docs/ mein content already maujood hai. Poora audit karke table

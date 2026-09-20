@@ -2,6 +2,10 @@
 
 ## Active
 
+- [ ] **PCAO-F combat level 1 (2026-09-20):** `pcao-f/pcaofcombatlevel1.md` (100 Q, extreme, balanced answer
+  key) added + README wired. **Next:** user do baithakon mein (50+50) attempt kare, weak domain ke
+  *Grounded in* sections dobara parhe. Open: v1/v2 ka B-skew rebalance karna hai ya nahi (progress.md Open).
+
 - [ ] **PCAO-F extreme prep (2026-09-15, ⚠️ proctored 18 Sep — 3 din baaki):**
   `pcao-f/extreme-quiz.md` (24-Q, complexity 10/10, "beyond CCAO-F" delta only) added, README wired.
   **Next:** user attempts it (self-check answer key included) + does `ccao-f/quiz100.md`/`hardquiz.md`
