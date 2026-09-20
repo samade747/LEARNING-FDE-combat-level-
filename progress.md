@@ -2,6 +2,12 @@
 
 ## Done
 
+- 2026-09-20 (baad mein): User ne "v1 v2 ko rebalance kar do" kaha. `pcaofexamquizv1.md`/`v2.md` par script se
+  (options shuffle + explanations ke letter-references remap, sorted letter-lists, article "A" alag) A/B/C/D = 24/24/24/23
+  kiya (pehle 80/79 B), options aur Answer ke ilawa baaqi content byte-identical verify kiya. Correct options
+  52→26 (v1) aur 68→26 (v2) words compress kiye (patch, explanations wahi). Baqi length-tell Open mein.
+  Ek unrelated cheez: `pcaofexamquiz.md` ki pehli line mein stray `i` character mila (mera edit nahi) — commit nahi kiya.
+
 - 2026-09-20: User: "pcaofexamquizv2.md jaisa quiz — real exam mein aane ke chances hon — `pcaofcombatlevel1.md`,
   extremely hard, longest scenario-based, confusing, combat level, 100 Q, 4 options; think/plan/research."
   **Naya:** `docs/certifications/pcao-f/pcaofcombatlevel1.md` — 100 Q (D2=21 · D4=16 · D6=15 · D1=14 · D3=12 ·
@@ -559,8 +565,8 @@ valid hai ya book ne restructure kar diya hai, sirf naye sections add mat karo.
 
 ## Open / needs a human
 
-- **`pcaofexamquizv1.md` / `pcaofexamquizv2.md` answer-key skew (2026-09-20):** ~81/100 jawab B, correct option
-  ~95% sab se lamba. Kya inhe rebalance karna hai (options shuffle + lengths barabar)? User se confirm.
+- **v1/v2 length-tell abhi baqi (2026-09-20):** letters rebalance ho gaye, correct options 52/68 → ~26 words compress hue,
+  magar correct ab bhi v1 mein ~91% aur v2 mein ~69% sawalon mein sab se lamba hai (wrong options ~18-20 words). Poora khatam karne ke liye wrong options lamba karne ya rights aur chhota karne honge.
 
 - **Root `README.md` status table stale hai** (upar ka discovery) — Front Matter/Foundations groups ke
   kai rows abhi 🔲 dikhate hain jab ke docs/ mein content already maujood hai. Poora audit karke table
