@@ -2,6 +2,13 @@
 
 ## Done
 
+- 2026-09-23: User: "pcaofcombatlevel1/2/3.md — English ese hi rahe, sath ek section Roman Urdu + English samajhne ka."
+  Teeno files ke 300 sawalon mein options ke neeche collapsible `<details>` block "🗣️ Roman Urdu mein samjho" joda:
+  Scenario + Sawal + chaaron options ka matlab, **jawab reveal nahi karta** (EXCEPT/mapping/ordering/hisaab wale sawalon
+  mein sirf shakal ka hint). "Kaise use karein" mein ek note. Verify: blocks hata kar English text HEAD se byte-identical
+  (line endings normalise karke); har file 100 blocks, `<details>` 100/100 balanced. Blocks meri apni translation hain
+  (file ke English stems se), naya Zia Tutor content nahi.
+
 - 2026-09-21: User: "ab istrahn `pcaofcombatlevel3.md` banao, aur muskil, long scenario, koi easily jawab na de sake."
   **Naya:** `docs/certifications/pcao-f/pcaofcombatlevel3.md` — 100 Q (D2=21 · D4=16 · D6=15 · D1=14 · D3=12 · D5=12 · D7=10),
   23 "Select TWO", stems 98-192 alfaaz (median 137), sawal ki shakal mix: EXCEPT/INCORRECT, mapping, ordering, computed hisaab

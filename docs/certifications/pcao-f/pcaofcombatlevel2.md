@@ -37,6 +37,9 @@ hai. Sab scenarios original hain; koi asli exam item ya guide ka sample sawal na
 
 ## Kaise use karein
 
+- **Roman Urdu mein samjho (naya):** har sawal ke options ke neeche ek band (collapsible) block hai jo scenario, sawal aur
+  chaaron options ka matlab Roman Urdu + English mein samjhata hai — jawab nahi batata. English sawal waisa hi hai (exam English
+  mein hoga); pehle English mein try karo, samajh na aaye tab block kholo.
 - **Waqt:** ≈ **3 minute per sawal** (stems lambe hain aur options bahut milte-julte). Do baithakon mein 50–50, har baithak ≈ 2.5 ghante.
   Pehle Level 1 kar lo; Level 2 tab jab Level 1 mein raw ≥ 70% ho.
 - **Har sawal ka tareeqa:** pehle stem mein se *deciding fact* nikalo (kaun jawabdeh, kab reviewer parhta, kaunsa source
@@ -61,6 +64,22 @@ Nadia, a finance associate at a Lahore textile exporter, has Claude write and ru
 - C. Ask the second vendor's assistant to review the first assistant's code line by line for the cap logic, and run April to June unattended if the review finds no defect in the code.
 - D. Obtain a total for one closed post-change month from a source not derived from the ERP table, such as the bank's rebate credit statements, and require the code to reproduce it.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Lahore textile exporter ki finance associate Nadia Claude se ERP export ke monthly export rebates ka total code se nikalwati. "Jo answer pehle se pata ho us par test karo" wala rule lagaya: March ka PKR 18.42 million rupee tak match, row counts bhi (412 in, 412 out). Magar 18.42 million khud finance ki March close report se aaya jo usi ERP rebate table ko spreadsheet mein export karke macro se sum karke bani thi. Doosre vendor ke AI ne bhi same total diya. Head office April–June Friday ko bina dekhe file karwana chahta. 1 April se policy badli: har shipment par 2% cap, aur ERP export mein naya nullable "capped" column jo March ki har row mein khaali hai.
+
+**Sawal:** Verification method ke mutabiq agla behtareen qadam kaunsa hai?
+
+**Options ka matlab:**
+
+- **A** — March check dobara, khaali capped column mein seeded fault daal kar; fault pakda jaye aur March match rahe to April–June unattended chalao.
+- **B** — March verified maano (do vendors + ek finance report agree), phir April–June unattended, har mahine row-count comparison safeguard.
+- **C** — Doosre vendor ke AI se pehle AI ka code cap logic ke liye line-by-line review karwao; defect na mile to unattended chalao.
+- **D** — Policy change ke baad ke ek closed mahine ka total aise source se lo jo ERP table se na nikla ho (jaise bank ke rebate credit statements), aur code se wahi reproduce karwao.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — The known answer must be independent of the data being tested and must exercise the path that changed; the bank statements do both.
@@ -83,6 +102,22 @@ A policy analyst at a Karachi think tank receives a 3,000-word AI-written memo o
 - B. Open the source for all 14 claims and find each supporting sentence and date; pick the three most consequential and ask whether they have been superseded or are second-hand; then choose accept, correct, investigate or reject.
 - C. Pick the three claims a mistake would hurt most; ask whether each has been superseded or is second-hand; open the sources to find the supporting sentence and date; then choose accept, correct, investigate or reject.
 - D. Pick the three claims a mistake would hurt most; open the sources and find each supporting sentence and date; choose accept, correct, investigate or reject; then ask whether each has been superseded or is second-hand.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Karachi think tank ki policy analyst ko customs-duty reform par 3,000-word AI memo mila, kal subah ministry briefing. 14 factual claims; teen minister verbatim quote karega (revenue-loss figure, effective date, "revenue neutral" wala bayan), baaqi 11 background. Saari citations asli pages par jaati. Uske paas do ghante se kam. Method ke chaar steps: identify, trace, challenge, decide (accept/correct/investigate/reject). Colleague: pehle saare 14 trace karo, phir decide karo kise challenge karna.
+
+**Sawal:** Kaunsi tarteeb (sequence) method follow karti hai? (Chaaron options mein steps same hain — sirf order aur scope ka farq hai.)
+
+**Options ka matlab:**
+
+- **A** — Jin claims mein ghalti sab se zyada nuqsan kare unhein chuno → source khol kar supporting jumla aur date dhoondo → poocho superseded ya second-hand to nahi → phir accept/correct/investigate/reject.
+- **B** — Pehle saare 14 ke source khol kar jumla aur date → phir teen sab se important chuno aur superseded/second-hand poocho → phir faisla.
+- **C** — Teen important chuno → pehle superseded/second-hand poocho → phir source khol kar jumla aur date → phir faisla.
+- **D** — Teen important chuno → source khol kar jumla aur date → pehle faisla (accept/correct...) → phir superseded/second-hand poocho.
+
+</details>
 
 **Answer:** A
 
@@ -107,6 +142,22 @@ A bookkeeper at a freight forwarder reconciles a 1,400-row bank export against t
 - C. Ask the first assistant to rate its confidence in the 23 mismatches, then rerun with pending rows removed and compare the two mismatch counts.
 - D. Ask each assistant to list, by row number, the 19 rows it excluded and the rule that excluded them, then check that none is a real transaction such as a pending item.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Freight forwarder ka bookkeeper 1,400-row bank export ko ledger se reconcile karta. Claude ke code ne 23 mismatches bataye aur report 1,381 rows cover karti. Replay: "amount aur 2 din ke andar date par match kiya, debits negative, jo rows parh nahi saka skip kin." Kitni ya kaunsi skip hui — nahi batata. Bank export mein footer summary line aur "pending" status column hai. Doosre vendor ka AI bhi 23 aur wahi 1,381 rows. Do din mein external audit; manager: do vendors agree, baat khatam.
+
+**Sawal:** Behtareen agla check kya hai?
+
+**Options ka matlab:**
+
+- **A** — Count maan lo — do alag vendors dono numbers par agree, independent confirmation.
+- **B** — Doosre AI se plain English mein poocho duplicates aur pending rows kaise handle kiye; pehle wale jaisa ho to accept.
+- **C** — Pehle AI se 23 par confidence rate karwao, phir pending rows hata kar dobara chala kar dono counts compare.
+- **D** — Har AI se row number ke saath wo 19 rows list karwao jo exclude hui aur kis rule se; check karo koi asli transaction (jaise pending item) to nahi.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — Rows in against rows out is a reality question; the missing 19 could hide real items, and both tools may share the same skipping rule.
@@ -129,6 +180,22 @@ A bank's compliance operations team uses an AI screen that pre-reads 400 transac
 - B. Add a mandatory 60-second timer and a monthly warning to reviewers whose approval rate exceeds 95%, since slower and monitored review restores diligence on each alert.
 - C. Replace the reviewers with a second AI screen that is trained on past rejections, and audit its rejection rate each quarter instead of reviewing individual alerts.
 - D. Rotate reviewers weekly and publish approval rates by reviewer, since visibility and fresh eyes stop any one reviewer becoming complacent about the AI's drafts.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Bank ki compliance-ops team ka AI screen roz 400 transactions pre-read karke "clear" ya "escalate" draft karta; reviewers "approve" click karte. 3 mahine baad: 98.5% approval, 9 second average, 6 hafte se koi reject nahi. Reviewers ko sirf AI ki one-line recommendation aur score dikhta, customer ki transaction history nahi (wo alag login wale system mein). Reject karne ke liye supervisor ka countersignature chahiye. Vendor 98.5% ko accuracy ka saboot kehta; director ke fixes: review timer, weekly rotation, ya doosra AI.
+
+**Sawal:** Framework ke review-quality view se kaunsa response sab se fit hai?
+
+**Options ka matlab:**
+
+- **A** — Reviewers ko source records do, bina countersignature reject ka authority, har alert par ek specific risk, volume ke hisaab se waqt; phir edge cases (near-threshold, escalated) sample karo.
+- **B** — 60-second timer aur 95% se upar approval wale reviewers ko monthly warning.
+- **C** — Reviewers ki jagah purane rejections par trained doosra AI screen; har quarter uska rejection rate audit.
+- **D** — Weekly rotation aur reviewer-wise approval rates publish — visibility aur fresh eyes complacency rokti.
+
+</details>
 
 **Answer:** A
 
@@ -153,6 +220,22 @@ The CFO of a Faisalabad chemicals distributor asks Claude to write and run code 
 - C. Ask Claude to explain the calculation in plain English and accept the figure if the explanation mentions both the old and new rates, since the replay would reveal a wrong rule.
 - D. Recompute using the rate effective on each invoice's issue date from the schedule file, showing the rate lookup and per-row counts, then test one closed month against the ledger.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Faisalabad chemicals distributor ka CFO board pack ke liye invoice file par Claude se quarterly late-fee revenue compute karwata. Code mein rate = 0.018 ek dafa define aur har overdue invoice par laga; result PKR 4.31 million. CFO ko yaad hai 15 February se issue hone wali invoices ke liye schedule 2.1% ho gaya tha; pichli quarter 3.9 million thi. Number "sahi size ka lagta". Replay: "overdue balances par late-fee rate lagata." Analyst: code chala aur dikhaya, figure computed hai. Board pack kal print.
+
+**Sawal:** Agla sahi qadam kya hai?
+
+**Options ka matlab:**
+
+- **A** — Quarter ke liye 1.8% aur 2.1% ka average le kar dobara chalao, phir 3.9 million se reasonableness compare.
+- **B** — Figure maan lo aur footnote mein flat 1.8% assumption likh do.
+- **C** — Claude se plain English mein calculation poocho; explanation mein purana aur naya dono rate aayein to accept.
+- **D** — Schedule file se har invoice ki issue date par lagu rate se dobara compute karo — rate lookup aur per-row counts dikhao — phir ek closed mahina ledger se test karo.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — The run was exact but used one rate; check the inputs (right rows, right rate), then test against a known answer.
@@ -175,6 +258,22 @@ A compliance manager at an insurer wants independence for a Claude-drafted summa
 - B. The flaw is that only one vendor was used; add a third vendor's assistant that also receives just the summary, and accept if two of the three call it accurate.
 - C. The flaw is the wording of the instruction; ask the second assistant to score the summary out of ten on named criteria, and accept it above eight.
 - D. The second assistant is from a different company, so the check is sound; the only correction is to run it twice and take the majority answer to smooth out randomness.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Insurer ki compliance manager 90-page reinsurance treaty ki Claude summary (jis par board bharosa karega) ke liye independence chahti. Doosri company ke AI ki chat mein sirf Claude ki summary paste karke poochti: "kya yeh summary accurate aur complete hai? errors list karo." Wo kehta "clear, internally consistent aur accurate", do chhote wording sujhav. Usay treaty di hi nahi gayi. Manager: doosra vendor blind spots share nahi karta, to cross-model check hai, aur score waise bhi sirf progress signal. Board teen din mein.
+
+**Sawal:** Is verification mein kya khaami hai, aur behtareen correction kya?
+
+**Options ka matlab:**
+
+- **A** — Checker ne source dekha hi nahi: usay treaty aur criteria do, section-cited discrepancies ki list maango, aur board jin claims par bharosa karega wo koi insaan verify kare.
+- **B** — Khaami yeh ke sirf ek vendor; teesre vendor ko bhi sirf summary do, teen mein se do accurate kahein to accept.
+- **C** — Khaami instruction ki wording; named criteria par 10 mein score maango, 8 se upar accept.
+- **D** — Doosri company hai to check theek; bas do dafa chala kar majority lo.
+
+</details>
 
 **Answer:** A
 
@@ -199,6 +298,22 @@ A junior consultant at a Dubai advisory firm uses Claude to draft client strateg
 - C. The process is sound but under-described, so a longer standing instruction that specifies audience, tone and structure will bring the 32 minutes down without changing who does what.
 - D. Counted honestly it saves about three minutes with heavy rewriting: change the split, so Claude drafts sections while she writes the analysis, or take the memo back.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Dubai advisory firm ki junior consultant Claude se client strategy memos draft karwati. Manager khush: "har memo achha nikla" — poochta workflow rakhne laiq hai? Wo ek memo imaandari se log karti: khud likhe to ~35 minute. Claude ke saath: 12 minute steering (5 exchanges), 14 minute editing, 6 minute figures/sources check = 32 minute. Wo note karti ab har draft ka zyada hissa rewrite karti hai jitna khud likhti, aur manager sirf final memo parhta. Suggestions: lambi standing instruction, stronger tier, ya "result hi matter karta".
+
+**Sawal:** Process discernment se kaunsa nateeja nikalta hai?
+
+**Options ka matlab:**
+
+- **A** — Clear success — har memo achha, manager ki satisfaction hi discernment judge karta.
+- **B** — Process theek, model kamzor — highest tier editing time kam karega.
+- **C** — Process theek magar under-described — lambi standing instruction (audience, tone, structure) 32 minute kam karegi, kaun kya kare badle baghair.
+- **D** — Imaandari se gino to sirf ~3 minute bachat aur heavy rewriting: split badlo — Claude sections draft kare aur wo analysis likhe — ya memo khud le lo.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — Twenty minutes that saves fifteen is a loss counted as a win; when better description isn't enough, the delegation itself is wrong.
@@ -221,6 +336,22 @@ An FDE at a payroll-software firm asks Claude to write a script that calculates 
 - B. The tests prove almost nothing: a check silent when the code is broken doesn't test the answer, so add hand-worked known-answer cases and confirm the planted fault now fails.
 - C. The suite is adequate for release because the planted 0% rate is unrealistic, and the 26 passing assertions cover format, sign and precision, which are the common defects in payroll code.
 - D. The suite is fine but the demo is not, so rerun the demo with a wider set of employees and release if every contribution looks plausible to the payroll team.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Payroll-software firm ki FDE Claude se employer pension contribution ka script aur uske tests likhwati. 26 tests pass. Sign off se pehle jaan-bujh kar fault daalti: contribution rate 10% se 0% — phir bhi 26 pass. Tests usi session mein Claude ne likhe; zyada tar sirf yeh check karte ke function number return kare, non-negative ho, do decimal places hon. Team lead: green suite + working demo release standard hai, aur 0% fault unrealistic tha; module teen clients ko ja chuka, demo achha raha, Thursday tak release note.
+
+**Sawal:** Usay kya nateeja nikalna aur kya karna chahiye?
+
+**Options ka matlab:**
+
+- **A** — Isi kism ke aur tests chahiye — Claude se 100 aur assertions likhwao, sab pass hon to release.
+- **B** — Tests taqreeban kuch saabit nahi karte: jo check code tootne par bhi chup rahe wo jawab test nahi karta; haath se hisaab kiye known-answer cases daalo aur confirm karo planted fault ab fail hota hai.
+- **C** — Suite release ke liye kaafi — 0% unrealistic, aur format/sign/precision aam defects cover.
+- **D** — Suite theek, demo nahi — zyada employees ke saath demo dobara, plausible lage to release.
+
+</details>
 
 **Answer:** B
 
@@ -245,6 +376,22 @@ A legal-aid clinic volunteer asks a search-enabled assistant for the deadline to
 - C. Investigate: an exact quote shows the page was reported faithfully, not that it is current, so trace to the 2025 circular and current primary text before advising.
 - D. Reject: discard the assistant's answer and the search feature for legal deadlines, and advise the client from the volunteer's memory of the usual tribunal timeline.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Legal-aid clinic volunteer ne search-enabled AI se rent tribunal order ke khilaf appeal ki deadline poochi. AI: "written order se 30 din" aur government page ka jumla quote: "Appeals must be lodged within 30 days of the date of the written order." Link kholne par jumla hubahu maujood. Magar page "Frequently asked questions (archived)" heading ke neeche, footer "Last updated 2019", aur portal ke news section mein 2025 ka circular "Revised procedure for tribunal orders". Ek ghante mein meeting. Colleague: quote exact match, official portal — gold standard.
+
+**Sawal:** Verification method kya kehta hai?
+
+**Options ka matlab:**
+
+- **A** — Accept — quote hubahu aur official portal, deadline verified; baad ka circular search mein aa jaata.
+- **B** — Correct — 30 din ko safe outer limit ke taur par batao; archived page ka period lamba hone ka imkaan kam.
+- **C** — Investigate — exact quote sirf yeh dikhata ke page sahi report hua, yeh nahi ke page current hai; 2025 circular aur current primary text tak trace karo.
+- **D** — Reject — AI aur search dono chhodo, volunteer ki yaad se timeline batao.
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — Challenge asks whether the fact changed since the page was written; an archived 2019 page and a 2025 revision mean the evidence is incomplete.
@@ -267,6 +414,22 @@ A university admissions officer asks Claude to draft a scholarship-decision lett
 - B. Ask Claude to be harsh and to find fault with the letter, then treat any score below 8 as a failure and above 9 as a pass against the office's policy.
 - C. Supply the office's own criteria, including deadline accuracy and the appeals route; score each; ask for the smallest change that would raise each score; allow 'I don't know'.
 - D. Keep the rubric but ask for evidence for each score in a sentence, since a justification for each number makes the grade reviewable and therefore independent.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** University admissions officer Claude se scholarship-decision letter draft karwa kar poochti: "10 mein score do aur batao kya behtar ho sakta." Claude khud rubric banata (warmth, clarity, professionalism, brevity), 9/10, do chhote edits. Lagaane ke baad dobara — 10/10. Supervisor: letter "independently graded". Letter mein reapplication deadline aur appeals route hai — dono Claude ke rubric mein nahi. Office ka asal standard uski decision policy hai jo Claude ko di nahi gayi, aur purane letters inhi do cheezon par challenge hue the.
+
+**Sawal:** Kaunsi change evaluation ko sab se zyada behtar karti hai?
+
+**Options ka matlab:**
+
+- **A** — Fresh Claude chat se same chaar criteria par re-score, dono ka average.
+- **B** — Claude ko harsh ban kar ghalti dhoondne ko kaho; 8 se kam fail, 9 se upar pass.
+- **C** — Office ke apne criteria do (deadline accuracy aur appeals route samet); har ek score karwao; har score badhane ke liye sab se chhoti change maango; "I don't know" ki ijazat do.
+- **D** — Rubric wahi rakho magar har score ke liye ek jumle ka evidence maango — justification grade ko independent banati.
+
+</details>
 
 **Answer:** C
 
@@ -291,6 +454,22 @@ An operations lead at a Multan cement company has 80 supplier contracts in a fol
 - C. Ask whether it is sure about the list and accept the reply if it confirms, adding a footnote that the list was produced by an assistant for the legal team to review.
 - D. Ask it to think harder and re-list, since extended reasoning improves accuracy on long attachments and will surface the missed older contracts without changing the method.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Multan cement company ki ops lead ke folder mein 80 supplier contracts. Chat interface par files attach karke poochti: "In mein se kis mein non-standard termination clause hai?" Jawab: 9 contracts, har ek par confident paragraph — na code block, na file/row counts. Thursday ko legal review; usay pata hai kai purane contracts mein ajeeb "notice by registered post only" clause hai, aur miss hone ki fikr. Suggestions: "think harder", highest tier, ya poochna "sure ho?". Files PDF aur scanned mix; legal adviser Wednesday tak safar mein, sirf shortlist dekh sakta.
+
+**Sawal:** Behtareen response kya hai?
+
+**Options ka matlab:**
+
+- **A** — AI se uska method poocho; agar sirf nazar daali to 80 files par code likh kar chalaye, har file ka result counts ke saath list kare, aur paanch contracts par test karo jo tum ne khud parhe hain.
+- **B** — Highest tier par wahi request — strong model lambe attachments zyada dhyan se parhta.
+- **C** — Poocho "sure ho?"; confirm kare to accept, footnote ke legal team review karegi.
+- **D** — "Think harder" aur dobara list — extended reasoning method badle baghair missed contracts nikaal degi.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — Volume, files and precision are code-problem signals; no code block means no code ran.
@@ -313,6 +492,22 @@ A property-management firm in Islamabad proves a Claude-based lease-abstraction 
 - B. Very little yet: three of the ten cases were shown to the assistant with answers, and the clean seven cover only residential leases; re-run on fresh, withheld cases including commercial leases before cutting review.
 - C. A strong pass on the seven unseen leases, so cut sampling to 5% for residential work and keep 50% for commercial leases until a similar set has been proved.
 - D. A pass on all ten, because the three instruction examples only taught formatting, and an assistant that reproduces break-clause dates has shown the same reliability on any lease.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Islamabad property-management firm lease-abstraction workflow ko rollout se pehle prove karti. Lead ne proving loop kiya: 10 closed leases jin ke haath ke abstracts trusted the, Claude se reproduce karwaye — sab 10 match (tricky break-clause dates samet). Firm review sample 50% se 5% karna chahti. Baad mein analyst batata un 10 mein se 3 pichle mahine workflow ki standing instructions mein "achhe abstract ki misaal" ke taur par paste kiye gaye the (format sikhane ke liye). Lead: 10 mein 7 bhi strong pass, aur agla intake commercial leases ka hai jo proving set mein nahi the.
+
+**Sawal:** Proving result kis cheez ko support karta hai?
+
+**Options ka matlab:**
+
+- **A** — Inconclusive — same 10 leases dobara abstract karwao, dono runs stable hon to 5% sample.
+- **B** — Abhi bohat kam: 10 mein se 3 AI ko jawab ke saath dikhaye gaye the, aur saaf 7 sirf residential hain; review kam karne se pehle naye, chhupaye hue cases (commercial samet) par dobara chalao.
+- **C** — 7 unseen leases par strong pass — residential ke liye 5%, commercial ke liye 50% jab tak prove na ho.
+- **D** — Saare 10 par pass — 3 examples ne sirf formatting sikhayi, aur break-clause dates reproduce karna har lease par reliability hai.
+
+</details>
 
 **Answer:** B
 
@@ -337,6 +532,22 @@ A shipping company's legal-operations lead is deciding which of four AI-assisted
 - C. The email tagging: it touches 2,000 items, and volume is a threshold in its own right, so the largest output should get the deepest review before use.
 - D. The data-protection response: regulatory exposure and personal data are crossed, and the general counsel's signature makes it a legal communication needing a named reviewer.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Shipping company ki legal-ops lead tay kar rahi is hafte ke chaar AI outputs mein se kinhein poora verification method aur named person chahiye. (1) 2,000 vessel emails ki 5 folders mein first-pass tagging, aasani se wapas, sirf apni team use karti. (2) USD 480,000 demurrage settlement ki draft wire-transfer instruction — finance officer Friday ko approve/release karega; bank ne execute kiya to paisa wapas nahi. (3) Open disputes ka weekly summary 6 executives ke liye jo sab underlying files dekh sakte. (4) Data-protection authority ke questionnaire ka jawab jo customer records quote karta aur general counsel sign karega. Colleague: item 1 sab se zyada volume, sab se zyada checking.
+
+**Sawal:** Kaunse DO outputs review threshold cross karte hain?
+
+**Options ka matlab:**
+
+- **A** — Executive summary — 6 senior log parhein to audience threshold, external documents jaisa reviewer.
+- **B** — Wire-transfer instruction — irreversible aur financially material; stakes aur reversibility dono cross, named person release se pehle parhe.
+- **C** — Email tagging — 2,000 items, volume khud threshold, sab se bare output ka sab se gehra review.
+- **D** — Data-protection response — regulatory exposure aur personal data cross, general counsel ka signature isay legal communication banata.
+
+</details>
+
 **Answer:** B, D
 
 - ✅ **B** — Reversibility and stakes: a payment that cannot be recalled is the classic case for a check before the act.
@@ -359,6 +570,22 @@ A finance team schedules a weekly cloud agent that compiles a supplier-payment e
 - B. Rely on the completion status and the first live run, since a task that completes twelve times without an error message has demonstrated stable behavior on this workflow.
 - C. Replace the judge with a stronger model and accept its verdict on each run, since a more capable judge removes the need to sample failures by hand.
 - D. Grade the rate, not the run: sample many runs, read which items failed before counting how many, calibrate the judge against a human-labelled sample, and set the bar per task.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Finance team ka weekly cloud agent supplier-payment exceptions digest banata. Pehla run live dekha — zabardast; agle 11 sab "Completed successfully". Quarterly review mein pichle 6 digests mein 2 mein ghalat figure: ek ne pichle hafte ki exceptions file use ki, ek ne master data mein merge hue supplier ko double-count kiya. Digest ki tone ya layout mein koi ghalti nazar nahi aayi. Lead ka plan: doosra model judge bane jo har digest PASS/FAIL kare; trial mein 96% PASS — isay reliability rate maano. Doosra member: ek demo + 12 completions kaafi evidence.
+
+**Sawal:** Yahan reliability judge karne ka behtareen tareeqa kya hai?
+
+**Options ka matlab:**
+
+- **A** — Judge ka 96% PASS reliability figure maano — 6 mein 2 chhota sample, judge har run cover karta.
+- **B** — Completion status aur pehle live run par bharosa — 12 dafa bina error complete hona stability.
+- **C** — Judge ko stronger model se badlo aur har run par uska verdict maano.
+- **D** — Rate ko grade karo, run ko nahi: bohat runs sample karo, pehle parho kaunse items fail hue phir gino kitne, judge ko human-labelled sample se calibrate karo, aur har task ka bar alag rakho.
+
+</details>
 
 **Answer:** D
 
@@ -383,6 +610,22 @@ A procurement analyst at a Rawalpindi construction firm attaches three cement-su
 - C. The answer needs only a tiny fix: change the supplier name in the sentence to B and keep the rest of the comparison, since the quote and the terms are otherwise right.
 - D. The answer should be rejected and the request rerun with a stricter instruction, because one wrong attribution shows the assistant cannot be trusted with attached documents.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Rawalpindi construction firm ka procurement analyst teen cement proposals attach karke poochta: "Kis supplier ka contract jaldi exit karne deta aur kin sharaait par? Sirf attached proposals se jawab do; exit terms na likhe hon to batao; har term ke liye section heading aur jumla quote karo." Claude: Supplier C 60 din notice par bina penalty exit — quote "Section 9: Termination. Either party may terminate on sixty days' written notice without penalty." Proposal C mein Section 9 hai hi nahi; yeh jumla hubahu Proposal B mein hai. C mein termination section hi nahi. Kal tender committee; manager: quote "asli hai, attached docs se".
+
+**Sawal:** Analyst ko kya nateeja nikalna aur kya karna chahiye?
+
+**Options ka matlab:**
+
+- **A** — Supplier C ke liye unsupported: jumla Proposal B ka hai, to "Proposal C mein stated nahi" se correct karo aur baaqi jawab bhi isi tarah check karo.
+- **B** — Jawab qabil-e-qubool — jumla asli aur attached docs se, bas note kar do source proposal unclear hai.
+- **C** — Chhota sa fix — supplier ka naam B kar do, baaqi comparison rakho.
+- **D** — Reject karke sakht instruction ke saath dobara chalao — ek ghalat attribution se AI attached documents ke liye nakabil-e-aitbaar.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — A quote must support the claim about the document it is attributed to; an exact sentence from the wrong file is a fabricated support.
@@ -405,6 +648,22 @@ A software firm's engineering manager asks a coding agent to fix a payroll-round
 - B. As probably fine, so ask the agent to confirm in words that the payroll tests were included in the run, and release if it confirms and lists the test names.
 - C. As a sentence, not an event: the log shows no tests ran, so fix the runner path, rerun until a nonzero count executes, and check the rounding against a hand-worked payslip.
 - D. As a tooling quirk of minor importance, since the rounding fix is small, and the manager can release now and repair the runner configuration next sprint.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Software firm ka engineering manager coding agent se payroll-rounding bug fix karwata aur kehta "test suite chalao aur confirm karo sab pass". Agent: "payslip.py mein rounding fix, tests chalaye, sab pass." Manager (code nahi parh sakta) tool output kholta: run log ke aakhir mein "collected 0 items ... no tests ran ... exit status 0". Pichle hafte refactor mein test folder ka naam badla, runner ka path purana hi raha. Developer: tool green status dikhata aur agent ne kaha tests chalaye, to claim supported; checklist sirf "tests pass" maangti.
+
+**Sawal:** Claim ko kaise treat karein?
+
+**Options ka matlab:**
+
+- **A** — Supported — exit status 0, agent ne report kiya, checklist sirf passing status maangti.
+- **B** — Shayad theek — agent se alfaaz mein confirm karwao payroll tests shamil the, test names list kare to release.
+- **C** — Yeh jumla hai, event nahi: log dikhata koi test nahi chala; runner path theek karo, tab tak chalao jab tak nonzero count execute ho, aur rounding ko haath se bane payslip se check karo.
+- **D** — Chhota tooling quirk — abhi release, runner config agle sprint mein.
+
+</details>
 
 **Answer:** C
 
@@ -429,6 +688,22 @@ A regional telecom's analyst asks Claude to summarise churn drivers from a custo
 - C. Ask a second Claude conversation whether it agrees that price is the main driver and report the finding as corroborated if it does.
 - D. Accept the statement but add 'according to the data supplied' to it, since the caveat covers the missing variables and the board will read it correctly.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Regional telecom ka analyst customer file se churn drivers summarise karwata aur poochta "kitna yaqeen ho sakta ke price main driver hai". Claude ek confident paragraph: "Price main driver hai; PKR 2,500 se upar plans wale kahin zyada chhodte." Analyst jaanti specialist aise sawal par "it depends" kehta: churn contract length, service outages, competitor promotions se bhi judta — file mein plan-price ke siwa in mein se koi column nahi. Board ke liye defensible bayan chahiye bina poora analysis dobara chalaye. Colleague: confidence rate karwao; doosra: doosre Claude se agree karwao.
+
+**Sawal:** Discernment guidance se kaunsa response sab se zyada match karta hai?
+
+**Options ka matlab:**
+
+- **A** — Claude se 10 mein confidence rate karwa kar bayan ke saath report karo.
+- **B** — Jahan expert hichkichata wahan flat jawab ko warning sign samjho: poocho kya cheez jawab badal degi aur data kya nahi dikha sakta, phir named factors par dobara chalao.
+- **C** — Doosri Claude conversation se poocho agree karti hai; kare to "corroborated" report karo.
+- **D** — Bayan maan lo magar "according to the data supplied" jod do — caveat missing variables cover karta.
+
+</details>
+
 **Answer:** B
 
 - ✅ **B** — Confidence where an expert would hesitate is one of the four signs; asking what would change the answer exposes the missing conditions.
@@ -451,6 +726,22 @@ An accountant at a Karachi trading house uses Claude to analyse a year of invoic
 - B. Accept the ranking, because the grand total matches the ledger and the row counts are equal, which shows that no invoice was dropped or double-counted.
 - C. Treat the contradiction with her knowledge as a signal: ask Claude to show three rows behind each customer's total and how names were grouped, checking whether spelling variants split Hashmi Brothers.
 - D. Ask a second assistant to write the summary of the report in plain English and accept the ranking if both summaries name the same top customer.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Karachi trading house ki accountant Claude se saal bhar ki invoices analyse karwa kar sales report banwati. Report: revenue ke hisaab se sab se bara customer "Al-Noor Traders" PKR 41 million. Accountant ko lambe tajurbe se pata hai "Hashmi Brothers" kahin bara customer hai. Row counts theek (9,850 in/out), totals achhe format mein, replay: "customer name se group karke amounts sum kiye". Manager: grand total ledger se match, ranking sahi hogi; accountant ka impression purana ho sakta. Report Monday ki bank meeting ke liye.
+
+**Sawal:** Behtareen agla qadam kya hai?
+
+**Options ka matlab:**
+
+- **A** — Same instruction se report dobara banwao, teen mein se do runs mein jo ranking aaye wo lo.
+- **B** — Ranking maan lo — grand total aur row counts match, koi invoice drop ya double-count nahi.
+- **C** — Apni knowledge se takrao ko signal samjho: Claude se har customer ke total ke peeche teen rows aur naam kaise group hue dikhwao, check karo spelling variants ne Hashmi Brothers ko toda to nahi.
+- **D** — Doosre AI se report ka plain-English summary likhwao, dono same top customer kahein to accept.
+
+</details>
 
 **Answer:** C
 
@@ -475,6 +766,22 @@ An FDE reviews a Digital FTE that handles customer refund queries for a retailer
 - C. The skipped kind is performance discernment: whether the assistant's independent behavior serves the people it meets, judged over many cases by what users do next and what they complain about.
 - D. The skipped kind is process discernment: the FDE should judge whether her own sessions with the assistant during testing were paying off in time saved.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** FDE ek retailer ke refund queries handle karne wale Digital FTE ko review karti. 200 conversations ke review mein har jawab policy ke mutabiq accurate. Quarter ka support data: AI se chat karne wale 31% customers ek ghante mein usi masle par store call karte (launch se pehle 12%), comments: "jawab diya magar pata nahi chala kya karoon". Product owner: jawab accurate aur model unchanged, to performance achhi; warranty queries tak phailana chahta. FDE se poocha gaya quarter ke review ne kaunsi discernment skip ki.
+
+**Sawal:** Kaunse DO bayan sahi hain?
+
+**Options ka matlab:**
+
+- **A** — 200-conversation review accuracy par product discernment tha, aur repeat-call rate aur complaints ko expansion se pehle monitoring aur sampling trigger karni chahiye.
+- **B** — Kuch skip nahi hua — unchanged model + accurate answers hi achhi performance; repeat calls staff se baat ki pasand hai.
+- **C** — Skip hui performance discernment: AI ka independent behaviour logon ko serve karta ya nahi, bohat cases par users aage kya karte aur kya complain karte us se judge.
+- **D** — Skip hui process discernment: FDE judge kare testing ke dauran uske apne sessions waqt bachate the ya nahi.
+
+</details>
+
 **Answer:** A, C
 
 - ✅ **A** — Product discernment judges the result; performance discernment judges behavior toward users, and it turns into monitoring.
@@ -498,6 +805,22 @@ An operations director at a private hospital group is designing which AI-assiste
 - C. Accountability cannot transfer to a tool: keep a named person accountable, define the gate (who checks what, before statements issue), and sample the adjustments for evidence.
 - D. The flaw is that the approvals are unsupervised, so add a monthly review of the AI's error rate and let the review committee share accountability with the AI system.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Private hospital group ki ops director policy likhti jo accountability ka saaf naam leti: "AI system PKR 20,000 se kam patient-billing adjustments approve karta; billing system log karta AI ne approve kiya; is liye AI un approvals ka accountable hai." Finance controller: 20,000 se kam adjustments saal ke PKR 38 million banti, patient statement issue hone ke baad reverse karna mushkil, aur auditors ne poocha inka jawabdeh kaun. Director: accountability faisla karne wale ke peeche chalti.
+
+**Sawal:** Policy mein khaami kya hai aur behtareen correction?
+
+**Options ka matlab:**
+
+- **A** — Khaami missing log — har record mein model version aur prompt jodo taake AI ki accountability documented ho.
+- **B** — Khaami sirf threshold — PKR 5,000 karo, aur AI accountable wala bayan rakho.
+- **C** — Accountability tool ko transfer nahi hoti: named person accountable rakho, gate define karo (kaun kya check kare, statements issue hone se pehle), aur evidence ke liye adjustments sample karo.
+- **D** — Khaami unsupervised approvals — monthly error-rate review jodo aur review committee AI ke saath accountability share kare.
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — AI can automate work but not accountability; an audit trail of what the AI did does not say who answers for it.
@@ -520,6 +843,22 @@ A media-monitoring firm in Karachi has an assistant summarise regulator press re
 - B. The editor's catches on Monday and Thursday show the gate works, so Tuesday was an unlucky exception and the control should stay as it is with a reminder to be careful.
 - C. The gate missed Tuesday's error, so define it: who checks names and figures against the release, when, with the source open, and re-check a sample of past summaries.
 - D. The three errors are different types (a number slip, a misattribution, a dropped condition), so each needs a check aimed at its own risk, not one 'be more accurate' instruction.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Karachi media-monitoring firm ka AI har subah regulator press releases summarise karta; duty editor clients ko jaane se pehle parhta. Ek hafte ke notes: Monday — summary mein PKR 12 million fine, source mein 1.2 million; Tuesday — quote ghalat commissioner se attribute; Thursday — "regulator ne merger confirm kiya" jabke release mein approval conditional thi. Editor ne Monday aur Thursday pakde, Tuesday tab pata chala jab client ne complain kiya. Head of content Friday se pehle failures classify karke control tay karna chahta.
+
+**Sawal:** Kaunse DO nateeje sab se zyada supported hain?
+
+**Options ka matlab:**
+
+- **A** — Teeno ki ek wajah — kamzor prompting; lambi standing instruction do ke numbers, names, conditions check kare.
+- **B** — Monday aur Thursday ke catches dikhate gate kaam karta; Tuesday bad luck, control wahi rakho, bas reminder.
+- **C** — Gate ne Tuesday miss kiya, to usay define karo: kaun release se names aur figures check kare, kab, source khol kar; aur purani summaries ka sample dobara check karo.
+- **D** — Teeno errors alag kism ke (number slip, misattribution, dropped condition) — har ek ko apne risk par aimed check chahiye, ek "zyada accurate raho" instruction nahi.
+
+</details>
 
 **Answer:** C, D
 
@@ -546,6 +885,22 @@ A hospital group's operations manager is mapping an AI-assisted appointment-remi
 - C. Choose what carries each step, such as the Skill and scheduled task; then classify each step on reversibility, stakes and accountability; then confirm the data may enter the tool and the inputs can be supplied.
 - D. Classify each step on reversibility, stakes and accountability; then confirm the data may enter the tool and the inputs can be supplied; only then choose what carries each step.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Hospital group ki ops manager AI appointment-reminder workflow map kar rahi, 5 steps: kal ki appointments nikalo, template se reminders draft, mobility-needs wale patients ke liye personalise, send, delivery failures log. Consultant: har step par teen decisions hote, unhein mix karna hi map ko theek dikhne magar ghalat hone ki wajah. Manager pehle hi drafting ke liye Skill aur sending ke liye scheduled task chun chuki kyunke "yahi tools hamare paas hain". Workspace kabhi patient names ke liye approve nahi hua, aur mobility info sirf nurses ke notes mein hai jo kisi system mein export nahi hote.
+
+**Sawal:** Har step ke liye decisions ki sahi tarteeb kya hai? (Options sirf order mein farq rakhte hain.)
+
+**Options ka matlab:**
+
+- **A** — Data tool mein ja sakta confirm → har step ko kya carry kare chuno → reversibility/stakes/accountability par classify → phir check karo har step ki zaroori cheezein di ja sakti hain.
+- **B** — Data tool mein ja sakta aur inputs diye ja sakte confirm → phir reversibility/stakes/accountability par classify → sirf tab chuno kya carry kare (Skill, knowledge, code, instruction ya gate).
+- **C** — Pehle carrier chuno (Skill, scheduled task) → phir classify → phir data aur inputs confirm.
+- **D** — Pehle classify → phir data aur inputs confirm → sirf tab carrier chuno.
+
+</details>
+
 **Answer:** B
 
 - ✅ **B** — Eligibility comes first (a no ends the question), ownership second, implementation last and only for steps that got past the first two.
@@ -568,6 +923,22 @@ A B2B software company's sales-operations team has used an AI assistant for eigh
 - B. Scoring quality is evidence about scoring, not discount authority; the ceiling is set by the assistant's own field and reversal needs an unstaffed flag, so keep discount approval with a named person.
 - C. Keep discount approval human but have the deal desk approve only the quotes the assistant flags as unusual, since the assistant already knows which quotes look normal and can screen the rest.
 - D. Approve the proposal but lower the automatic ceiling to 10% and have finance sample 20 quotes a month, since a smaller ceiling and a sample together bound the exposure.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** B2B software company ki sales-ops team 8 mahine se AI se inbound leads ko 1–100 score karwati. Reps: scores "excellent" — 1,900 leads mein top decile base rate se 4 guna convert hua. VP sales chahta 90 se upar score wale leads ke liye AI 15% tak discounts khud approve kare ("buyers ko samajhta hai"); discounts CRM mein log hote aur finance 24 ghante mein reverse kar sakta. Rep batata 15% ceiling AI ke apne output field mein likhi jaati (lead score se bhari), aur finance ka reversal tabhi hota jab deal desk analyst flag kare. Deal desk: 2 analysts, 300 quotes/hafta.
+
+**Sawal:** Kaunsa assessment sahi hai?
+
+**Options ka matlab:**
+
+- **A** — 90 se upar ke liye approve — 8 mahine ki achhi scoring aur 24-ghante reversal error recoverable banata.
+- **B** — Scoring quality scoring ka saboot hai, discount authority ka nahi; ceiling AI ke apne field se set hoti aur reversal ek unstaffed flag par depend — discount approval named person ke paas rakho.
+- **C** — Approval human rakho magar deal desk sirf wo quotes dekhe jo AI unusual flag kare.
+- **D** — Approve karo magar ceiling 10% aur finance har mahine 20 quotes sample kare.
+
+</details>
 
 **Answer:** B
 
@@ -592,6 +963,22 @@ At a customs-brokerage firm, a delegation map marks "Draft tariff-classification
 - C. Deploy an AI tool that flags memos where the model seems uncertain, and route only flagged memos to the broker, because uncertainty is a better trigger than reading every memo.
 - D. Add a two-person review rule above a value threshold, because the highest-value memos carry the most risk and a stronger gate there limits exposure while volume is high.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Customs-brokerage firm ke delegation map mein "tariff-classification memo draft" collaborative hai, senior broker client ko jaane se pehle review karta. Sign-off ke waqt 20 memo/hafta, broker har ek par ~15 minute. Do quarters mein volume 55/hafta, broker ko doosra desk bhi, aur weekly report ab bhi har memo "reviewed" dikhati. Map ka owner chala gaya, map mein review date nahi. Naya manager chaar changes soch raha: doosre broker ki headcount request; value threshold se upar do logon ka review; AI tool jo uncertain memos flag kare; map owner naam karke quarterly read.
+
+**Sawal:** Behtareen pehli change kaunsi hai aur kyun?
+
+**Options ka matlab:**
+
+- **A** — Doosra broker — gate 20 ke liye bana, 55 ek reviewer ke bas ka nahi, fix capacity hai.
+- **B** — Map owner naam karo aur scheduled read rakho jo poochhe pichle hafte kisne kitni der review kiya — kyunke step practically automated ho chuka; phir gate ko asal volume ke hisaab se size karo.
+- **C** — AI tool jo uncertain memos flag kare, sirf wahi broker ko — uncertainty behtar trigger.
+- **D** — Value threshold se upar two-person review — sab se zyada value wale memos sab se zyada risk.
+
+</details>
+
 **Answer:** B
 
 - ✅ **B** — Gates, instructions and maps fail with no signal; an owner and a date are how the failure is found before the outcome shows it.
@@ -614,6 +1001,22 @@ A shipping-insurance firm built a Skill that turns claim files into a fixed 14-f
 - B. Lower the step's classification to collaborative, keeping the card but requiring the adjuster to approve it, since collaborative steps have a named person judging each output.
 - C. Increase the Skill's coverage by adding 6 fields to the card, including a tampering field, so that the card captures the facts adjusters said were missing.
 - D. Map the work again with no tools in mind, classify each step on reversibility, stakes and accountability, then ask whether the Skill fits, keeping a place for facts that fit no field.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Shipping-insurance firm ka Skill claim files ko fixed 14-field "claim card" banata, accuracy ki tareef hui. Phir workflow uske gird redesign hua: "Generate claim card" AI-owned (wajah "hamara card Skill bohat achha hai"), coverage check 14 fields parhta, client letter card se draft hota. Adjusters batate claim file ki narrative mein maujood cargo-tampering allegation kisi field mein fit nahi hota aur gir jaata; koi card error nahi dikhata kyunke har card apni fields ke hisaab se complete. COO poochta asal wajah kaunsi correction address karti — lead chaar candidates deta.
+
+**Sawal:** Kaunsi correction wajah ko address karti hai?
+
+**Options ka matlab:**
+
+- **A** — Senior adjuster har card ko file se milaye — reviewer card mein na aane wale facts pakad lega.
+- **B** — Classification collaborative karo — card rakho magar adjuster approve kare.
+- **C** — Skill mein 6 fields aur jodo (tampering field samet).
+- **D** — Tools ko bhool kar kaam dobara map karo, har step reversibility/stakes/accountability par classify karo, phir poocho Skill fit hota hai ya nahi — aur un facts ke liye jagah rakho jo kisi field mein fit nahi hote.
+
+</details>
 
 **Answer:** D
 
@@ -638,6 +1041,22 @@ A regional bank's operations team is classifying the step "Accept or reject a su
 - C. AI-appropriate: the step is reversible for ten days and low in stakes, and a 96% match shows the recommendation is reliable enough for the assistant to own the outcome.
 - D. Human-retained: somebody is accountable for every step in a payables process, and that accountability cannot be assigned to a tool, whatever the step's other properties.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Regional bank ki ops team accounts-payable workflow ka step "supplier ki late-payment waiver request accept/reject" classify kar rahi. Step 10 business din tak reversible (waiver dobara bill ho sakta), amounts chhote (PKR 15,000 se kabhi upar nahi), aur AI recommendation 80 purane cases mein payable manager ke faisle se 96% match. Manager: main apni delegated authority ke tehat har waiver sign karti hoon, aur step AI-owned bhi ho to auditors mujhe hi bulayenge. Workflow author: reversibility + low stakes + 96% = AI-appropriate. Internal-audit lead: "har step ka koi accountable hai" is liye human-retained.
+
+**Sawal:** Kaunsi classification aur reasoning sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Human-retained: yeh step khud wahi faisla hai jiska manager jawabdeh hai, to accountability faisla karti, aur criteria takrayein to sab se strict jeetta.
+- **B** — Collaborative: AI har waiver decide kare, manager monthly batch review kare — 10 din ki window mein errors pakde jayenge.
+- **C** — AI-appropriate: 10 din reversible, low stakes, 96% match — AI outcome own kar sakta.
+- **D** — Human-retained: payables process ke har step ka koi accountable hai aur wo tool ko nahi di ja sakti, step ki baaqi properties kuch bhi hon.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — Somebody answers for every step; the sharper test is whether the step is the call or an input someone judges before it acts.
@@ -660,6 +1079,22 @@ A policy team at an energy regulator asks Claude to draft a briefing on "the cur
 - B. Ask for the whole briefing again in a research-mode run and accept it, since a multi-source cited report removes the need to split stable and current material.
 - C. Take the stable concept explanation from the model's knowledge, but route current rates and the budget clause to a source she can open, asking for the answer and the link.
 - D. Keep the whole briefing with the assistant but instruct it to state the date of its knowledge at the top, since disclosing the cutoff lets readers judge which rates may be stale.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Energy regulator ki policy team Claude se briefing draft karwati: "current renewable-energy import duties aur naya budget unhein kaise badalta". Draft rawaan, duty rates aur budget clause number cite karta, aur general taur par duties kaise kaam karti us par ek paragraph. Lead ka map research ko synthesis step samajh kar poori briefing AI ko deta. Researcher: AI ki knowledge training date par rukti, budget uske baad announce hua, aur rates ke saath koi link nahi. Lead: duties kaise kaam karti wali stable explanation achhi hai — request kaise split karni chahiye thi?
+
+**Sawal:** Research request ka kaunsa split sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Concept aur rates dono AI apni knowledge se likhe, magar jis figure par shak ho usay mark kare.
+- **B** — Poori briefing research mode mein dobara maango aur maan lo — multi-source cited report split ki zaroorat khatam.
+- **C** — Stable concept explanation model ki knowledge se lo, magar current rates aur budget clause aise source ko route karo jo wo khud khol sake — jawab aur link dono maango.
+- **D** — Poori briefing AI ke paas rakho magar upar knowledge ki date likhwao taake readers stale rates judge kar sakein.
+
+</details>
 
 **Answer:** C
 
@@ -684,6 +1119,22 @@ A tender team at an engineering contractor extracts requirements from a 50-page 
 - C. Ask the assistant to interpret both clauses using tenders it knows of in the same sector and adopt the interpretation that appears most often as the reading of the RFP.
 - D. Treat the table as complete because every row cites a section, and let the assistant propose the turnaround figures from typical tenders, since the source column proves the extraction.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Engineering contractor ki tender team 50-page hospital-linen RFP ki requirements ek table mein nikaalti: label, exact section reference, aur column "answered in our thread". List complete lagti, har row source cite karti. Bid manager: "har row section tak trace, extraction verified." Do clauses pareshan karti: Section 6 kehta service collection window ke baad "promptly" deliver ho; scoring appendix "reasonable" turnaround ko zyada points deta, koi figure nahi. Buyer ki Q&A window band hone mein ek din. Junior: typical hospital tenders se "24 ghante" aur "48 ghante" bhar do, bid mein flag kar do.
+
+**Sawal:** Behtareen course of action kya hai?
+
+**Options ka matlab:**
+
+- **A** — List par hamla karo: poocho kaunsi requirements do readers alag samajh sakte, aur do vague clauses Q&A window band hone se pehle buyer ko sawal ke taur par bhejo; koi interim assumption ho to saaf likho.
+- **B** — Junior ki tarah 24 aur 48 ghante bhar kar bid mein "assumed" mark karo.
+- **C** — AI se usi sector ke known tenders se dono clauses interpret karwao, jo interpretation sab se zyada aaye wo lo.
+- **D** — Table complete maano (har row cite karti), aur AI typical tenders se figures propose kare.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — Extraction finds what was written, not what was meant; an unclear requirement caught now costs one clarifying question.
@@ -706,6 +1157,22 @@ A shipbuilder's contracts team submits a delegation map for reviewing supplier c
 - B. Row C: 'this step is the decision somebody answers for' is an accountability statement about people, so it belongs under Carried by rather than Criterion.
 - C. Row D: 'the assistant makes formatting mistakes' is AI performance, not a criterion; the reason for a human signer is that sending is irreversible and binding.
 - D. Row A: 'reversible and low stakes' is a performance claim about the extraction and should be replaced with the Skill's measured accuracy in testing to be a valid criterion.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Shipbuilder ki contracts team supplier contracts review ka delegation map deti; director chaar rows par sawal uthata. Row A: "contract se clauses extract", Owner AI, Criterion "reversible aur low stakes", Carried by Skill. Row B: "delay-penalty exposure compute", Owner AI, Criterion "must be computed, not written", Carried by code execution. Row C: "har change approve/reject", Owner Human, Criterion "yeh step wahi faisla hai jiska koi jawabdeh hai", Carried by named reviewer. Row D: "sign and send", Owner Human, Criterion "AI signing mein formatting ghaltiyan karta", Carried by named signer. Director: kin rows ka criterion reversibility, stakes ya accountability mein se nahi?
+
+**Sawal:** Kaunsi DO rows ki Criterion entry invalid hai?
+
+**Options ka matlab:**
+
+- **A** — Row B: "must be computed" Carried-by wali wajah hai; Criterion mein reversibility/stakes/accountability reasoning chahiye.
+- **B** — Row C: "decision somebody answers for" logon ke baare mein accountability statement — Carried by mein jaana chahiye.
+- **C** — Row D: "AI formatting ghaltiyan karta" AI performance hai, criterion nahi; human signer ki wajah yeh ke bhejna irreversible aur binding hai.
+- **D** — Row A: "reversible and low stakes" extraction ki performance claim hai — Skill ki measured accuracy se badlo.
+
+</details>
 
 **Answer:** A, C
 
@@ -730,6 +1197,22 @@ A marketplace's quotation workflow uses a Project whose knowledge holds a suppli
 - C. What changes in the map: record that the sheet went stale and add a monthly refresh, since the fix must outlast the week everyone is paying attention.
 - D. Who is told and by when: draft the customer notification tonight and send it before the weekend, since a late disclosure costs far more than an early one.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Marketplace ka quotation workflow ek Project use karta jiski knowledge mein supplier price sheet. Jis junior analyst ne workflow banaya, sirf usi ke paas Project ke admin rights. Friday shaam customer batata quotes mein purani prices. Analyst Tuesday tak chhutti par, phone signal nahi. Team dekh sakti supplier ke reprice (kam az kam 3 hafte pehle) ke baad ka har quote stale sheet par, magar koi aur workflow pause ya sheet replace nahi kar sakta. Incident lead chaar pehle-se-tay-karne wali cheezein jaanti: kaise roka jaye, kya bahar ja chuka, kise aur kab batana, map mein kya badle. Pehle kya theek kare?
+
+**Sawal:** Pehle kya theek karna chahiye aur kyun?
+
+**Options ka matlab:**
+
+- **A** — Kya bahar ja chuka: har quote ka recipient aur sheet version log karo — damage scope karna mushkil sawal hai, rokna Tuesday tak ruk sakta.
+- **B** — Kaise roka jaye: agar sirf builder action le sakta to baaqi har step intezaar karta; ek doosre named person ko bina pooche pause ka authority do, phir affected quotes scope karo.
+- **C** — Map mein kya badle: record karo sheet stale hui aur monthly refresh jodo.
+- **D** — Kise aur kab: aaj raat customer notification draft karke weekend se pehle bhejo.
+
+</details>
+
 **Answer:** B
 
 - ✅ **B** — The design-time decision that blocks all others is who can stop it and whether they need permission.
@@ -752,6 +1235,22 @@ A consultant is presenting an AI-assisted invoice-processing workflow to a manuf
 - B. 'The workflow is fully automated for standard invoices, with turnaround down from five days to two, and any invoice above PKR 100,000 is escalated to a clerk.'
 - C. 'The assistant performs as accurately as an experienced clerk on invoice matching, so turnaround has fallen from five days to two, with a clerk available for the remaining 5%.'
 - D. 'The assistant matches and codes invoices, cutting turnaround from five days to two; a clerk reviews every invoice above PKR 100,000 or with a new bank account before payment.'
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Consultant manufacturer ke CFO ko AI invoice-processing workflow present kar rahi; CFO teen sawal poochta: kya karta, kitna bachata, safe hai? Facts: AI invoices ko purchase orders se match aur code karta; ~95% saaf match; matched invoices tab pay hoti jab accounts clerk daily exception report review kare (PKR 100,000 se upar ya naye bank account wali har invoice); baaqi 5% seedha clerk ko. Turnaround 5 din se 2 din. CFO ke board mein ek former auditor. Consultant ko wo opening chahiye jo tool ka kaam bataye, human checkpoint naam kare, aur overstate na kare.
+
+**Sawal:** CFO ke saath kaunsi description use kare?
+
+**Options ka matlab:**
+
+- **A** — "95% invoices ab automatically process, turnaround 5 se 2 din, clerks wo exceptions sambhalte jo AI nahi kar sakta."
+- **B** — "Standard invoices ke liye workflow fully automated, turnaround 5 se 2 din, PKR 100,000 se upar clerk ko escalate."
+- **C** — "AI experienced clerk jitna accurate, turnaround 5 se 2 din, baaqi 5% ke liye clerk available."
+- **D** — "AI invoices match aur code karta, turnaround 5 se 2 din; clerk payment se pehle PKR 100,000 se upar ya naye bank account wali har invoice review karta."
+
+</details>
 
 **Answer:** D
 
@@ -776,6 +1275,22 @@ A finance shared-services centre is assigning carriers to four items in its quar
 - C. (b) goes in Project knowledge, because the approved price list is reference material the work must read on every run and it changes what the assistant knows.
 - D. (c) goes in a standing instruction, because a calculation that must run every time is a rule that applies to every run of the review.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Finance shared-services centre quarterly pricing-review workflow ke chaar items ke carriers tay kar raha. (a) "Har brief ki pehli line mein customer segment." (b) "Approved price list, har quarter update, jo review har run par parhe." (c) "Report mein cited har price change ka margin impact price list aur volume file se compute karo." (d) "Review pack is exact order mein: cover note, table, exceptions, sign-off page." Facilitator: pehle cheezein ghalat jagah rakhi gayi thi. Neeche ki chaar pairings mein do sahi hain.
+
+**Sawal:** Kaunsi DO pairings sahi hain?
+
+**Options ka matlab:**
+
+- **A** — (d) Skill mein — fixed order ka fixed sequence procedure hai, ek-line instruction order kho degi.
+- **B** — (a) Project knowledge mein — pehli line wala rule content hai jo har brief ke liye available ho.
+- **C** — (b) Project knowledge mein — approved price list reference material hai jo har run parhna, aur AI kya jaanta wo badalta.
+- **D** — (c) standing instruction mein — har dafa chalne wali calculation har run par lagu rule hai.
+
+</details>
+
 **Answer:** A, C
 
 - ✅ **A** — Procedures go to Skills; a procedure pasted as a one-line instruction loses its steps.
@@ -798,6 +1313,22 @@ A business-analytics team builds a small internal dashboard as a Claude artifact
 - B. It is a tier problem: rerun cycle 2 on the highest tier, since a stronger model should sum the columns correctly and the error is an example of shallow reasoning.
 - C. It is a feature problem: the totals were written into the page rather than computed, so move them to code execution and check what it computed against a known column.
 - D. It is a build problem: restart the artifact from scratch with the same requests, because a defect that survives the first two cycles means the initial page was built badly.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Business-analytics team teen cycles mein Claude artifact ke taur par chhota internal dashboard banati, khud koi code nahi. Cycle 1: attached file se 5 charts, readable aur taqreeban sahi. Cycle 2: date filter aur totals row — filter chalta, magar ek analyst notice karti ek column total thoda ghalat, sirf is liye ke usay ek metric ka andaaza pata tha. Cycle 3: brand colours aur print layout, pehli dafa mein theek. Cycle 2 ko kaise theek karein? Suggestions: zyada detailed wording, stronger tier, artifact shuru se dobara. Cycle 2 mein koi error message nahi.
+
+**Sawal:** Sahi diagnosis aur fix kya hai?
+
+**Options ka matlab:**
+
+- **A** — Description masla — totals request mein columns aur rounding rule zyada detail se likho.
+- **B** — Tier masla — highest tier par cycle 2 dobara, shallow reasoning ki misaal.
+- **C** — Feature masla — totals page mein likh diye gaye, compute nahi hue; unhein code execution par le jao aur jo compute hua usay ek known column se check karo.
+- **D** — Build masla — artifact shuru se dobara, pehle do cycles se bacha defect matlab page ghalat bana.
+
+</details>
 
 **Answer:** C
 
@@ -822,6 +1353,22 @@ Six months ago a retail analyst used Claude to build a call checklist as an arti
 - C. Neither needs to move yet: add an owner to the checklist and a saved brief for the routine, since prompt-and-iterate is still adequate while the tools keep working.
 - D. The checklist should be manufactured into a Digital FTE and the routine escalated to IT, because the checklist's steps are stable and supplier queries touch outside parties.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Chhe mahine pehle retail analyst ne apni client-onboarding calls ke liye Claude se call checklist artifact banaya. Aaj teen account managers har call par isay parhte, HR ne new-hire pack mein link kiya, aur finance iska scoring output board slide mein paste karta. Alag se, usi analyst ne supplier payment queries ka jawab dene ka teen-step routine haath se chaar dafa lagataar same inputs aur layout se kiya, ab chahti colleagues uske baghair chalayein. Head of digital: dono "IT ko"; doosra director: dono "Digital FTEs"; analyst: dono ko badalne ki zaroorat nahi, "abhi prompt se chalte hain".
+
+**Sawal:** Sahi destinations kaunsi hain?
+
+**Options ka matlab:**
+
+- **A** — Dono engineering ko — jo process doosra chalaye wo infrastructure hai.
+- **B** — Checklist escalation signal cross kar chuki (doosre us par depend karte), use developer/architect expertise chahiye; routine ka method stable hai, usay Skill ya worker banao.
+- **C** — Abhi koi move nahi — checklist ka owner aur routine ka saved brief kaafi.
+- **D** — Checklist ko Digital FTE banao aur routine IT ko escalate karo.
+
+</details>
+
 **Answer:** B
 
 - ✅ **B** — Two signals with different destinations: who is exposed versus whether the method has stopped changing.
@@ -844,6 +1391,22 @@ An audit-support team at a chartered-accountancy firm redesigns its monthly regu
 - B. Average the three staff estimates to get the old figure of 90 minutes, and report the time saved against it, since the people who did the work are the best available witnesses.
 - C. Track time and revision rounds on the new process for the next quarter and report the trend as the improvement, since a trend across quarters is the standard evidence of change.
 - D. Run old and new together for two or three cycles, measuring time, revision rounds and manual steps, and judge accuracy, the metric that matters here; treat earlier estimates as estimates.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Chartered-accountancy firm ki audit-support team ne monthly regulatory-return workflow AI ke saath redesign kiya. 3 mahine baad partner ko bataya gaya "bohat waqt bachta". Purana process kabhi time nahi hua; teen staff ke andaaze 60, 90, 120 minute. Purana process documented, ek-do dafa dobara chal sakta. Return regulator ko jaata aur error par penalty, magar team ka reported faida speed hai. Partner defensible value statement aur is baat ka saboot chahta ke naya tareeqa us metric par behtar jo matter karta; andaazon ka average suggest karta.
+
+**Sawal:** Yeh evidence banane ka behtareen tareeqa kya hai?
+
+**Options ka matlab:**
+
+- **A** — Vendor ka published average time saving + firm ka pichle audit ka error rate report karo.
+- **B** — Teen andaazon ka average (90 minute) purani figure, us ke muqable mein bachat.
+- **C** — Agli quarter naye process ka time aur revision rounds track karo aur trend ko improvement kaho.
+- **D** — Do-teen cycles purana aur naya saath chalao — time, revision rounds, manual steps naapo aur accuracy judge karo (yahan wahi metric matter karta); purane andaazon ko andaaze hi samjho.
+
+</details>
 
 **Answer:** D
 
@@ -868,6 +1431,22 @@ An FDE is asked by a regional manufacturer's operations director to have an assi
 - C. 'The assistant reads and drafts a warranty check; a supervisor authorises every case, finance issues every refund, and requests mentioning legal action go straight to a supervisor with no draft.'
 - D. 'The system is fully human-controlled: nothing happens without a supervisor, so no case can ever be wrongly authorised by the assistant during the pilot.'
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** FDE ko regional manufacturer ki ops director kehti naya returns-authorisation workflow AI se map aur run karwao. Steps: customer ki return request parho; warranty policy se check; authorise karne ka faisla; refund issue. Director pilot se pehle jaanna chahti "yeh system kya NAHI karega". Pilot design: AI parhta aur draft karta; returns supervisor "decide" step mein har case authorise karta; refund sirf finance supervisor ki authorisation ke baad deta; legal action ka zikr wali requests bina draft seedha supervisor ko. Director pehle "AI sab karta hai" claims se jal chuki.
+
+**Sawal:** Exam ki professional layer ko kaunsa bayan sab se achhi tarah serve karta hai?
+
+**Options ka matlab:**
+
+- **A** — "System warranty checks par trained supervisor ke level par, supervisors aakhri safeguard ke taur par har case authorise karte."
+- **B** — "AI request se refund recommendation tak returns handle karta, supervisors approve karte — team ka zyada waqt complex cases ke liye free."
+- **C** — "AI parhta aur warranty check draft karta; supervisor har case authorise karta, finance har refund issue karta, aur legal action wali requests bina draft seedha supervisor ko."
+- **D** — "System fully human-controlled: supervisor ke baghair kuch nahi hota, pilot mein koi case ghalat authorise nahi ho sakta."
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — It says what the tool does, where the human gate is, and what the tool is built to refuse, before the client has to find out.
@@ -890,6 +1469,22 @@ A regional chain of laboratories wants an assistant to draft "priority level" re
 - B. AI-appropriate once staff are asked to type the verbal flags into the request form, since a step whose inputs are later written down passes the window test in future.
 - C. Collaborative: the assistant proposes priorities and routes them, and a supervisor reviews a random 10% sample each day, since the supervisor can correct the cases the assistant cannot see.
 - D. The input gate fails: the information that decides urgent cases cannot be put in front of the model, so the step isn't eligible for AI ownership; keep priority with a person.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Laboratories ki regional chain chahti AI aane wali test requests ke liye "priority level" recommendations draft karke route kare. Data: requests mein patient names aur test codes, aur lab ka workspace admin ne patient data ke liye approve kiya hai. Steps mechanical aur routing se pehle reversible, trial mein AI supervisor ki priority se 94% match. Regional director FDE ko batata: asal mein urgent cases wo hote jinhein senior pathologist subah ward round par zubani flag kare ya kisi named GP surgery ka phone aaye — dono kahin likhe nahi jaate aur request system tak nahi pahunchte.
+
+**Sawal:** Is step ka sahi treatment kya hai?
+
+**Options ka matlab:**
+
+- **A** — AI-appropriate: data gate pass, mechanical aur reversible, 94% match — AI routing own kare, weekly sample audit.
+- **B** — AI-appropriate jab staff zubani flags request form mein type karne lage — future mein window test pass.
+- **C** — Collaborative: AI priority propose aur route kare, supervisor roz 10% random sample review kare.
+- **D** — Input gate fail: jo information urgent cases tay karti wo model ke saamne rakhi hi nahi ja sakti, to step AI ownership ke laiq nahi; priority insaan ke paas rakho.
+
+</details>
 
 **Answer:** D
 
@@ -916,6 +1511,22 @@ Twenty minutes ago a recruitment coordinator at a Lahore staffing firm uploaded 
 - C. Delete the chat to stop the spread; record what went in and when; report through the incident path once the exposure is fully understood; state the facts plainly; then follow the incident owner's instructions.
 - D. Stop the spread; record the facts; rerun the analysis in the approved workspace so the compliant version is on record; report the incident with the corrected result; then follow the owner's instructions.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** 20 minute pehle Lahore staffing firm ki recruitment coordinator ne 340 candidates ke naam, phone aur salary expectations wali sheet personal AI account mein upload ki (company login time out ho raha tha). Kisi ko kuch nahi bheja gaya. Tab band kar di aur options soch rahi: chat delete, approved workspace mein rerun, intezaar jab tak exact exposure bata sake, ya manager ko batana. Company policy mein 5-step first-hour procedure; colleague har dafa steps alag order mein parhta. Clients regulated, contractual notification windows 72 ghante tak chhoti.
+
+**Sawal:** Kaunsi tarteeb first-hour procedure follow karti hai? (Options mein steps milte-julte, farq order aur ek-do steps ka.)
+
+**Options ka matlab:**
+
+- **A** — Phailao roko → likho kya gaya, kab, kis route se, aur aage gaya ya nahi → incident path se report → facts saaf batao → deletion aur notification par owner ki hidayat follow.
+- **B** — Phailao roko → foran incident path se report → phir likho kya gaya, kab, kis route se → facts saaf → owner ki hidayat.
+- **C** — Chat delete karke phailao roko → likho kya aur kab → exposure poori samajh aane par report → facts → owner ki hidayat.
+- **D** — Phailao roko → facts likho → approved workspace mein rerun taake compliant version record par ho → corrected result ke saath report → owner ki hidayat.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — Facts are recorded before reporting, reported without waiting for a perfect account, and deletion and notification are the owner's call.
@@ -938,6 +1549,22 @@ A logistics firm drafts the "Case" block of a Governance Record for an AI-assist
 - B. The account manager for each customer checks every delivery fact and cause against the dispatch record, and reviews tone on disputed accounts, before the report is sent on Friday.
 - C. The account manager for each customer reviews every report before Friday's send-out, taking care that it is accurate and professional and reflects the company's standards.
 - D. Before the report is sent on Friday, the account management team confirms that delivery facts and causes are accurate and that the tone on disputed accounts is appropriate.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Logistics firm bare customers ko weekly service-exception report (AI-assisted) ke Governance Record ka "Case" block likh rahi. Classification "appropriate with review". Gate aise likhna hai ke meeting se bahar ka reviewer check kar sake. Report dispatch records se draft; company har factual claim ki jawabdeh; disputed accounts par tone matter karti. Account managers Friday (send day) ko busy. Pehle masla: report ne delay ko "driver failure" kaha jabke dispatch record mein weather tha. Sirf ek wording batati kaun review kare, kya verify kare, aur kab.
+
+**Sawal:** Kaunsi wording defined gate hai?
+
+**Options ka matlab:**
+
+- **A** — Account manager har report ko dispatch record se accuracy ke liye review kare, disputed accounts par khaas dhyan, normal Friday routine ke hissa ke taur par.
+- **B** — Har customer ka account manager Friday ko bhejne se pehle har delivery fact aur cause dispatch record se check kare, aur disputed accounts par tone review kare.
+- **C** — Har customer ka account manager Friday se pehle har report review kare, dhyan rakhe ke accurate aur professional ho aur company standards reflect kare.
+- **D** — Friday ko bhejne se pehle account management team confirm kare ke delivery facts aur causes accurate hain aur disputed accounts par tone munasib hai.
+
+</details>
 
 **Answer:** B
 
@@ -962,6 +1589,22 @@ A public-health analyst has a 60,000-row spreadsheet of hospital admissions with
 - C. Split by the discriminator: for Task 1 remove names and IDs, check no mapping travels, then run; for Task 2, where identity is the substance, get the route approved first.
 - D. Abandon both tasks until compliance approves every dataset, since patient records are red-tier and a redacted copy could still leak through combinations of ward and admission date.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Public-health analyst ke paas 60,000-row hospital admissions sheet: naam, national ID, ward, admission date, length of stay. Do tasks: Task 1 — ward-wise length of stay ke monthly trends; Task 2 — ek named patient ke 14 admissions billing se reconcile karna (us patient ki ID chahiye). Department regulated personal data sirf approved routes par allow karta, aur kisi ne confirm nahi kiya workspace patient records ke liye approved hai. Colleagues: poori file red-tier, bahar rakho; incognito chat safe; code-execution sandbox kaafi (isolated). Data owner chhutti par, deadline agle hafte.
+
+**Sawal:** Kaunsa plan framework follow karta hai?
+
+**Options ka matlab:**
+
+- **A** — Dono tasks sandbox mein jaise hain — isolated execution sensitive columns ko nikalne nahi deta.
+- **B** — Naam hata kar dono tasks incognito chat mein — memory/history se bahar, aur removal reconciliation ke identifiers cover karta.
+- **C** — Discriminator se baanto: Task 1 ke liye naam aur IDs hatao, check karo koi mapping saath na jaye, phir chalao; Task 2 jahan identity hi asal cheez hai, pehle route approve karwao.
+- **D** — Dono tasks chhod do jab tak compliance har dataset approve na kare — redacted copy bhi ward + date combination se leak ho sakti.
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — Name the branch before you answer: pattern-only work takes redaction, while work that needs the identifiers needs a confirmed route first.
@@ -984,6 +1627,22 @@ A pharmaceutical distributor's HR team collected 2,100 employees' health-screeni
 - B. Whether the data can be treated as green once the names are removed, since flagging patterns of sick leave needs only counts and the names are the sensitive fields.
 - C. Whether the assistant can be classified as appropriate with review, since managers reading the flags before any conversation is the gate that resolves the governance concern.
 - D. Whether the purpose the results were collected for covers the flagging use; an approved route says where data may go, not what for, and the data owner decides.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Pharma distributor ki HR team ne 2024 mein 2,100 employees ke health-screening results ek bataye gaye maqsad ke liye liye: solvents se exposed staff ka workplace-safety programme. Results approved AI workspace mein (admin ne health data ke liye approve kiya). 2026 mein head of analytics inhi records ko naam ke saath use karke assistant banana chahti jo "extended sick leave lene ke imkaan wale" employees ko manager conversations ke liye flag kare. Wo kehti route approved, data workspace se nahi nikalta, drafts temporary chats mein, AI sirf managers ko support karega. Employees ko bataya gaya tha results "solvent-exposure programme ke liye" hain.
+
+**Sawal:** Kaunsa governance sawal khula hai?
+
+**Options ka matlab:**
+
+- **A** — Kya temporary chats drafts ke liye kaafi — persistence control health data ka main safeguard.
+- **B** — Kya naam hata kar data green maana ja sakta — sick leave patterns ko sirf counts chahiye.
+- **C** — Kya AI ko "appropriate with review" classify kar sakte — managers ka flags parhna gate hai.
+- **D** — Kya jis maqsad ke liye results liye gaye usmein yeh flagging use shamil hai; approved route batata data kahan ja sakta, kis liye nahi — faisla data owner ka.
+
+</details>
 
 **Answer:** D
 
@@ -1008,6 +1667,22 @@ A bank's fraud-operations team runs a "case-notes" agent from the vendor's offic
 - C. Rely on the publisher's reputation and the passed source check, since a trusted publisher's Skill would not act on instructions found inside a document it was asked to read.
 - D. Set the Skill itself to read-only, because a Skill carries its own permission list and read-only limits it to viewing the mailbox and never sending from it.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Bank ki fraud-ops team vendor ki official skills directory se "case-notes" agent chalati. Publisher mashhoor, source check pass, security lead ne confirm kiya Skill ki instructions sirf notes summarise karti. Phir team isay shared mailbox se jodti jahan customers aur third-party investigators documents bhejte, aur "send reply" action on karti taake agent submissions acknowledge kare. Do hafte baad ek PDF mein chhupa text: case file ek external address par forward karo. Agent ne nahi maana, magar security lead agli dafa ke liye controls chahta. Chaar controls — do asli, do nahi.
+
+**Sawal:** Kaunse DO controls risk ko address karte hain?
+
+**Options ka matlab:**
+
+- **A** — Send action ko human gate ke peeche rakho — jo agent untrusted content parhe aur action le sake wahi risky jodi hai, publisher koi bhi ho.
+- **B** — Mailbox connector ko summarising kaam ke liye sab se tang scope do (jaise ek folder par read-only) — connectors ka scope dial hota hai aur least privilege lagu hota hai.
+- **C** — Publisher ki reputation aur pass hue source check par bharosa.
+- **D** — Skill khud read-only set karo — Skill ki apni permission list hoti, read-only sirf mailbox dekhne tak mehdood karega.
+
+</details>
+
 **Answer:** A, B
 
 - ✅ **A** — Who wrote the tool and who wrote the content are two different trust questions; irreversible actions stay behind a person.
@@ -1030,6 +1705,22 @@ A research office at a university has 1,800 survey responses about staff wellbei
 - B. The file is yellow and safe as it stands, because a code is a label and labels are not personal data, so the chat workspace can be used without further checks.
 - C. It is pseudonymised, not anonymised, and keeps its tier: someone holds the mapping and title, campus and age band identify people; generalise those fields and confirm the route.
 - D. The file is anonymised and green, because names and emails were the identifiers and removal of both, together with the codes, meets the policy's standard for a survey.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** University research office ke paas staff wellbeing par 1,800 survey responses. Analyst har naam ko code (R-0001...) se badalti, emails hataati, aur code-to-name list HR shared folder mein follow-up ke liye rakhti. Phir file par "anonymised, green tier" likh kar chat workspace mein use karne lagti. Responses mein ab bhi job title, department, campus, age band aur free-text. Chhote departments mein title + campus + age band ek hi insaan pehchaanwa dete: "Sukkur campus ke Physics department ki akeli female professor" 14 comments mein. Policy: HR data default yellow, aur organisation ka apna anonymisation standard.
+
+**Sawal:** Sahi assessment kya hai?
+
+**Options ka matlab:**
+
+- **A** — File bekaar — HR survey data red-tier, HR bina AI kare.
+- **B** — File yellow aur jaisi hai safe — code sirf label hai, label personal data nahi.
+- **C** — Pseudonymised hai, anonymised nahi, tier wahi: kisi ke paas mapping hai, aur title/campus/age band log pehchaanwate — un fields ko generalise karo aur route confirm karo.
+- **D** — File anonymised aur green — naam aur emails identifiers the, dono hat gaye.
+
+</details>
 
 **Answer:** C
 
@@ -1054,6 +1745,22 @@ A university admissions office screens 4,000 scholarship applications with an AI
 - C. Publish the assistant's ranking criteria on the scholarship page, since transparency about the criteria lets excluded applicants notice and challenge an unfair outcome.
 - D. Sample exclusions as well as inclusions: pull applications from the 3,880 excluded, especially those near the cut-off and from under-represented districts, and check them against the criteria.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** University admissions office 4,000 scholarship applications AI se screen karke committee ke liye 120 ki shortlist banata. Committee shortlisted ko dhyan se parhti; chair: process "thoroughly reviewed". Coordinator dekhta shortlist ke 78% teen universities se, rural districts ke applicants taqreeban gayab. Office fairness control jodna chahta; advisor ke chaar sujhav: 120 ko aur dhyan se parho; doosra AI 120 ko re-rank kare; bahar hue 3,880 (khaas taur par cut-off ke qareeb) sample karo; AI ke ranking criteria publish karo. Kuch applicants ko pata bhi nahi automated screen use hua.
+
+**Sawal:** People question ke liye kaunsa control sab se fit hai?
+
+**Options ka matlab:**
+
+- **A** — Doosra AI 120 ko re-rank kare, dono ke top 60 mein aane wale rakho.
+- **B** — Committee 120 ko aur dhyan se parhe aur reasoning record kare.
+- **C** — AI ke ranking criteria scholarship page par publish karo — transparency se excluded applicants challenge kar sakein.
+- **D** — Shaamil hone walon ke saath bahar hone walon ko bhi sample karo: 3,880 excluded mein se, khaas taur par cut-off ke qareeb aur kam-represented districts wale, pull karke criteria se check karo.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — If review looks only at survivors, the only people positioned to notice a systematic exclusion are the ones filtered out, who were never told.
@@ -1076,6 +1783,22 @@ A team lead at a marketing agency adds an AI notetaker to a weekly customer call
 - B. The Data question was skipped too: the content is confidential, so the recording needs the same route check as any upload and the summary needs review before circulating.
 - C. The People question was skipped: everyone on the call is affected and some jurisdictions require every participant's consent, so announce the notetaker and decide disclosure by rule first.
 - D. Nothing was skipped: recording a call you are a party to is routine tooling, the summary is reviewed by the team, and a review of the summary is the only control needed.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Marketing agency ka team lead weekly customer call mein AI notetaker jodta — participant ban kar record karta aur baad mein team channel par summary post karta. Customer (listed company ki investor-relations team) ko nahi bataya gaya. Lead: tool routine hai, summary circulation se pehle team review karegi, meeting dono companies ki internal hai. Calls mein aksar unannounced results aur pricing aati. Kuch jurisdictions mein recording ke liye har participant ki consent zaroori, aur clients ke contracts mein confidentiality clauses. Agency ki policy notetakers par khamosh.
+
+**Sawal:** Kaunse DO bayan sahi hain?
+
+**Options ka matlab:**
+
+- **A** — Sirf Capability question ka gap — notetaker read-only shuru karo, kam conversation tak pahunchega.
+- **B** — Data question bhi skip hua: content confidential hai, to recording ko kisi bhi upload jaisa route check chahiye aur summary circulate hone se pehle review.
+- **C** — People question skip hua: call par har shakhs affected, kuch jurisdictions har participant ki consent maangte — notetaker announce karo aur disclosure pehle rule se tay karo.
+- **D** — Kuch skip nahi hua — jis call ka tum hissa ho uski recording routine tooling, summary review kaafi.
+
+</details>
 
 **Answer:** B, C
 
@@ -1100,6 +1823,22 @@ A regional insurer's claims director asks for a decision on using an AI assistan
 - C. Postpone the decision until a policy is written for automated screening, since acting without a governing rule creates exposure that the analyst personally carries.
 - D. Decide and document, applying the four questions and the disclosure default, since structured reasoning handles most ambiguous cases and a documented decision is the professional standard.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Regional insurer ka claims director saal ke 380,000 motor claims par possible fraud flag karne wale AI ke use par faisla chahta. Flags investigators ko jaate jo follow up karte. AI inputs mein claimant ka postcode aur vehicle age bhi. Legal team ko yaqeen nahi local law claim outcomes par asar daalne wali automated screening limit karta ya nahi, aur policyholders ko batana zaroori ya nahi. Director chahta analyst khud decide karke document kar de — "chaar sawal kaafi hain" aur "shak ho to disclose karo" sab cover karta. Compliance se poocha nahi gaya.
+
+**Sawal:** Kaunsa response framework follow karta hai?
+
+**Options ka matlab:**
+
+- **A** — Sab policyholders ko default mein disclose karke aage badho — disclosure shak door karta.
+- **B** — Faisla nahi, sawal escalate karo: population bari, nuqsan significant, aur legal point uske daaire se bahar; framework, joda gaya control aur unresolved sawal saath le jao.
+- **C** — Automated screening ki policy likhe jaane tak faisla postpone.
+- **D** — Chaar sawal aur disclosure default laga kar decide + document karo — documented faisla professional standard hai.
+
+</details>
+
 **Answer:** B
 
 - ✅ **B** — Any one of three signals is enough; a strong escalation gives the reviewer something specific to decide.
@@ -1122,6 +1861,22 @@ A team lead at a design agency audits a month of her team's AI use to see where 
 - B. Are the approved entry points and gates listed in the policy still correct; has the policy been approved by legal this year; and does each staff member hold a signed acknowledgment of it?
 - C. Which individuals used unapproved entry points; how often did each person skip a review gate; which staff enabled tools without permission; and whose work has the most errors traced to AI use?
 - D. Which AI workflows are in use; what data is really going through them; did the defined gates actually run; what tools or permissions were added; what changed in model, route, data or audience?
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Design agency ki team lead ek mahine ka AI use audit karti taake dekhe practice aur policy kahan alag hui. Team approved workspace aur kabhi personal account dono use karti; policy approved entry points aur client deliverables ke liye review gate list karti; pichle mahine ek Skill joda gaya; ek project mein client ka data involved tha. Ek colleague: individual chat logs ka hidden review, logon ka asli behaviour dekhne ke liye. Lead chahti audit process ke baare mein ho, insaan ke nahi. Chaar question sets mein se wo set chahiye jo waqai Diligence gap dhoondhe.
+
+**Sawal:** Audit questions ka kaunsa set behtareen hai?
+
+**Options ka matlab:**
+
+- **A** — Pichli quarter kaunse workflows design hue; har ek mein kaunse gates plan hue; policy par kya training hui; vendor dashboard ne total use kya bataya?
+- **B** — Policy mein listed entry points aur gates ab bhi sahi hain; is saal legal ne policy approve ki; har staff ke paas signed acknowledgment hai?
+- **C** — Kin logon ne unapproved entry points use kiye; har ek ne kitni dafa gate skip kiya; kisne bina permission tools enable kiye; kiske kaam mein AI se sab se zyada errors?
+- **D** — Kaunse AI workflows use mein hain; unmein asal mein kya data ja raha; defined gates waqai chale; kaunse tools ya permissions jodi gayin; model, route, data ya audience mein kya badla?
+
+</details>
 
 **Answer:** D
 
@@ -1146,6 +1901,22 @@ A regulated-client consultancy approved an AI-assisted workflow last March. Its 
 - C. The logo redesign, because the workflow's outputs carry the company branding and any change to them alters the disclosure the record was approved on.
 - D. The change in audience: summaries now reach the client's board, changing who is affected and the consequence of error, so the People and Case blocks need re-checking.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Regulated-client consultancy ne pichle March ek AI workflow approve kiya. Governance Record: sirf internal audience, ek model family, ek approved connector, bahar ka content nahi, low consequence. Tab se: vendor ka default model badla; summaries ab internal team ke saath client ke board ko bhi jaati; firm same IT setup ke saath naye building mein shift hui; naya colleague owner se workflow le chuka; company logo redesign hua. Owner: record approved tha aur brief text same, kuch re-check nahi chahiye. Managing partner poochta kaunsi changes re-check trigger karti.
+
+**Sawal:** Kaunsi DO changes re-check triggers hain?
+
+**Options ka matlab:**
+
+- **A** — Vendor ka default model badalna — approval purane model se judi thi, workflow ab wahi cheez nahi.
+- **B** — Same IT setup ke saath office move — location badalne se data ka route badalta.
+- **C** — Logo redesign — outputs par branding, jis disclosure par record approve hua wo badla.
+- **D** — Audience ka badalna: summaries ab client ke board tak — kaun affected aur ghalti ka nateeja dono badle, to People aur Case blocks re-check.
+
+</details>
+
 **Answer:** A, D
 
 - ✅ **A** — Approval is not a reason to skip review when the thing approved is no longer the same thing.
@@ -1168,6 +1939,22 @@ An operations analyst is completing the Evidence strip of a Governance Record fo
 - B. The account manager might skip the factual check on a busy Friday, so the residual risk is that the check is not always completed before the report is sent.
 - C. A consistent wording bias across all reports could survive each manager's individual check, so the monthly sample compares phrasing across customers as well as within each report.
 - D. None, because the account manager reviews every report and any error would be caught, so the residual risk is confined to the analyst's monthly monitoring of the reviews.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Ops analyst AI-drafted weekly service report ke Governance Record ki Evidence strip bhar rahi: "Success measure: account managers bhejne se pehle factual check poora karte. Failure threshold: koi aham AI error customer tak pahunche. Monitor: analyst, monthly. Residual risk: none, kyunke account manager har report review karta." Manager: residual risk line ghalat — jo control logon par depend kare uske liye "none" kabhi jawab nahi. Analyst: named reviewer risk khatam kar deta. Manager ko specific residual-risk line chahiye, naakami ka iqraar nahi.
+
+**Sawal:** Kaunsi residual-risk line sahi hai?
+
+**Options ka matlab:**
+
+- **A** — AI kabhi factual ghalti kar sakta, to risk yeh ke kuch reports mein review/correction se pehle errors hon.
+- **B** — Busy Friday ko account manager factual check skip kar sakta, to risk yeh ke check hamesha bhejne se pehle poora nahi hota.
+- **C** — Saari reports mein ek consistent wording bias har manager ke individual check se bach sakta, is liye monthly sample customers ke across bhi phrasing compare kare, sirf har report ke andar nahi.
+- **D** — None — account manager har report review karta, har error pakda jayega.
+
+</details>
 
 **Answer:** C
 
@@ -1192,6 +1979,22 @@ A finance operations lead wants to enable a third-party "analytics booster" Skil
 - C. Escalate to security with the specific concerns (unknown source, instructions beyond reporting, file copies) and use no real data meanwhile; a scan pass doesn't settle source, reach and fit.
 - D. Decline it permanently and tell the team never to use third-party Skills, since an unknown publisher and broad instructions show the whole category is untrustworthy.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Finance-ops lead unknown publisher ka third-party "analytics booster" Skill enable karna chahti taake monthly reporting tez ho. Iski lambi instructions reporting se kahin aage jaati (partner sources se benchmark data fetch karna, processed files ki copies "continuity ke liye" save karna), demo mein achha chalta. Wo proposal deti: ek hafte team ke asli reporting data par enable karke dekho kya karta, aur scan mein kuch malicious nahi mila. Sessions finance shared drive aur payment approvals connector tak pahunchte. Security team ki queue slow, month-end 4 din mein.
+
+**Sawal:** Framework kis nateeje ko support karta hai?
+
+**Options ka matlab:**
+
+- **A** — Ek hafte asli data par close monitoring ke saath enable — poore month-end cycle ka observed behaviour sab se reliable.
+- **B** — Shared drive par read-only enable — read-only Skill files dekh sakta, badal ya bhej nahi sakta.
+- **C** — Specific concerns (unknown source, reporting se aage instructions, file copies) ke saath security ko escalate karo aur tab tak koi asli data use mat karo; scan pass source, reach aur fit settle nahi karta.
+- **D** — Hamesha ke liye decline aur team ko kaho third-party Skills kabhi use na karein.
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — A useful idea with unresolved trust and reach goes to escalation with the unanswered question named, not to experiments on real company data.
@@ -1215,6 +2018,22 @@ A junior consultant at a Karachi firm uses Claude to draft performance-review su
 - C. Accept Claude's statement that it treated each employee independently and neutrally, and add 'be fair' to the prompt, since a stated instruction resolves any framing tilt.
 - D. Check consistency across employees, not only paragraph by paragraph: compare phrasing across the group, own the assessment, and follow the disclosure rule, since framing can tilt wording.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Karachi firm ki junior consultant apne notes se 10 team members ki performance-review summaries Claude se draft karwati aur har ek notes se dhyan se milati. HR partner baad mein side-by-side dekhta: almost same notes wale do members mein ek ko "reliable and steady", doosre ko "inconsistent and hesitant". Wo Claude se wajah poochti — jawab: "har employee ko independently aur neutrally treat kiya". Firm ki policy: employees ko batana zaroori jab AI ne unki appraisal par asar daalne wala material draft kiya ho. Colleague: prompt mein "be fair" daal kar dobara chalao.
+
+**Sawal:** Framework kya karne ko kehta hai?
+
+**Options ka matlab:**
+
+- **A** — Summaries bhej do aur employees ko batao AI ne draft kiya — disclosure unhein challenge karne deta, yahi policy ka control.
+- **B** — Kuch nahi — har paragraph notes se verified, wording ka farq performance ka farq.
+- **C** — Claude ki "neutral treat kiya" wali baat maan lo aur "be fair" jodo.
+- **D** — Sirf paragraph-by-paragraph nahi, employees ke across consistency check karo: group mein phrasing compare karo, assessment khud own karo, aur disclosure rule follow karo — framing wording ko jhuka sakti.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — A fairness check compares outputs across the affected people; each paragraph can be right while the pattern is unfair.
@@ -1237,6 +2056,22 @@ A 12-person analytics consultancy has no AI policy. A junior consultant, worried
 - B. Propose an interim one-page guide for the right owner to endorse (routes, red list, gate rule, Skill and connector review, named contact); it doesn't replace legal or contractual approval.
 - C. Wait for the law firm's policy and continue as before in the meantime, since guidance not approved by the owner creates more exposure than existing practice.
 - D. Keep the 40 clauses but relabel them 'draft' and ask staff to follow them until the partners review, since a detailed document is more defensible in a later client review.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** 12 logon ki analytics consultancy mein AI policy nahi. Junior consultant ne weekend par 40-clause policy likh kar partners ke dekhe baghair "firm ki official AI policy" keh kar circulate kar di; do clauses ek client contract se takrati. Partner naraaz; junior: koi policy na hone se kuch behtar. Ek associate: law firm ki poori policy ka intezaar; doosra: published framework hubahu apnao. Teen regulated clients. Partners chahte staff ko is hafte kuch usable mile aur uski haisiyat ke baare mein imaandari ho.
+
+**Sawal:** Aage badhne ka sahi tareeqa kya hai?
+
+**Options ka matlab:**
+
+- **A** — Aaj hi published governance framework verbatim firm policy ke taur par apna lo.
+- **B** — Sahi owner ke endorse karne ke liye interim one-page guide propose karo (routes, red list, gate rule, Skill aur connector review, named contact); yeh legal ya contractual approval ki jagah nahi leti.
+- **C** — Law firm ki policy ka intezaar, tab tak pehle jaisa.
+- **D** — 40 clauses rakho magar "draft" label kar ke partners ke review tak follow karwao.
+
+</details>
 
 **Answer:** B
 
@@ -1263,6 +2098,22 @@ A COO asks her chief of staff to shortlist three trucking providers for the Laho
 - C. A tighter Constraint line: 'consider at least five providers and rank all of them by rate', so that the assistant has less room to exclude anyone before the shortlist.
 - D. An Authority line: 'if two options tie, say so and pick by rate; do not drop a provider without telling me', stating what may be decided alone with a duty to report.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** COO chief of staff se AI ke zariye Lahore–Karachi ke liye teen trucking providers shortlist karwati. Brief: Outcome (teen compare, ek recommend), Context (20-ton monthly), Constraint (per-km rate ke andar), Deliverable (rate, transit days, link ka table), Verification ("jo confirm na ho usay unverified likho"). Table saaf aaya. Do din baad pata chala: AI ne unpublished rate wala provider chupke se nikaal diya, aur rate par tie hone par chhota transit time wala chun liya — bataye baghair. Kuch unverified mark nahi hua kyunke AI ke hisaab se usne jo kaha wo sab confirmed tha.
+
+**Sawal:** Brief mein kaunse DO izafe dono chupke faislon ko rok dete?
+
+**Options ka matlab:**
+
+- **A** — Lamba Context: "COO mashhoor providers aur chhote transit times pasand karti".
+- **B** — Verification ko omissions tak barhao: "jo bhi provider consider kiya sab list karo aur exclude sirf wajah ke saath karo" — check chhoot jaane wali cheezon ko bhi cover kare.
+- **C** — Tight Constraint: "kam az kam 5 providers consider karo aur sab ko rate se rank karo".
+- **D** — Authority line: "do options tie hon to batao aur rate se chuno; mujhe bataye baghair koi provider drop mat karo" — kya akele decide ho sakta aur report karne ki zimmedari.
+
+</details>
+
 **Answer:** B, D
 
 - ✅ **B** — Verification written before the work starts should name what will be checked, including omissions, which an 'unverified' mark cannot reveal.
@@ -1285,6 +2136,22 @@ A procurement analyst at a hospital group gives an agent in a desktop coworking 
 - B. The failure is the silent change, not the change: add an Authority line saying the agent may find a better route but must report any deviation, and compare plan to actions after each run.
 - C. Treat the plan-first step as sufficient control and simply repeat it, since a plan she edited and approved covers every action the agent later takes.
 - D. Forbid deviation from any approved plan, since an agent that finds a different route once it starts has exceeded the authority the plan granted.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Hospital group ki procurement analyst desktop coworking agent ko shared vendor master list clean karne ka kaam deti. Brief ke upar likha "apna plan list karo aur meri go-ahead ka intezaar karo". Agent ne 6 steps diye, usne ek edit kiya (alag bank accounts wale records merge mat karo), aur "go" likha. Run ke baad compare kiya: 5 steps follow hue, chhate mein agent ne same naam ki wajah se alag bank accounts wale do records merge kar diye, aur summary mein bataya bhi nahi. Wo teen lessons soch rahi: agent kabhi plan se na hate; agli dafa plan dobara maango; brief mein line jodo.
+
+**Sawal:** Framework se kaunsa lesson nikalta hai?
+
+**Options ka matlab:**
+
+- **A** — Agent ko per-action approval mode par le jao — plan ki zaroorat khatam, chupke merges rukenge.
+- **B** — Masla change nahi, chupki change hai: Authority line jodo ke agent behtar raasta dhoond sakta magar har deviation report kare, aur har run ke baad plan ko actions se compare karo.
+- **C** — Plan-first kaafi control hai, bas dohrao — edit aur approve kiya plan har action cover karta.
+- **D** — Approved plan se deviation mana karo — alag raasta dhoondna authority se bahar jaana hai.
+
+</details>
 
 **Answer:** B
 
@@ -1309,6 +2176,22 @@ A compliance analyst pastes a two-page regulator circular into an assistant with
 - C. The instruction works, so rerun the request three times and use the majority of the answers, since reruns cancel out the occasional paraphrase.
 - D. The instruction failed, so use web search to find the missing sentence and treat the assistant's third answer as correct once the search supports it.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Compliance analyst regulator ka 2-page circular paste karke likhti: "Sirf neeche ke text se teen sawalon ke jawab do. Har jawab ke liye istemal hua jumla quote karo. Text mein na ho to 'not in the source' likho." Jawab quotes ke saath aaye. Check kiya: pehla quote hubahu circular mein; doosra circular mein hai magar do lafz alag ("thirty" ki jagah "sixty"); teesra circular mein hai hi nahi. Client note aaj dopahar tak. Colleague: teen mein se do qareeb hain, chhote edits se use karo, aur instruction saabit karti AI text ke andar raha.
+
+**Sawal:** Usay kya nateeja nikalna chahiye?
+
+**Options ka matlab:**
+
+- **A** — Doosre quote mein figure badla aur teesra invented — dono unverified: circular se correct karo aur quote par tabhi bharosa jab hubahu mile.
+- **B** — Chhote edits se usable — do quotes circular mein ya qareeb, instruction dikhati AI text mein raha.
+- **C** — Instruction kaam karti hai — teen dafa chala kar majority jawab lo.
+- **D** — Instruction fail — web search se missing jumla dhoondo aur search support kare to teesra jawab sahi maano.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — A close but not exact quote means the assistant paraphrased and called it a quote; a missing one means it was invented.
@@ -1331,6 +2214,22 @@ A tender team at an engineering contractor has proposals from three cement suppl
 - B. Extract facts into one table and check several cells against each proposal; compare using only the table; score and check no criterion was added; draft and check it claims only what the steps support.
 - C. Extract the facts and compare the suppliers in one request and check the comparison; score and check the scores; then draft the recommendation and check it against the comparison.
 - D. Extract the facts into a table and compare using the table; score; draft the recommendation; then check the table, the comparison, the scores and the draft together at the end.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Engineering contractor ki tender team ke paas teen cement proposals aur criteria: price 40%, delivery reliability 35%, exit terms 25%. Sab ek request mein daal kar recommendation maangi — rawaan jawab magar ek price ghalat lagti. Lead kaam chaar steps mein todna chahti taake shuru ki ghalti chupke se aage na jaye: key facts ek table mein extract; sirf us table se compare; weighted criteria par score; recommendation draft. Aur har step ke baad check. Colleagues chaar alag orderings dete.
+
+**Sawal:** Kaunsa ordering aur check pattern course follow karta hai?
+
+**Options ka matlab:**
+
+- **A** — Pehle weighted criteria par score aur check; phir scores ne jo facts use kiye wo extract aur cells check; table se compare; draft aur claims check.
+- **B** — Facts ek table mein extract karo aur har proposal se kai cells check karo; sirf table se compare; score karo aur check karo koi criterion joda to nahi; draft karo aur check karo wo sirf wahi claim kare jo steps support karte.
+- **C** — Extract aur compare ek hi request mein, comparison check; score aur check; phir draft aur comparison se check.
+- **D** — Table mein extract aur table se compare; score; draft; phir aakhir mein table, comparison, scores aur draft sab ek saath check.
+
+</details>
 
 **Answer:** B
 
@@ -1355,6 +2254,22 @@ An analyst at a subscription-media business suspects a price rise caused a spike
 - C. 'Analyse churn in the attached export objectively and tell me honestly whether the March price increase was responsible, showing every step of your reasoning.'
 - D. 'Using the attached export and your general knowledge of subscription businesses, list the most likely causes of the March churn and rank them by how commonly they occur.'
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Subscription-media business ki analyst ko shak hai price rise se cancellations badhe. Export upload karke likhti: "Confirm karo March ki price increase ne churn badhaya, evidence dikhao." Teen persuasive charts aur paragraph aaye. Director: March mein payment-gateway outage aur competitor promotion bhi hue, aur export mein dono ka column nahi. Analyst aisa rewrite chahti jo data ko bolne de — chahe uski raaye support na ho. Chaar rewrites, sab churn, March aur export ka zikr karte.
+
+**Sawal:** Analysis ask ki guidance kaunsa rewrite follow karta hai?
+
+**Options ka matlab:**
+
+- **A** — "Attached export se March ke dono taraf chhe mahine ka plan-wise monthly churn compute karo, batao data kya dikhata aur kya nahi dikha sakta, aur doosri mumkin wajahen list karo — koi cause assume kiye baghair."
+- **B** — "Export se March ke aas paas plan-wise churn compute karo aur price increase ke haq mein sab se mazboot evidence do, doosre factors ka caveat ke saath."
+- **C** — "Churn objectively analyse karo aur imaandari se batao March ki price increase zimmedar thi ya nahi, har reasoning step dikhao."
+- **D** — "Export aur subscription businesses ki general knowledge se March churn ki sab se mumkin wajahen list karo aur kitni aam hain us hisaab se rank karo."
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — For analysis, tighten the data, definitions and exact question and loosen the conclusion; never state it.
@@ -1377,6 +2292,22 @@ A brand team at a beverage company asks an assistant for "a 600-word launch arti
 - B. Ask for the full article three times in fresh chats, choose the best of the three drafts, and then ask the assistant to improve its tone and vocabulary.
 - C. Ask for a 200-word summary, then expand it paragraph by paragraph until the article reaches 600 words, checking each paragraph for repetition against the previous one.
 - D. Switch to the strongest model and send the same request with more detail on tone and structure, since a stronger model makes fewer generic claims in a first draft.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Beverage company ki brand team ek request mein naye low-sugar cola ke liye "600-word launch article" maangti, tone, structure, length de kar. Article polished magar khokhla: "healthy refreshment" dohrata, kisi bhi cola ke baare mein ho sakta. Editor ke paas 45 minute. Wo poochti AI kamzor hai? Colleague: stronger model ke saath fresh chat. Team ka tajurba: har cheez ka pehla draft polished aur khokhla hota. Editor bina naye model ke publish-laiq article ka process chahti; chaar colleagues apne process dete.
+
+**Sawal:** Kaunsa process brainstorm-iterate loop follow karta hai?
+
+**Options ka matlab:**
+
+- **A** — Context load karo (audience, claims, competitors, kya avoid karna); kai angles maango aur do chuno; outline banao aur grade karo; bullets mein phailao; phir draft karo, named criteria par grade karo aur theek karo.
+- **B** — Teen fresh chats mein poora article maango, behtareen chuno, phir tone aur vocabulary behtar karwao.
+- **C** — 200-word summary maango, phir paragraph-by-paragraph 600 tak phailao, har paragraph repetition ke liye check.
+- **D** — Sab se strong model par same request zyada tone/structure detail ke saath.
+
+</details>
 
 **Answer:** A
 
@@ -1401,6 +2332,22 @@ A property developer's chief financial officer writes to an assistant: "Help me 
 - C. 'Here is the deal memo and my decision. What is the strongest counter-argument the board should be ready for, and what would change my decision? If the memo doesn't support it, say so.'
 - D. 'Here is the deal memo. Be critical and honest about my decision to acquire the Gulberg site, and challenge any assumptions you believe are weak.'
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Property developer ka CFO AI ko likhta: "Gulberg site khareedne ke mere faisle ka difaa karne mein madad karo. Yeh deal memo hai." AI confident, organised difaa deta — koi counter-argument nahi. Board mein do shakki directors. Colleague: AI ne bas instructions follow ki; smart model bhi risks deta. CFO aisa prompt chahta jiska jawab tareef ya wakalat se na diya ja sake, aur AI ko sab zaroori cheezein bhi mil jayein. Chaar rewrites, sab memo, site aur board ka zikr karte.
+
+**Sawal:** Kaunsa rewrite agreement ki taraf jhukaav ko sab se achhi tarah neutralise karta hai?
+
+**Options ka matlab:**
+
+- **A** — "Deal memo yeh hai. Mere faisle ko financial soundness par 1–10 score do aur board ke mumkin risks list karo."
+- **B** — "Deal memo yeh hai. Khareedne ka sab se mazboot case do, board ki mumkin kamzoriyan mukhtasar list karo, aur board ko recommendation par khatam karo."
+- **C** — "Deal memo aur mera faisla yeh hai. Board ko kis sab se mazboot counter-argument ke liye tayyar rehna chahiye, aur kya cheez mera faisla badal degi? Agar memo isay support nahi karta to batao."
+- **D** — "Deal memo yeh hai. Mere faisle par critical aur honest raho, aur jo assumptions kamzor lagein unhein challenge karo."
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — It removes the conclusion as a fixed point, asks for the strongest opposing case, and allows a negative answer.
@@ -1423,6 +2370,22 @@ A reporter at a business newsletter drafts a 900-word feature with an assistant.
 - B. Ask for one more general sweep with stricter instructions to keep every fact unchanged, and accept the result if the two softened facts are restored.
 - C. Edit in named passes: clarity (does each sentence say one thing), tone for this reader, formatting of headings and length; check figures and the headline separately; ask for two drafts and edit the stronger.
 - D. Ask the assistant to rewrite the whole feature in a different structure, then merge the best paragraphs of the old and new versions by hand in the remaining time.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Business newsletter ki reporter AI ke saath 900-word feature draft karti. Editor ka ek general note: "Make it better." Wo AI se general sweep karwati — result thoda smooth magar do naye factual softenings aur tone shift. 30 minute bache. Professional editor colleague: named passes mein edit karo aur stakes justify karein to ek se zyada draft maango. Piece bank fees par regulator ke ruling ke baare mein hai, aur do fikr wali ghaltiyan: ek misquoted figure aur headline jo ruling ko overstate karti.
+
+**Sawal:** Behtareen approach kaunsi hai?
+
+**Options ka matlab:**
+
+- **A** — Smooth version editor ko bhejo, poocho kaunse paragraphs ab bhi ghalat lagte, sirf wo theek karo.
+- **B** — Ek aur general sweep sakht instruction ke saath ke har fact same rahe; dono softened facts wapas aa jayein to accept.
+- **C** — Named passes mein edit karo: clarity (har jumla ek baat kahe), is reader ke liye tone, headings ki formatting aur length; figures aur headline alag check karo; do drafts maango aur behtar wala edit karo.
+- **D** — Poora feature naye structure mein rewrite karwao, phir purane aur naye ke behtareen paragraphs haath se milao.
+
+</details>
 
 **Answer:** C
 
@@ -1447,6 +2410,22 @@ A consultancy's practice lead is deciding which of four recurring tasks deserves
 - C. Tasks B, C and D: any task involving a repeated conversation with the same colleagues has the same background, and a Project holds the shared context.
 - D. Tasks B and C: B returns weekly and shares its background, and C returns monthly with the same background and format, so each answers yes to at least two questions.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Consultancy ka practice lead tay kar raha chaar recurring tasks mein se kis ko Project milna chahiye. Anthropic ka test teen sawal: kya task wapas aata hai, kya har dafa background same, kya har dafa output shape same; teen mein se do "haan" = Project. Task A: ek client ke liye one-off market-entry paper, unique background aur format. Task B: weekly client summary, same background, har hafte alag layout. Task C: monthly board report, same background aur same format. Task D: colleague ka ad hoc sawal email ki wording par.
+
+**Sawal:** Test ke mutabiq kin tasks ko Project milta hai?
+
+**Options ka matlab:**
+
+- **A** — Sirf Task C — Project ko teeno "haan" chahiye.
+- **B** — Tasks A aur C — dono ka apne scope mein stable background.
+- **C** — Tasks B, C aur D — same colleagues ke saath repeated conversation ka same background.
+- **D** — Tasks B aur C — B har hafte aata aur background share karta, C har mahine same background aur format ke saath; dono kam az kam do sawalon par "haan".
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — Two yes answers out of three earn a Project; a recurring task with a stable background qualifies even when the layout changes.
@@ -1469,6 +2448,22 @@ An analyst reviewing an assistant's vendor-comparison table finds Vendor C's pri
 - B. Reply 'Now correct the whole table and everything that depends on it', and accept the assistant's confirmation that all dependent figures were corrected in the reply.
 - C. Reply naming the error and its replacement everywhere it appears (table, summary, three-year cost) and ask for all three reprinted, then check each in the result, not in the assistant's description.
 - D. Rewrite the whole brief with the source price and rerun the job from the start, since a mistake that survived correction shows the original instructions were unclear.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Analyst AI ka vendor-comparison table review karti: Vendor C ki price table mein 1,090 aur summary paragraph mein bhi 1,090; source mein 1,900. Wo likhti: "Vendor C 1,900 hai, 1,090 nahi. Fix." AI: "Corrected: Vendor C ab 1,900" aur naya summary paragraph 1,900 ke saath — table dobara print nahi hua. Response mein ek teesri figure bhi — teen saal ki cost jo 1,090 se nikli. Options: poora brief rewrite, stronger model, ya "corrected" keh diya to accept. 20 minute.
+
+**Sawal:** Sab se chhota intervention jo kaam kare kaunsa hai?
+
+**Options ka matlab:**
+
+- **A** — Strongest tier par comparison dobara — teen jagah correction na lagana tier ki kamzori.
+- **B** — Reply: "Ab poora table aur us par depend karne wali har cheez theek karo", aur AI ki confirmation maan lo.
+- **C** — Reply mein ghalti aur uski jagah wali value har jagah naam karo (table, summary, three-year cost) aur teeno dobara print karwao, phir result mein khud har ek check karo, AI ki description mein nahi.
+- **D** — Source price ke saath poora brief dobara likho aur shuru se chalao.
+
+</details>
 
 **Answer:** C
 
@@ -1493,6 +2488,22 @@ A strategy analyst at a manufacturing group has four tasks and is deciding which
 - C. Task 3, finding a replacement part: an assistant can compare suppliers and prices across the web and choose the best option for her forklift model.
 - D. Task 1, finding the official tariff page: an assistant can locate any known site, and it can quote the schedule's rates while explaining how they apply to her goods.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Manufacturing group ki strategy analyst ke chaar tasks — kaunse AI se behtar, kaunse web search engine se? (1) Customs tariff schedule ka official page dhoondna — pata hai maujood hai, specific site par pahunchna hai. (2) Teen supply-chain risk frameworks aur har ek par recent evidence ko kai sources se compare karna. (3) 2018 forklift model ka replacement part kahan se khareedein — product link chahiye. (4) Teen shehron mein 4-din supplier visit plan karna, budget, travel time aur ek supplier ki holiday closures ki pabandiyon ke saath. Colleague: AI chaaron ke liye behtar, "search se smart hai".
+
+**Sawal:** Kaunse DO tasks search engine ke bajaye AI se behtar hain?
+
+**Options ka matlab:**
+
+- **A** — Task 2 — AI kai sources ko ek jagah synthesise karta, search engine bohat saari tabs parhwata.
+- **B** — Task 4 — AI kai pabandiyan ek saath integrate karta, search mein blogs, timetables, reviews haath se jodne parte.
+- **C** — Task 3 — AI web par suppliers aur prices compare karke behtareen option chun sakta.
+- **D** — Task 1 — AI koi bhi known site dhoond kar schedule ke rates quote aur explain kar sakta.
+
+</details>
+
 **Answer:** A, B
 
 - ✅ **A** — Synthesis across sources is the strength; the search route is slower.
@@ -1515,6 +2526,22 @@ A teacher commissions code from an assistant with a five-part brief (Goal, Input
 - B. Edge cases: what a blank marks cell should do is a decision about imperfect data, and leaving it out is why the script crashed on that student.
 - C. Output: the report format was not precise enough about the letter grade for bilingual students, so the assistant applied a default weighting.
 - D. Rules: the extra weighting for the practical exam is knowledge that only she has, so it had to be stated because the assistant cannot guess it.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Teacher five-part brief (Goal, Input, Output, Rules, Edge cases) ke saath AI se 200 students ke marks teen spreadsheets se grade karne ka code likhwati. Pehla script do tarah fail: khaali marks cell wale student par crash; aur bilingual students ka pass mark ghalat weighting se kyunke school practical exam ko extra weight deta jo usne bataya hi nahi. Goal, Input aur Output complete aur precise the. Colleague: beginners aam taur par paanch mein se do sections chhodte — ek mein wo hota jo sirf tum jaante ho, doosra tay karta imperfect data ke saath kya ho.
+
+**Sawal:** Kaunse DO sections chhoote ya kam specify hue?
+
+**Options ka matlab:**
+
+- **A** — Input — spreadsheets ka description nahi batata marks kis column mein, is liye blank cell par fail.
+- **B** — Edge cases — blank marks cell ke saath kya karna imperfect data ka faisla hai; yeh na hona crash ki wajah.
+- **C** — Output — bilingual students ke letter grade ke baare mein report format kaafi precise nahi tha.
+- **D** — Rules — practical exam ki extra weighting sirf usay pata hai, likhni zaroori thi kyunke AI andaaza nahi laga sakta.
+
+</details>
 
 **Answer:** B, D
 
@@ -1539,6 +2566,22 @@ An owner of a Multan distribution firm uploads twelve months of expense data and
 - C. The reply that gives the monthly totals with a short explanation in plain English of how fuel costs are usually summed and reports 6.41 million as the annual figure.
 - D. The reply that gives the monthly totals with a note that the analysis covered the full year, that amounts were summed by month, and that the annual total is about 6.41 million.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Multan distribution firm ki owner 12 mahine ka expense data upload karke AI se fuel costs month-wise total karwati. Accountant ke comparison test mein chaar candidate replies aate, sab ka annual total PKR 6.41 million. Wo jaanna chahti kaunsa reply waqai dikhata ke file par code chala, sirf nazar nahi daali — number lender ko quote hoga. Accountant: pehchaan number ke ilawa reply mein kya hai. Chaaron mein monthly totals ka table aur trend par ek jumla hai.
+
+**Sawal:** Kaunsa reply dikhata hai ke code chala?
+
+**Options ka matlab:**
+
+- **A** — Jo code dikhata, batata 2,431 rows aur date, category, amount columns parhe, monthly totals computed report karta, aur 14 blank-date rows list karta.
+- **B** — Jo kehta totals par high confidence hai, distribution fleet ki typical fuel consumption se cross-check kiya, aur 6.41 million.
+- **C** — Jo monthly totals ke saath plain English mein batata fuel costs aam taur par kaise sum hoti, aur 6.41 million.
+- **D** — Jo monthly totals ke saath note deta analysis poore saal ka tha, amounts month-wise sum hue, aur annual ~6.41 million.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — A code block, row counts, column names and a statement of what was computed are the evidence; a reply without them is an opinion about your data.
@@ -1561,6 +2604,22 @@ An FDE is designing a tutoring agent for a school network and drafts three state
 - B. Statement 1 is a performance description: it defines how the agent behaves toward students on its own, and at system scale it belongs in a permanent instruction such as a system prompt.
 - C. Statement 2 is a process description: it defines the order of work, and a reusable, ordered method like this is what a Skill file packages.
 - D. Statement 3 is a performance description, because a feedback note is delivered to students and therefore defines how the agent behaves toward them.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** FDE school network ke tutoring agent ki specification ke teen statements likhti. 1: "Student ke koshish karne se pehle agent kabhi jawab na de." 2: "Student ki working pehle correctness, phir method, aakhir mein presentation ke liye review karo." 3: "Mark, do strengths aur ek improvement ke saath plain language mein one-page feedback note banao." Framework farq karta: kya karna (product), kaam kaise approach karna (process), aur agent un logon ke liye kaise behave kare jo tum nahi aur instruction kabhi nahi dekhenge (performance). Specification 3,000 students ko deploy, har session mein persist.
+
+**Sawal:** Kaunsi DO classifications sahi hain?
+
+**Options ka matlab:**
+
+- **A** — Statement 2 product description — assistant ko karna wala check specify karta, aur product description output par lagu saare checks cover karti.
+- **B** — Statement 1 performance description — agent students ke saath akele kaise behave kare; system scale par permanent instruction (jaise system prompt) mein.
+- **C** — Statement 2 process description — kaam ka order define karta, aur aisa reusable ordered method hi Skill file package karti.
+- **D** — Statement 3 performance description — feedback note students ko milta, is liye behaviour define karta.
+
+</details>
 
 **Answer:** B, C
 
@@ -1587,6 +2646,22 @@ A telecom's support-operations manager has three jobs to assign on Claude. Job X
 - C. X on the top tier; Y on the mid tier; Z on the small, fast tier, with thinking switched on for Z to compensate for the smaller model.
 - D. X on the mid tier; Y on the small, fast tier; Z on the top tier, with thinking left off because it costs extra tokens on long documents.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Telecom ki support-ops manager ke teen jobs. X: 9,000 chhote tickets ko 6 fixed categories mein relabel — high volume, low depth, speed aur cost ahem. Y: roz ka internal updates drafting/summarising. Z: 140-page network-sharing agreement jiski clauses ek doosre ko cross-reference karti, poora structure ek saath coherent rakhna. Ladder: fast sasta → middle → top model; thinking alag switch. Deputy ki chaar allocations, sab har tier ek dafa use karti, sirf kaunsa job kis tier par ka farq. Colleague: Z ke liye "Thinking model".
+
+**Sawal:** Kaunsi allocation course ki selection logic follow karti hai?
+
+**Options ka matlab:**
+
+- **A** — X small fast tier; Y mid-tier default; Z top tier — thinking ek switch jis par ghaur karna, model ka naam nahi.
+- **B** — X small fast; Y top tier; Z mid tier; Y par thinking on kyunke updates executives ko jaate.
+- **C** — X top tier; Y mid; Z small fast, Z par thinking on taake chhote model ki kami poori ho.
+- **D** — X mid; Y small fast; Z top tier, thinking off kyunke lambe docs par extra tokens.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — Drop down for bulk low-depth work, default to the middle, escalate up for depth.
@@ -1609,6 +2684,22 @@ A policy consultant has kept one Claude chat open for 20 working days while draf
 - B. Every turn re-reads the whole transcript, so cost and dilution grow, and a larger window buys room, not attention: summarise decisions and rules, restart fresh, and put standing material in a project.
 - C. Because the model is stateless nothing carries over, so the cost is flat; the drift is random and restarting would lose the report's continuity, so keep stretching the chat.
 - D. The assistant stores memory of the chat between turns, so delete the earliest messages to free space and rely on that memory to keep the decisions and spelling rule.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Policy consultant ne 200-page report draft karte hue 20 working days ek hi Claude chat khuli rakhi — har naya draft, appendices, darjanon Q&A. Usage allowance har hafte jaldi khatam, replies slow, aur AI ne haal mein pehle message wali spelling convention chhod di. Ek colleague: model stateless hai, "kuch carry nahi hota to cost nahi badh sakti"; doosra: naya bara context window model restart ki zaroorat khatam karta. Manager model ke kaam karne ke hisaab se restart vs stretch par reasoned recommendation chahta.
+
+**Sawal:** Kaunsi explanation aur recommendation sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Bara context window cost aur bhoolna dono khatam karta — upgrade karo, same chat jaari rakho.
+- **B** — Har turn poora transcript dobara parhta, is liye cost aur dilution badhte, aur bara window jagah deta hai, attention nahi: decisions aur rules summarise karo, fresh restart karo, aur standing material project mein rakho.
+- **C** — Stateless hai, kuch carry nahi hota, cost flat; drift random, restart se continuity khoegi — chat khenchte raho.
+- **D** — AI turns ke beech chat ki memory store karta — purane messages delete karo aur memory par bharosa.
+
+</details>
 
 **Answer:** B
 
@@ -1633,6 +2724,22 @@ A strategy director at a consumer-goods company sends four requests this morning
 - C. P to web search; Q to thinking; R to research; S to connected apps or workplace search.
 - D. P to web search; Q to thinking; R to research; S to web search.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Consumer-goods company ki strategy director subah chaar requests bhejti. P: note ke liye aaj ka PKR–USD rate. Q: attached figures se teen pricing strategies ka comparison, mushkil hissa trade-off reasoning. R: cold-chain logistics market ki thorough, cited investigation board committee ke liye. S: latest approved pricing policy jo company ke apne document systems mein. Colleague: sab ke liye research mode. Chaar allocations, har ek chaaron routes use karti: web search, thinking, research, connected apps/workplace search.
+
+**Sawal:** Kaunsi allocation sahi hai?
+
+**Options ka matlab:**
+
+- **A** — P web search; Q research; R thinking; S connected apps/workplace search.
+- **B** — P research; Q thinking; R web search; S connected apps/workplace search.
+- **C** — P web search; Q thinking; R research; S connected apps/workplace search.
+- **D** — P web search; Q thinking; R research; S web search.
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — One current fact is a search; reasoning over supplied figures is thinking; a cited multi-source investigation is research; internal information needs connected apps.
@@ -1655,6 +2762,22 @@ A consulting firm wants to capture how it writes board papers (an eight-section 
 - B. Package it as a Skill: an owner enables sharing, colleagues get view-only copies that update with the original, and the open-standard SKILL.md travels, though each product's install and permissions need checking.
 - C. Package it as a Skill and email the folder to all 60 staff, who each install their own copy, which then updates when the partner edits the original.
 - D. Build a custom GPT: colleagues open the same assistant, the partner's edits update it, and the instructions travel to any vendor's tools that read GPT configurations.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Consulting firm apna board papers likhne ka tareeqa (8 sections) 60 staff ko dena chahti. Staff browser mein Claude, kuch doosre vendor ka coding agent; agle saal chat product badal sakta. Team plan par. Teen ideas: custom GPT, template wala Project, Skill. Knowledge partner: Skill organisation directory se share ho, sharing default off hai aur owner enable kare, colleagues ko view-only copies milengi. Colleague poochta partner baad mein original behtar kare to kya hoga, aur kya method doosre vendor ke agent tak jayega.
+
+**Sawal:** Kaunsa bayan sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Project use karo — har colleague duplicate kare, original ki edits har copy tak, har projects-supporting product same apply kare.
+- **B** — Skill bana do — owner sharing enable kare, colleagues ko view-only copies milein jo original ke saath update hon, aur open-standard SKILL.md travel karta, magar har product ka install aur permissions check karna hoga.
+- **C** — Skill bana kar folder 60 staff ko email karo, har koi apni copy install kare jo original edit hone par update ho.
+- **D** — Custom GPT — sab same assistant kholein, partner ki edits update karein, aur instructions GPT configurations parhne wale kisi bhi vendor tak jayein.
+
+</details>
 
 **Answer:** B
 
@@ -1679,6 +2802,22 @@ An operations lead at a regional bank wants an assistant to pull daily card-disp
 - C. Is the vendor large enough to be trusted: a well-known publisher removes the need to ask what the connector can read or do in the account.
 - D. Does the connector use the standard plug: if it speaks MCP, then its access is the same as any other MCP tool's and needs no separate decision.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Regional bank ki ops lead chahti AI CRM se daily card-dispute counts nikaale. Supported connector hai magar admin ko enable karna, ek hafta. Uska jaldi wala idea: browser extension jo staff member ke logged-in Chrome mein chal kar CRM khole aur numbers copy kare. Colleague: "MCP bas AI tools ka USB-C hai, connect karna routine". Policy: narrowest practical access; connector admin enable karne se pehle chaar permission sawal poochega. Wo jaanna chahti lambi list mein se kaunse do un chaar sawalon mein aate.
+
+**Sawal:** Tool connect karne se pehle poochne wale chaar sawalon mein se kaunse DO hain?
+
+**Options ka matlab:**
+
+- **A** — Yeh kya parh sakta: jahan chalta aur jis account se juda, wahan kaunsa data, files aur systems tak pahunch sakta.
+- **B** — Kya yeh likh, bhej, delete ya khareed sakta: user ki taraf se doosre system mein consequential, mushkil-se-reverse actions le sakta ya nahi.
+- **C** — Kya vendor itna bara hai ke bharosa ho — mashhoor publisher ke baad yeh poochna ghair-zaroori ke connector kya parh ya kar sakta.
+- **D** — Kya connector standard plug use karta — MCP bolta hai to access doosre MCP tools jaisa, alag faisla nahi chahiye.
+
+</details>
+
 **Answer:** A, B
 
 - ✅ **A** — The first question is about reach.
@@ -1701,6 +2840,22 @@ A compliance manager schedules a weekly cloud task compiling a regulator digest 
 - B. The runs succeeded, since a completed status means every section was fetched, and the empty local section means the folder had no new material on those Mondays.
 - C. The cloud clock ran but the bridged tool went offline with the workstation; schedules are device-independent only if every tool is reachable, so use cloud storage or an always-on local session.
 - D. The schedule is broken because cloud tasks cannot use a desktop bridge; reinstall the bridge and reconnect the folder before the next Monday's run.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Compliance manager weekly cloud task schedule karti jo do sources se regulator digest banata: connector se cloud drive, aur vendor ke desktop bridge se office workstation ka folder. Do Mondays jab wo chhutti par thi aur workstation band tha, run "completed" magar local section khaali. Vendor page: schedules "cloud mein chalte". Colleague: bridge sahulat hai, custody ka loophole nahi, aur cloud vs local ka sawal yeh hai ke har tool kahan execute hota. Options: local folder cloud storage mein le jao, schedule rakho aur reminder jodo, ya always-on machine par task chalao.
+
+**Sawal:** Kaunsi reading aur faisla sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Design rakho aur har Sunday workstation on karne ka reminder — bridge folder dega, cloud schedule kaafi.
+- **B** — Runs kaamyab — completed status matlab har section fetch hua, khaali section matlab naya material nahi tha.
+- **C** — Cloud ki ghari chali magar bridged tool workstation ke saath offline ho gaya; schedule device-independent tabhi jab har tool pahunch mein ho — cloud storage ya always-on local session use karo.
+- **D** — Schedule toota hua — cloud tasks desktop bridge use nahi kar sakte; bridge reinstall karo.
+
+</details>
 
 **Answer:** C
 
@@ -1725,6 +2880,22 @@ A finance analyst needs an agent to pull figures from a supplier's web portal th
 - C. Use the built-in browser for both, and give it her expenses-site login for the second page, since a single tool is simpler to govern than two.
 - D. Use the Chrome extension for both, since it works in her own context and reaches only what she can already see, which makes it the narrowest option for both pages.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Finance analyst ko agent se do jagah figures nikalwani: ek supplier web portal jiska koi connector nahi, aur uske apne Chrome mein khula page jahan wo company ki expenses site par logged in hai. Do tools: vendor ka built-in browser (desktop app ka hissa, delegated kaam ke liye apna alag browser) aur Chrome extension jo uske existing signed-in browser context mein chalta. Security guidance: kaam kar sakne wala sab se structured tool aur sab se chhota scope. Kaunsa tool kis page ke liye, aur kis baat ka dhyan?
+
+**Sawal:** Kaunsa choice guidance follow karta hai?
+
+**Options ka matlab:**
+
+- **A** — Bina connector wale portal ke liye built-in browser, aur Chrome extension sirf us page ke liye jo uske saamne hai — yaad rakhte hue ke wo uske signed-in session ki sensitivity inherit karta.
+- **B** — Dono ke liye full computer use — koi bhi screen click, login state ya connector par depend nahi.
+- **C** — Dono ke liye built-in browser, doosre page ke liye usay expenses-site login de do — ek tool govern karna aasaan.
+- **D** — Dono ke liye Chrome extension — uske apne context mein, sirf wahi dekhta jo wo pehle se dekh sakti, sab se narrow.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — Choose the browser path by what the work touches; a signed-in session brings its whole reach with it.
@@ -1747,6 +2918,22 @@ A shared-services team is assigning autonomy modes in a desktop coworking produc
 - B. W1 in Auto, since the safety classifier screens each action and will block the irreversible form submission if it is unsafe, without the interruptions of Manual.
 - C. W2 in Skip, since a proven job that needs no interruptions gains most from removing every check, and Auto's extra usage cost is avoided.
 - D. W1 in Manual, with plan-first written into the brief, since the workflow is new, unfamiliar and includes an irreversible action.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Shared-services team desktop coworking product mein autonomy modes de rahi. W1: bilkul naya workflow, anjaan vendor portal, ek form submission jo wapas nahi hoti. W2: proven, bounded weekly reporting job, kai dafa dekha, ghalat output aasani se theek, interruptions mehngi. W3: bare shared folder ka experimental clean-up, agents mein naya banda. Options: Manual, Auto, Skip. Lead: Auto ka extra safety check zyada usage khaata, aur Manual khud plan nahi banata — plan-first brief mein likhna parta.
+
+**Sawal:** Kaunse DO assignments sab se behtar match hain?
+
+**Options ka matlab:**
+
+- **A** — W3 Manual mein — newcomer bare shared folder par consequential actions approve kare, aur deletions recycle bin skip kar sakti.
+- **B** — W1 Auto mein — safety classifier har action screen karke unsafe irreversible submission block karega, Manual ki interruptions ke baghair.
+- **C** — W2 Skip mein — proven job ko har check hatane se sab se zyada faida, Auto ki extra usage bhi bachti.
+- **D** — W1 Manual mein, brief mein plan-first likh kar — workflow naya, anjaan aur irreversible action wala.
+
+</details>
 
 **Answer:** A, D
 
@@ -1771,6 +2958,22 @@ A clinic group's manager wants a coworking agent in the vendor's cloud, with a d
 - C. Proceed on the strength of the competitor clinic's identical setup, since an industry peer using the product is evidence that the surface is approved for health data.
 - D. Stop and get a written compliance answer for this exact surface, including the agreement the vendor must sign; availability isn't permission and a bridge doesn't move the cloud's processing.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Clinic group ki manager vendor ke cloud mein coworking agent + desktop bridge chahti jo patient discharge summaries ka folder parh kar follow-up letters draft kare. Wo kehti: Enterprise plan hai, "Enterprise matlab health data ke liye approved", files clinic ke computers par rehti kyunke bridge sirf parhta, aur Manual mode isay safe kar dega. Compliance officer se poocha nahi, business associate agreement ki baat nahi hui. Letters mein diagnoses ke saath patient names. Competitor clinic bhi yahi setup use karti.
+
+**Sawal:** Kisi bhi upload se pehle sahi qadam kya hai?
+
+**Options ka matlab:**
+
+- **A** — Patient names hata kar Enterprise par aage — removal health-privacy obligation khatam karta.
+- **B** — Manual mode on karke aage — har action par approval use compliant banati, bridge files clinic ki machines par rakhta.
+- **C** — Competitor ke same setup ki buniyad par aage — industry peer ka use evidence hai ke surface approved hai.
+- **D** — Ruko aur isi exact surface ke liye written compliance jawab lo, us agreement samet jo vendor ko sign karna hoga; available hona permission nahi aur bridge cloud ki processing ko nahi hataata.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — Regulated work needs the written answer before the upload, not after.
@@ -1793,6 +2996,22 @@ A packaging-firm inventory analyst uploads a photo of a warehouse shelf and asks
 - B. Accept the codes but ask the assistant to spell each one out letter by letter, since spelling out forces the model to see individual characters in the image.
 - C. Escalate to the top tier with thinking on and ask it to read each code twice, since reasoning improves accuracy on fine detail and repeated reads will remove the misreads.
 - D. Treat character-exact reading and counting as a weak spot at any tier: have codes transcribed and checked against the label, count with code, and verify a sample against the physical labels.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Packaging firm ki inventory analyst warehouse shelf ki photo upload karke AI se chhote labels par chhape 14-character batch codes parhwati. Saare 22 labels ke confident codes aaye; spot check mein chaar mein ek character badla ya ghalat parha gaya. Phir codes mein letter Z kitni dafa aata gintwaya — count teen se ghalat. Manager: top tier + thinking. Colleague: tasveeren patches mein kat kar tokens banti hain jaise text tokens banta, aur exact character-level kaam model ke liye ghair-fitri hai.
+
+**Sawal:** Behtareen approach kya hai?
+
+**Options ka matlab:**
+
+- **A** — Har code par AI se confidence report karwao, sirf uncertain wale manually check.
+- **B** — Codes maan lo magar har ek letter-by-letter spell karwao — spelling individual characters dikhne par majboor karti.
+- **C** — Top tier + thinking, har code do dafa parhwao — reasoning aur repeat misreads hata denge.
+- **D** — Character-exact reading aur counting ko har tier par kamzori samjho: codes transcribe karwa kar label se check karo, counting code se karo, aur physical labels se sample verify karo.
+
+</details>
 
 **Answer:** D
 
@@ -1817,6 +3036,22 @@ A team lead at a consultancy has been using the top tier for all client-facing w
 - C. The rule is sound, because a client-facing error costs more than an internal one, so the top tier should be used for every task that reaches a client regardless of complexity.
 - D. Selection follows task complexity, not audience: the template reformat doesn't need the top tier and the four-source synthesis does, whoever the audience is.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Consultancy ki team lead "client-facing matlab top" rule par saara client-facing kaam top tier par aur baaqi sab chhote tier par karti; usage allowance mahine ke beech khatam. Trainer: yeh aam ghalatfehmi hai; exam ka objective model selection ko task requirements (cost, speed, quality) se align karna hai, naam ratna nahi, kyunke naam har kuch mahine badalte. Do client-facing tasks: agreed findings ko client ke template mein reformat karna, aur chaar takrate regulatory sources ko ek coherent recommendation mein synthesise karna.
+
+**Sawal:** Kaunse DO bayan sahi hain?
+
+**Options ka matlab:**
+
+- **A** — Pakka objective ladder logic hai (default middle, bulk ke liye neeche, depth ke liye upar); model names labels hain jo agla edition badal dega.
+- **B** — Exam naam test karta — Haiku, Sonnet, Opus yaad karo aur ranking same maano.
+- **C** — Rule theek — client-facing error mehnga, har client task top tier par chahe complexity kuch ho.
+- **D** — Selection task complexity se hota, audience se nahi: template reformat ko top tier nahi chahiye aur four-source synthesis ko chahiye, audience koi bhi ho.
+
+</details>
+
 **Answer:** A, D
 
 - ✅ **A** — The logic survives the next rotation; the specific names do not.
@@ -1839,6 +3074,22 @@ A pair of associates at an advisory firm evaluate two assistants on a real task 
 - B. Run the same task in a third assistant and pick the one that at least two of the three outputs agree with, since majority agreement is the best test of quality.
 - C. Pick the assistant whose output was longer and better formatted as the standard, since a single real-task comparison on the firm's own work is the most reliable ranking available.
 - D. Treat it as platform awareness, not a ranking: record what each did and what each said it lacked, use the missing-context lists to improve the brief, and re-run periodically.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Advisory firm ke do associates hafte ke asli task par do AIs evaluate karte: client file se 2-page risk summary. Dono mein same request, outputs compare, phir course ke mutabiq har AI se teen jumlon mein poocha kaunsa extra context madad karta. Pehle ka jawab thoda lamba aur behtar formatted; doosre ki missing-context list zyada tez. Ek associate: ab "winner" chuno aur standardise karo. Doosra: yeh ek din ke do runs ka record hai, models tezi se badalte, aur doosra comparison aam taur par zyada sikhata.
+
+**Sawal:** Course se kaunsa nateeja nikalta hai?
+
+**Options ka matlab:**
+
+- **A** — Tez missing-context list wala chuno — jo bata sake kya kami hai wo zyada trustworthy.
+- **B** — Teesre AI mein same task, jis se do outputs agree karein wo chuno.
+- **C** — Lamba aur behtar formatted output wala standard — firm ke apne kaam par ek real-task comparison sab se reliable ranking.
+- **D** — Isay platform awareness samjho, ranking nahi: record karo har ek ne kya kiya aur kya kami batayi, missing-context lists se brief behtar karo, aur waqtan fawaqtan dobara chalao.
+
+</details>
 
 **Answer:** D
 
@@ -1865,6 +3116,22 @@ A finance team built a Skill for month-end client summaries, and it has two symp
 - C. Add a negative trigger to the description, such as 'Do not use for one-off calculations or quick questions', so it stops taking over unrelated requests.
 - D. Rewrite the description as what it does, when to use it and the exact phrases people say ('client summary', 'monthly close'), so it fires on the right requests.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Finance team ka month-end client summaries Skill do symptoms dikhata. "prepare the March summary for DEMO Trading" par kabhi start nahi hota. "quickly total these three numbers" par start ho kar 4-section month-end report bana deta jo kisi ne nahi maangi. Description: "Helps with reports." Author body mein 300 words rules jod chuka — asar nahi; ab folder rename ya Skill client Project mein le jaana soch raha. Colleague: AI sirf description nazar mein rakhta aur match hone par instructions kholta; aur ek line yeh bhi keh sakti kab Skill use NA karna.
+
+**Sawal:** Kaunsi DO edits dono symptoms theek karti hain?
+
+**Options ka matlab:**
+
+- **A** — Instruction body mein 4 sections ke aur detailed rules — AI match decide karte waqt poora Skill parhta.
+- **B** — Folder "month-end-client-summary" rename karke client Project mein le jao — Project sirf sahi requests par load karega.
+- **C** — Description mein negative trigger jodo, jaise "one-off calculations ya quick questions ke liye use mat karo" — unrelated requests par qabza rukega.
+- **D** — Description dobara likho: kya karta, kab use karna, aur log exact kaunse phrases bolte ("client summary", "monthly close") — sahi requests par fire hoga.
+
+</details>
+
 **Answer:** C, D
 
 - ✅ **C** — A negative trigger helps when a Skill fires too eagerly.
@@ -1887,6 +3154,22 @@ A principal at a Karachi advisory firm asks her assistant, as the course suggest
 - B. Decide keep, correct or delete for each item, monthly and when roles change; use incognito for sensitive subjects, remembering it is memory-free not trace-free and organisation retention and exports still apply.
 - C. Switch memory off permanently and use ordinary chats for everything, since memory-off means that nothing about the principal or her clients is retained anywhere in the system.
 - D. Keep memory and use incognito for everything client-related, since incognito chats are excluded from history and from organisational retention and cannot appear in exports.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Karachi advisory firm ki principal course ke mutabiq AI se kehti "jo tum mere baare mein yaad rakhte ho plain list mein dikhao". List mein: chhote jawab ki preference; "Clifton lease renewal negotiate kar rahi" (deal March mein close ho chuki); ek chat mein ek dafa zikr hua client ka confidential acquisition target; aur ek purane colleague ke baare mein comment jo shared screen par na chahe. Memory on, firm organisation plan par. Wo soch rahi memory off kare, sensitive matters ke liye incognito, ya bas prune. Colleague: memory-off matlab kahin kuch retain nahi.
+
+**Sawal:** Sahi approach kaunsi hai?
+
+**Options ka matlab:**
+
+- **A** — Sirf do sensitive items delete, baaqi rakho; saal mein ek dafa annual policy review ke saath memory check.
+- **B** — Har item ke liye keep/correct/delete ka faisla — har mahine aur roles badalne par; sensitive subjects ke liye incognito, yaad rakhte hue ke wo memory-free hai trace-free nahi, aur organisation retention aur exports phir bhi lagu.
+- **C** — Memory hamesha ke liye off, sab ordinary chats — memory-off matlab kahin kuch retain nahi.
+- **D** — Memory rakho aur client ka sab incognito mein — incognito history aur organisational retention se bahar, exports mein nahi aata.
+
+</details>
 
 **Answer:** B
 
@@ -1911,6 +3194,22 @@ A Project called "Quarterly Board Reporting" holds last quarter's financial mode
 - C. The style guide is the cause: it carries last quarter's example figures, so the review question is whether examples in the guide have been replaced each quarter.
 - D. The model file is stale configuration: nothing errors and the assistant can't tell it is old; the question is whether every source the Project reads is still current, checked by reading each date.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** "Quarterly Board Reporting" Project mein pichli quarter ka financial model, style guide aur tone ki standing instructions. Is quarter ka deck khoobsurat magar har jagah pichli quarter ki revenue aur margins. Associate: AI ko "notice karna chahiye tha" kyunke naye figures chat mein paste kiye. Owner ne mahino se Project nahi khola. Review mein chaar mumkin wajahen: standing instructions, style guide, financial model file, chat ki context length. Team ek sab se mumkin wajah aur wo review sawal chahti jo isay sab se pehle pakadta.
+
+**Sawal:** Kaunsi wajah aur review sawal behtareen hain?
+
+**Options ka matlab:**
+
+- **A** — Context length — pasted figures pehle ke text se window se bahar dhakel diye gaye; sawal: conversation kitni lambi chali.
+- **B** — Standing instructions — pasted figures prefer karne ka rule nahi; sawal: instructions har numbers source cover karti hain?
+- **C** — Style guide — usmein pichli quarter ke example figures; sawal: guide ke examples har quarter badle gaye?
+- **D** — Model file stale configuration hai: koi error nahi aata aur AI nahi bata sakta wo purani hai; sawal: kya Project jo bhi source parhta sab ab bhi current hain — har ek ki date parh kar check.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — Stale configuration is the one that fails silently; a scheduled review of the Project's files finds it.
@@ -1933,6 +3232,22 @@ A legal department's Claude Project holds 500 pages of policies as knowledge, pl
 - B. Instructions load into the window every time while a large knowledge base is retrieved on demand: keep always-apply rules short in the instructions, and point questions at the relevant document.
 - C. Move all 500 pages into the instructions, since text in the instructions is always available and the assistant will then apply every rule in the policies consistently.
 - D. Leave everything in knowledge and ask the assistant to read all 500 pages before each answer, since retrieval only misses rules when the assistant has not been told to read them.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Legal department ke Claude Project mein 500 pages policies knowledge ke taur par, aur chhoti project instructions. Users: AI kabhi knowledge files mein likha rule miss karta, magar instructions wala rule "2015 se purana case kabhi cite mat karo" hamesha follow karta. Admin: jab project knowledge context window se bari ho jaye to product sab load karne ke bajaye search karke relevant hisse laata. Head of legal chahta missed rules reliably follow hon, aur poochta har kism ka rule kahan belong karta. Colleague: saare 500 pages instructions mein daal do.
+
+**Sawal:** Kaunsi explanation aur change sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Instructions delete karo, sirf knowledge rakho — do sources conflict banate.
+- **B** — Instructions har dafa window mein load hoti jabke bari knowledge base on-demand retrieve hoti: hamesha-lagu rules instructions mein chhote rakho, aur sawalon ko relevant document ki taraf point karo.
+- **C** — Saare 500 pages instructions mein — wahan text hamesha available.
+- **D** — Sab knowledge mein rakho aur AI se har jawab se pehle 500 pages parhwao.
+
+</details>
 
 **Answer:** B
 
@@ -1957,6 +3272,22 @@ An analyst is explaining how the assistant uses a Skill, and draws four statemen
 - C. Statement 4: Skill scripts run in the background and hold their results in the window, so Skills carry state from one request to the next within a chat.
 - D. Statement 2: progressive disclosure keeps a short description of each Skill in view, loads instructions on a match, and opens references only when needed, so dozens of Skills don't slow anything.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Analyst colleague ko samjhati AI Skill kaise use karta, whiteboard par chaar bayan. 1: poori SKILL.md (saari instructions) hamesha window mein, lambe Skills sab slow karte. 2: sirf frontmatter (name, description) nazar mein, request match hone par instructions load, detailed reference files sirf zaroorat par. 3: AI har installed Skill ki instructions parh kar relevant chunta. 4: Skill ke scripts background mein lagataar chalte aur results window mein rakhte. Kaunsa sahi aur yeh team ko darjanon Skills install karne kyun deta?
+
+**Sawal:** Kaunsa bayan sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Bayan 1 — poori SKILL.md window mein har instruction consistently lagwati, kai Skills par slow.
+- **B** — Bayan 3 — AI har Skill ki instructions parhta, is liye precise description kam ahem.
+- **C** — Bayan 4 — scripts background mein chal kar results rakhte, Skills requests ke beech state le jaate.
+- **D** — Bayan 2 — progressive disclosure har Skill ki chhoti description nazar mein rakhta, match par instructions load, references sirf zaroorat par; is liye darjanon Skills kuch slow nahi karte.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — The frontmatter is the only part always loaded; it decides relevance.
@@ -1979,6 +3310,22 @@ A strategy consultant uses one vendor's assistant with its memory feature, proje
 - B. Rely on the semantic memory, exporting it as a text file when she leaves, since memory is designed to be portable and readable across vendors.
 - C. Copy the chat transcripts of her old sessions into the new product, since session history is the assistant's record of what it knows about her and travels with the text.
 - D. Recreate her standing instructions from memory in the new product and skip the files, since instructions are the only layer that affects behavior in a new workspace.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Strategy consultant ek vendor ka AI memory feature, project files aur saved instructions ke saath use karti; client ki wajah se doosre vendor par jaana hai. Fikr: AI jo "uske baare mein jaanta" kho jayega. Colleague: state spine ki kai layers — session history, projects, semantic memory, standing instructions, aur user-owned context file. Wo poochti kaunsi rakh, parh aur saath le ja sakti, aur kaunsi vendor ke account mein vendor ke format mein rehti. Teen hafte hain.
+
+**Sawal:** Usay kya karna chahiye?
+
+**Options ka matlab:**
+
+- **A** — Ek user-owned, readable context file rakho (role, audience, limits, standing rules) aur project files apne control wali storage mein export karo; vendor memory aur session history vendor ke account mein rehti.
+- **B** — Semantic memory par bharosa, jaate waqt text file export — memory vendors ke paar portable.
+- **C** — Purane sessions ke transcripts naye product mein copy — session history hi AI ka record hai.
+- **D** — Standing instructions yaad se naye product mein bana lo, files chhodo — sirf instructions behaviour badalti.
+
+</details>
 
 **Answer:** A
 
@@ -2003,6 +3350,22 @@ A compliance team's cloud agent drafts monthly vendor-risk memos and saves them 
 - C. The session history, pinned so that it is not cleared, since session history records each task in full and is searchable when the regulator asks.
 - D. The assistant's semantic memory, with an instruction to remember every memo, since memory carries facts across sessions and can reproduce them on request.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Compliance team ka cloud agent monthly vendor-risk memos draft karke task ke working area aur vendor ki platform storage mein save karta; team isi ko record kehti. Regulator 7 saal retention maangta aise form mein jo firm control kare. Partner: platform storage durable, searchable, "safe". Junior: task khatam hone par working area clear. Regulator ne do saal purana memo maanga to vendor ke format mein sirf partial copy thi. Lead ko redesign karna ke finished kaam platform se bahar nikle; chaar destinations.
+
+**Sawal:** Finished memo ki sahi manzil kya hai?
+
+**Options ka matlab:**
+
+- **A** — Firm ke control wala system — records system, drive ya repository — apne retention rules ke saath; task area scratch hai aur platform storage vendor ki custody mein.
+- **B** — Vendor platform storage lambi retention setting ke saath — 7 saal ki shart poori, doosri copy nahi chahiye.
+- **C** — Session history pin karke — har task poora record, searchable.
+- **D** — AI ki semantic memory, har memo yaad rakhne ki instruction ke saath.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — Three tiers: scratch, vendor custody, and your own system of record; finished work exits the platform.
@@ -2025,6 +3388,22 @@ A project manager uses a coworking agent and wants four facts to persist across 
 - B. Fact 1 to the reporting Project's instructions; Fact 2 to account-wide instructions; Fact 3 to the Project's knowledge or her context file; Fact 4 to the Project's knowledge.
 - C. Fact 1 to session history; Fact 2 to the Project's instructions; Fact 3 to the Project's knowledge; Fact 4 to account-wide instructions.
 - D. Fact 1 to account-wide instructions; Fact 2 to the Project's instructions; Fact 3 to session history; Fact 4 to the Project's knowledge.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Project manager coworking agent ke saath chaar facts agli quarter ke sessions mein persist karna chahti. Fact 1: "Supplier reports mein PKR 50,000 se kam invoices routine" (ek reporting stream par lagu). Fact 2: "Chhote jumle aur jawab pehle" (har kaam par). Fact 3: "Tuesday ko Karachi warehouse par kya tay hua" (ek meeting ka nateeja, live project ke liye). Fact 4: "Is quarter ki approved supplier price list" (file jo reports parhein). Layers: session history, Project ki instructions/knowledge, account-wide standing instructions, user-owned context file. Chaar allocations, sab sensible lagte.
+
+**Sawal:** Kaunsi allocation har durable fact ko sab se tang reliable layer mein rakhti hai?
+
+**Options ka matlab:**
+
+- **A** — Fact 1 Project knowledge; Fact 2 account-wide; Fact 3 account-wide; Fact 4 Project instructions.
+- **B** — Fact 1 reporting Project ki instructions; Fact 2 account-wide; Fact 3 Project knowledge ya uski context file; Fact 4 Project knowledge.
+- **C** — Fact 1 session history; Fact 2 Project instructions; Fact 3 Project knowledge; Fact 4 account-wide.
+- **D** — Fact 1 account-wide; Fact 2 Project instructions; Fact 3 session history; Fact 4 Project knowledge.
+
+</details>
 
 **Answer:** B
 
@@ -2049,6 +3428,22 @@ A law firm's managing partner says the firm is on an Enterprise organisation pla
 - C. It provides roles, retention, exports, audit and organisation-wide controls, but it is not blanket approval for every workflow, data type or audience; the client's consent still needs its own check.
 - D. It approves every workflow that is run inside it, since an owner-configured account with audit logs is the firm's evidence that each use has been reviewed and permitted.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Law firm ki managing partner: firm Enterprise organisation plan par hai, to "sab approved aur controlled": owner sab ke liye memory off kar sakta, roles/permissions, configurable retention, exports, audit logs. Wo naya workflow rollout karna chahti jo client matters AI se guzaare, aur kehti approvals plan se cover. Associate: yeh controls administrative hain, sab se bara client written consent ke baghair third-party processing mana karta, aur workflow ke data types review nahi hue. Partner poochti organisation-managed account kya tay karta aur kya nahi.
+
+**Sawal:** Kaunsa bayan sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Sab ke liye memory off ho to har data type approve — memory hi client info ke doosre matter tak jaane ka raasta.
+- **B** — Approvals ke liye kuch kaam ka tay nahi karta — retention/exports sirf vendor ke data par lagu.
+- **C** — Roles, retention, exports, audit aur organisation-wide controls deta hai, magar har workflow, data type ya audience ki blanket approval nahi; client ki consent ka alag check phir bhi chahiye.
+- **D** — Iske andar chalne wala har workflow approved — audit logs wala account har use ke review ka saboot.
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — An organisation-managed account controls the route; it does not decide whether each data type and use is permitted.
@@ -2071,6 +3466,22 @@ A finance operations lead has asked the vendor's skill-creator to build a Skill 
 - B. Read the draft for lines two colleagues would read the same; test what starts it and that it doesn't take over unrelated requests; test the output; test awkward cases; then bring specific failures back.
 - C. Rewrite the description from scratch immediately; test what starts it; then test the output; skip awkward cases, since the first draft was written by the vendor's own tool.
 - D. Test the output on realistic input and awkward cases; announce deployment; test what starts it when the colleague reports; then bring specific failures back to skill-creator.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Finance ops lead ne vendor ke skill-creator se workflow description par Skill banwaya; saaf SKILL.md bani, "Save skill" click kiya aur announce kar diya Skill deployed hai aur "ab se automatically" client summary banayega. Teen din baad colleague: "the March client summary" maangne par aam chat jawab, aur quick total ki request ne Skill trigger kar diya. Uski to-do list: kya start karta test karo, realistic input par output test, awkward cases (jaise bina income wala client), kuch badalne se pehle note karo masla pehli dafa kab aaya, aur failures specific instruction ke saath skill-creator ko wapas do.
+
+**Sawal:** Kaunsi tarteeb build-and-test guidance follow karti hai?
+
+**Options ka matlab:**
+
+- **A** — Save hote hi deployed announce; realistic input par output test; start hone ka test sirf complaint par; phir specific failures wapas.
+- **B** — Draft mein wo lines parho jo do colleagues ek jaisa samjhein; test karo kya start karta aur unrelated requests par qabza to nahi karta; output test; awkward cases test; phir specific failures wapas do.
+- **C** — Foran description shuru se rewrite; start test; output test; awkward cases skip — pehla draft vendor ke tool ne likha.
+- **D** — Realistic input aur awkward cases par output test; deployment announce; colleague report kare tab start test; phir failures wapas.
+
+</details>
 
 **Answer:** B
 
@@ -2095,6 +3506,22 @@ A regional finance lead put "Always answer in Markdown tables" in her account-wi
 - C. Move the table rule to the reporting Project or a Skill, delete the vague line, and keep the account-wide field to who she is, her tone and a push-back line.
 - D. Keep the table rule account-wide but add 'except when writing prose or emails', since adding exceptions to the global line restores the correct behavior in each case.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Regional finance lead ne account-wide instructions mein "Hamesha Markdown tables mein jawab do" daala kyunke reports mein madad mili. Ab team dekhti: workspace default share karne wale colleague ki chat ne chhoti thank-you email ke liye table bana diya, aur narrative advice ka paragraph teen-column table ban kar aaya. Usi field mein "Be helpful and concise" bhi likha. Colleague: jo yahan likha jaye wo har conversation ke pehle lafz se pehle window mein daala jaata; sirf wo rakho jo har conversation mein sach ho.
+
+**Sawal:** Sahi fix kya hai?
+
+**Options ka matlab:**
+
+- **A** — Poora account-wide field delete, memory ko seekhne do kab tables chahiye.
+- **B** — Dono lines rakho aur table rule capitals mein — emphatic wording conflict par sahi wazan deti.
+- **C** — Table rule reporting Project ya Skill mein le jao, vague line delete karo, aur account-wide field mein sirf wo kaun hai, uski tone aur push-back line rakho.
+- **D** — Table rule account-wide rakho magar "prose ya emails ke waqt nahi" jod do.
+
+</details>
+
 **Answer:** C
 
 - ✅ **C** — A wrong-scope instruction damages every conversation where it does not apply, and a vague one constrains nothing.
@@ -2117,6 +3544,22 @@ A consultancy's knowledge lead is training new staff on four features and asks t
 - B. A Project is always on inside its own workspace: its files and instructions load when a chat is opened in it, and don't apply outside.
 - C. A Skill is enabled at account level and sleeps until a matching request arrives, then works in any chat, touching one kind of task.
 - D. Memory holds context about the whole team, so what one colleague teaches the assistant is available to every colleague who uses the same workspace.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Consultancy ka knowledge lead naye staff ko chaar features par train karta, chaar jumle poore karwata: (a) account-wide custom instructions ... chhooti hain; (b) Skill ... chhoota hai; (c) Project apni files aur instructions ... load karta; (d) Memory ... rakhti hai. Staff ke jawab: "Project sirf maangne par load", "custom instructions sirf usi project mein jahan set ki", "Skill har jagah hamesha on", "memory colleagues mein shared". Lead ko Anthropic ke chaar features ke split ke mutabiq sahi bayan chahiye.
+
+**Sawal:** Kaunse DO bayan sahi hain?
+
+**Options ka matlab:**
+
+- **A** — Custom instructions sirf usi Project ke andar lagu jahan likhi gayin — ek kaam ke hisse tak rule scope karti.
+- **B** — Project apne workspace ke andar hamesha on: us mein chat kholne par files aur instructions load, bahar lagu nahi.
+- **C** — Skill account level par enabled hota aur matching request aane tak soya rehta, phir kisi bhi chat mein kaam karta — ek kism ke task ko chhoota.
+- **D** — Memory poori team ka context rakhti — ek colleague jo sikhaye wo sab ko milta.
+
+</details>
 
 **Answer:** B, C
 
@@ -2143,6 +3586,22 @@ A sales-operations team reports two separate complaints about the same workspace
 - C. Complaint 1 is a wrong-feature problem, so move it to code execution; Complaint 2 is stale configuration, so update the standing instructions the summaries follow.
 - D. Complaint 1 is a wrong-feature problem, so move the calculation to code execution and check what it computed; Complaint 2 is under-specification, so name the criteria for a key point.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Sales-ops team ek workspace ki do alag complaints report karti. Complaint 1: "Quarterly summary ke commission totals thode ghalat, hamesha chhoti raqam se, koi bhi tier." Complaint 2: "Account summaries hamare aham points miss karti, naye chat ke pehle jawab se hi." Engineer dono ke liye ek fix: stronger tier. Colleague: complaints alag, diagnostic sequence (sasta check pehle) har ek ke liye alag chalao. Chaar candidate pairs, har ek dono complaints ki ek-ek wajah batata.
+
+**Sawal:** Diagnoses aur fixes ka kaunsa pair sahi hai?
+
+**Options ka matlab:**
+
+- **A** — C1 under-specification — commission formula zyada detail se; C2 wrong feature — summaries ke liye stronger tier.
+- **B** — C1 context overload — chat restart aur summary paste; C2 under-specification — prompt mein key point ke criteria naam karo.
+- **C** — C1 wrong feature — code execution par le jao; C2 stale configuration — standing instructions update.
+- **D** — C1 wrong feature — calculation code execution par le jao aur check karo kya compute hua; C2 under-specification — key point ke criteria naam karo.
+
+</details>
+
 **Answer:** D
 
 - ✅ **D** — Subtly wrong numbers are the signature of writing rather than computing; wrong from the first answer points at the prompt.
@@ -2165,6 +3624,22 @@ An operations manager's fresh-chat request for a supplier-contract summary comes
 - B. Conversation length; whether the configuration is current; prompt against its five parts; feature and model; then whether the task is a fit.
 - C. Feature and model; prompt against its five parts; conversation length; whether the configuration is current; then whether the task is a fit.
 - D. Prompt against its five parts; whether the task is a fit; conversation length; feature and model; then whether the configuration is current.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Ops manager ki fresh-chat request (supplier-contract summary) mayoos karti: jo do payment terms usay chahiye wo miss. Wo sochti sab se capable model lo, warna maan lo task ho hi nahi sakta. Colleague: diagnostic sequence isi ko rokne ke liye hai, aur sasta pehle chalata: prompt ko uske paanch parts se milao; conversation ki length; feature aur model; configuration current hai ya nahi; aur sirf phir sawal ke task fit hai ya nahi. Slide par chaar orderings, same paanch checks alag order mein.
+
+**Sawal:** Diagnostic sequence ka order kaunsa hai?
+
+**Options ka matlab:**
+
+- **A** — Prompt ke paanch parts → conversation length → feature aur model → configuration current → phir task fit hai ya nahi.
+- **B** — Conversation length → configuration current → prompt ke paanch parts → feature aur model → task fit.
+- **C** — Feature aur model → prompt → conversation length → configuration → task fit.
+- **D** — Prompt → task fit → conversation length → feature aur model → configuration current.
+
+</details>
 
 **Answer:** A
 
@@ -2189,6 +3664,22 @@ A reconciliation team's Skill builds bank-reconciliation reports. It worked fine
 - C. Move to the highest tier and keep the current wording, since a stronger model reads a netting rule more reliably and the failure is a matter of depth.
 - D. Start a fresh chat and restate the task, since a repeated failure inside a Skill is usually context overload from earlier turns.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Reconciliation team ka Skill bank-reconciliation reports banata, hafton theek chala. Ab har fresh chat mein reversed entries ko duplicates label karta, halanke author ne instruction teen dafa tight ki ("grouping se pehle reversals net out karo", phir bold, phir example ke saath). Chat har dafa nai, description sahi fire hoti, reference threshold file pichle hafte update hui. Colleague: jab wording tight karne ke baad bhi wahi ghalti dohraye to step ghalat jagah hai — exact step (sum ya threshold check) chhote program mein belong karta, kyunke jumla har dafa alag parha jaata. Doosra: stronger tier.
+
+**Sawal:** Behtareen fix kya hai?
+
+**Options ka matlab:**
+
+- **A** — Exact netting step ko skill-creator ke zariye Skill ke andar chhote script mein le jao taake har dafa same chale, aur zaroori data connector se laao.
+- **B** — Chauthi dafa wording tight karo, reversed entry ki worked example ke saath.
+- **C** — Highest tier, wording wahi — stronger model netting rule behtar parhta.
+- **D** — Fresh chat mein task dobara — Skill mein repeated failure aam taur par context overload.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — The same mistake every run, even after tightening the wording, means the step is in the wrong place: exact steps belong in code.
@@ -2211,6 +3702,22 @@ A CFO's team lists four complaints about their assistant and wants to know which
 - B. (b) Summaries that miss key points: this is a mismatch, since deciding which points are key is a judgment that the tool cannot make for the team.
 - C. (d) A certain prediction of one customer's future cancellation: certainty about an individual future event is beyond the tool, so ask for a ranked risk with reasons.
 - D. (a) An exact future sales figure: no prompt, restart, feature or configuration fix produces it; ask for a range with stated assumptions or an adjustable driver model.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** CFO ki team AI ki chaar complaints list karti aur jaanna chahti kaunsi asli expectation mismatch hain (tool jo kar hi nahi sakta) na ke prompt, session, feature ya configuration se hal hone wale masle. (a) "Agli quarter ki export sales exact rupee tak nahi bata sakta." (b) "Summaries key points miss karti." (c) "Totals thode ghalat." (d) "Nahi bata sakta agle mahine kaunsa specific customer yaqeenan cancel karega." Colleague: asli mismatch diagnostic ladder ka paanchwan step hai, sirf sasti wajahen rule out hone ke baad.
+
+**Sawal:** Kaunsi DO complaints expectation mismatch hain?
+
+**Options ka matlab:**
+
+- **A** — (c) Thode ghalat totals — kai rows ka hisaab kisi bhi tier par language model ke bas se bahar.
+- **B** — (b) Key points miss — kaunse points key hain yeh judgment tool team ke liye nahi kar sakta.
+- **C** — (d) Ek customer ke future cancellation ki yaqeeni prediction — individual future event par certainty tool se bahar; reasons ke saath ranked risk maango.
+- **D** — (a) Exact future sales figure — koi prompt, restart, feature ya config fix isay nahi deta; stated assumptions wali range ya adjustable driver model maango.
+
+</details>
 
 **Answer:** C, D
 
@@ -2235,6 +3742,22 @@ A due-diligence team's assistant summarised five-page vendor briefs accurately f
 - C. It is context overload, so restart the chat and paste a summary, since long inputs fill the window the same way that long conversations do.
 - D. It is an expectation mismatch, so the task should be declared beyond the tool now that briefs are eight times longer and the summaries have started to fail.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Due-diligence team ka AI mahino se 5-page vendor briefs accurately summarise karta raha. Is quarter 40-page briefs appendices ke saath dene lage, aur summaries doosra aadha gira deti. Colleague: "pehle chalta tha, to stale configuration". Skill file unchanged aur nai chat mein bhi wahi, to session length masla nahi. Analyst: ek timing ki ek se zyada wajahen ho sakti; "pehle chalta tha" aam taur par setup drift, magar kabhi task ki shakal badal jaati aur kisi ne notice nahi kiya; har signal pehla andaaza aur use test karne ka sasta tareeqa deta.
+
+**Sawal:** Behtareen reading aur agla qadam kya hai?
+
+**Options ka matlab:**
+
+- **A** — Task ki shakal badli: inputs aath guna lambe, to kaam restructure karo (section-wise summarise, phir combine, har ek check) — na badle Skill ko edit mat karo.
+- **B** — Stale configuration — Skill instructions aur reference docs update karo.
+- **C** — Context overload — chat restart aur summary paste.
+- **D** — Expectation mismatch — task ko tool se bahar declare karo.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — 'It used to work' sometimes means the task changed shape; the cheap test is to compare what changed in the inputs.
@@ -2257,6 +3780,22 @@ A team's weekly reporting workflow shows three frictions when audited. Each anal
 - B. Repetition to saved context or a standing instruction; correction to a configuration change so the flaw stops appearing; variance to a shared Skill or knowledge base all analysts use.
 - C. Repetition to a configuration change; correction to a shared Skill or knowledge base; variance to saved context or a standing instruction each analyst keeps.
 - D. Repetition to a shared Skill; correction to saved context; variance to a configuration change so the flaw stops appearing in individual outputs.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Team ke weekly reporting workflow ke audit mein teen frictions. Har analyst har run mein same background paragraph aur definitions dobara paste karta (repetition). Har analyst har output mein same formatting ghalti haath se theek karta (correction). Same task chalane wale alag analysts ko alag results milte, jo sirf reviewer compare karne par dikhte (variance). Lead chaar mappings deta (same teen fixes, alag jodiyan) aur kehta variance wali friction teams miss karti kyunke koi akela usay mehsoos nahi karta.
+
+**Sawal:** Friction se fix ki kaunsi mapping sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Repetition → shared knowledge base; correction → saved context; variance → har analyst ki apni workspace mein standing instruction.
+- **B** — Repetition → saved context ya standing instruction; correction → configuration change taake ghalti aana band ho; variance → shared Skill ya knowledge base jo sab analysts use karein.
+- **C** — Repetition → configuration change; correction → shared Skill/knowledge base; variance → har analyst ka saved context ya instruction.
+- **D** — Repetition → shared Skill; correction → saved context; variance → configuration change.
+
+</details>
 
 **Answer:** B
 
@@ -2281,6 +3820,22 @@ An operations director is assigning the metric each of four redesigned workflows
 - C. W1 to time; W2 to variance; W3 to consistency; W4 to accuracy.
 - D. W1 to consistency; W2 to accuracy; W3 to time; W4 to variance.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Ops director baseline naapne se pehle chaar redesigned workflows ke liye metric tay kar rahi. W1: meeting notes ka internal first draft jo team se bahar koi nahi parhta. W2: customer-facing monthly report jiske layouts staff ke beech badalte rahe aur trust kam hua. W3: regulatory return jahan ek ghalat figure ki penalty ek ghante ki bachat se bari. W4: chhe log jo ek hi kaam karte aur sab ke results alag. Chaar allocations, har ek chaaron metrics (time, consistency, accuracy, variance) ek-ek dafa use karti; metric pehle naam karna batata tuning kab rokni.
+
+**Sawal:** Kaunsi allocation sahi hai?
+
+**Options ka matlab:**
+
+- **A** — W1 accuracy; W2 time; W3 consistency; W4 variance.
+- **B** — W1 time; W2 consistency; W3 accuracy; W4 variance.
+- **C** — W1 time; W2 variance; W3 consistency; W4 accuracy.
+- **D** — W1 consistency; W2 accuracy; W3 time; W4 variance.
+
+</details>
+
 **Answer:** B
 
 - ✅ **B** — Optimise for what the workflow is for: speed on cheap internal drafts, consistency on customer reports, accuracy on compliance outputs, variance where the cost lies between people.
@@ -2303,6 +3858,22 @@ An analytics lead builds a business case for keeping a redesigned weekly-report 
 - B. About 60% less time on the report, presented as a percentage with no volume or cost, since a proportion travels across teams and avoids arguments about hours.
 - C. About 144 hours a year saved, taking the quick estimate and rounding up to allow for consistency benefits, with the gate time and the risk left out.
 - D. About 96 hours a year saved (30 minutes x 4 analysts x 48 weeks), with the reviewer's gate time excluded because it is overhead that would exist anyway.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Analytics lead redesigned weekly-report workflow ka business case bana raha. Audit: chaar analysts pehle har hafte 50 minute, ab 20. Team saal mein 48 hafte kaam karti. Named reviewer gate mein har hafte 15 minute deta, aur AI subscription bhi. Ek colleague: "60% kam waqt" bas; doosra: residual risk nikaal do; teesra dimagh mein hisaab lagata. Lead budget review mein tikne wala bayan chahta, aur ghante compute hone chahiye, andaaza nahi.
+
+**Sawal:** Case ka sab se defensible bayan kaunsa hai?
+
+**Options ka matlab:**
+
+- **A** — Saal ke ~84 ghante net: 96 ghante bachat (30 min × 4 analysts × 48 hafte) minus gate mein reviewer ke 12 ghante, subscription ke muqable mein, aur residual risk naam karke.
+- **B** — "~60% kam waqt" sirf percentage, bina volume ya cost.
+- **C** — ~144 ghante saal — quick estimate round up, gate time aur risk bahar.
+- **D** — ~96 ghante saal (30 min × 4 × 48), reviewer ka gate time bahar kyunke waise bhi hota.
+
+</details>
 
 **Answer:** A
 
@@ -2327,6 +3898,22 @@ An analyst asks an assistant to write and run code that totals monthly sales fro
 - C. Day 1: state the symptom and expected value and ask for row counts. Day 2: paste the full error and say 'diagnose, fix, rerun'. Day 3: stop, restate the problem fresh and ask for two different approaches.
 - D. Day 1: paste the full error and say 'diagnose, fix, rerun'. Day 2: stop, restate the problem and ask for two approaches. Day 3: state the symptom and expected value and ask for row counts and samples.
 
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Analyst AI se merged file ki monthly sales total karne ka code likhwa kar chalwati. Teen dinon mein teen alag masle. Day 1: script missing column ke red error message par ruk jaata. Day 2: script chalta magar total 8.1 million, jabke ~7.6 hona chahiye; koi error nahi. Day 3: teen koshishon ke baad AI ka fix, har dafa "ab sahi" keh kar, alag ghalat number deta rehta. Teen candidate messages (har symptom ke liye ek), aur chaar tareeqe unhein dinon se jodne ke.
+
+**Sawal:** Symptom se message ki kaunsi jodi sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Day 1: poora error paste karke "diagnose, fix, rerun". Day 2: symptom aur expected value do aur pehle row counts aur samples maango. Day 3: ruko, fresh restate karo aur do alag approaches maango.
+- **B** — Day 1: ruko, restate, do approaches. Day 2: symptom aur expected value. Day 3: poora error paste, "diagnose, fix, rerun".
+- **C** — Day 1: symptom aur expected value, row counts. Day 2: poora error paste, "diagnose, fix, rerun". Day 3: ruko, fresh restate, do approaches.
+- **D** — Day 1: poora error paste, "diagnose, fix, rerun". Day 2: ruko, restate, do approaches. Day 3: symptom aur expected value, row counts aur samples.
+
+</details>
+
 **Answer:** A
 
 - ✅ **A** — An error is the computer saying what it needs; a wrong number needs the symptom and expected value; three failed identical fixes mean the approach is wrong.
@@ -2349,6 +3936,22 @@ A team lead tells her reviewers that their "not quite right" reactions must beco
 - B. Too generic: state the single question up front (the prompt). Wrong tone: replace the source document (the knowledge). Old data: add a tone constraint (the instruction). Missed the point: name the audience and the action.
 - C. Too generic: name the audience and action (prompt). Wrong tone: add a tone constraint for every draft (instruction). Old data: replace the source document (knowledge). Missed the point: state the question up front (prompt).
 - D. Too generic: replace the source document (the knowledge). Wrong tone: name the audience and the one action wanted (the prompt). Old data: add a tone constraint for every draft (the instruction). Missed the point: state the question up front.
+
+<details>
+<summary>🗣️ <b>Roman Urdu mein samjho</b> (sawal ka matlab — jawab yahan nahi hai)</summary>
+
+**Scenario:** Team lead reviewers se kehti unke "not quite right" reactions ko instructions banna chahiye. Board par chaar reactions: 1 "Too generic." 2 "Har draft mein ghalat tone." 3 "Purana data use kar raha." 4 "Point miss kar gaya." Har ek sahi hone ke liye kya maujood hona chahiye, aur setup ka kaunsa hissa isay control karta? Levers: prompt, instruction, knowledge, aur dohrati ghalti ke liye saved procedure. Colleague: agar lever naam nahi kar sakte to critique abhi reaction hi hai.
+
+**Sawal:** Reaction-to-instruction jodiyon ka kaunsa set sahi hai?
+
+**Options ka matlab:**
+
+- **A** — Too generic → har draft ke liye tone constraint (instruction). Ghalat tone → audience aur action naam karo (prompt). Purana data → sawal shuru mein likho (prompt). Point miss → source document badlo.
+- **B** — Too generic → ek sawal shuru mein (prompt). Ghalat tone → source document badlo (knowledge). Purana data → tone constraint (instruction). Point miss → audience aur action naam karo.
+- **C** — Too generic → audience aur action naam karo (prompt). Ghalat tone → har draft ke liye tone constraint (instruction). Purana data → source document badlo (knowledge). Point miss → sawal shuru mein likho (prompt).
+- **D** — Too generic → source document badlo (knowledge). Ghalat tone → audience aur ek action naam karo (prompt). Purana data → tone constraint (instruction). Point miss → sawal shuru mein likho.
+
+</details>
 
 **Answer:** C
 
