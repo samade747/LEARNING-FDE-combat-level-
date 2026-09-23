@@ -2,6 +2,17 @@
 
 ## Done
 
+- 2026-09-23: User: "ham us real exam tak touch bi nai krsken hain ... pcaofcombatlevel4.md bnho, real scenario based long
+  questions, muskil tareen." **Naya:** `docs/certifications/pcao-f/pcaofcombatlevel4.md` — **20 case files x 5 sawal = 100**
+  (D2=21 · D4=16 · D6=15 · D1=14 · D3=12 · D5=12 · D7=10). Har case ek fictional dossier (Exhibits A-F: emails, logs, maps,
+  policy lines, seniors ke dawe), ek case mein kai domains, kuch "Update:" twists. 11 Select TWO (5 options) + 5 Select THREE
+  (6 options), all-or-nothing — CCAO-F format ke mutabiq ("each item states how many"). Keys single 21/21/21/21; correct
+  option strictly longest 12/84 (~14%). Har case aur har sawal ka Roman Urdu samjho block. Grounding: gen 75 course texts
+  (scratchpad se dobara parhe) + gen 77 re-check (PCAO-F page: 60 items/120 min; Governance A.1-A.2 + quiz). Build: data
+  files + generator (scratchpad), generator domain counts assert karta. Honest limit: kisi doosre ne cold attempt nahi kiya;
+  answers ka review sirf meri apni padhai se (ek capacity-math distractor ki inconsistency pakad kar theek ki); difficulty
+  heuristic, calibrated nahi.
+
 - 2026-09-23: User: "pcaofcombatlevel1/2/3.md — English ese hi rahe, sath ek section Roman Urdu + English samajhne ka."
   Teeno files ke 300 sawalon mein options ke neeche collapsible `<details>` block "🗣️ Roman Urdu mein samjho" joda:
   Scenario + Sawal + chaaron options ka matlab, **jawab reveal nahi karta** (EXCEPT/mapping/ordering/hisaab wale sawalon

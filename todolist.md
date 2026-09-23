@@ -2,6 +2,10 @@
 
 ## Active
 
+- [ ] **PCAO-F combat level 4 (2026-09-23):** `pcao-f/pcaofcombatlevel4.md` (20 case files, 100 Q, 11 Select TWO + 5
+  Select THREE) added + README wired. **Next:** Level 3 par >= 60% ke baad, chaar baithakon (5 cases each) mein; per-domain
+  score header ki table se; ambiguity mile to Q number batao.
+
 - [ ] **PCAO-F combat level 3 (2026-09-21):** `pcao-f/pcaofcombatlevel3.md` (100 Q, long vignettes, EXCEPT/mapping/
   ordering/hisaab, 23 Select TWO) added + README wired. **Next:** Level 1 -> 2 -> 3 order mein; ambiguity mile to Q number
   batao. Pending: interactive quiz L1 Q1 aur L2 Q1 ke jawab.

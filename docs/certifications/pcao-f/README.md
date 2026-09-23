@@ -231,6 +231,13 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
   hai (EXCEPT/INCORRECT, mapping, ordering, computed hisaab jaise 656,000 vs 348,000 tokens aur 84 net ghante), 23
   "Select TWO". Answer key balanced (20/19/19/19 single); correct option sab se lamba ~49% (60/123 slots). Heuristic
   score guide (official nahi): >= 50% exam level ya upar, 35-50% qareeb.
+- [`pcaofcombatlevel4.md`](pcaofcombatlevel4.md) — **100-Q "case files / exam ceiling" tier (2026-09-23)**, Level 3 se
+  aage: **20 fictional case files** (har ek 234-355 alfaaz ka dossier — emails, session logs, delegation maps, policy clauses,
+  seniors ke ghalat dawe), har case par 5 sawal alag domains se, kuch "Update:" twists. Real exam jaisa multiple-response:
+  11 "Select TWO" (5 options) + 5 "Select THREE" (6 options), all-or-nothing. Hisaab (2,100 drafts / 21 shifts = 4.8 min),
+  source-conflict, plan-vs-action, intervene mapping. Answer key single A/B/C/D = 21 each; correct option strictly sab se
+  lamba sirf 12/84 (~14%, chance se kam). Har case + har sawal ka Roman Urdu "samjho" block (jawab reveal nahi). Heuristic
+  score guide (official nahi): >= 55% tayyar se upar, 40-55% qareeb. Grounding: Zia Tutor gen 75 courses + gen 77 re-check.
 
 Domain-level judgment drills yahan nahi — woh [`../ccao-f/`](../ccao-f/README.md) folder mein
 (single source of truth).
