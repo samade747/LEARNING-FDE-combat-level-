@@ -2,6 +2,10 @@
 
 ## Active
 
+- [ ] **PCAO-F combat level FINAL (2026-09-29):** `pcao-f/pcaofcombatlevelfinal.md` (20 case files, 120 Q, 12 Select TWO
+  + 5 Select THREE, concept index + syllabus cheat-sheet) added + README wired. **Next:** Level 4 par ~50% ke baad, paanch
+  baithakon (4 cases each); ghalti par Concept Index se us concept ke baqi sawal; ambiguity mile to Q number batao.
+
 - [ ] **PCAO-F combat level 4 (2026-09-23):** `pcao-f/pcaofcombatlevel4.md` (20 case files, 100 Q, 11 Select TWO + 5
   Select THREE) added + README wired. **Next:** Level 3 par >= 60% ke baad, chaar baithakon (5 cases each) mein; per-domain
   score header ki table se; ambiguity mile to Q number batao.

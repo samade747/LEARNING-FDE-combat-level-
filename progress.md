@@ -2,6 +2,16 @@
 
 ## Done
 
+- 2026-09-29: User: "pcaofcombatlevel4.md ke jesa muskil tareen longest scenario based ... final wala h yeh" → **Naya:**
+  `docs/certifications/pcao-f/pcaofcombatlevelfinal.md` — **20 case files x 6 sawal = 120** (D2=25 · D4=19 · D6=18 · D1=17 ·
+  D3=14 · D5=15 · D7=12, 120 par published weights). Dossiers 285-391 alfaaz, red-herring exhibits, chain-reasoning options,
+  chhupa hisaab. 12 Select TWO + 5 Select THREE (all-or-nothing). Single key 26/26/26/25; correct-option length rank
+  23/27/29/24 (pehle draft mein correct 56% sab se lamba tha, phir "doosra lamba" 68% — dono tells script se naap kar theek
+  kiye). Concept Index + poore syllabus ka cheat-sheet. Grounding: Zia Tutor **gen 79** — saare 10 courses dobara poore parhe.
+  Build: case source files + generator (scratchpad), generator domain counts assert karta. Review pass mein ek factual ghalti
+  pakdi (26 Sept 2026 Saturday hai → Friday 25 Sept, scope 45,000). Honest limit: kisi doosre ne cold attempt nahi kiya;
+  difficulty design par mabni, calibrated nahi.
+
 - 2026-09-23: User: "ham us real exam tak touch bi nai krsken hain ... pcaofcombatlevel4.md bnho, real scenario based long
   questions, muskil tareen." **Naya:** `docs/certifications/pcao-f/pcaofcombatlevel4.md` — **20 case files x 5 sawal = 100**
   (D2=21 · D4=16 · D6=15 · D1=14 · D3=12 · D5=12 · D7=10). Har case ek fictional dossier (Exhibits A-F: emails, logs, maps,
