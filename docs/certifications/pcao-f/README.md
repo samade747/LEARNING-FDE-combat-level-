@@ -239,12 +239,12 @@ skill judgment/evaluation hai, implementation nahi — koi coding scaffold nahi.
   lamba sirf 12/84 (~14%, chance se kam). Har case + har sawal ka Roman Urdu "samjho" block (jawab reveal nahi). Heuristic
   score guide (official nahi): >= 55% tayyar se upar, 40-55% qareeb. Grounding: Zia Tutor gen 75 courses + gen 77 re-check.
 - [`pcaofcombatlevelfinal.md`](pcaofcombatlevelfinal.md) — **120-Q "final boss" tier (2026-09-29)**, series ka aakhri
-  level: **20 naye fictional case files × 6 sawal** (dossiers 285-391 alfaaz, 5-8 exhibits, jaan-boojh kar red-herring facts),
+  level: **20 naye fictional case files × 6 sawal** (international dossiers 285-389 alfaaz, 5-8 exhibits, jaan-boojh kar red-herring facts),
   chain-reasoning options (diagnosis + scope + ilaaj teeno sahi hon), chhupa hisaab (13,860 / 5,400 review minutes; 1,800 x 25
   stale-config scope; weighted vendor score 6.6/6.1/5.8; penalty 7 x 24,000), look-alike course concepts aamne-saamne
   (autonomy ladder vs review thresholds, escalation vs manufacturing signal, product/process/performance discernment,
   pseudonymized vs anonymized, Project scope vs account-level Skill). 12 "Select TWO" + 5 "Select THREE", all-or-nothing.
-  Single key A/B/C/D = 26/26/26/25; correct option ki lambai ka rank (1 = sab se lamba) 23/27/29/24 — koi length tell nahi.
+  Single key A/B/C/D = 26/26/26/25; correct option ki lambai ka rank (1 = sab se lamba) 23/28/29/23; settings international (20 shehar) — koi length tell nahi.
   Domains exact: D2 25 · D4 19 · D6 18 · D1 17 · D3 14 · D5 15 · D7 12. Har case + har sawal ka Roman Urdu samjho block, aakhir
   mein **Concept Index** (concept → sawal numbers) aur **poore 10-course syllabus ka final cheat-sheet**. Grounding: Zia Tutor
   **gen 79** (2026-09-28), saare 10 study-guide courses `next: null` tak. Heuristic score guide: >= 60% poori tarah tayyar,

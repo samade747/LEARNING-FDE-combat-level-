@@ -2,6 +2,12 @@
 
 ## Done
 
+- 2026-09-29 (baad mein): User: "local level nai chahiye, international level chahiye." `pcaofcombatlevelfinal.md` ke saare 20
+  cases international settings mein (Frankfurt, Nairobi, Washington, Rotterdam, Porto, Johannesburg, Toronto, Mexico City,
+  Jakarta, London, Manila, Dubai, Addis Ababa, São Paulo, Bengaluru, Lagos, Sydney, Lima, Warsaw, Istanbul): naam, currency
+  (EUR, USD, R$, PLN), regulators (CBP/Federal Register) aur zabaanein (Swahili, Arabic, Hindi, Amharic, Yoruba) badle; concepts,
+  answer letters aur hisaab wahi (PLN 168,000). Length rank ab 23/28/29/23. Artifact bhi republish.
+
 - 2026-09-29: User: "pcaofcombatlevel4.md ke jesa muskil tareen longest scenario based ... final wala h yeh" → **Naya:**
   `docs/certifications/pcao-f/pcaofcombatlevelfinal.md` — **20 case files x 6 sawal = 120** (D2=25 · D4=19 · D6=18 · D1=17 ·
   D3=14 · D5=15 · D7=12, 120 par published weights). Dossiers 285-391 alfaaz, red-herring exhibits, chain-reasoning options,
