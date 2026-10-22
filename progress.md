@@ -2,6 +2,26 @@
 
 ## Done
 
+- 2026-10-23: User: "finish the 7 remaining Foundations chapters properly" — poore `docs/[slug]/`
+  builds (README+SUMMARY+numbered concept files+Test-Your-Understanding quiz+`projects/` runnable
+  scaffolds) **sab 7 gaps** ke liye, Zia Tutor AI se fresh content fetch kar ke (kuch chapters
+  multi-window, 2-3 windows each; `read_agent_factory_lesson`'s `next` field se confirm kiya
+  `null` tak sab mila, kuch earlier-session-mein-fetched-par-save-na-hui windows dobara fetch ki
+  compaction ke baad). 7 chapters, har ek apna commit+push (bina puche, standing instruction):
+  **just-delegate-it-crash-course** (8 files, 12-Q quiz, 6 job scaffolds) — **ai-fluency-crash-course**
+  (10 files, 12-Q quiz, 6 practice-prompt scaffolds) — **code-you-never-write-crash-course** (8
+  files, 32-Q quiz, 4 catch-driven projects: Money Detective/Grade/Books-Dont-Match/Photo-Rescue +
+  troubleshooting.md) — **skills-connectors-crash-course** (8 files, 29-Q quiz, 5 projects) —
+  **how-to-think-ai-era** (10 files — 6 disciplines each own file, 31-Q quiz, 4 decision-dossier
+  projects) — **workflow-design-diagnosis-crash-course** (brand-new chapter, 10 files, 12-Q quiz,
+  3 projects adapted from book's own graded AICheck exercises) — **governance-risk-responsible-use-crash-course**
+  (brand-new chapter, 10 files, 21-Q quiz, 2 projects: Governance Record + Usage Audit). Every
+  quiz used the book's own verbatim `<Quiz>` block (never authored new questions). Verified zero
+  stray `![...]` image markdown in each chapter before commit (`grep -rln`). After all 7: re-ran
+  `outline_agent_factory` fresh (confirmed still exactly 10 Foundations slugs, no further
+  book-side drift) and updated root `README.md` — Foundations flipped 3/10→10/10, grand total
+  63✅+7🔲=70 → **70/70 chapters ✅, whole book fully documented**.
+
 - 2026-10-22 (baad mein): User: "finish those 5 properly then commit." 5 chapters jo background
   agents ne partial chhor diye the (interrupt ki wajah se), poori tarah complete kiye — README+
   SUMMARY+numbered files+quiz (+projects jahan applicable) — aur root README.md ka status table

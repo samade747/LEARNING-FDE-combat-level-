@@ -81,26 +81,26 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 
 ### Getting Started: Crash Courses
 
-#### Group 1 — Foundations (Everyone)
+#### Group 1 — Foundations (Everyone) (10/10 ✅ Complete)
 
 > ⚠️ **2026-10-22 book restructure found:** live `outline_agent_factory` ab 10 chapters dikhati hai
 > (pehle 8 thi) — 3 naye added (**Just Delegate It** #1, **Workflow Design & Diagnosis** #9,
 > **Governance, Risk & Responsible Use** #10), aur **Claude and ChatGPT 101** rename+move ho gaya
 > **References & Companions** group mein ("ChatGPT & Claude Quick Reference" ke naam se — dekho
-> Group 6).
+> Group 6). **2026-10-23: saare 7 gaps (3 naye + 4 purane) complete ho gaye — group 10/10.**
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 1 | Just Delegate It: A Crash Course | 🔲 not started (brand-new chapter, book-side) |
+| 1 | Just Delegate It: A Crash Course | ✅ [`docs/just-delegate-it-crash-course`](docs/just-delegate-it-crash-course/README.md) (2026-10-23) |
 | 2 | What AI Actually Is: A Crash Course | ✅ [`docs/what-ai-actually-is-crash-course`](docs/what-ai-actually-is-crash-course/README.md) |
-| 3 | AI Fluency: A Crash Course | 🔲 not started |
+| 3 | AI Fluency: A Crash Course | ✅ [`docs/ai-fluency-crash-course`](docs/ai-fluency-crash-course/README.md) (2026-10-23) |
 | 4 | AI Prompting in 2026: A Crash Course | ✅ [`docs/ai-prompting-2026`](docs/ai-prompting-2026/README.md) |
 | 5 | Markdown In, HTML Out: A Crash Course | ✅ [`docs/markdown-html-crash-course`](docs/markdown-html-crash-course/README.md) (2026-10-22: parts 2-7 + appendix + 3 practice-project scaffolds completed — was stuck at parts 0-1/8) |
-| 6 | Code You Never Write: A Crash Course | 🔲 not started |
-| 7 | Skills & Connectors: Teach AI Once, Connect It to Your Apps | 🔲 not started |
-| 8 | How to Think in the AI Era: Crash Course | 🔲 not started |
-| 9 | Workflow Design & Diagnosis | 🔲 not started (brand-new chapter, book-side) |
-| 10 | Governance, Risk & Responsible Use: A Crash Course | 🔲 not started (brand-new chapter, book-side) |
+| 6 | Code You Never Write: A Crash Course | ✅ [`docs/code-you-never-write-crash-course`](docs/code-you-never-write-crash-course/README.md) (2026-10-23) |
+| 7 | Skills & Connectors: Teach AI Once, Connect It to Your Apps | ✅ [`docs/skills-connectors-crash-course`](docs/skills-connectors-crash-course/README.md) (2026-10-23) |
+| 8 | How to Think in the AI Era: Crash Course | ✅ [`docs/how-to-think-ai-era`](docs/how-to-think-ai-era/README.md) (2026-10-23) |
+| 9 | Workflow Design & Diagnosis | ✅ [`docs/workflow-design-diagnosis-crash-course`](docs/workflow-design-diagnosis-crash-course/README.md) (2026-10-23, brand-new chapter) |
+| 10 | Governance, Risk & Responsible Use: A Crash Course | ✅ [`docs/governance-risk-responsible-use-crash-course`](docs/governance-risk-responsible-use-crash-course/README.md) (2026-10-23, brand-new chapter) |
 
 #### Group 2 — General Agents (12/12 ✅ Complete)
 
@@ -188,43 +188,31 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 
 *Audited 2026-08-25 against `outline_agent_factory`, corrected 2026-08-26, **re-audited 2026-10-22**
 after discovering the live book itself grew (Foundations 8→10 chapters, References & Companions 3→4,
-"Claude and ChatGPT 101" renamed+moved groups) — dekho [`progress.md`](progress.md) is audit ki poori
-detail ke liye.*
+"Claude and ChatGPT 101" renamed+moved groups), **re-confirmed 2026-10-23** against a fresh
+`outline_agent_factory` call after completing the 7 Foundations gaps (same 10 Foundations slugs,
+no further book-side drift found) — dekho [`progress.md`](progress.md) is audit ki poori detail ke
+liye.*
 
 ```
 Front Matter (12 docs)              ████████████  12/12 ✅
 The Ecosystem (9 docs)              ████████████  9/9   ✅
-Foundations — Everyone (10)         ███░░░░░░░░░  3/10 ✅ + 7 🔲
+Foundations — Everyone (10)         ████████████  10/10 ✅
 General Agents (12)                 ████████████  12/12 ✅
 Personal Agent Harnesses (2)        ████████████  2/2   ✅
 Mode 1 — Problem-Solving (3)        ████████████  3/3   ✅
 Mode 2 — Manufacturing (18)         ████████████  18/18 ✅
 References & Companions (4)         ████████████  4/4   ✅
 
-TOTAL: 63 fully ✅ + 7 🔲 missing = 70 chapters
+TOTAL: 70/70 chapters ✅ — whole book fully documented
 ```
 
-**Real gaps (7 chapters, all in one group):**
+**Saare 8 groups 100% complete hain (70 chapters).** 2026-10-23 ko Foundations ke baaqi 7 gaps
+(3 brand-new chapters + 4 purane) complete hue — poori book ab `docs/` mein note ki gayi hai.
 
-| Group | Chapter | Gap |
-| --- | --- | --- |
-| Foundations | Just Delegate It | 🔲 not started (brand-new chapter) |
-| Foundations | AI Fluency | 🔲 not started |
-| Foundations | Code You Never Write | 🔲 not started |
-| Foundations | Skills & Connectors | 🔲 not started |
-| Foundations | How to Think in the AI Era | 🔲 not started |
-| Foundations | Workflow Design & Diagnosis | 🔲 not started (brand-new chapter) |
-| Foundations | Governance, Risk & Responsible Use | 🔲 not started (brand-new chapter) |
-
-> Note: a lightweight (non-`docs/`) digest of all 7 gaps above exists in a private Exam Cram Sheet
-> artifact built 2026-10-22 for urgent quiz/viva prep — that is **not** the same as the full
-> `docs/[slug]/` chapter build (README+SUMMARY+numbered files+quiz+projects) this table tracks. See
-> `todolist.md`.
-
-**Front Matter, The Ecosystem, General Agents, Personal Agent Harnesses, Mode 1, Mode 2, aur
-References & Companions — saare groups 100% complete hain (63 chapters).** Sirf Foundations group
-mein 7 gaps baaqi hain, jinmein se 3 bilkul naye chapters hain jo book mein recently add hue (pehli
-baar is audit mein discovered).
+> Note: a lightweight (non-`docs/`) digest of these 7 chapters also exists in a private Exam Cram
+> Sheet artifact built 2026-10-22 for urgent quiz/viva prep — that was the quick-prep version; the
+> full `docs/[slug]/` chapter builds (README+SUMMARY+numbered files+quiz+projects) tracked in this
+> table are now separately complete. See `todolist.md`.
 
 ---
 

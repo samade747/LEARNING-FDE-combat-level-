@@ -2,15 +2,6 @@
 
 ## Active
 
-- [ ] **7 Foundations gaps — only lightweight cram-sheet content exists (2026-10-22):**
-  `just-delegate-it-crash-course`, `ai-fluency-crash-course`, `code-you-never-write-crash-course`,
-  `skills-connectors-crash-course`, `how-to-think-ai-era`, `workflow-design-diagnosis-crash-course`,
-  `governance-risk-responsible-use-crash-course` — har ek ka thesis + key facts Exam Cram Sheet
-  artifact mein hai (fetched from Zia Tutor AI gen 82), lekin koi `docs/[slug]/` folder nahi bana
-  (no README/SUMMARY/numbered-files/quiz/projects). 3 inmein se bilkul naye chapters hain (book-side,
-  pehle track nahi the). **Next:** agar user poochay, har ek ka full chapter build karo — content
-  already fetched/summarized hai is session mein, sirf proper docs/ files likhna baaqi hai.
-
 - [ ] **PCAO-F combat level FINAL (2026-09-29):** `pcao-f/pcaofcombatlevelfinal.md` (20 case files, 120 Q, 12 Select TWO
   + 5 Select THREE, concept index + syllabus cheat-sheet) added + README wired. **Next:** Level 4 par ~50% ke baad, paanch
   baithakon (4 cases each); ghalti par Concept Index se us concept ke baqi sawal; ambiguity mile to Q number batao.
@@ -69,12 +60,6 @@
   confirm karo (recommendation: #1 PK freelancer/software-house tax & FBR) + personal-access check
   (1 practitioner + 3 real source docs).
 
-- [ ] **11 net-new chapters baaqi (2026-08-26 corrected count)** — Thesis aur Getting Paid dono partial
-  chapters ab poore ho chuke (neeche Done mein). Baaqi: Selling as a Vertical FDE, Glossary, The System
-  of Context, Claude and ChatGPT 101, AI Fluency, Code You Never Write, Skills & Connectors, How to
-  Think in the AI Era, aur 3 References & Companions chapters (Which AI Employees To Use in 2026?,
-  Cheatsheets, Agentic Engineering Fundamentals). User ne "yes update it" keh kar in par kaam karne ki
-  ijazat de di hai (koi specific priority order nahi di) — book-order mein continue karo.
 - [ ] **PCAO-F → PCAR-F push (deadline 2026-10-05):** ⚠️ **2026-09-02 gen 61 timing constraint** —
   PCAO-F proctored **18 Sep se live** (sample 10 Sep); PCAR-F sample+proctored **date-less
   ("coming soon")**. Deadline at-risk — `07-practice-log.md` risk-analysis table (A: both in time /
@@ -96,9 +81,17 @@
   `PCAO-F → PCAR-F → FDE Internship → (optional) CCAO-F → CCAR-F` + "same blueprint one level up" +
   PCAO-F rollout dates + Anthropic-optional note. Sources-of-truth tables point to per-exam pages.
   Baaki Track B chapter (architecture content) unchanged.
-- [ ] User se confirm: baqi 30 chapters (Front Matter 12, The Ecosystem 9, Foundations-Everyone 6, References & Companions 3) note karni hain `docs/` mein?
-
 ## Done
+
+- [x] **7 Foundations gaps — full `docs/[slug]/` builds complete (2026-10-23):**
+  `just-delegate-it-crash-course`, `ai-fluency-crash-course`, `code-you-never-write-crash-course`,
+  `skills-connectors-crash-course`, `how-to-think-ai-era`, `workflow-design-diagnosis-crash-course`,
+  `governance-risk-responsible-use-crash-course` — har ek README+SUMMARY+numbered concept files+
+  book's-own-verbatim-quiz+`projects/` runnable scaffolds ke sath, Zia Tutor AI se fresh content
+  fetch kar ke (2-3 windows each). Root README.md Foundations row 3/10→10/10, grand total
+  63✅+7🔲→**70/70 chapters ✅ (whole book fully documented)**. Fresh `outline_agent_factory` call
+  se confirm kiya koi further book-side drift nahi hai. Yeh completes the lightweight Exam Cram
+  Sheet digest (2026-10-22) ko full chapter builds mein.
 
 - [x] **5 chapters completed properly + root README re-audit (2026-10-22):** `glossary`,
   `cheatsheets`, `claude-chatgpt-101-crash-course`, `ecosystem-system-of-context`,
