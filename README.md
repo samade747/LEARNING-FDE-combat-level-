@@ -61,9 +61,9 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 7 | The Operating Layer: The Interface Argument | ✅ [`docs/the-agent-is-the-operating-layer`](docs/the-agent-is-the-operating-layer/README.md) |
 | 8 | What You Carry In: The Ownership Argument | ✅ [`docs/what-you-carry-in`](docs/what-you-carry-in/README.md) |
 | 9 | Getting Paid as a Vertical FDE | ✅ [`docs/how-to-get-paid`](docs/how-to-get-paid/README.md) |
-| 10 | Selling as a Vertical FDE | 🔲 not started |
+| 10 | Selling as a Vertical FDE | ✅ [`docs/how-to-sell`](docs/how-to-sell/README.md) (2026-10-22: README index + quiz added — content existed, table was stale) |
 | — | Courses & Certifications | ✅ [`docs/certifications`](docs/certifications/README.md) (+ [CCAR-F Track B chapter](docs/ccar-f-fde-track-b/README.md), local-runnable practicum scaffolds) |
-| — | Glossary | 🔲 not started — bara reference chapter (~36K tokens, 15 term-category sections) |
+| — | Glossary | ✅ [`docs/glossary`](docs/glossary/README.md) (2026-10-22: 18 files, 15 term categories + Top 30 + Architecture Runtime Stack, 33-Q quiz) |
 
 ### The Ecosystem (Platform + Business Model)
 
@@ -74,7 +74,7 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 3 | The Ecosystem Concept | ✅ [`docs/ecosystem-ecosystem-concept`](docs/ecosystem-ecosystem-concept/README.md) |
 | 4 | **The Forward Deployed Engineer Agent Factory Model** | ✅ [`docs/ecosystem-fde-af-model`](docs/ecosystem-fde-af-model/README.md) |
 | 5 | Agent Factory System of Record | ✅ [`docs/ecosystem-system-of-record`](docs/ecosystem-system-of-record/README.md) |
-| 6 | The System of Context: Connecting the Records to Real Work | 🔲 not started |
+| 6 | The System of Context: Connecting the Records to Real Work | ✅ [`docs/ecosystem-system-of-context`](docs/ecosystem-system-of-context/README.md) (2026-10-22: 10 files, 8 invariants, 33-Q quiz) |
 | 7 | Designing the Vertical System of Record from First Principles | ✅ [`docs/ecosystem-designing-the-vertical-sor`](docs/ecosystem-designing-the-vertical-sor/README.md) (2026-08-27: rebuilt from the book's own lesson, not the PDF — full method, 7 templates, 2 appendices, 59-Q quiz, practice project) + standalone [`docs/ksor`](docs/ksor/README.md) reference (quiz + 3 practice scaffolds) |
 | 8 | Zia Tutor AI | ✅ [`docs/ecosystem-zia-tutor-ai`](docs/ecosystem-zia-tutor-ai/README.md) |
 | 9 | Zia Developer AI | ✅ [`docs/ecosystem-zia-developer-ai`](docs/ecosystem-zia-developer-ai/README.md) |
@@ -83,16 +83,24 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 
 #### Group 1 — Foundations (Everyone)
 
+> ⚠️ **2026-10-22 book restructure found:** live `outline_agent_factory` ab 10 chapters dikhati hai
+> (pehle 8 thi) — 3 naye added (**Just Delegate It** #1, **Workflow Design & Diagnosis** #9,
+> **Governance, Risk & Responsible Use** #10), aur **Claude and ChatGPT 101** rename+move ho gaya
+> **References & Companions** group mein ("ChatGPT & Claude Quick Reference" ke naam se — dekho
+> Group 6).
+
 | # | Chapter | Status |
 | --- | --- | --- |
-| 1 | What AI Actually Is: A Crash Course | ✅ [`docs/what-ai-actually-is-crash-course`](docs/what-ai-actually-is-crash-course/README.md) |
-| 2 | AI Prompting in 2026: A Crash Course | ✅ [`docs/ai-prompting-2026`](docs/ai-prompting-2026/README.md) |
-| 3 | Markdown In, HTML Out: A Crash Course | ✅ [`docs/markdown-html-crash-course`](docs/markdown-html-crash-course/README.md) |
-| 4 | Claude and ChatGPT 101: A Crash Course | 🔲 not started |
-| 5 | AI Fluency: A Crash Course | 🔲 not started |
+| 1 | Just Delegate It: A Crash Course | 🔲 not started (brand-new chapter, book-side) |
+| 2 | What AI Actually Is: A Crash Course | ✅ [`docs/what-ai-actually-is-crash-course`](docs/what-ai-actually-is-crash-course/README.md) |
+| 3 | AI Fluency: A Crash Course | 🔲 not started |
+| 4 | AI Prompting in 2026: A Crash Course | ✅ [`docs/ai-prompting-2026`](docs/ai-prompting-2026/README.md) |
+| 5 | Markdown In, HTML Out: A Crash Course | ✅ [`docs/markdown-html-crash-course`](docs/markdown-html-crash-course/README.md) (2026-10-22: parts 2-7 + appendix + 3 practice-project scaffolds completed — was stuck at parts 0-1/8) |
 | 6 | Code You Never Write: A Crash Course | 🔲 not started |
 | 7 | Skills & Connectors: Teach AI Once, Connect It to Your Apps | 🔲 not started |
 | 8 | How to Think in the AI Era: Crash Course | 🔲 not started |
+| 9 | Workflow Design & Diagnosis | 🔲 not started (brand-new chapter, book-side) |
+| 10 | Governance, Risk & Responsible Use: A Crash Course | 🔲 not started (brand-new chapter, book-side) |
 
 #### Group 2 — General Agents (12/12 ✅ Complete)
 
@@ -161,53 +169,62 @@ Neeche har chapter ka status hai — ✅ = is repo mein `docs/` ke andar poori t
 | 8 | Choosing Agentic Architectures | ✅ | [`docs/choosing-agentic-architectures-crash-course`](docs/choosing-agentic-architectures-crash-course/README.md) |
 | 9 | Payment-Enabled Agents (ACP, AP2, x402, MPP) | ✅ | [`docs/payment-enabled-agents-crash-course`](docs/payment-enabled-agents-crash-course/README.md) |
 
-#### Group 6 — References & Companions
+#### Group 6 — References & Companions (4/4 ✅ Complete)
+
+> Book ne is group mein 2026-10-22 tak **4 chapters** rakhi hain (pehle 3 track kiye the) —
+> **ChatGPT & Claude Quick Reference** (purana "Claude and ChatGPT 101", Foundations se yahan move
+> hua) isi group ka 4th member hai.
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 1 | Which AI Employees To Use in 2026? | 🔲 |
-| 2 | Cheatsheets | 🔲 |
-| 3 | Agentic Engineering Fundamentals (45-min crash course) | 🔲 |
+| 1 | ChatGPT & Claude Quick Reference | ✅ [`docs/claude-chatgpt-101-crash-course`](docs/claude-chatgpt-101-crash-course/README.md) (2026-10-22) |
+| 2 | Which AI Employees To Use in 2026? | ✅ [`docs/which-agents-2026`](docs/which-agents-2026/README.md) (2026-10-22) |
+| 3 | Cheatsheets | ✅ [`docs/cheatsheets`](docs/cheatsheets/README.md) (2026-10-22) |
+| 4 | Agentic Engineering Fundamentals (45-min crash course) | ✅ [`docs/agentic-engineering-crash-course`](docs/agentic-engineering-crash-course/README.md) (2026-10-22, + `projects/` 3 drill scaffolds) |
 
 ---
 
 ## 📊 Overall Progress
 
-*Audited 2026-08-25 against `outline_agent_factory` (live book structure) + actual disk state, corrected
-2026-08-26 (Foundations-Everyone actually has 8 lessons not 6 — 2 more found: AI Fluency, Claude and
-ChatGPT 101) — dekho [`progress.md`](progress.md) is audit ki poori detail ke liye.*
+*Audited 2026-08-25 against `outline_agent_factory`, corrected 2026-08-26, **re-audited 2026-10-22**
+after discovering the live book itself grew (Foundations 8→10 chapters, References & Companions 3→4,
+"Claude and ChatGPT 101" renamed+moved groups) — dekho [`progress.md`](progress.md) is audit ki poori
+detail ke liye.*
 
 ```
-Front Matter (12 docs)              ██████████░░  10/12 ✅ + 2 🔲
-The Ecosystem (9 docs)              ███████████░  8/9  ✅ + 1 🔲
-Foundations — Everyone (8)          ████░░░░░░░░  3/8  ✅ + 5 🔲
+Front Matter (12 docs)              ████████████  12/12 ✅
+The Ecosystem (9 docs)              ████████████  9/9   ✅
+Foundations — Everyone (10)         ███░░░░░░░░░  3/10 ✅ + 7 🔲
 General Agents (12)                 ████████████  12/12 ✅
 Personal Agent Harnesses (2)        ████████████  2/2   ✅
 Mode 1 — Problem-Solving (3)        ████████████  3/3   ✅
 Mode 2 — Manufacturing (18)         ████████████  18/18 ✅
-References & Companions (3)         ░░░░░░░░░░░░  0/3  🔲
+References & Companions (4)         ████████████  4/4   ✅
 
-TOTAL: 56 fully ✅ + 11 🔲 missing = 67 chapters
+TOTAL: 63 fully ✅ + 7 🔲 missing = 70 chapters
 ```
 
-**Real gaps (11 chapters not started):**
+**Real gaps (7 chapters, all in one group):**
 
 | Group | Chapter | Gap |
 | --- | --- | --- |
-| Front Matter | Selling as a Vertical FDE | 🔲 not started |
-| Front Matter | Glossary | 🔲 not started (~36K-token reference, 15 term categories) |
-| The Ecosystem | The System of Context | 🔲 not started |
-| Foundations | Claude and ChatGPT 101 | 🔲 not started |
+| Foundations | Just Delegate It | 🔲 not started (brand-new chapter) |
 | Foundations | AI Fluency | 🔲 not started |
 | Foundations | Code You Never Write | 🔲 not started |
 | Foundations | Skills & Connectors | 🔲 not started |
 | Foundations | How to Think in the AI Era | 🔲 not started |
-| References & Companions | Which AI Employees To Use in 2026?, Cheatsheets, Agentic Engineering Fundamentals | 🔲 all 3 not started |
+| Foundations | Workflow Design & Diagnosis | 🔲 not started (brand-new chapter) |
+| Foundations | Governance, Risk & Responsible Use | 🔲 not started (brand-new chapter) |
 
-**Poora Mode 1 + Mode 2 + General Agents + Personal Agent Harnesses group (35 chapters), plus 10/12 Front
-Matter aur 8/9 Ecosystem chapters, ab is repo mein note ho chuke hain** — bas status table pehle stale
-thi. Real remaining work 11 chapters hai (kai chhote reference/business-model pages). Thesis aur Getting
-Paid dono 2026-08-26 ko poore hue (quiz sameet).
+> Note: a lightweight (non-`docs/`) digest of all 7 gaps above exists in a private Exam Cram Sheet
+> artifact built 2026-10-22 for urgent quiz/viva prep — that is **not** the same as the full
+> `docs/[slug]/` chapter build (README+SUMMARY+numbered files+quiz+projects) this table tracks. See
+> `todolist.md`.
+
+**Front Matter, The Ecosystem, General Agents, Personal Agent Harnesses, Mode 1, Mode 2, aur
+References & Companions — saare groups 100% complete hain (63 chapters).** Sirf Foundations group
+mein 7 gaps baaqi hain, jinmein se 3 bilkul naye chapters hain jo book mein recently add hue (pehli
+baar is audit mein discovered).
 
 ---
 

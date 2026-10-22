@@ -2,13 +2,14 @@
 
 ## Active
 
-- [ ] **Open Gaps chapters, paused mid-build (2026-10-22):** user ne "cover these gaps" bola, 12
-  general-purpose agents launch hue (7 Foundations crash courses + glossary/cheatsheets/which-agents-2026/
-  agentic-engineering/ecosystem-system-of-context ka full `docs/[slug]/` build), lekin user ne sab
-  12 agents ko interrupt kar diya (urgent exam-prep switch). Koi commit/push nahi hua un se. **Next:**
-  agar user poochay, in 12 chapters ka full docs/ build (README+SUMMARY+numbered files+quiz+projects)
-  abhi bhi pending hai — exam cram sheet mein unka content already hai (lightweight), lekin poora
-  chapter docs/ mein nahi likha gaya.
+- [ ] **7 Foundations gaps — only lightweight cram-sheet content exists (2026-10-22):**
+  `just-delegate-it-crash-course`, `ai-fluency-crash-course`, `code-you-never-write-crash-course`,
+  `skills-connectors-crash-course`, `how-to-think-ai-era`, `workflow-design-diagnosis-crash-course`,
+  `governance-risk-responsible-use-crash-course` — har ek ka thesis + key facts Exam Cram Sheet
+  artifact mein hai (fetched from Zia Tutor AI gen 82), lekin koi `docs/[slug]/` folder nahi bana
+  (no README/SUMMARY/numbered-files/quiz/projects). 3 inmein se bilkul naye chapters hain (book-side,
+  pehle track nahi the). **Next:** agar user poochay, har ek ka full chapter build karo — content
+  already fetched/summarized hai is session mein, sirf proper docs/ files likhna baaqi hai.
 
 - [ ] **PCAO-F combat level FINAL (2026-09-29):** `pcao-f/pcaofcombatlevelfinal.md` (20 case files, 120 Q, 12 Select TWO
   + 5 Select THREE, concept index + syllabus cheat-sheet) added + README wired. **Next:** Level 4 par ~50% ke baad, paanch
@@ -98,6 +99,14 @@
 - [ ] User se confirm: baqi 30 chapters (Front Matter 12, The Ecosystem 9, Foundations-Everyone 6, References & Companions 3) note karni hain `docs/` mein?
 
 ## Done
+
+- [x] **5 chapters completed properly + root README re-audit (2026-10-22):** `glossary`,
+  `cheatsheets`, `claude-chatgpt-101-crash-course`, `ecosystem-system-of-context`,
+  `agentic-engineering-crash-course` — full `docs/[slug]/` builds (README+SUMMARY+numbered files+
+  quiz, + `projects/` for agentic-engineering) finished and pushed. Root README.md status table
+  fully re-audited against live `outline_agent_factory` (book grew 67→70 chapters). Front Matter,
+  Ecosystem, General Agents, Personal Harnesses, Mode 1, Mode 2, References & Companions all now
+  100%. 7 gaps remain, all in Foundations (see Active).
 
 - [x] **Doorbell (Loop Eng Project 6) — complete (2026-08-29):** fresh `claude setup-token` (standalone
   terminal, browser auth — Claude Code session ke andar se 2x hang hua tha, real TTY chahiye tha),

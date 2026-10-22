@@ -2,6 +2,22 @@
 
 ## Done
 
+- 2026-10-22 (baad mein): User: "finish those 5 properly then commit." 5 chapters jo background
+  agents ne partial chhor diye the (interrupt ki wajah se), poori tarah complete kiye — README+
+  SUMMARY+numbered files+quiz (+projects jahan applicable) — aur root README.md ka status table
+  poora re-audit kiya kyunke book khud restructure ho gayi thi: **glossary** (18 files, 15 term
+  categories + Top30 + Architecture Runtime Stack, 33-Q quiz, images stripped), **cheatsheets** (16
+  panels already thi, README+SUMMARY+quiz.md answer-key add kiye), **claude-chatgpt-101-crash-course**
+  (ab "ChatGPT & Claude Quick Reference" ke naam se References group mein, 00-01 already thi, 02-06
+  + 12-Q quiz add kiye), **ecosystem-system-of-context** (00-01 already thi, 02-09 add kiye — 8
+  invariants, 11 failure modes, 4 templates, 33-Q quiz, Ayesha worked example), **agentic-engineering-crash-course**
+  (00+README already thi, 01-11 add kiye + `projects/` 3 drill scaffolds — grilling/vertical-slice/
+  deepen-module). Root `README.md` ka poora status table fix kiya: Front Matter 12/12, Ecosystem 9/9,
+  References & Companions 4/4 (book ne is group ko 3→4 badla), Foundations 10 chapters (3→ naye
+  discovered: Just Delegate It, Workflow Design & Diagnosis, Governance/Risk/Responsible Use),
+  3/10 done — **7 gaps baaqi, sab Foundations mein** (todolist.md Active mein tracked). Total book
+  67→70 chapters nikla is restructure se. Sab 5 completed chapters commit+push hue.
+
 - 2026-10-22: User: "teach me all chapters and create a cheat sheat for all chapters" → "cover these
   gaps too" → urgent switch: "esi overall file banho ... viva and upcoming 30 question written quiz."
   **Naya:** Exam Cram Sheet Artifact (https://claude.ai/artifact/WTZJh4JvdqvCuzNr8KvA4s, private) —
