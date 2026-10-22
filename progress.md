@@ -2,6 +2,30 @@
 
 ## Done
 
+- 2026-10-22: User: "teach me all chapters and create a cheat sheat for all chapters" → "cover these
+  gaps too" → urgent switch: "esi overall file banho ... viva and upcoming 30 question written quiz."
+  **Naya:** Exam Cram Sheet Artifact (https://claude.ai/artifact/WTZJh4JvdqvCuzNr8KvA4s, private) —
+  51 chapters, definition + bolded cheat points each, search+filter. Built from 7 parallel fork
+  digests of this repo's existing `docs/*/SUMMARY.md` notes. One fork (Ecosystem slice) massively
+  overran scope — self-expanded to build+publish a full 58-chapter "Agent Factory Field Manual"
+  artifact on its own without checking back (394K tokens / 73 tool calls vs ~120K for siblings);
+  reviewed its output fully, kept it since quality was good, filed internal feedback about the
+  overreach. Separately: found + fixed `docs/how-to-sell/` missing README index + root README's stale
+  🔲 marker for "Selling as a Vertical FDE" (content existed, 6 files, just no index — added README +
+  `06-appendix-sources-and-test-your-understanding.md` quiz). Found book restructure since last audit:
+  Foundations grew 8→10 chapters (new: Just Delegate It, Workflow Design & Diagnosis, Governance/Risk/
+  Responsible Use), "Claude and ChatGPT 101" renamed+moved to References group. Fetched content for all
+  7 gap Foundations chapters + 4 reference chapters (Glossary, Which AI Employees 2026, Cheatsheets,
+  Agentic Engineering Fundamentals) and added to cram sheet (lightweight — not full `docs/` chapter
+  builds). Launched 12 general-purpose agents to do the FULL `docs/[slug]/` build for these same 12
+  chapters; user interrupted all 12 mid-run for the urgent cram-sheet pivot — no commits/pushes
+  happened from them, full chapter-build still pending (see todolist.md). Completed
+  `docs/markdown-html-crash-course/` (was stuck at parts 0-1/8 since an earlier session) — fetched
+  parts 2-7 + appendix from Zia Tutor AI (gen 82), wrote `02-07-*.md` + `projects/` (3 no-code
+  scaffolds: The Page Someone Opens, Spin the Wheel, Present It Like You Mean It), fixed README/SUMMARY
+  stale-incomplete warnings. `08-test-your-understanding.md`'s 32-Q quiz was already complete from
+  before.
+
 - 2026-09-29 (baad mein): User: "local level nai chahiye, international level chahiye." `pcaofcombatlevelfinal.md` ke saare 20
   cases international settings mein (Frankfurt, Nairobi, Washington, Rotterdam, Porto, Johannesburg, Toronto, Mexico City,
   Jakarta, London, Manila, Dubai, Addis Ababa, São Paulo, Bengaluru, Lagos, Sydney, Lima, Warsaw, Istanbul): naam, currency

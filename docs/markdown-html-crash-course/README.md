@@ -36,13 +36,15 @@ baad mein kisi AI ko wapis khilaoge), Markdown mein rakho. Social feed mein ja r
 4. [Part 3 — HTML, the Reading Language (Concepts 8-13)](03-html-reading-language.md)
 5. [Part 4 — One Exercise, Three Motions (Concept 14)](04-one-exercise-three-motions.md)
 6. [Recap + Try This Now (7 Practice Prompts)](05-recap-and-practice-prompts.md)
-7. [Practice Projects — The Page, The Wheel, The Deck + FAQ](06-practice-projects.md)
+7. [Practice Projects — The Page, The Wheel, The Deck + FAQ](06-practice-projects.md) +
+   [`projects/`](projects/README.md) (3 runnable no-code scaffolds)
 8. [Appendix — One Spec, the HTML It Became](07-appendix-spec-to-html.md)
 9. [Test Your Understanding (32-question assessment)](08-test-your-understanding.md)
 
-> ⚠️ **Known gap (not part of the quiz work above):** items 3–8 (`02-markdown-writing-language.md`
-> through `07-appendix-spec-to-html.md`) are indexed here but do not yet exist on disk — only
-> `00-overview.md` and `01-two-languages.md` are written. Needs a separate fetch-and-write pass.
+> ✅ **2026-10-22: gap closed.** Parts 2-7 (`02-markdown-writing-language.md` through
+> `07-appendix-spec-to-html.md`, plus the `projects/` scaffolds) were fetched from Zia Tutor AI
+> (generation 82) and written. Chapter is now fully covered end to end, matching this repo's own
+> Critical Rule on partial chapters.
 
 ---
 

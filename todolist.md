@@ -2,6 +2,14 @@
 
 ## Active
 
+- [ ] **Open Gaps chapters, paused mid-build (2026-10-22):** user ne "cover these gaps" bola, 12
+  general-purpose agents launch hue (7 Foundations crash courses + glossary/cheatsheets/which-agents-2026/
+  agentic-engineering/ecosystem-system-of-context ka full `docs/[slug]/` build), lekin user ne sab
+  12 agents ko interrupt kar diya (urgent exam-prep switch). Koi commit/push nahi hua un se. **Next:**
+  agar user poochay, in 12 chapters ka full docs/ build (README+SUMMARY+numbered files+quiz+projects)
+  abhi bhi pending hai — exam cram sheet mein unka content already hai (lightweight), lekin poora
+  chapter docs/ mein nahi likha gaya.
+
 - [ ] **PCAO-F combat level FINAL (2026-09-29):** `pcao-f/pcaofcombatlevelfinal.md` (20 case files, 120 Q, 12 Select TWO
   + 5 Select THREE, concept index + syllabus cheat-sheet) added + README wired. **Next:** Level 4 par ~50% ke baad, paanch
   baithakon (4 cases each); ghalti par Concept Index se us concept ke baqi sawal; ambiguity mile to Q number batao.

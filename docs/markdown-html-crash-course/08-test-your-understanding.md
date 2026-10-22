@@ -1,10 +1,5 @@
 # 08 — Test Your Understanding (Assessment)
 
-> **Note:** Yeh file chapter ki numbering mein aage (08) rakhi gayi hai kyunke README pehle se files
-> 02–07 (Parts 2-4, Recap, Practice Projects, Appendix) promise karti hai jo abhi disk par exist nahi
-> karti — sirf `00-overview.md` aur `01-two-languages.md` likhi ja chuki hain. Woh ek alag, bara gap hai
-> is quiz-addition task se; is file ka number is gap ke resolve hone tak stable rakha gaya hai.
-
 Book ke live page par yeh section ek interactive `<Flashcards />` widget se shuru hota hai (auto-
 generated, page ke apne key-terms se) — koi static text nahi, isliye copy karne layak content nahi hai;
 live version [markdown-html-crash-course](https://agentfactory.panaversity.org/docs/markdown-html-crash-course#flashcards)
