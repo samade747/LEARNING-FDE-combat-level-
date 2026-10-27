@@ -18,6 +18,9 @@ machine ke **upar** khare hote hain: jo specify karte hain kya banana hai, AI Wo
 karte hain jo usay banate hain, aur jo wapis aya usay verify karte hain. **Yehi discipline is repo ka
 maqsad hai.**
 
+📑 **Viva/revision ke liye:** [CHEATSHEETS-INDEX.md](CHEATSHEETS-INDEX.md) — sab 72 chapters ke
+cheatsheet PDFs ek jagah, direct click-to-open links ke sath.
+
 ## 🧑‍💻 Forward Deployed Engineer (FDE) Kya Hai
 
 Zyada tar software engineers headquarters par product banate hain aur us customer se kabhi nahi milte
