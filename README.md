@@ -1,3 +1,9 @@
+<a href="https://github.com/samade747" target="_blank" rel="noopener noreferrer">
+  <img src="https://komarev.com/ghpvc/?username=samade747&style=for-the-badge&color=00D9FF&label=PROFILE+VIEWS" alt="Profile Views"/>
+</a>
+
+
+
 # LEARNING-FDE-combat-level-
 
 *Mixed Roman Urdu + English notes on Panaversity's "The AI Agent Factory" book — end goal:
